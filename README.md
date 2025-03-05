@@ -20,19 +20,39 @@ Listwise LTR models learn a **ranking function** that orders a list of items to 
 
 ## **Step 2: Data Preparation**  
 
-### **1. Labeling Data**  
-Each lab test is assigned a **relevance score** based on how well it matches the query.  
+We implement a method for calculating relevance scores for lab tests based on a given query. The query consists of two main features: the **component** (e.g., "Glucose") and the **system** (e.g., "Blood"). Here's a breakdown of the approach:
 
-| Query              | LOINC Code | Test Name                    | Relevance Score (0-3) |
-|--------------------|-----------|------------------------------|-----------------------|
-| Glucose in blood  | 14749-6    | Glucose in Serum or Plasma  | 3 (Highly relevant)  |
-| Glucose in blood  | 35184-1    | Fasting glucose             | 2 (Relevant)         |
-| Glucose in blood  | 15076-3    | Glucose in Urine            | 1 (Less relevant)    |
-| Glucose in blood  | 18906-8    | Ciprofloxacin Susceptibility | 0 (Not relevant)     |
+### **1. Define Key Query Features**
+   The query is parsed into two primary elements:
+   - **Component**: The substance being measured (e.g., "Glucose").
+   - **System**: The environment where the measurement takes place (e.g., "Blood").
 
-Relevance scores can be determined using **domain knowledge** or **manual annotation**.  
+### **2. Preprocess the Data**
+   Each lab test in the dataset contains:
+   - **Component**: The substance being measured (e.g., "Glucose").
+   - **System**: The location or context of the test (e.g., "Blood", "Serum/Plasma").
 
-### **2. Construct Training Lists**  
+### **3. Match Criteria**  
+   To calculate the relevance score for each test:
+   - **Exact Match**: The component or system exactly matches the query term (e.g., "Glucose" matches "Glucose").
+   - **Partial Match**: The component or system contains terms closely related or synonymous to the query (e.g., "Glucose in Urine" partially matches "Glucose").
+   - **System Match**: The system field matches the query's system (e.g., "Blood" matches "Blood").
+
+### **4. Scoring Scheme**
+   Points are awarded based on the match type:
+   - **Exact Match on Component**: +3 points.
+   - **Partial Match on Component**: +2 points.
+   - **Exact Match on System**: +2 points.
+   - **Partial Match on System**: +1 point.
+   - **No Match**: 0 points.
+
+### **5. Normalize Scores**
+   To standardize the scores across tests, normalize them to a scale (e.g., from 0 to 10). For example, if the highest score in the dataset is 5, the formula to normalize is:  
+   - **Normalized Score** = \( \frac{\text{score}}{5} \times 10 \).
+
+By following this method, each test is assigned a relevance score based on how well it matches the query's component and system. This system can be adjusted by fine-tuning the scoring weights to better suit specific applications and queries.
+
+### **6. Construct Training Lists**
 Each query should have a **list of test results** with assigned relevance scores.  
 
 ```yaml
