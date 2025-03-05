@@ -1,50 +1,74 @@
 import pandas as pd
 
 # Function to calculate relevance score
-def calculate_score(query, component, system):
+def calculate_score(query_component, query_system, component, system):
     score = 0
     
-    # Extract the keywords from the query
-    query_components = query.lower().split()  # Convert query to lowercase and split by spaces
-    query_component, query_system = query_components[0], query_components[2]  # Extract component and system
-    
-    # Check for exact match on component
-    if query_component in component.lower():
+    # Exact match on component
+    if query_component.lower() == component.lower():
         score += 3  # Exact match on component
     
-    # Check for partial match on component
-    elif query_component in component.lower():
+    # Partial match on component (synonym or closely related terms)
+    elif query_component.lower() in component.lower():
         score += 2  # Partial match on component
 
-    # Check for exact match on system
-    if query_system in system.lower():
+    # Exact match on system
+    if query_system.lower() == system.lower():
         score += 2  # Exact match on system
 
-    # Check for partial match on system
-    elif query_system in system.lower():
+    # Partial match on system
+    elif query_system.lower() in system.lower():
         score += 1  # Partial match on system
 
     return score
 
-# Read the dataset (replace with the actual path to your CSV)
-df = pd.read_csv("lab_tests.csv")
+# Define a dictionary for each query with the corresponding component and system
+query_mapping = {
+    "GLUCOSE IN BLOOD": {
+        "component": "Glucose",
+        "system": "Bld"
+    },
+    "BILIRUBIN IN PLASMA": {
+        "component": "Bilirubin",
+        "system": "Ser/Plas"
+    },
+    "WHITE BLOOD CELLS COUNT": {
+        "component": "Leukocytes",
+        "system": "Bld"
+    }
+}
 
-# Query to match
-query = "GLUCOSE IN BLOOD"
+# Load the Excel file (replace with the actual path to your .xlsx file)
+excel_file = "lab_tests_queries.xlsx"
 
-# Create a list to hold the result data
+# Create an empty list to store the results
 results = []
 
-# Loop through each row in the DataFrame and calculate the relevance score
-for index, row in df.iterrows():
-    component = row['component']
-    system = row['system']
+# Read the Excel file to get all sheet names (which are the queries)
+xl = pd.ExcelFile(excel_file)
+
+# Loop through each sheet in the Excel file (representing a different query)
+for sheet_name in xl.sheet_names:
+    # Load the sheet corresponding to the current query
+    query_df = xl.parse(sheet_name)
     
-    # Calculate the relevance score
-    score = calculate_score(query, component, system)
+    # Extract the component and system for the current query from the query_mapping dictionary
+    if sheet_name in query_mapping:
+        query_component = query_mapping[sheet_name]["component"]
+        query_system = query_mapping[sheet_name]["system"]
+    else:
+        continue  # Skip if the query is not in the mapping dictionary
     
-    # Append results (query, LOINC code, name, and score)
-    results.append([query, row['loinc_num'], row['long_common_name'], score])
+    # Loop through each row in the sheet (lab tests)
+    for _, test_row in query_df.iterrows():
+        component = test_row['component']
+        system = test_row['system']
+        
+        # Calculate the relevance score for the query and lab test
+        score = calculate_score(query_component, query_system, component, system)
+        
+        # Append the result (query, LOINC code, name, and score)
+        results.append([sheet_name, test_row['loinc_num'], test_row['long_common_name'], score])
 
 # Create a DataFrame from the results list
 results_df = pd.DataFrame(results, columns=["Query", "LOINC Code", "Name", "Score"])
