@@ -52,7 +52,7 @@ We implement a method for calculating relevance scores for lab tests based on a 
 
 By following this method, each test is assigned a relevance score based on how well it matches the query's component and system. This system can be adjusted by fine-tuning the scoring weights to better suit specific applications and queries.
 
-### **6. Save the new CSV
+### **6. Save the new CSV**
 Save into a new csv file the data with the calculated scores following this format:
 | Query              | LOINC Code | Test Name                    | Relevance Score  |
 |--------------------|-----------|------------------------------|--------------------|
