@@ -22,7 +22,6 @@ def calculate_score(query_component, query_system, component, system):
 
     return score
 
-# Define a dictionary for each query with the corresponding component and system
 query_mapping = {
     "GLUCOSE IN BLOOD": {
         "component": "Glucose",
@@ -39,7 +38,7 @@ query_mapping = {
 }
 
 # Load the Excel file (replace with the actual path to your .xlsx file)
-excel_file = "lab_tests_queries.xlsx"
+excel_file = "loinc_dataset-v2.xlsx"
 
 # Create an empty list to store the results
 results = []
