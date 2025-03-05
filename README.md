@@ -195,7 +195,6 @@ data['doc_age'] = data['publication_date'].apply(compute_age)
 data['click_rate'] = data['num_clicks'] / data['num_impressions']
 ```
 
----
 
 ### **2. Expanding Queries**  
 To cover more search variations, we add **synonyms, LOINC codes, and user-generated queries**.
@@ -243,4 +242,3 @@ ndcg = ndcg_score(true_relevance, predicted_scores)
 print("NDCG Score:", ndcg)
 ```
 
----
