@@ -6,7 +6,7 @@
  
 # Optional Part (40%)
 5. Implement model (you can use public libraries)
-6. 6. Extend dataset in # terms
-   7. 7. Extend dataset in queries
+6. Extend dataset in # terms
+7. Extend dataset in queries
 
 By deadline, submit a .zip file with training dataset files, report  stating the members of the group and what each one contributed to the work (in .pdf) up to 4 pages, presentation and any additional material used
