@@ -5,19 +5,19 @@ def calculate_score(query_component, query_system, component, system):
     score = 0
     # Exact match on component
     if query_component.lower() == component.lower():
-        score += 3  # Exact match on component
+        score += 3  
     
     # Partial match on component (synonym or closely related terms)
     elif query_component.lower() in component.lower():
-        score += 2  # Partial match on component
+        score += 2  
 
     # Exact match on system
     if query_system.lower() == system.lower():
-        score += 2  # Exact match on system
+        score += 2  
 
     # Partial match on system
     elif query_system.lower() in system.lower():
-        score += 1  # Partial match on system
+        score += 1  
 
     return score
 
@@ -36,32 +36,29 @@ query_mapping = {
     }
 }
 
-# Load the Excel file (replace with the actual path to your .xlsx file)
 excel_file = "./Preprocessing/loinc_dataset-v2.xlsx"
-
-# Create an empty list to store the results
 results = []
-
-# Read the Excel file to get all sheet names (which are the queries)
 xl = pd.ExcelFile(excel_file)
 
 # Loop through each sheet in the Excel file (representing a different query)
 for sheet_name in xl.sheet_names:
     sheet_name = sheet_name.lower()
-    # Load the sheet corresponding to the current query
-    query_df = xl.parse(sheet_name)
+    query_df = xl.parse(sheet_name, header=1, skip_blank_lines=True)
     
     # Extract the component and system for the current query from the query_mapping dictionary
     if sheet_name in query_mapping:
         query_component = query_mapping[sheet_name]["component"]
         query_system = query_mapping[sheet_name]["system"]
     else:
-        continue  # Skip if the query is not in the mapping dictionary
+        continue  
     
-    # Loop through each row in the sheet (lab tests)
+    query_df.columns = query_df.columns.str.strip()
+    print(query_df.columns)
+    
+    # Loop through each row in the sheet 
     for _, test_row in query_df.iterrows():
-        component = test_row['component']
-        system = test_row['system']
+        component = test_row[2]
+        system = test_row[3]
         
         # Calculate the relevance score for the query and lab test
         score = calculate_score(query_component, query_system, component, system)
