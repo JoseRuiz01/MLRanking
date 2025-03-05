@@ -1,7 +1,3 @@
-To assign a **relevance score** to lab tests based on how well they match the query, we can use a **text-based matching technique** that compares different components of each lab test to the keywords in the query (in this case, "GLUCOSE IN BLOOD").
-
-Here's a step-by-step technique you can use:
-
 ### 1. **Define Key Query Features**
    The query "GLUCOSE IN BLOOD" has two key components:
    - **Glucose** (the component of interest)
