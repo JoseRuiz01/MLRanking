@@ -36,15 +36,16 @@ query_mapping = {
     }
 }
 
-excel_file = "./Preprocessing/loinc_dataset-v2.xlsx"
+excel_file = "loinc_dataset-v2.xlsx"
 results = []
 xl = pd.ExcelFile(excel_file)
 
+
 # Loop through each sheet in the Excel file (representing a different query)
 for sheet_name in xl.sheet_names:
+    query_df = xl.parse(sheet_name, header=1)
     sheet_name = sheet_name.lower()
-    query_df = xl.parse(sheet_name, header=1, skip_blank_lines=True)
-    
+    print(sheet_name)
     # Extract the component and system for the current query from the query_mapping dictionary
     if sheet_name in query_mapping:
         query_component = query_mapping[sheet_name]["component"]
@@ -64,7 +65,7 @@ for sheet_name in xl.sheet_names:
         score = calculate_score(query_component, query_system, component, system)
         
         # Append the result (query, LOINC code, name, and score)
-        results.append([sheet_name, test_row['loinc_num'], test_row['long_common_name'], score])
+        results.append([sheet_name, test_row[0], test_row[1], score])
 
 # Create a DataFrame from the results list
 results_df = pd.DataFrame(results, columns=["Query", "LOINC Code", "Name", "Score"])
