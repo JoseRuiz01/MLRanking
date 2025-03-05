@@ -1,4 +1,4 @@
-### 1. Choose a Type of MLR Approach**  
+### 1. Choose a Type of MLR Approach
 You have three possible approaches to learning-to-rank (MLR):  
 - Pointwise: Treats ranking as a regression or classification problem for individual documents.  
 - Pairwise: Considers pairs of documents and learns which one should be ranked higher.  
