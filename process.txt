@@ -15,7 +15,7 @@ Once you've chosen an approach, study its implementation details.
 - What are the input features? (e.g., term frequency, document length, BM25 scores, etc.)  
 - How does it handle relevance labels?  
 
-### 3. Map a Set of Real-World Lab Tests to LOINC (Independent Subtask)**  
+### 3. Map a Set of Real-World Lab Tests to LOINC (Independent Subtask)
 - Identify the relevant LOINC codes for lab tests related to your queries:  
   - Glucose in blood 
   - Bilirubin in plasma 
