@@ -3,7 +3,6 @@ import pandas as pd
 # Function to calculate relevance score
 def calculate_score(query_component, query_system, component, system):
     score = 0
-    
     # Exact match on component
     if query_component.lower() == component.lower():
         score += 3  # Exact match on component
@@ -23,22 +22,22 @@ def calculate_score(query_component, query_system, component, system):
     return score
 
 query_mapping = {
-    "GLUCOSE IN BLOOD": {
+    "glucose in blood": {
         "component": "Glucose",
         "system": "Bld"
     },
-    "BILIRUBIN IN PLASMA": {
+    "bilirubin in plasma": {
         "component": "Bilirubin",
         "system": "Ser/Plas"
     },
-    "WHITE BLOOD CELLS COUNT": {
+    "white blood cells count": {
         "component": "Leukocytes",
         "system": "Bld"
     }
 }
 
 # Load the Excel file (replace with the actual path to your .xlsx file)
-excel_file = "loinc_dataset-v2.xlsx"
+excel_file = "./Preprocessing/loinc_dataset-v2.xlsx"
 
 # Create an empty list to store the results
 results = []
@@ -48,6 +47,7 @@ xl = pd.ExcelFile(excel_file)
 
 # Loop through each sheet in the Excel file (representing a different query)
 for sheet_name in xl.sheet_names:
+    sheet_name = sheet_name.lower()
     # Load the sheet corresponding to the current query
     query_df = xl.parse(sheet_name)
     
