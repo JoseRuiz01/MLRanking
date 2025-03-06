@@ -47,8 +47,8 @@ We implement a method for calculating relevance scores for lab tests based on a 
    - **No Match**: 0 points.
 
 ### **5. Normalize Scores**
-   To standardize the scores across tests, normalize them to a scale (e.g., from 0 to 10). For example, if the highest score in the dataset is 5, the formula to normalize is:  
-   - **Normalized Score** = \( \frac{\text{score}}{5} \times 10 \).
+   To standardize the scores across tests, normalize them to a scale (e.g., from 0 to 1). For example, if the highest score in the dataset is 5, the formula to normalize is:  
+   - **Normalized Score** = \( score \ max_score \).
 
 By following this method, each test is assigned a relevance score based on how well it matches the query's component and system. This system can be adjusted by fine-tuning the scoring weights to better suit specific applications and queries.
 
