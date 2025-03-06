@@ -1,5 +1,4 @@
 Query,LOINC Code,Name,Score
-glucose in blood,loinc_num,long_common_name,0
 glucose in blood,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,0
 glucose in blood,1959-6,Bicarbonate [Moles/volume] in Blood,2
 glucose in blood,10331-7,Rh [Type] in Blood,2
@@ -67,7 +66,6 @@ glucose in blood,18878-9,Cefazolin [Susceptibility],0
 glucose in blood,18928-2,Gentamicin [Susceptibility],0
 glucose in blood,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0
 glucose in blood,23658-8,Other Antibiotic [Susceptibility],0
-bilirubin in plasma,loinc_num,long_common_name,0
 bilirubin in plasma,934-0,Blood product unit ID [#],0
 bilirubin in plasma,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,2
 bilirubin in plasma,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",0
@@ -135,7 +133,6 @@ bilirubin in plasma,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,2
 bilirubin in plasma,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,2
 bilirubin in plasma,33870-7,Bilirubin.total [Presence] in Unspecified specimen,3
 bilirubin in plasma,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,2
-white blood cells count,loinc_num,long_common_name,0
 white blood cells count,33870-7,Bilirubin.total [Presence] in Unspecified specimen,0
 white blood cells count,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0
 white blood cells count,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,0

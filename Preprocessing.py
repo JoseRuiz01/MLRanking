@@ -53,7 +53,7 @@ def preprocess(excel_file):
 
     # Loop through each sheet in the Excel file (representing a different query)
     for sheet_name in xl.sheet_names:
-        query_df = xl.parse(sheet_name, header=1)
+        query_df = xl.parse(sheet_name, header=2)
         sheet_name = sheet_name.lower()
         
         # Check if the sheet name is in query_mapping
