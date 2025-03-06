@@ -20,7 +20,7 @@ Listwise LTR models learn a **ranking function** that orders a list of items to 
 
 ## **Step 2: Data Preparation**  
 
-We implement a method for calculating relevance scores for lab tests based on a given query. The query consists of two main features: the **component** (e.g., "Glucose") and the **system** (e.g., "Blood"). Here's a breakdown of the approach:
+We implement a method for calculating relevance scores for lab tests based on a given query. The query consists of two main features: the **component** (e.g., "Glucose") and the **system** (e.g., "Blood"). 
 
 ### **1. Define Key Query Features**
    The query is parsed into two primary elements:
@@ -47,8 +47,8 @@ We implement a method for calculating relevance scores for lab tests based on a 
    - **No Match**: 0 points.
 
 ### **5. Normalize Scores**
-   To standardize the scores across tests, normalize them to a scale (e.g., from 0 to 10). For example, if the highest score in the dataset is 5, the formula to normalize is:  
-   - **Normalized Score** = \( \frac{\text{score}}{5} \times 10 \).
+   To standardize the scores across tests, normalize them to a scale (e.g., from 0 to 1). For example, if the highest score in the dataset is 5, the formula to normalize is:  
+   - **Normalized Score** = \( score \ max_score \).
 
 By following this method, each test is assigned a relevance score based on how well it matches the query's component and system. This system can be adjusted by fine-tuning the scoring weights to better suit specific applications and queries.
 
@@ -62,9 +62,9 @@ Each query should have a **list of test results** with assigned relevance scores
 
 ```yaml
 Query: "Glucose in blood"
-- (14749-6, Glucose in Serum or Plasma, Relevance: 3)
-- (35184-1, Fasting glucose, Relevance: 2)
-- (15076-3, Glucose in Urine, Relevance: 1)
+- (14749-6, Glucose in Serum or Plasma, Relevance: 0.6)
+- (35184-1, Fasting glucose, Relevance: 0.4)
+- (15076-3, Glucose in Urine, Relevance: 0.4)
 - (18906-8, Ciprofloxacin Susceptibility, Relevance: 0)
 ```
 

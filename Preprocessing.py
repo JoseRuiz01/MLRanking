@@ -9,7 +9,7 @@ query_mapping = {
     },
     "bilirubin in plasma": {
         "component": "Bilirubin",
-        "system": "Ser/Plas"
+        "system": "Plas"
     },
     "white blood cells count": {
         "component": "Leukocytes",
@@ -24,6 +24,8 @@ def calculate_score(query_component, query_system, component, system):
     """
     
     score = 0
+    max_score = 5  # Maximum possible score
+    
     # Exact match on component
     if query_component.lower() == component.lower():
         score += 3  
@@ -40,7 +42,10 @@ def calculate_score(query_component, query_system, component, system):
     elif query_system.lower() in system.lower():
         score += 1  
 
-    return score
+    # Normalize the score to range [0,1]
+    normalized_score = score / max_score 
+    
+    return normalized_score
 
 
 def preprocess(excel_file):
@@ -53,7 +58,7 @@ def preprocess(excel_file):
 
     # Loop through each sheet in the Excel file (representing a different query)
     for sheet_name in xl.sheet_names:
-        query_df = xl.parse(sheet_name, header=1)
+        query_df = xl.parse(sheet_name, header=2)
         sheet_name = sheet_name.lower()
         
         # Check if the sheet name is in query_mapping

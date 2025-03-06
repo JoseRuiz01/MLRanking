@@ -1,205 +1,202 @@
 Query,LOINC Code,Name,Score
-glucose in blood,loinc_num,long_common_name,0
-glucose in blood,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,0
-glucose in blood,1959-6,Bicarbonate [Moles/volume] in Blood,2
-glucose in blood,10331-7,Rh [Type] in Blood,2
-glucose in blood,18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],0
-glucose in blood,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,0
-glucose in blood,890-4,Blood group antibody screen [Presence] in Serum or Plasma,0
-glucose in blood,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",2
-glucose in blood,18906-8,Ciprofloxacin [Susceptibility],0
-glucose in blood,2143-6,Cortisol [Mass/volume] in Serum or Plasma,0
-glucose in blood,2075-0,Chloride [Moles/volume] in Serum or Plasma,0
-glucose in blood,4671-4,Protein C [Mass/volume] in Plasma,0
-glucose in blood,18864-9,Ampicillin [Susceptibility],0
-glucose in blood,15076-3,Glucose [Moles/volume] in Urine,3
-glucose in blood,1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,0
-glucose in blood,26474-7,Lymphocytes [#/volume] in Blood,2
-glucose in blood,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0
-glucose in blood,13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,0
-glucose in blood,925-8,Blood product disposition [Type],0
-glucose in blood,14749-6,Glucose [Moles/volume] in Serum or Plasma,3
-glucose in blood,14747-0,Glucose [Moles/volume] in Pleural fluid,3
-glucose in blood,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,0
-glucose in blood,1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,0
-glucose in blood,26464-8,Leukocytes [#/volume] in Blood,2
-glucose in blood,74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",4
-glucose in blood,8310-5,Body temperature,0
-glucose in blood,934-0,Blood product unit ID [#],0
-glucose in blood,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,0
-glucose in blood,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0
-glucose in blood,14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,2
-glucose in blood,1994-3,Calcium.ionized [Moles/volume] in Blood,2
-glucose in blood,1751-7,Albumin [Mass/volume] in Serum or Plasma,0
-glucose in blood,1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,0
-glucose in blood,1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,0
-glucose in blood,26484-6,Monocytes [#/volume] in Blood,2
-glucose in blood,18865-6,Ampicillin+Sulbactam [Susceptibility],0
-glucose in blood,882-1,ABO & Rh group [Type] in Blood,2
-glucose in blood,1250-0,Major crossmatch [interpretation],0
-glucose in blood,883-9,ABO group [Type] in Blood,2
-glucose in blood,2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,0
-glucose in blood,31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,2
-glucose in blood,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,0
-glucose in blood,2069-3,Chloride [Moles/volume] in Blood,2
-glucose in blood,3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,0
-glucose in blood,30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,0
-glucose in blood,33870-7,Bilirubin.total [Presence] in Unspecified specimen,0
-glucose in blood,20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,0
-glucose in blood,2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,0
-glucose in blood,14578-9,ABO group [Type] in Blood from Blood product unit,1
-glucose in blood,18955-5,Nitrofurantoin [Susceptibility],0
-glucose in blood,2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,0
-glucose in blood,933-2,Blood product type,0
-glucose in blood,19000-9,Vancomycin [Susceptibility],0
-glucose in blood,26478-8,Lymphocytes/100 leukocytes in Blood,2
-glucose in blood,19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,0
-glucose in blood,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,0
-glucose in blood,35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,2
-glucose in blood,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,0
-glucose in blood,1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,0
-glucose in blood,2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",0
-glucose in blood,35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,0
-glucose in blood,20629-2,Levofloxacin [Susceptibility],0
-glucose in blood,17861-6,Calcium [Mass/volume] in Serum or Plasma,0
-glucose in blood,54439-5,Calcium bilirubinate/Total in Stone,0
-glucose in blood,18878-9,Cefazolin [Susceptibility],0
-glucose in blood,18928-2,Gentamicin [Susceptibility],0
-glucose in blood,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0
-glucose in blood,23658-8,Other Antibiotic [Susceptibility],0
-bilirubin in plasma,loinc_num,long_common_name,0
-bilirubin in plasma,934-0,Blood product unit ID [#],0
-bilirubin in plasma,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,2
-bilirubin in plasma,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",0
-bilirubin in plasma,1959-6,Bicarbonate [Moles/volume] in Blood,0
-bilirubin in plasma,18906-8,Ciprofloxacin [Susceptibility],0
-bilirubin in plasma,18865-6,Ampicillin+Sulbactam [Susceptibility],0
-bilirubin in plasma,13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,0
-bilirubin in plasma,882-1,ABO & Rh group [Type] in Blood,0
-bilirubin in plasma,26464-8,Leukocytes [#/volume] in Blood,0
-bilirubin in plasma,1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,4
-bilirubin in plasma,8310-5,Body temperature,0
-bilirubin in plasma,30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,2
-bilirubin in plasma,18878-9,Cefazolin [Susceptibility],0
-bilirubin in plasma,1994-3,Calcium.ionized [Moles/volume] in Blood,0
-bilirubin in plasma,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,5
-bilirubin in plasma,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,2
-bilirubin in plasma,10331-7,Rh [Type] in Blood,0
-bilirubin in plasma,1250-0,Major crossmatch [interpretation],2
-bilirubin in plasma,18955-5,Nitrofurantoin [Susceptibility],0
-bilirubin in plasma,19000-9,Vancomycin [Susceptibility],0
-bilirubin in plasma,18864-9,Ampicillin [Susceptibility],0
-bilirubin in plasma,890-4,Blood group antibody screen [Presence] in Serum or Plasma,2
-bilirubin in plasma,14578-9,ABO group [Type] in Blood from Blood product unit,0
-bilirubin in plasma,17861-6,Calcium [Mass/volume] in Serum or Plasma,2
-bilirubin in plasma,1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,2
-bilirubin in plasma,2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",2
-bilirubin in plasma,883-9,ABO group [Type] in Blood,0
-bilirubin in plasma,23658-8,Other Antibiotic [Susceptibility],0
-bilirubin in plasma,1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,4
-bilirubin in plasma,20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,0
-bilirubin in plasma,74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",1
-bilirubin in plasma,14747-0,Glucose [Moles/volume] in Pleural fluid,0
-bilirubin in plasma,35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,4
-bilirubin in plasma,2143-6,Cortisol [Mass/volume] in Serum or Plasma,2
-bilirubin in plasma,2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,2
-bilirubin in plasma,26474-7,Lymphocytes [#/volume] in Blood,0
-bilirubin in plasma,3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,0
-bilirubin in plasma,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,3
-bilirubin in plasma,18928-2,Gentamicin [Susceptibility],0
-bilirubin in plasma,26478-8,Lymphocytes/100 leukocytes in Blood,0
-bilirubin in plasma,1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,2
-bilirubin in plasma,14749-6,Glucose [Moles/volume] in Serum or Plasma,2
-bilirubin in plasma,933-2,Blood product type,0
-bilirubin in plasma,26484-6,Monocytes [#/volume] in Blood,0
-bilirubin in plasma,1751-7,Albumin [Mass/volume] in Serum or Plasma,2
-bilirubin in plasma,2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,0
-bilirubin in plasma,14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,2
-bilirubin in plasma,15076-3,Glucose [Moles/volume] in Urine,0
-bilirubin in plasma,19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,2
-bilirubin in plasma,925-8,Blood product disposition [Type],0
-bilirubin in plasma,20629-2,Levofloxacin [Susceptibility],0
-bilirubin in plasma,2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,2
-bilirubin in plasma,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,2
-bilirubin in plasma,35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,2
-bilirubin in plasma,2069-3,Chloride [Moles/volume] in Blood,0
-bilirubin in plasma,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,2
-bilirubin in plasma,31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,0
-bilirubin in plasma,1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,2
-bilirubin in plasma,2075-0,Chloride [Moles/volume] in Serum or Plasma,2
-bilirubin in plasma,4671-4,Protein C [Mass/volume] in Plasma,0
-bilirubin in plasma,18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],0
-bilirubin in plasma,54439-5,Calcium bilirubinate/Total in Stone,2
-bilirubin in plasma,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,2
-bilirubin in plasma,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,2
-bilirubin in plasma,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,2
-bilirubin in plasma,33870-7,Bilirubin.total [Presence] in Unspecified specimen,3
-bilirubin in plasma,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,2
-white blood cells count,loinc_num,long_common_name,0
-white blood cells count,33870-7,Bilirubin.total [Presence] in Unspecified specimen,0
-white blood cells count,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0
-white blood cells count,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,0
-white blood cells count,23658-8,Other Antibiotic [Susceptibility],0
-white blood cells count,19000-9,Vancomycin [Susceptibility],0
-white blood cells count,14749-6,Glucose [Moles/volume] in Serum or Plasma,0
-white blood cells count,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0
-white blood cells count,18878-9,Cefazolin [Susceptibility],0
-white blood cells count,20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,0
-white blood cells count,1751-7,Albumin [Mass/volume] in Serum or Plasma,0
-white blood cells count,13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,0
-white blood cells count,15076-3,Glucose [Moles/volume] in Urine,0
-white blood cells count,35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,0
-white blood cells count,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,0
-white blood cells count,26464-8,Leukocytes [#/volume] in Blood,5
-white blood cells count,925-8,Blood product disposition [Type],0
-white blood cells count,1994-3,Calcium.ionized [Moles/volume] in Blood,2
-white blood cells count,1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,0
-white blood cells count,1959-6,Bicarbonate [Moles/volume] in Blood,2
-white blood cells count,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,0
-white blood cells count,18928-2,Gentamicin [Susceptibility],0
-white blood cells count,14578-9,ABO group [Type] in Blood from Blood product unit,1
-white blood cells count,934-0,Blood product unit ID [#],0
-white blood cells count,4671-4,Protein C [Mass/volume] in Plasma,0
-white blood cells count,2069-3,Chloride [Moles/volume] in Blood,2
-white blood cells count,2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,0
-white blood cells count,17861-6,Calcium [Mass/volume] in Serum or Plasma,0
-white blood cells count,2075-0,Chloride [Moles/volume] in Serum or Plasma,0
-white blood cells count,933-2,Blood product type,0
-white blood cells count,2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,0
-white blood cells count,19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,0
-white blood cells count,26478-8,Lymphocytes/100 leukocytes in Blood,4
-white blood cells count,14747-0,Glucose [Moles/volume] in Pleural fluid,0
-white blood cells count,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",2
-white blood cells count,2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",0
-white blood cells count,18955-5,Nitrofurantoin [Susceptibility],0
-white blood cells count,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,0
-white blood cells count,18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],0
-white blood cells count,890-4,Blood group antibody screen [Presence] in Serum or Plasma,0
-white blood cells count,14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,0
-white blood cells count,2143-6,Cortisol [Mass/volume] in Serum or Plasma,0
-white blood cells count,2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,0
-white blood cells count,1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,0
-white blood cells count,18906-8,Ciprofloxacin [Susceptibility],0
-white blood cells count,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,0
-white blood cells count,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,0
-white blood cells count,74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",1
-white blood cells count,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,0
-white blood cells count,1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,0
-white blood cells count,20629-2,Levofloxacin [Susceptibility],0
-white blood cells count,1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,0
-white blood cells count,35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,0
-white blood cells count,883-9,ABO group [Type] in Blood,2
-white blood cells count,1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,0
-white blood cells count,54439-5,Calcium bilirubinate/Total in Stone,0
-white blood cells count,3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,0
-white blood cells count,30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,0
-white blood cells count,10331-7,Rh [Type] in Blood,2
-white blood cells count,26474-7,Lymphocytes [#/volume] in Blood,2
-white blood cells count,8310-5,Body temperature,0
-white blood cells count,31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,2
-white blood cells count,882-1,ABO & Rh group [Type] in Blood,2
-white blood cells count,26484-6,Monocytes [#/volume] in Blood,2
-white blood cells count,1250-0,Major crossmatch [interpretation],0
-white blood cells count,18864-9,Ampicillin [Susceptibility],0
-white blood cells count,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0
-white blood cells count,18865-6,Ampicillin+Sulbactam [Susceptibility],0
+glucose in blood,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,1959-6,Bicarbonate [Moles/volume] in Blood,0.4
+glucose in blood,10331-7,Rh [Type] in Blood,0.4
+glucose in blood,18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],0.0
+glucose in blood,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,890-4,Blood group antibody screen [Presence] in Serum or Plasma,0.0
+glucose in blood,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",0.4
+glucose in blood,18906-8,Ciprofloxacin [Susceptibility],0.0
+glucose in blood,2143-6,Cortisol [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,2075-0,Chloride [Moles/volume] in Serum or Plasma,0.0
+glucose in blood,4671-4,Protein C [Mass/volume] in Plasma,0.0
+glucose in blood,18864-9,Ampicillin [Susceptibility],0.0
+glucose in blood,15076-3,Glucose [Moles/volume] in Urine,0.6
+glucose in blood,1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,0.0
+glucose in blood,26474-7,Lymphocytes [#/volume] in Blood,0.4
+glucose in blood,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0.0
+glucose in blood,13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,0.0
+glucose in blood,925-8,Blood product disposition [Type],0.0
+glucose in blood,14749-6,Glucose [Moles/volume] in Serum or Plasma,0.6
+glucose in blood,14747-0,Glucose [Moles/volume] in Pleural fluid,0.6
+glucose in blood,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,26464-8,Leukocytes [#/volume] in Blood,0.4
+glucose in blood,74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",0.8
+glucose in blood,8310-5,Body temperature,0.0
+glucose in blood,934-0,Blood product unit ID [#],0.0
+glucose in blood,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,0.0
+glucose in blood,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0.0
+glucose in blood,14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,0.4
+glucose in blood,1994-3,Calcium.ionized [Moles/volume] in Blood,0.4
+glucose in blood,1751-7,Albumin [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,0.0
+glucose in blood,1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,26484-6,Monocytes [#/volume] in Blood,0.4
+glucose in blood,18865-6,Ampicillin+Sulbactam [Susceptibility],0.0
+glucose in blood,882-1,ABO & Rh group [Type] in Blood,0.4
+glucose in blood,1250-0,Major crossmatch [interpretation],0.0
+glucose in blood,883-9,ABO group [Type] in Blood,0.4
+glucose in blood,2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,0.0
+glucose in blood,31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,0.4
+glucose in blood,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,0.0
+glucose in blood,2069-3,Chloride [Moles/volume] in Blood,0.4
+glucose in blood,3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,0.0
+glucose in blood,30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,0.0
+glucose in blood,33870-7,Bilirubin.total [Presence] in Unspecified specimen,0.0
+glucose in blood,20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,0.0
+glucose in blood,2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,0.0
+glucose in blood,14578-9,ABO group [Type] in Blood from Blood product unit,0.2
+glucose in blood,18955-5,Nitrofurantoin [Susceptibility],0.0
+glucose in blood,2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,933-2,Blood product type,0.0
+glucose in blood,19000-9,Vancomycin [Susceptibility],0.0
+glucose in blood,26478-8,Lymphocytes/100 leukocytes in Blood,0.4
+glucose in blood,19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,0.0
+glucose in blood,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,0.0
+glucose in blood,35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,0.4
+glucose in blood,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,0.0
+glucose in blood,2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",0.0
+glucose in blood,35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,0.0
+glucose in blood,20629-2,Levofloxacin [Susceptibility],0.0
+glucose in blood,17861-6,Calcium [Mass/volume] in Serum or Plasma,0.0
+glucose in blood,54439-5,Calcium bilirubinate/Total in Stone,0.0
+glucose in blood,18878-9,Cefazolin [Susceptibility],0.0
+glucose in blood,18928-2,Gentamicin [Susceptibility],0.0
+glucose in blood,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0.0
+glucose in blood,23658-8,Other Antibiotic [Susceptibility],0.0
+bilirubin in plasma,934-0,Blood product unit ID [#],0.0
+bilirubin in plasma,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0.2
+bilirubin in plasma,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",0.0
+bilirubin in plasma,1959-6,Bicarbonate [Moles/volume] in Blood,0.0
+bilirubin in plasma,18906-8,Ciprofloxacin [Susceptibility],0.0
+bilirubin in plasma,18865-6,Ampicillin+Sulbactam [Susceptibility],0.0
+bilirubin in plasma,13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,0.0
+bilirubin in plasma,882-1,ABO & Rh group [Type] in Blood,0.0
+bilirubin in plasma,26464-8,Leukocytes [#/volume] in Blood,0.0
+bilirubin in plasma,1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,0.6
+bilirubin in plasma,8310-5,Body temperature,0.0
+bilirubin in plasma,30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,0.2
+bilirubin in plasma,18878-9,Cefazolin [Susceptibility],0.0
+bilirubin in plasma,1994-3,Calcium.ionized [Moles/volume] in Blood,0.0
+bilirubin in plasma,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,0.8
+bilirubin in plasma,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,0.2
+bilirubin in plasma,10331-7,Rh [Type] in Blood,0.0
+bilirubin in plasma,1250-0,Major crossmatch [interpretation],0.2
+bilirubin in plasma,18955-5,Nitrofurantoin [Susceptibility],0.0
+bilirubin in plasma,19000-9,Vancomycin [Susceptibility],0.0
+bilirubin in plasma,18864-9,Ampicillin [Susceptibility],0.0
+bilirubin in plasma,890-4,Blood group antibody screen [Presence] in Serum or Plasma,0.2
+bilirubin in plasma,14578-9,ABO group [Type] in Blood from Blood product unit,0.0
+bilirubin in plasma,17861-6,Calcium [Mass/volume] in Serum or Plasma,0.2
+bilirubin in plasma,1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,0.2
+bilirubin in plasma,2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",0.2
+bilirubin in plasma,883-9,ABO group [Type] in Blood,0.0
+bilirubin in plasma,23658-8,Other Antibiotic [Susceptibility],0.0
+bilirubin in plasma,1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,0.6
+bilirubin in plasma,20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,0.0
+bilirubin in plasma,74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",0.2
+bilirubin in plasma,14747-0,Glucose [Moles/volume] in Pleural fluid,0.0
+bilirubin in plasma,35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,0.6
+bilirubin in plasma,2143-6,Cortisol [Mass/volume] in Serum or Plasma,0.2
+bilirubin in plasma,2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,0.2
+bilirubin in plasma,26474-7,Lymphocytes [#/volume] in Blood,0.0
+bilirubin in plasma,3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,0.4
+bilirubin in plasma,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,0.6
+bilirubin in plasma,18928-2,Gentamicin [Susceptibility],0.0
+bilirubin in plasma,26478-8,Lymphocytes/100 leukocytes in Blood,0.0
+bilirubin in plasma,1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,0.2
+bilirubin in plasma,14749-6,Glucose [Moles/volume] in Serum or Plasma,0.2
+bilirubin in plasma,933-2,Blood product type,0.0
+bilirubin in plasma,26484-6,Monocytes [#/volume] in Blood,0.0
+bilirubin in plasma,1751-7,Albumin [Mass/volume] in Serum or Plasma,0.2
+bilirubin in plasma,2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,0.0
+bilirubin in plasma,14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,0.2
+bilirubin in plasma,15076-3,Glucose [Moles/volume] in Urine,0.0
+bilirubin in plasma,19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,0.2
+bilirubin in plasma,925-8,Blood product disposition [Type],0.0
+bilirubin in plasma,20629-2,Levofloxacin [Susceptibility],0.0
+bilirubin in plasma,2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,0.2
+bilirubin in plasma,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0.2
+bilirubin in plasma,35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,0.2
+bilirubin in plasma,2069-3,Chloride [Moles/volume] in Blood,0.0
+bilirubin in plasma,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,0.2
+bilirubin in plasma,31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,0.0
+bilirubin in plasma,1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,0.2
+bilirubin in plasma,2075-0,Chloride [Moles/volume] in Serum or Plasma,0.2
+bilirubin in plasma,4671-4,Protein C [Mass/volume] in Plasma,0.4
+bilirubin in plasma,18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],0.0
+bilirubin in plasma,54439-5,Calcium bilirubinate/Total in Stone,0.4
+bilirubin in plasma,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0.2
+bilirubin in plasma,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,0.2
+bilirubin in plasma,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,0.2
+bilirubin in plasma,33870-7,Bilirubin.total [Presence] in Unspecified specimen,0.6
+bilirubin in plasma,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,0.2
+white blood cells count,33870-7,Bilirubin.total [Presence] in Unspecified specimen,0.0
+white blood cells count,29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,0.0
+white blood cells count,14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,0.0
+white blood cells count,23658-8,Other Antibiotic [Susceptibility],0.0
+white blood cells count,19000-9,Vancomycin [Susceptibility],0.0
+white blood cells count,14749-6,Glucose [Moles/volume] in Serum or Plasma,0.0
+white blood cells count,1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0.0
+white blood cells count,18878-9,Cefazolin [Susceptibility],0.0
+white blood cells count,20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,0.0
+white blood cells count,1751-7,Albumin [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,0.0
+white blood cells count,15076-3,Glucose [Moles/volume] in Urine,0.0
+white blood cells count,35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,0.0
+white blood cells count,2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,26464-8,Leukocytes [#/volume] in Blood,1.0
+white blood cells count,925-8,Blood product disposition [Type],0.0
+white blood cells count,1994-3,Calcium.ionized [Moles/volume] in Blood,0.4
+white blood cells count,1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,0.0
+white blood cells count,1959-6,Bicarbonate [Moles/volume] in Blood,0.4
+white blood cells count,1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,18928-2,Gentamicin [Susceptibility],0.0
+white blood cells count,14578-9,ABO group [Type] in Blood from Blood product unit,0.2
+white blood cells count,934-0,Blood product unit ID [#],0.0
+white blood cells count,4671-4,Protein C [Mass/volume] in Plasma,0.0
+white blood cells count,2069-3,Chloride [Moles/volume] in Blood,0.4
+white blood cells count,2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,0.0
+white blood cells count,17861-6,Calcium [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,2075-0,Chloride [Moles/volume] in Serum or Plasma,0.0
+white blood cells count,933-2,Blood product type,0.0
+white blood cells count,2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,0.0
+white blood cells count,19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,0.0
+white blood cells count,26478-8,Lymphocytes/100 leukocytes in Blood,0.8
+white blood cells count,14747-0,Glucose [Moles/volume] in Pleural fluid,0.0
+white blood cells count,20565-8,"Carbon dioxide, total [Moles/volume] in Blood",0.4
+white blood cells count,2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",0.0
+white blood cells count,18955-5,Nitrofurantoin [Susceptibility],0.0
+white blood cells count,2093-3,Cholesterol [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],0.0
+white blood cells count,890-4,Blood group antibody screen [Presence] in Serum or Plasma,0.0
+white blood cells count,14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,0.0
+white blood cells count,2143-6,Cortisol [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,18906-8,Ciprofloxacin [Susceptibility],0.0
+white blood cells count,6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,0.0
+white blood cells count,1988-5,C reactive protein [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",0.2
+white blood cells count,1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,0.0
+white blood cells count,1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,0.0
+white blood cells count,20629-2,Levofloxacin [Susceptibility],0.0
+white blood cells count,1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,0.0
+white blood cells count,35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,0.0
+white blood cells count,883-9,ABO group [Type] in Blood,0.4
+white blood cells count,1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,0.0
+white blood cells count,54439-5,Calcium bilirubinate/Total in Stone,0.0
+white blood cells count,3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,0.0
+white blood cells count,30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,0.0
+white blood cells count,10331-7,Rh [Type] in Blood,0.4
+white blood cells count,26474-7,Lymphocytes [#/volume] in Blood,0.4
+white blood cells count,8310-5,Body temperature,0.0
+white blood cells count,31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,0.4
+white blood cells count,882-1,ABO & Rh group [Type] in Blood,0.4
+white blood cells count,26484-6,Monocytes [#/volume] in Blood,0.4
+white blood cells count,1250-0,Major crossmatch [interpretation],0.0
+white blood cells count,18864-9,Ampicillin [Susceptibility],0.0
+white blood cells count,1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,0.0
+white blood cells count,18865-6,Ampicillin+Sulbactam [Susceptibility],0.0
