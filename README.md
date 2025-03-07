@@ -82,59 +82,17 @@ pip install lightgbm pandas numpy scikit-learn
 ```
 
 ### **2. Prepare the Dataset**  
-Convert the dataset into **LightGBM format**:  
+Before training, we need to format our dataset appropriately for LightGBM:
 
-```python
-import lightgbm as lgb
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-
-# Sample dataset: Lab tests with features and relevance scores
-data = pd.DataFrame({
-    'query_id': [1, 1, 1, 1],  # Query "Glucose in blood"
-    'feature1': [0.8, 0.6, 0.4, 0.1],  # Feature vectors (dummy values)
-    'feature2': [0.7, 0.5, 0.3, 0.2],
-    'relevance': [3, 2, 1, 0]  # Relevance scores
-})
-
-# Group data by query
-query_group = data.groupby('query_id').size().tolist()
-
-# Split dataset into training and testing sets
-train_data, test_data = train_test_split(data, test_size=0.2, random_state=42)
-
-# Convert to LightGBM format
-train_dataset = lgb.Dataset(train_data[['feature1', 'feature2']], label=train_data['relevance'], group=query_group)
-test_dataset = lgb.Dataset(test_data[['feature1', 'feature2']], label=test_data['relevance'], group=query_group, reference=train_dataset)
-```
+Query groups: LTR requires grouping rows by queries.
+Features & Labels: Extract relevant numerical features and labels (e.g., Score).
 
 ### **3. Train the Model**  
-```python
-params = {
-    'objective': 'lambdarank',
-    'metric': 'ndcg',
-    'learning_rate': 0.05,
-    'num_leaves': 31,
-    'verbose': -1
-}
+We use LambdaMART for listwise ranking with a custom objective function.
 
-# Train model
-model = lgb.train(params, train_dataset, num_boost_round=100, valid_sets=[test_dataset], early_stopping_rounds=10)
-```
 
 ### **4. Make Predictions**  
-```python
-# Sample test features for new queries
-new_tests = pd.DataFrame({
-    'feature1': [0.9, 0.3],
-    'feature2': [0.8, 0.4]
-})
 
-# Predict ranking scores
-predictions = model.predict(new_tests)
-print(predictions)  # Higher scores mean more relevant lab tests
-```
 
 ---
 
