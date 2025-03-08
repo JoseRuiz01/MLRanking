@@ -176,15 +176,5 @@ print(generated_query)
 ---
 
 ## **Step 5: Evaluating the Model**  
-We measure ranking quality using **NDCG**:  
 
-```python
-from sklearn.metrics import ndcg_score
-
-true_relevance = [[3, 2, 1, 0]]
-predicted_scores = [[0.9, 0.7, 0.4, 0.1]]
-
-ndcg = ndcg_score(true_relevance, predicted_scores)
-print("NDCG Score:", ndcg)
-```
 
