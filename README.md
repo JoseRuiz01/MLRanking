@@ -57,18 +57,6 @@ Save into a new csv file the data with the calculated scores following this form
 | Query              | LOINC Code | Test Name                    | Relevance Score  |
 |--------------------|-----------|------------------------------|--------------------|
 
-### **7. Construct Training Lists**
-Each query should have a **list of test results** with assigned relevance scores.  
-
-```yaml
-Query: "Glucose in blood"
-- (14749-6, Glucose in Serum or Plasma, Relevance: 0.6)
-- (35184-1, Fasting glucose, Relevance: 0.4)
-- (15076-3, Glucose in Urine, Relevance: 0.4)
-- (18906-8, Ciprofloxacin Susceptibility, Relevance: 0)
-```
-
-These lists will be fed into the model during training.  
 
 ---
 
