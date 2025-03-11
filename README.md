@@ -1,6 +1,4 @@
 # **Listwise Learning to Rank (LTR) for Lab Test Ranking**  
-
-## **Overview**  
 Listwise Learning to Rank (LTR) optimizes the **entire ranking order** for a given query, rather than comparing individual items (Pointwise) or pairs (Pairwise). This is particularly useful for ranking **lab tests** based on their relevance to queries like *"glucose in blood"*, *"bilirubin in plasma"*, and *"white blood cells count"*.  
 
 ---
@@ -64,22 +62,17 @@ Save into a new csv file the data with the calculated scores following this form
 
 We use **LightGBM (LambdaMART)**, which is fast, supports listwise ranking, and is easy to implement.
 
-### **1. Install LightGBM**  
-```bash
-pip install lightgbm pandas numpy scikit-learn
-```
-
-### **2. Prepare the Dataset**  
+### **1. Prepare the Dataset**  
 Before training, we need to format our dataset appropriately for LightGBM:
 
 Query groups: LTR requires grouping rows by queries.
 Features & Labels: Extract relevant numerical features and labels (e.g., Score).
 
-### **3. Train the Model**  
+### **2. Train the Model**  
 We use LambdaMART for listwise ranking with a custom objective function.
 
 
-### **4. Make Predictions**  
+### **3. Make Predictions**  
 
 
 ---
