@@ -40,10 +40,10 @@ We implement a method for calculating relevance scores for lab tests based on a 
 
 ### **4. Scoring Scheme**
    Points are awarded based on the match type:
-   - **Exact Match on Component**: +3 points.
-   - **Partial Match on Component**: +2 points.
-   - **Exact Match on System**: +2 points.
-   - **Partial Match on System**: +1 point.
+   - **Exact Match on Component**:  weight(component) * weight(component)
+   - **Partial Match on Component**: weight(component)/2 * weight(component)
+   - **Exact Match on System**: weight(system) * weight(system)
+   - **Partial Match on System**: weight(system)/2 * weight(system)
    - **No Match**: 0 points.
 
 ### **5. Normalize Scores**
@@ -86,64 +86,10 @@ We use LambdaMART for listwise ranking with a custom objective function.
 
 ## **Step 4: Enhancing the Dataset**  
 
-To improve model accuracy, we enhance the dataset with **better features** and **expanded queries**.
+To improve model accuracy, we enhance the dataset with more **features** and **expanded queries**.
 
-### **1. Feature Engineering**  
-
-#### **Text-Based Features (TF-IDF, Embeddings)**
-- Extract **TF-IDF** features from test names:  
-
-```python
-from sklearn.feature_extraction.text import TfidfVectorizer
-
-vectorizer = TfidfVectorizer()
-text_features = vectorizer.fit_transform(["Glucose in blood", "Fasting glucose"])
-```
-
-- Use **BERT embeddings** for test descriptions:  
-
-```python
-from sentence_transformers import SentenceTransformer
-
-bert_model = SentenceTransformer('all-MiniLM-L6-v2')
-embedding_features = bert_model.encode(["Glucose in blood", "Fasting glucose"])
-```
-
-- Compute **cosine similarity** between query and document:  
-
-```python
-from sklearn.metrics.pairwise import cosine_similarity
-
-query_embedding = bert_model.encode(["Glucose in blood"])
-similarity_scores = cosine_similarity(query_embedding, embedding_features)
-```
-
-#### **Metadata Features**  
-- **LOINC Code Presence** (Binary feature)
-- **Source Reliability** (Weight based on source, e.g., PubMed vs. less authoritative sources)
-- **Test Age** (Newer tests may be more relevant)  
-
-```python
-import datetime
-
-def compute_age(date):
-    return (datetime.datetime.now() - date).days
-
-data['doc_age'] = data['publication_date'].apply(compute_age)
-```
-
-#### **User Interaction Features (if available)**  
-- **Click-through rate (CTR)**
-- **Dwell time** (time spent on a test result)
-- **Past user preferences**  
-
-```python
-data['click_rate'] = data['num_clicks'] / data['num_impressions']
-```
-
-
-### **2. Expanding Queries**  
-To cover more search variations, we add **synonyms, LOINC codes, and user-generated queries**.
+### **1. Expanding Queries**  
+To cover more search variations, we add **user-generated queries**.
 
 #### **Synonyms & Variations**  
 Use **medical ontologies** like **SNOMED-CT, UMLS** to find synonyms:  
@@ -160,17 +106,6 @@ def get_synonyms(term):
     return list(synonyms)
 
 print(get_synonyms("glucose"))
-```
-
-#### **Automated Query Generation with GPT-4**  
-Use **GPT-4** or **T5 models** to create paraphrased queries:  
-
-```python
-from transformers import pipeline
-
-paraphrase = pipeline("text2text-generation", model="t5-small")
-generated_query = paraphrase("Paraphrase 'glucose in blood'", max_length=30)
-print(generated_query)
 ```
 
 ---
