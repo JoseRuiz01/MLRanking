@@ -6,7 +6,6 @@ Listwise Learning to Rank (LTR) optimizes the **entire ranking order** for a giv
 ## **Step 1: Define the Listwise LTR Model**  
 Listwise LTR models learn a *ranking function* that orders a list of items to maximize evaluation metrics like *NDCG (Normalized Discounted Cumulative Gain)*.
 
-### **How It Works**  
 1. **Input**: A list of lab test results (documents) for a query.  
 2. **Scoring Function**: A machine learning model predicts a *relevance score* for each test result.  
 3. **Loss Function**: The model optimizes the ranking order using a loss function such as:
@@ -14,10 +13,10 @@ Listwise LTR models learn a *ranking function* that orders a list of items to ma
    - **LambdaRank** (optimizes for NDCG directly)  
 4. **Output**: A ranked list of test results for the query.  
 
+
 ---
 
 ## **Step 2: Data Preparation**  
-
 We implement a method for calculating relevance scores for lab tests based on a given query. The query consists of two main features: the *component* (e.g., "Glucose") and the *system* (e.g., "Blood"). 
 
 ### **1. Define Key Query Features**
@@ -48,12 +47,10 @@ We implement a method for calculating relevance scores for lab tests based on a 
    To standardize the scores across tests, normalize them to a scale (e.g., from 0 to 1). For example, if the highest score in the dataset is 5, the formula to normalize is:  
    - **Normalized Score** = \( score \ max_score \).
 
-By following this method, each test is assigned a relevance score based on how well it matches the query's component and system. This system can be adjusted by fine-tuning the scoring weights to better suit specific applications and queries.
+   By following this method, each test is assigned a relevance score based on how well it matches the query's component and system. This system can be adjusted by fine-tuning the scoring weights to better suit specific applications and queries.
 
 ### **6. Save the new CSV**
-Save into a new csv file the data with the calculated scores following this format:
-| Query              | LOINC Code | Test Name          | Relevance Score  |
-|--------------------|------------|--------------------|------------------|
+   Save into a new *CSV* file the data with the calculated scores and features to train the model.
 
 
 ---
@@ -64,7 +61,7 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
 
 ### **1. Dataset Prepraration**  
    Before training, we need to format our dataset appropriately for LightGBM:
-   - Read the data from the csv file with scores.
+   - Read the data from the *CSV* file with scores.
    - Categorical columns (`Query`, `Name`, `Component`, `System`, `Property`, `Measurement`) are encoded numerically.
    - A `Score_label` is created from the `Normalized_Score` to serve as the target variable.
    - Data is split into *train_dataset* and *test_dataset*.
@@ -88,55 +85,64 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
    - Predictions are scaled between 0 and 1.
    - Results are sorted by `Query` and `Predicted Score` and saved to `results.csv`.
 
+
 ---
 
-
 ## **Step 4: Enhancing the Dataset**  
-
 To improve the model *NDCG* metric, we enhance the dataset with more *features*, *data* and *expanded queries*.
 
 ### **1. Expanding Queries**  
 
 ### **2. Expanding Dataset**
-To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
+   To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
+   We included documents from the queries:
+      - bilirubin in plasma
+      - bilirubin 
+      - calcium in serum
+      - calcium
+      - glucose in blood
+      - glucose
+      - leukocytes
+      - white blood cells count
+
 
 ## **3. Evaluating the Model**  
-- These are the following **Metrics** performed to evaluate the Model:
-  - **MSE** (Mean Squared Error): *Lower* values are better [0, ∞], indicating less error between predictions and actual scores
-  - **R²** (R-squared score): *Higher* values are better [-∞, 1], showing how well the model explains the variance in data
-  - **Spearman's Correlation**: *Higher* values are better [-1, 1], indicate a strong monotonic relationship between predicted and actual rankings.
-  - **NDCG** (Normalized Discounted Cumulative Gain): *Higher* values are better [0, 1], reflecting how well the model ranks items compared to an ideal ranking
+   These are the following **Metrics** performed to evaluate the Model:
+   - **MSE** (Mean Squared Error): *Lower* values are better [0, ∞], indicating less error between predictions and actual scores
+   - **R²** (R-squared score): *Higher* values are better [-∞, 1], showing how well the model explains the variance in data
+   - **Spearman's Correlation**: *Higher* values are better [-1, 1], indicate a strong monotonic relationship between predicted and actual rankings.
+   - **NDCG** (Normalized Discounted Cumulative Gain): *Higher* values are better [0, 1], reflecting how well the model ranks items compared to an ideal ranking
 
-**Basic Dataset**
-Mean Squared Error (MSE): 0.1550
-R-squared (R²): -2.3101
-Spearman's Rank Correlation: 0.7134
-NDCG Mean Score: 0.8219
-- NDCG for 'bilirubin in plasma': 0.7764
-- NDCG for 'glucose in blood': 0.7507
-- NDCG for 'white blood cells count': 0.9388
+   **3.1. Basic Dataset**
+      Mean Squared Error (MSE): 0.1550
+      R-squared (R²): -2.3101
+      Spearman's Rank Correlation: 0.7134
+      NDCG Mean Score: 0.8219
+      - NDCG for 'bilirubin in plasma': 0.7764
+      - NDCG for 'glucose in blood': 0.7507
+      - NDCG for 'white blood cells count': 0.9388
 
-For these new datasets, we increased the test size to 30%, as we obtained better performance.
+   For these new datasets, we increased the test size to 30%, as we obtained better performance.
 
-**First Enhanced Dataset**
-Mean Squared Error (MSE): 0.0255
-R-squared (R²): 0.0468
-Spearman's Rank Correlation: 0.5908
-NDCG Mean Score: 0.8922
-- NDCG for 'bilirubin in plasma': 0.8388
-- NDCG for 'calcium in serum': 0.9347
-- NDCG for 'cells in urine': 0.8928
-- NDCG for 'glucose in blood': 0.9283
-- NDCG for 'white blood cells count': 0.8663
+   **3.2. First Enhanced Dataset**
+      Mean Squared Error (MSE): 0.0255
+      R-squared (R²): 0.0468
+      Spearman's Rank Correlation: 0.5908
+      NDCG Mean Score: 0.8922
+      - NDCG for 'bilirubin in plasma': 0.8388
+      - NDCG for 'calcium in serum': 0.9347
+      - NDCG for 'cells in urine': 0.8928
+      - NDCG for 'glucose in blood': 0.9283
+      - NDCG for 'white blood cells count': 0.8663
 
-**Second Enhanced Dataset**
-Mean Squared Error (MSE): 0.0387
-R-squared (R²): -0.5748
-Spearman's Rank Correlation: 0.5548
-NDCG Mean Score: 0.9193
-- NDCG for 'bilirubin in plasma': 0.9147
-- NDCG for 'calcium in serum': 0.9381
-- NDCG for 'glucose in blood': 0.9331
-- NDCG for 'white blood cells count': 0.8914
+   **3.3. Second Enhanced Dataset**
+      Mean Squared Error (MSE): 0.0387
+      R-squared (R²): -0.5748
+      Spearman's Rank Correlation: 0.5548
+      NDCG Mean Score: 0.9193
+      - NDCG for 'bilirubin in plasma': 0.9147
+      - NDCG for 'calcium in serum': 0.9381
+      - NDCG for 'glucose in blood': 0.9331
+      - NDCG for 'white blood cells count': 0.8914
 
 
