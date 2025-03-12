@@ -10,7 +10,7 @@ Listwise LTR models learn a **ranking function** that orders a list of items to 
 1. **Input**: A list of lab test results (documents) for a query.  
 2. **Scoring Function**: A machine learning model predicts a **relevance score** for each test result.  
 3. **Loss Function**: The model optimizes the ranking order using a loss function such as:
-   - **ListMLE** (optimizes the likelihood of a correct ranking order)  
+   - **eXtreme NDCG** (variant of the Normalized Discounted Cumulative Gain (NDCG) metric, designed to optimize ranking models directly)  
    - **LambdaRank** (optimizes for NDCG directly)  
 4. **Output**: A ranked list of test results for the query.  
 
@@ -52,15 +52,15 @@ By following this method, each test is assigned a relevance score based on how w
 
 ### **6. Save the new CSV**
 Save into a new csv file the data with the calculated scores following this format:
-| Query              | LOINC Code | Test Name                    | Relevance Score  |
-|--------------------|-----------|------------------------------|--------------------|
+| Query              | LOINC Code | Test Name          | Relevance Score  |
+|--------------------|------------|--------------------|------------------|
 
 
 ---
 
 ## **Step 3: Implementing the Listwise LTR Model**  
 
-We use **LightGBM (LambdaMART)**, which is fast, supports listwise ranking, and is easy to implement.
+We use **LightGBM**, which is fast, supports listwise ranking, and is easy to implement.
 
 ### **1. Prepare the Dataset**  
 Before training, we need to format our dataset appropriately for LightGBM:
@@ -69,49 +69,26 @@ Query groups: LTR requires grouping rows by queries.
 Features & Labels: Extract relevant numerical features and labels (e.g., Score).
 
 ### **2. Train the Model**  
-We use LambdaMART for listwise ranking with a custom objective function.
+We use eXtreme NDCG for listwise ranking with a custom objective function.
 
-
-### **3. Make Predictions**  
-
-### **4. Metrics**
-Accuracy: 0.7561
-F1 Score: 0.8611
+### **3. Evaluating the Model**
 Mean Squared Error (MSE): 0.0125
 R-squared (R²): 0.7362
 Spearman's Rank Correlation: 0.7907
 NDCG Score: 0.9616
+
 ---
 
 ## **Step 4: Enhancing the Dataset**  
 
-To improve model accuracy, we enhance the dataset with more **features** and **expanded queries**.
+To improve model NDCG, we enhance the dataset with more **features** and **expanded queries**.
 
 ### **1. Expanding Queries**  
 To cover more search variations, we add **user-generated queries**.
 
-#### **Synonyms & Variations**  
-Use **medical ontologies** like **SNOMED-CT, UMLS** to find synonyms:  
+### **2. Expanding Dataset**
 
-```python
-import nltk
-from nltk.corpus import wordnet
-
-def get_synonyms(term):
-    synonyms = set()
-    for syn in wordnet.synsets(term):
-        for lemma in syn.lemmas():
-            synonyms.add(lemma.name())
-    return list(synonyms)
-
-print(get_synonyms("glucose"))
-```
-
----
-
-## **Step 5: Evaluating the Model**  
-Accuracy: 0.8235
-F1 Score: 0.9032
+## **3. Evaluating the Model**  
 Mean Squared Error (MSE): 0.0299
 R-squared (R²): -0.0713
 Spearman's Rank Correlation: 0.2322
