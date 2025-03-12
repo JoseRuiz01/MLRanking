@@ -67,7 +67,7 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
    - Read the data from the csv file with scores.
    - Categorical columns (`Query`, `Name`, `Component`, `System`, `Property`, `Measurement`) are encoded numerically.
    - A `Score_label` is created from the `Normalized_Score` to serve as the target variable.
-   - Data is split into *80% training* and *20% test* sets.
+   - Data is split into *train_dataset* and *test_dataset*.
 
 ### **2. LightGBM Dataset Setup**   
    - **Features:** Encoded categorical columns.
@@ -115,6 +115,8 @@ NDCG Mean Score: 0.8219
 - NDCG for 'bilirubin in plasma': 0.7764
 - NDCG for 'glucose in blood': 0.7507
 - NDCG for 'white blood cells count': 0.9388
+
+For these new datasets, we increased the test size to 30%, as we obtained better performance.
 
 **First Enhanced Dataset**
 Mean Squared Error (MSE): 0.0255
