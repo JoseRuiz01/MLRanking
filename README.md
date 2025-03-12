@@ -62,17 +62,34 @@ Save into a new csv file the data with the calculated scores following this form
 
 We use *LightGBM*, which is fast, supports listwise ranking, and is easy to implement.
 
-### **1. Prepare the Dataset**  
-Before training, we need to format our dataset appropriately for LightGBM:
+### **1. Dataset Prepraration**  
+   Before training, we need to format our dataset appropriately for LightGBM:
+   - Read the data from the csv file with scores.
+   - Categorical columns (`Query`, `Name`, `Component`, `System`, `Property`, `Measurement`) are encoded numerically.
+   - A `Score_label` is created from the `Normalized_Score` to serve as the target variable.
+   - Data is split into *80% training* and *20% test* sets.
 
-Query groups: LTR requires grouping rows by queries.
-Features & Labels: Extract relevant numerical features and labels (e.g., Score).
+### **2. LightGBM Dataset Setup**   
+   - **Features:** Encoded categorical columns.
+   - **Grouping:** Rows are grouped by `Query` to support listwise ranking.
+   - **Labels:** `Score_label` is the target for learning.
 
-### **2. Train the Model**  
-We use *eXtreme NDCG* for listwise ranking with a custom objective function.
+### **3. Train the Model**  
+   We use *eXtreme NDCG* for listwise ranking with a custom objective function.
+      - **Objective:** `rank_xendcg` (listwise ranking).
+      - **Parameters:**
+         - `num_leaves`, `max_depth` control model complexity.
+         - `lambda_l1`, `lambda_l2` for regularization.
+         - `label_gain` defines the reward for higher ranks.
+      - Training uses *early stopping* and *learning rate decay*.
 
+
+### **5. Prediction**
+   - Predictions are scaled between 0 and 1.
+   - Results are sorted by `Query` and `Predicted Score` and saved to `results.csv`.
 
 ---
+
 
 ## **Step 4: Enhancing the Dataset**  
 
@@ -84,6 +101,11 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
 To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
 
 ## **3. Evaluating the Model**  
+- These are the following **Metrics** performed to evaluate the Model:
+  - **MSE** (Mean Squared Error): *Lower* values are better [0, ∞], indicating less error between predictions and actual scores
+  - **R²** (R-squared score): *Higher* values are better [-∞, 1], showing how well the model explains the variance in data
+  - **Spearman's Correlation**: *Higher* values are better [-1, 1], indicate a strong monotonic relationship between predicted and actual rankings.
+  - **NDCG** (Normalized Discounted Cumulative Gain): *Higher* values are better [0, 1], reflecting how well the model ranks items compared to an ideal ranking
 
 **Basic Dataset**
 Mean Squared Error (MSE): 0.1550
