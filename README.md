@@ -117,24 +117,24 @@ NDCG Mean Score: 0.8219
 - NDCG for 'white blood cells count': 0.9388
 
 **First Enhanced Dataset**
-Mean Squared Error (MSE): 0.0285
-R-squared (R²): -0.0209
-Spearman's Rank Correlation: 0.6285
-NDCG Mean Score: 0.8845
-- NDCG for 'bilirubin in plasma': 0.8615
-- NDCG for 'calcium in serum': 0.9149
-- NDCG for 'cells in urine': 0.8793
-- NDCG for 'glucose in blood': 0.9091
-- NDCG for 'white blood cells count': 0.8577
+Mean Squared Error (MSE): 0.0255
+R-squared (R²): 0.0468
+Spearman's Rank Correlation: 0.5908
+NDCG Mean Score: 0.8922
+- NDCG for 'bilirubin in plasma': 0.8388
+- NDCG for 'calcium in serum': 0.9347
+- NDCG for 'cells in urine': 0.8928
+- NDCG for 'glucose in blood': 0.9283
+- NDCG for 'white blood cells count': 0.8663
 
 **Second Enhanced Dataset**
-Mean Squared Error (MSE): 0.0398
-R-squared (R²): -0.6662
-Spearman's Rank Correlation: 0.5480
-NDCG Mean Score: 0.9082
-- NDCG for 'bilirubin in plasma': 0.9117
-- NDCG for 'calcium in serum': 0.9333
-- NDCG for 'glucose in blood': 0.9252
-- NDCG for 'white blood cells count': 0.8628
+Mean Squared Error (MSE): 0.0387
+R-squared (R²): -0.5748
+Spearman's Rank Correlation: 0.5548
+NDCG Mean Score: 0.9193
+- NDCG for 'bilirubin in plasma': 0.9147
+- NDCG for 'calcium in serum': 0.9381
+- NDCG for 'glucose in blood': 0.9331
+- NDCG for 'white blood cells count': 0.8914
 
 
