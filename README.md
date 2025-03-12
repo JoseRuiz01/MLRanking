@@ -74,7 +74,13 @@ We use LambdaMART for listwise ranking with a custom objective function.
 
 ### **3. Make Predictions**  
 
-
+### **4. Metrics**
+Accuracy: 0.7561
+F1 Score: 0.8611
+Mean Squared Error (MSE): 0.0125
+R-squared (R²): 0.7362
+Spearman's Rank Correlation: 0.7907
+NDCG Score: 0.9616
 ---
 
 ## **Step 4: Enhancing the Dataset**  
@@ -104,5 +110,10 @@ print(get_synonyms("glucose"))
 ---
 
 ## **Step 5: Evaluating the Model**  
-
+Accuracy: 0.8235
+F1 Score: 0.9032
+Mean Squared Error (MSE): 0.0299
+R-squared (R²): -0.0713
+Spearman's Rank Correlation: 0.2322
+NDCG Score: 0.7427
 

@@ -1,42 +1,1446 @@
-Query,Name,Predicted_Score,Actual_Score
-bilirubin in plasma,glucose serum plasma 3 hour post 100 g glucose po,0.5570637525984957,0.4186555
-bilirubin in plasma,bilirubin total serum plasma,0.5358195826070362,0.8394363
-bilirubin in plasma,bilirubin indirect serum plasma,0.4967591178302976,0.5999122
-bilirubin in plasma,hematocrit blood impedance,0.4742095587105875,0.40870264
-bilirubin in plasma,methicillin resistant staphylococcus aureus unspecified specimen organism specific culture,0.34348048682456805,0.021630185
-bilirubin in plasma,albumin globulin serum plasma,0.2776226205155866,0.180939
-bilirubin in plasma,albumin serum plasma,0.2776226205155866,0.15181035
-bilirubin in plasma,abo blood group group blood blood product unit,0.2591556905488431,0.28646502
-bilirubin in plasma,blood product type,0.22098158847803148,0.13070469
-bilirubin in plasma,calcium serum plasma,0.20557057750378455,0.18624496
-bilirubin in plasma,cholesterol serum plasma,0.20084717778574035,0.20394239
-bilirubin in plasma,cortisol serum plasma,0.2001830060786504,0.1509784
-bilirubin in plasma,calcium corrected albumin serum plasma,0.19701773623898966,0.18465824
-bilirubin in plasma,antibiotic,0.1488626891089354,0.055691253
-bilirubin in plasma,gentamicin,0.13214799375261777,0.052234612
-glucose in blood,glucose serum plasma blood,1.0,1.0
-glucose in blood,bilirubin total synovial fluid,0.7798598923367226,0.51758903
-glucose in blood,monocyte blood,0.4231485103352236,0.40068468
-glucose in blood,abo blood group group blood,0.37794628861655866,0.4377425
-glucose in blood,hepatitis b virus dna viral load serum probe signal amplification,0.2862034234341147,0.08455005
-glucose in blood,blood product disposition,0.24856225080179573,0.11680857
-glucose in blood,cholesterol hdl serum plasma,0.20993557823227846,0.17110486
-glucose in blood,tyrosine aminotransferase plasma,0.20751162973302498,0.24238774
-glucose in blood,calcium ionized serum plasma,0.2071625717673646,0.17890392
-glucose in blood,choriogonadotropin beta subunit serum plasma,0.2067238800995831,0.17085634
-glucose in blood,chloride serum plasma,0.20623581037387684,0.174336
-glucose in blood,nitrofurantoin,0.11349439063528405,0.0411869
-glucose in blood,blood product unit id,0.10024231489214269,0.08838894
-glucose in blood,cefazolin,0.049902339687688924,0.011425767
-white blood cells count,bilirubin total synovial fluid,0.7371192556974331,0.532911
-white blood cells count,monocyte blood,0.3727539095856598,0.40600955
-white blood cells count,lymphocyte blood,0.3727539095856598,0.4576325
-white blood cells count,abo blood group rh group blood,0.360318098580719,0.4239355
-white blood cells count,aspartate aminotransferase serum plasma,0.2893221813816661,0.16678028
-white blood cells count,alkaline phosphatase serum plasma,0.23299131484161184,0.16972063
-white blood cells count,blood product disposition,0.19978934029621734,0.104972176
-white blood cells count,calcium serum plasma,0.15685522779095212,0.13222747
-white blood cells count,cholesterol serum plasma,0.15213182807290793,0.15864591
-white blood cells count,component reactive protein serum plasma high sensitivity method,0.15213182807290793,0.14836113
-white blood cells count,vancomycin,0.060428735744061324,0.010062387
-white blood cells count,ciprofloxacin,0.0,0.031036682
+LOINC Code,Query,Name,Predicted Score,Actual Score
+11276-3,bilirubin in plasma,tubular cell presence urine sediment light microscopy,0.07316756738603428,0.04840628
+11278-9,bilirubin in plasma,bladder cell area urine sediment microscopy high power field,0.07316756738603428,0.050068352
+34634-6,bilirubin in plasma,cd11 cd18 cell volume leukocyte,0.07316756738603428,0.055937726
+72163-9,bilirubin in plasma,leukocyte presence specimen gram stain,0.07316756738603428,0.05579601
+105108-5,bilirubin in plasma,erythrocyte volume urine sediment,0.07316756738603428,0.069481805
+99864-1,bilirubin in plasma,erythrocyte dysmorphic volume urine sediment computer assisted method,0.07316756738603428,0.07186428
+13945-1,bilirubin in plasma,erythrocyte area urine sediment microscopy high power field,0.07316756738603428,0.0707892
+99872-4,bilirubin in plasma,superficial transitional cell presence urine sediment computer assisted method,0.07316756738603428,0.030320216
+99869-0,bilirubin in plasma,erythrocyte ghost cell presence urine sediment computer assisted method,0.07316756738603428,0.041050557
+4525-2,bilirubin in plasma,complement membrane c3b c4b cofactor protein entitic number leukocyte,0.07316756738603428,0.0729183
+5821-4,bilirubin in plasma,leukocyte area urine sediment microscopy high power field,0.07316756738603428,0.057619084
+105120-0,bilirubin in plasma,epithelial cell squamous presence urine sediment,0.07316756738603428,0.023549866
+6294-3,bilirubin in plasma,deprecated complement c3d c3d gg ic3b receptor entitic number leukocyte,0.07316756738603428,0.060523286
+4523-7,bilirubin in plasma,complement ic3b receptor entitic number leukocyte,0.07316756738603428,0.07216291
+44092-5,bilirubin in plasma,leukocyte area vaginal fluid wet preparation,0.07316756738603428,0.05001351
+5807-3,bilirubin in plasma,rbc cast area urine sediment microscopy low power field,0.07316756738603428,0.062093977
+105105-1,bilirubin in plasma,leukocyte presence urine sediment,0.07316756738603428,0.04038732
+105269-5,bilirubin in plasma,fractional excretion calcium ratio urine serum plasma collected unspecified duration,0.07316756738603428,0.15698618
+46136-8,bilirubin in plasma,transitional cell area urine sediment microscopy low power field,0.07316756738603428,0.043972783
+32776-7,bilirubin in plasma,erythrocyte presence urine sediment light microscopy,0.07316756738603428,0.05218492
+57468-1,bilirubin in plasma,calcitriol mole volume serum plasma pre dose calcium,0.06986110913466638,0.16613512
+22665-4,bilirubin in plasma,bilirubin delta mole volume serum plasma,0.06986110913466638,0.5484028
+101476-0,bilirubin in plasma,fasting glucose mole volume venous blood,0.06986110913466638,0.054601327
+57566-2,bilirubin in plasma,25 hydroxyvitamin d3 mole volume serum plasma pre dose calcium,0.06986110913466638,0.15928367
+33980-4,bilirubin in plasma,voltage gated calcium channel p q type binding ab mole volume serum,0.06986110913466638,0.074025124
+16519-1,bilirubin in plasma,calcium mole volume serum plasma 10 minute post xxx challenge,0.06986110913466638,0.15518661
+40239-6,bilirubin in plasma,calcium mole volume serum plasma 12 hour post xxx challenge,0.06986110913466638,0.1572908
+40234-7,bilirubin in plasma,calcium mole volume serum plasma 4 hour post xxx challenge,0.06986110913466638,0.15826921
+31024-3,bilirubin in plasma,voltage gated calcium channel ab mole volume serum,0.06986110913466638,0.068508245
+40227-1,bilirubin in plasma,calcium mole volume serum plasma 30 minute post xxx challenge,0.06986110913466638,0.1576273
+51596-5,bilirubin in plasma,glucose mole volume capillary blood,0.06986110913466638,0.06166137
+1995-0,bilirubin in plasma,calcium ionized mole volume serum plasma,0.06986110913466638,0.16797861
+14760-3,bilirubin in plasma,glucose mole volume capillary blood 2 hour post meal,0.06986110913466638,0.057852954
+57567-0,bilirubin in plasma,25 hydroxyvitamin d3 mole volume serum plasma 2 hour post dose calcium,0.06986110913466638,0.15908395
+40223-0,bilirubin in plasma,calcium mole volume serum plasma pre xxx challenge,0.06986110913466638,0.16022478
+77677-3,bilirubin in plasma,glucose mole volume serum plasma blood 2 hour post meal,0.06986110913466638,0.16011615
+94705-1,bilirubin in plasma,voltage gated calcium channel p q type binding ab mole volume serum immunoassay,0.06986110913466638,0.06731609
+29265-6,bilirubin in plasma,calcium mole volume corrected albumin serum plasma,0.06986110913466638,0.16671902
+76629-5,bilirubin in plasma,fasting glucose mole volume blood,0.06986110913466638,0.069170356
+104879-2,bilirubin in plasma,hematocrit volume fraction blood 2 5 hour post dose glucose,0.06986110913466638,0.07605222
+35192-4,bilirubin in plasma,bilirubin indirect mass mole volume serum plasma,0.06370064296676842,0.5657359
+15153-0,bilirubin in plasma,deprecated indirect bilirubin mass volume serum plasma,0.06370064296676842,0.5829026
+71593-8,bilirubin in plasma,glucose 6 phosphate dehydrogenase enzymatic activity substance red blood cell,0.06370064296676842,0.083485454
+17861-6,bilirubin in plasma,calcium mass volume serum plasma,0.06370064296676842,0.17745513
+40086-1,bilirubin in plasma,calcium mass volume serum plasma 3 day post xxx challenge,0.06370064296676842,0.15872927
+16272-7,bilirubin in plasma,calcium mass volume serum plasma 2 hour post xxx challenge,0.06370064296676842,0.1588895
+40068-9,bilirubin in plasma,calcium mass volume serum plasma 45 minute post xxx challenge,0.06370064296676842,0.15609935
+16270-1,bilirubin in plasma,calcium mass volume serum plasma 1 hour post xxx challenge,0.06370064296676842,0.16062824
+27913-3,bilirubin in plasma,calcium mass volume serum plasma 7th specimen post xxx challenge,0.06370064296676842,0.16284274
+86915-6,bilirubin in plasma,calcium goal mass volume serum plasma,0.06370064296676842,0.1675905
+50182-5,bilirubin in plasma,calcitonin mass volume serum plasma 2 minute post 2 mg kg calcium 0 5 ug kg pentagastrin iv,0.06370064296676842,0.15216379
+17863-2,bilirubin in plasma,calcium ionized mass volume serum plasma,0.06370064296676842,0.1816735
+83114-9,bilirubin in plasma,s100 calcium binding protein b mass volume serum immunoassay,0.06370064296676842,0.052928627
+50189-0,bilirubin in plasma,neonatal bilirubin panel mass volume serum plasma,0.06370064296676842,0.5509003
+6689-4,bilirubin in plasma,glucose mass volume blood 2 hour post meal,0.06370064296676842,0.05461428
+49925-1,bilirubin in plasma,glucose 6 phosphate dehydrogenase enzymatic activity mass red blood cell glock mclean,0.06370064296676842,0.07320257
+74774-1,bilirubin in plasma,glucose mass volume serum plasma blood,0.06370064296676842,0.1764073
+88365-2,bilirubin in plasma,glucose mass volume blood pre meal,0.06370064296676842,0.063858196
+40085-3,bilirubin in plasma,calcium mass volume serum plasma 2 day post xxx challenge,0.06370064296676842,0.15825823
+23823-8,bilirubin in plasma,basophil leukocyte specimen manual count,0.05609370346121845,0.07104292
+99866-6,bilirubin in plasma,acanthocyte erythrocyte urine sediment computer assisted method,0.05609370346121845,0.045711376
+4530-2,bilirubin in plasma,deprecated complement receptor 4,0.05609370346121845,0.059548955
+68426-6,bilirubin in plasma,neutrophil leukocyte vitreous fluid manual count,0.05609370346121845,0.058293585
+4529-4,bilirubin in plasma,deprecated complement receptor 3,0.05609370346121845,0.05938626
+26445-7,bilirubin in plasma,basophil leukocyte specimen,0.05609370346121845,0.06976721
+14384-2,bilirubin in plasma,mononuclear cell leukocyte urine sediment manual count,0.05609370346121845,0.048951104
+68418-3,bilirubin in plasma,mesothelial cell leukocyte vitreous fluid manual count,0.05609370346121845,0.06475249
+63554-0,bilirubin in plasma,leukocyte 24 hour urine sediment microscopy,0.05609370346121845,0.045794237
+94231-8,bilirubin in plasma,g6pd gene full mutation analysis blood tissue sequencing,0.04662677904195259,0.025790904
+4660-7,bilirubin in plasma,deprecated leukocyte detection ab,0.04662677904195259,0.06408573
+24346-9,bilirubin in plasma,parathyrin intact calcium panel serum plasma,0.04662677904195259,0.1401309
+50179-1,bilirubin in plasma,calcitonin calcium pentagastrin challenge panel serum plasma,0.04662677904195259,0.1360737
+49862-6,bilirubin in plasma,g6pc gene targeted mutation analysis blood tissue molecular genetics method,0.04662677904195259,0.028519178
+1380-5,bilirubin in plasma,calcium phosphate parathyroid challenge test mass ratio serum,0.03303858221514286,0.046282317
+71648-0,bilirubin in plasma,monocyte leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.06089993
+71619-1,bilirubin in plasma,mononuclear cell leukocyte pure number fraction synovial fluid manual count,0.03303858221514286,0.060674857
+71632-4,bilirubin in plasma,eosinophil leukocyte pure number fraction peritoneal fluid manual count,0.03303858221514286,0.061576188
+71675-3,bilirubin in plasma,basophil leukocyte pure number fraction blood manual count,0.03303858221514286,0.09116488
+74347-6,bilirubin in plasma,leukocyte aggregate presence blood light microscopy,0.03303858221514286,0.067043364
+43820-0,bilirubin in plasma,bilirubin direct presence serum plasma,0.03303858221514286,0.5479729
+6690-2,bilirubin in plasma,leukocyte volume blood automated count,0.03303858221514286,0.08023481
+71610-0,bilirubin in plasma,mononuclear cell leukocyte pure number fraction pleural fluid manual count,0.03303858221514286,0.057381555
+49229-8,bilirubin in plasma,nucleated erythrocyte leukocyte ratio body fluid,0.03303858221514286,0.079132
+16526-6,bilirubin in plasma,calcium protein mass ratio serum plasma,0.03303858221514286,0.15839037
+71646-4,bilirubin in plasma,eosinophil leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.05502302
+14328-9,bilirubin in plasma,leukocyte presence sputum light microscopy,0.03303858221514286,0.05948468
+71629-0,bilirubin in plasma,mononuclear cell leukocyte pure number fraction peritoneal fluid manual count,0.03303858221514286,0.065683596
+55784-3,bilirubin in plasma,leukocyte volume corrected nucleated erythrocyte bone marrow,0.03303858221514286,0.07168447
+812-8,bilirubin in plasma,leukocyte volume semen manual count,0.03303858221514286,0.0682346
+52999-0,bilirubin in plasma,leukocyte disintegrated volume blood,0.03303858221514286,0.0953864
+35051-2,bilirubin in plasma,leukocyte volume body fluid,0.03303858221514286,0.08125448
+33256-9,bilirubin in plasma,leukocyte volume corrected nucleated erythrocyte blood automated count,0.03303858221514286,0.08677805
+71650-6,bilirubin in plasma,segmented neutrophil leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.06485499
+98020-1,bilirubin in plasma,leukocyte volume lower respiratory specimen manual count,0.03303858221514286,0.0643291
+14811-4,bilirubin in plasma,leukocyte volume pericardial fluid manual count,0.03303858221514286,0.081972145
+71595-3,bilirubin in plasma,basophil leukocyte pure number fraction bronchial specimen manual count,0.03303858221514286,0.07685837
+13444-5,bilirubin in plasma,calcium albumin mass ratio serum plasma,0.03303858221514286,0.15994719
+34469-7,bilirubin in plasma,leukocyte presence bile fluid light microscopy,0.03303858221514286,0.07438839
+67830-0,bilirubin in plasma,leukocyte volume pericardial fluid,0.03303858221514286,0.076672725
+72348-6,bilirubin in plasma,leukocyte volume prostatic fluid manual count,0.03303858221514286,0.067754894
+17790-7,bilirubin in plasma,leukocyte left shift presence blood automated count,0.03303858221514286,0.06272779
+62442-9,bilirubin in plasma,nucleated erythrocyte leukocyte ratio synovial fluid automated count,0.03303858221514286,0.054217435
+30401-4,bilirubin in plasma,leukocyte volume bronchial specimen,0.03303858221514286,0.064206466
+71668-8,bilirubin in plasma,metamyelocytes leukocyte pure number fraction blood manual count,0.03303858221514286,0.07348199
+71676-1,bilirubin in plasma,neutrophil leukocyte pure number fraction blood automated count,0.03303858221514286,0.07405441
+71604-3,bilirubin in plasma,monocyte leukocyte pure number fraction pericardial fluid manual count,0.03303858221514286,0.06437577
+71674-6,bilirubin in plasma,eosinophil leukocyte pure number fraction blood manual count,0.03303858221514286,0.067748986
+804-5,bilirubin in plasma,leukocyte volume blood manual count,0.03303858221514286,0.08332283
+57845-0,bilirubin in plasma,leukocyte volume body fluid automated count,0.03303858221514286,0.070944995
+71625-8,bilirubin in plasma,neutrophil leukocyte pure number fraction synovial fluid manual count,0.03303858221514286,0.06278868
+71660-5,bilirubin in plasma,lymphocyte leukocyte pure number fraction cerebral spinal fluid manual count,0.03303858221514286,0.048403256
+71617-5,bilirubin in plasma,granulocyte leukocyte pure number fraction synovial fluid manual count,0.03303858221514286,0.06548309
+40533-2,bilirubin in plasma,leukocyte volume peritoneal dialysis fluid manual count,0.03303858221514286,0.06561812
+26466-3,bilirubin in plasma,leukocyte volume body fluid,0.03303858221514286,0.078141965
+71649-8,bilirubin in plasma,lymphocyte leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.0519155
+14373-5,bilirubin in plasma,leukocyte volume gastric fluid manual count,0.03303858221514286,0.078740366
+60026-2,bilirubin in plasma,leukocyte esterase presence urine automated test strip,0.022879429508984486,0.045288485
+50226-0,bilirubin in plasma,erythrocyte clump presence urine computer assisted method,0.022879429508984486,0.05669551
+105087-1,bilirubin in plasma,epithelial cell squamous presence urine,0.022879429508984486,0.023591332
+20409-9,bilirubin in plasma,erythrocyte volume urine test strip,0.022879429508984486,0.08093825
+53316-6,bilirubin in plasma,leukocyte presence urine automated,0.022879429508984486,0.040923204
+105102-8,bilirubin in plasma,leukocyte clump volume urine,0.022879429508984486,0.07049866
+53318-2,bilirubin in plasma,epithelial cell squamous presence urine automated,0.022879429508984486,0.024185788
+40660-3,bilirubin in plasma,promyelocytes leukocyte body fluid manual count,0.015964718290327022,0.054141194
+11031-2,bilirubin in plasma,lymphocyte leukocyte body fluid,0.015964718290327022,0.055742014
+70066-6,bilirubin in plasma,mononuclear cell leukocyte pleural fluid automated count,0.015964718290327022,0.049915653
+14343-8,bilirubin in plasma,eosinophil leukocyte peritoneal fluid manual count,0.015964718290327022,0.055545457
+12236-6,bilirubin in plasma,mononuclear cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.056318305
+30423-8,bilirubin in plasma,lymphoma cell leukocyte blood,0.015964718290327022,0.060264427
+26513-2,bilirubin in plasma,neutrophil leukocyte body fluid,0.015964718290327022,0.060687672
+13526-9,bilirubin in plasma,nonhematic cell leukocyte body fluid manual count,0.015964718290327022,0.054957617
+13941-0,bilirubin in plasma,lymphocyte leukocyte body fluid manual count,0.015964718290327022,0.05208749
+13522-8,bilirubin in plasma,blast leukocyte body fluid manual count,0.015964718290327022,0.055386987
+34992-8,bilirubin in plasma,smudge cell leukocyte blood,0.015964718290327022,0.0686494
+30380-0,bilirubin in plasma,eosinophil leukocyte peritoneal fluid,0.015964718290327022,0.054615688
+30378-4,bilirubin in plasma,eosinophil leukocyte nose,0.015964718290327022,0.035429552
+26451-5,bilirubin in plasma,eosinophil leukocyte cerebral spinal fluid,0.015964718290327022,0.04620882
+74236-1,bilirubin in plasma,unidentified cell leukocyte pericardial fluid manual count,0.015964718290327022,0.055330105
+13519-4,bilirubin in plasma,basophil leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.07041397
+74455-7,bilirubin in plasma,blast leukocyte cord blood,0.015964718290327022,0.069414295
+58802-0,bilirubin in plasma,mononuclear cell leukocyte peritoneal dialysis fluid,0.015964718290327022,0.056807797
+13354-6,bilirubin in plasma,band form neutrophil leukocyte body fluid manual count,0.015964718290327022,0.06433952
+32200-8,bilirubin in plasma,segmented neutrophil leukocyte blood automated count,0.015964718290327022,0.07100554
+33384-9,bilirubin in plasma,segmented neutrophil leukocyte peritoneal fluid,0.015964718290327022,0.062183596
+13527-7,bilirubin in plasma,unidentified cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.04909064
+33786-5,bilirubin in plasma,immature basophil leukocyte blood manual count,0.015964718290327022,0.090300016
+40540-7,bilirubin in plasma,basophil leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.06387565
+44096-6,bilirubin in plasma,unidentified cell leukocyte blood automated count,0.015964718290327022,0.06251391
+49787-5,bilirubin in plasma,granulocyte leukocyte pericardial fluid,0.015964718290327022,0.061512265
+54415-5,bilirubin in plasma,transfuse leukocyte poor platelet unit,0.015964718290327022,0.052616615
+75353-3,bilirubin in plasma,cell leukocyte body fluid manual count,0.015964718290327022,0.051319074
+30366-9,bilirubin in plasma,metamyelocytes leukocyte cerebral spinal fluid,0.015964718290327022,0.050028082
+53519-5,bilirubin in plasma,monocyte leukocyte dialysis fluid,0.015964718290327022,0.058812924
+33386-4,bilirubin in plasma,segmented neutrophil leukocyte synovial fluid,0.015964718290327022,0.056031004
+13521-0,bilirubin in plasma,blast leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.050185636
+33833-5,bilirubin in plasma,lymphocyte immunoblastic leukocyte blood manual count,0.015964718290327022,0.058455292
+40517-5,bilirubin in plasma,macrophage leukocyte peritoneal fluid manual count,0.015964718290327022,0.05596356
+19252-6,bilirubin in plasma,megakaryocyte leukocyte blood,0.015964718290327022,0.07618479
+33849-1,bilirubin in plasma,plasma cell precursor leukocyte blood manual count,0.015964718290327022,0.08177221
+12238-2,bilirubin in plasma,neutrophil leukocyte body fluid manual count,0.015964718290327022,0.06310562
+34921-7,bilirubin in plasma,lymphocyte plasmacytoid leukocyte blood,0.015964718290327022,0.074459285
+26478-8,bilirubin in plasma,lymphocyte leukocyte blood,0.015964718290327022,0.064074464
+70039-3,bilirubin in plasma,granulocyte leukocyte peritoneal fluid automated count,0.015964718290327022,0.063871995
+74428-4,bilirubin in plasma,metamyelocytes neutrophilic leukocyte blood manual count,0.015964718290327022,0.06823094
+30417-0,bilirubin in plasma,variant lymphocyte leukocyte body fluid,0.015964718290327022,0.04940765
+764-1,bilirubin in plasma,band form neutrophil leukocyte blood manual count,0.015964718290327022,0.07080997
+26519-9,bilirubin in plasma,granulocyte leukocyte pleural fluid,0.015964718290327022,0.057909977
+74396-3,bilirubin in plasma,large unstained cell leukocyte cord blood automated count,0.015964718290327022,0.06104481
+100708-7,bilirubin in plasma,plasma cell leukocyte synovial fluid,0.015964718290327022,0.0667158
+32807-0,bilirubin in plasma,mononuclear cell leukocyte bronchial specimen,0.015964718290327022,0.055439223
+26471-3,bilirubin in plasma,leukocyte leukocyte blood,0.015964718290327022,0.07077505
+782-3,bilirubin in plasma,deprecated promyelocytes 100 leukocyte blood automated count,0.015964718290327022,0.0663255
+30409-7,bilirubin in plasma,leukocyte leukocyte peritoneal fluid,0.015964718290327022,0.061631802
+26480-4,bilirubin in plasma,lymphocyte leukocyte pericardial fluid,0.015964718290327022,0.052928064
+17804-6,bilirubin in plasma,promonocytes leukocyte body fluid,0.015964718290327022,0.05160504
+26505-8,bilirubin in plasma,segmented neutrophil leukocyte blood,0.015964718290327022,0.07483367
+31995-4,bilirubin in plasma,basophil leukocyte pleural fluid manual count,0.015964718290327022,0.070187144
+14625-8,bilirubin in plasma,basophil leukocyte bronchial specimen manual count,0.015964718290327022,0.07670898
+31996-2,bilirubin in plasma,basophil leukocyte peritoneal fluid manual count,0.015964718290327022,0.07866701
+23904-6,bilirubin in plasma,monocyte macrophage leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.044706278
+33389-8,bilirubin in plasma,monocyte leukocyte pericardial fluid,0.015964718290327022,0.056728456
+51622-9,bilirubin in plasma,mesothelial cell leukocyte dialysis fluid manual count,0.015964718290327022,0.059198294
+56774-3,bilirubin in plasma,lymphocyte leukocyte tissue,0.015964718290327022,0.04333686
+714-6,bilirubin in plasma,eosinophil leukocyte blood manual count,0.015964718290327022,0.059841182
+6746-2,bilirubin in plasma,prolymphocytes leukocyte blood manual count,0.015964718290327022,0.07673031
+17227-0,bilirubin in plasma,lymphocyte leukocyte synovial fluid automated count,0.015964718290327022,0.04768039
+14823-9,bilirubin in plasma,macrophage leukocyte bronchial specimen manual count,0.015964718290327022,0.05725786
+50724-4,bilirubin in plasma,lymphoblast leukocyte bone marrow manual count,0.015964718290327022,0.04413759
+31994-7,bilirubin in plasma,basophil leukocyte pericardial fluid manual count,0.015964718290327022,0.0757167
+74141-3,bilirubin in plasma,granulocyte leukocyte peritoneal dialysis fluid,0.015964718290327022,0.060662538
+13520-2,bilirubin in plasma,deprecated basophil 100 leukocyte body fluid manual count,0.015964718290327022,0.07591121
+74814-5,bilirubin in plasma,plasma cell centroblasts leukocyte blood manual count,0.015964718290327022,0.07323355
+55433-7,bilirubin in plasma,immature cell leukocyte blood,0.015964718290327022,0.076642804
+33548-9,bilirubin in plasma,abnormal lymphocyte leukocyte body fluid manual count,0.015964718290327022,0.04569744
+54413-0,bilirubin in plasma,transfuse leukocyte poor plateletpheresis unit,0.015964718290327022,0.053739563
+14860-1,bilirubin in plasma,leukocyte leukocyte synovial fluid manual count,0.015964718290327022,0.05832808
+93952-0,bilirubin in plasma,metamyelocytes neutrophilic leukocyte bone marrow manual count,0.015964718290327022,0.045875058
+30157-2,bilirubin in plasma,heterophils leukocyte blood,0.015964718290327022,0.0663562
+30230-7,bilirubin in plasma,segmented neutrophil leukocyte body fluid manual count,0.015964718290327022,0.058029585
+75375-6,bilirubin in plasma,cell leukocyte sputum manual count,0.015964718290327022,0.056200318
+40541-5,bilirubin in plasma,plasma cell leukocyte cerebral spinal fluid microscopy,0.015964718290327022,0.05989138
+69916-5,bilirubin in plasma,basophil mast cell leukocyte synovial fluid,0.015964718290327022,0.06271434
+713-8,bilirubin in plasma,eosinophil leukocyte blood automated count,0.015964718290327022,0.06112943
+21094-8,bilirubin in plasma,basophil leukocyte sputum manual count,0.015964718290327022,0.07079202
+33374-0,bilirubin in plasma,blast leukocyte synovial fluid,0.015964718290327022,0.053222124
+10329-1,bilirubin in plasma,monocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.04712001
+47413-0,bilirubin in plasma,plasma cell leukocyte cerebral spinal fluid,0.015964718290327022,0.069027096
+33990-3,bilirubin in plasma,normoblasts leukocyte blood,0.015964718290327022,0.09881326
+33409-4,bilirubin in plasma,variant lymphocyte leukocyte pericardial fluid,0.015964718290327022,0.050067365
+26494-5,bilirubin in plasma,mononuclear cell leukocyte pleural fluid,0.015964718290327022,0.0501717
+70028-6,bilirubin in plasma,megakaryocytic nucleus leukocyte blood manual count,0.015964718290327022,0.06199063
+95225-9,bilirubin in plasma,band form neutrophil leukocyte stem cell product manual count,0.015964718290327022,0.052487783
+26497-8,bilirubin in plasma,mononuclear cell leukocyte synovial fluid,0.015964718290327022,0.052604504
+75352-5,bilirubin in plasma,cell leukocyte pericardial fluid manual count,0.015964718290327022,0.05460766
+71696-9,bilirubin in plasma,granulocyte leukocyte body fluid automated count,0.015964718290327022,0.05295594
+50725-1,bilirubin in plasma,monoblast leukocyte bone marrow manual count,0.015964718290327022,0.05170036
+35058-7,bilirubin in plasma,hairy cell leukocyte blood,0.015964718290327022,0.069464415
+53516-1,bilirubin in plasma,basophil leukocyte dialysis fluid manual count,0.015964718290327022,0.07008035
+14819-7,bilirubin in plasma,lymphocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.053115536
+21394-2,bilirubin in plasma,monocyte macrophage leukocyte body fluid manual count,0.015964718290327022,0.04787244
+56769-3,bilirubin in plasma,lymphocyte leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.050690755
+15197-7,bilirubin in plasma,lymphocyte clefted leukocyte blood manual count,0.015964718290327022,0.068774074
+12209-3,bilirubin in plasma,eosinophil leukocyte body fluid manual count,0.015964718290327022,0.056418486
+74459-9,bilirubin in plasma,immature granulocyte leukocyte blood fetus,0.015964718290327022,0.07264304
+30395-8,bilirubin in plasma,granulocyte leukocyte blood,0.015964718290327022,0.074252024
+17287-4,bilirubin in plasma,monocyte leukocyte urine manual count,0.005805565584168643,0.061239675
+99598-5,bilirubin in plasma,erythrocyte dysmorphic erythrocyte urine automated count,0.005805565584168643,0.047934957
+32014-3,bilirubin in plasma,eosinophil leukocyte urine manual count,0.005805565584168643,0.04015099
+14378-4,bilirubin in plasma,granulocyte leukocyte urine manual count,0.005805565584168643,0.063219674
+99871-6,calcium in serum,erythrocyte ghost cell volume urine sediment computer assisted method,0.07316756738603428,0.074378744
+99862-5,calcium in serum,erythrocyte dysmorphic area urine sediment computer assisted method,0.07316756738603428,0.06784522
+68434-0,calcium in serum,leukocyte volume vitreous fluid automated count,0.07316756738603428,0.06766077
+30120-0,calcium in serum,igd lymphocyte volume leukocyte,0.07316756738603428,0.06689588
+105113-5,calcium in serum,epithelial cell area urine sediment,0.07316756738603428,0.06653191
+13945-1,calcium in serum,erythrocyte area urine sediment microscopy high power field,0.07316756738603428,0.091107994
+58444-1,calcium in serum,erythrocyte dysmorphic presence urine sediment light microscopy,0.07316756738603428,0.062012807
+105105-1,calcium in serum,leukocyte presence urine sediment,0.07316756738603428,0.06361314
+5820-6,calcium in serum,wbc cast area urine sediment microscopy low power field,0.07316756738603428,0.06606917
+105120-0,calcium in serum,epithelial cell squamous presence urine sediment,0.07316756738603428,0.05066858
+46702-7,calcium in serum,leukocyte area urine sediment automated count,0.07316756738603428,0.07465239
+45383-7,calcium in serum,leukocyte area urine sediment microscopy low power field,0.07316756738603428,0.068679884
+68902-6,calcium in serum,erythrocyte volume light microscopy urine sediment collected unspecified duration,0.07316756738603428,0.09133201
+53294-5,calcium in serum,epithelial cell non squamous area urine sediment automated count,0.07316756738603428,0.062271666
+88976-6,calcium in serum,wbc cast area urine sediment,0.07316756738603428,0.065940976
+63555-7,calcium in serum,leukocyte volume microscopy high power field urine sediment collected unspecified duration,0.07316756738603428,0.08588806
+20453-7,calcium in serum,epithelial cell presence urine sediment light microscopy,0.07316756738603428,0.062050402
+12226-7,calcium in serum,leukocyte presence vaginal fluid wet preparation,0.07316756738603428,0.05676957
+107170-3,calcium in serum,tubular cell volume urine sediment,0.07316756738603428,0.1013958
+99874-0,calcium in serum,superficial transitional cell volume urine sediment computer assisted method,0.07316756738603428,0.080856375
+99870-8,calcium in serum,erythrocyte ghost cell area urine sediment computer assisted method,0.07316756738603428,0.06653832
+45391-0,calcium in serum,epithelial cell renal area urine sediment microscopy low power field,0.07316756738603428,0.07122237
+13654-9,calcium in serum,epithelial cell squamous volume urine sediment,0.07316756738603428,0.08528706
+2000-8,calcium in serum,calcium mole volume serum plasma,0.06986110913466638,0.93011534
+22665-4,calcium in serum,bilirubin delta mole volume serum plasma,0.06986110913466638,0.19921726
+57473-1,calcium in serum,calcitriol mole volume serum plasma 1 hour post dose calcium,0.06986110913466638,0.58364576
+15074-8,calcium in serum,glucose mole volume blood,0.06986110913466638,0.116419405
+41201-5,calcium in serum,voltage gated calcium channel igg ab mole volume serum,0.06986110913466638,0.6402089
+12180-6,calcium in serum,calcium ionized mole volume serum plasma ion selective membrane electrode ise,0.06986110913466638,0.5739179
+40223-0,calcium in serum,calcium mole volume serum plasma pre xxx challenge,0.06986110913466638,0.57534015
+40235-4,calcium in serum,calcium mole volume serum plasma 5 hour post xxx challenge,0.06986110913466638,0.57294923
+33980-4,calcium in serum,voltage gated calcium channel p q type binding ab mole volume serum,0.06986110913466638,0.6383138
+33899-6,calcium in serum,bilirubin conjugated indirect mole volume serum plasma,0.06986110913466638,0.19951569
+16524-1,calcium in serum,calcium mole volume serum plasma 6 hour post xxx challenge,0.06986110913466638,0.57177156
+1382-1,calcium in serum,calcium mole volume serum plasma 5 minute post 2 4 mg kg calcium short iv,0.06986110913466638,0.579974
+104875-0,calcium in serum,hematocrit volume fraction blood 30 minute post dose glucose,0.06986110913466638,0.082011074
+31024-3,calcium in serum,voltage gated calcium channel ab mole volume serum,0.06986110913466638,0.63940465
+40243-8,calcium in serum,calcium mole volume serum plasma 20 hour post xxx challenge,0.06986110913466638,0.57107514
+40233-9,calcium in serum,calcium mole volume serum plasma 3 hour post xxx challenge,0.06986110913466638,0.5743372
+16514-2,calcium in serum,calcium ionized mole volume serum plasma 4th specimen post xxx challenge,0.06986110913466638,0.56818694
+40241-2,calcium in serum,calcium mole volume serum plasma 14 hour post xxx challenge,0.06986110913466638,0.57053447
+40225-5,calcium in serum,calcium mole volume serum plasma 15 minute pre xxx challenge,0.06986110913466638,0.572065
+16515-9,calcium in serum,calcium ionized mole volume serum plasma 5th specimen post xxx challenge,0.06986110913466638,0.57125175
+42567-8,calcium in serum,calcium ionized mass mole volume serum plasma,0.06370064296676842,0.57394314
+44050-3,calcium in serum,glucose phosphate isomerase enzymatic activity mass red blood cell,0.06370064296676842,0.081956305
+35246-8,calcium in serum,calcium mass mole volume serum plasma,0.06370064296676842,0.9086002
+47719-0,calcium in serum,parathyrin mass volume serum plasma pre dose calcium,0.06370064296676842,0.5618238
+49266-0,calcium in serum,glucose 6 phosphate dehydrogenase phenotype interpretation red blood cell narrative,0.06370064296676842,0.051294997
+27913-3,calcium in serum,calcium mass volume serum plasma 7th specimen post xxx challenge,0.06370064296676842,0.5649561
+18264-2,calcium in serum,deprecated direct bilirubin mass volume serum plasma,0.06370064296676842,0.19328137
+27910-9,calcium in serum,calcium mass volume serum plasma 6th specimen post xxx challenge,0.06370064296676842,0.56518525
+35194-0,calcium in serum,bilirubin total mass mole volume serum plasma,0.06370064296676842,0.18580891
+104598-8,calcium in serum,glucose mass volume arterial blood glucometer,0.06370064296676842,0.09756183
+47718-2,calcium in serum,parathyrin mass volume serum plasma 4 hour post dose calcium,0.06370064296676842,0.5614985
+42319-4,calcium in serum,glucose 6 phosphate dehydrogenase phenotype interpretation red blood cell,0.06370064296676842,0.047994513
+57474-9,calcium in serum,calcitriol mass volume serum plasma 1 hour post dose calcium,0.06370064296676842,0.57760376
+1374-8,calcium in serum,calcitonin mass volume serum plasma 3 hour post 15 mg kg calcium gluconate iv,0.06370064296676842,0.5700959
+51950-4,calcium in serum,calcium mass volume serum plasma post dialysis,0.06370064296676842,0.5746267
+16271-9,calcium in serum,calcium mass volume serum plasma 30 minute post xxx challenge,0.06370064296676842,0.5634641
+40085-3,calcium in serum,calcium mass volume serum plasma 2 day post xxx challenge,0.06370064296676842,0.55945724
+12724-1,calcium in serum,voltage gated calcium channel igg ab unit volume serum,0.06370064296676842,0.6304918
+50184-1,calcium in serum,calcitonin mass volume serum plasma pre 2 mg kg calcium 0 5 ug kg pentagastrin iv,0.06370064296676842,0.5678496
+27935-6,calcium in serum,calcium mass volume serum plasma 4th specimen post xxx challenge,0.06370064296676842,0.5632233
+34907-6,calcium in serum,calcium mass volume corrected total protein serum plasma,0.06370064296676842,0.5735166
+57470-7,calcium in serum,calcitriol mass volume serum plasma 2 hour post dose calcium,0.06370064296676842,0.5793856
+40076-2,calcium in serum,calcium mass volume serum plasma 7 5 hour post xxx challenge,0.06370064296676842,0.56422526
+40070-5,calcium in serum,calcium mass volume serum plasma 2 5 hour post xxx challenge,0.06370064296676842,0.56513286
+12210-1,calcium in serum,eosinophil leukocyte urine sediment manual count,0.05609370346121845,0.060437188
+4529-4,calcium in serum,deprecated complement receptor 3,0.05609370346121845,0.035161823
+4530-2,calcium in serum,deprecated complement receptor 4,0.05609370346121845,0.034296118
+32177-8,calcium in serum,granulocyte leukocyte vaginal fluid,0.05609370346121845,0.0665707
+53966-8,calcium in serum,erythrocyte dysmorphic g1 erythrocyte urine sediment light microscopy,0.05609370346121845,0.07285445
+32593-6,calcium in serum,eosinophil leukocyte specimen,0.05609370346121845,0.051492892
+23903-8,calcium in serum,monocyte macrophage leukocyte specimen manual count,0.05609370346121845,0.057526577
+23823-8,calcium in serum,basophil leukocyte specimen manual count,0.05609370346121845,0.05818524
+14384-2,calcium in serum,mononuclear cell leukocyte urine sediment manual count,0.05609370346121845,0.07341293
+68412-6,calcium in serum,macrophage leukocyte vitreous fluid manual count,0.05609370346121845,0.056530844
+4527-8,calcium in serum,deprecated complement receptor 1,0.05609370346121845,0.03465424
+94231-8,calcium in serum,g6pd gene full mutation analysis blood tissue sequencing,0.04662677904195259,0.03650822
+50179-1,calcium in serum,calcitonin calcium pentagastrin challenge panel serum plasma,0.04662677904195259,0.53944665
+62850-3,calcium in serum,deprecated phenx measure fasting plasma glucose diabetes screening blood draw,0.04662677904195259,0.044600114
+58091-0,calcium in serum,glucose 6 phosphate dehydrogenase newborn screen panel,0.04662677904195259,0.05598799
+53226-7,calcium in serum,leukocyte area urethra wet preparation,0.03303858221514286,0.06360124
+71617-5,calcium in serum,granulocyte leukocyte pure number fraction synovial fluid manual count,0.03303858221514286,0.07170468
+34445-7,calcium in serum,leukocyte presence body fluid,0.03303858221514286,0.054294735
+62239-9,calcium in serum,leukocyte volume blood fetus automated count,0.03303858221514286,0.073093385
+71600-1,calcium in serum,macrophage leukocyte pure number fraction pericardial fluid manual count,0.03303858221514286,0.06494545
+1380-5,calcium in serum,calcium phosphate parathyroid challenge test mass ratio serum,0.03303858221514286,0.6259656
+71642-3,calcium in serum,promyelocytes leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.06901006
+71619-1,calcium in serum,mononuclear cell leukocyte pure number fraction synovial fluid manual count,0.03303858221514286,0.058441214
+71597-9,calcium in serum,lymphocyte leukocyte pure number fraction bronchial specimen manual count,0.03303858221514286,0.06320496
+48052-5,calcium in serum,leukocyte volume corrected nucleated erythrocyte body fluid,0.03303858221514286,0.07027619
+71639-9,calcium in serum,monocyte macrophage leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.060042035
+30402-2,calcium in serum,leukocyte volume gastric fluid,0.03303858221514286,0.059700526
+49928-5,calcium in serum,leukocyte volume peritoneal dialysis fluid,0.03303858221514286,0.06755651
+71598-7,calcium in serum,neutrophil leukocyte pure number fraction bronchial specimen manual count,0.03303858221514286,0.05818524
+71624-1,calcium in serum,lymphocyte leukocyte pure number fraction synovial fluid manual count,0.03303858221514286,0.062275328
+62440-3,calcium in serum,nucleated erythrocyte leukocyte ratio body fluid automated count,0.03303858221514286,0.061543733
+30406-3,calcium in serum,leukocyte volume blood,0.03303858221514286,0.08569706
+95218-4,calcium in serum,leukocyte volume stem cell product,0.03303858221514286,0.06542002
+33765-9,calcium in serum,leukocyte volume blood product unit platelet pheresis automated count,0.03303858221514286,0.064644285
+71599-5,calcium in serum,mesothelial cell leukocyte pure number fraction pericardial fluid manual count,0.03303858221514286,0.0764247
+88114-4,calcium in serum,leukocyte presence cerebral spinal fluid gram stain,0.03303858221514286,0.060379814
+809-4,calcium in serum,leukocyte volume peritoneal fluid automated count,0.03303858221514286,0.071583875
+13444-5,calcium in serum,calcium albumin mass ratio serum plasma,0.03303858221514286,0.56376344
+15190-2,calcium in serum,leukocyte identifier blood automated count,0.03303858221514286,0.055419795
+71648-0,calcium in serum,monocyte leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.06644511
+57846-8,calcium in serum,leukocyte volume pericardial fluid automated count,0.03303858221514286,0.0677989
+71678-7,calcium in serum,lymphocyte leukocyte pure number fraction blood automated count,0.03303858221514286,0.0769299
+71658-9,calcium in serum,neutrophil leukocyte pure number fraction cerebral spinal fluid manual count,0.03303858221514286,0.06537531
+71643-1,calcium in serum,metamyelocytes leukocyte pure number fraction body fluid manual count,0.03303858221514286,0.070062816
+14373-5,calcium in serum,leukocyte volume gastric fluid manual count,0.03303858221514286,0.062412184
+35054-6,calcium in serum,leukocyte volume peritoneal fluid,0.03303858221514286,0.07839083
+35051-2,calcium in serum,leukocyte volume body fluid,0.03303858221514286,0.074582696
+26465-5,calcium in serum,leukocyte volume cerebral spinal fluid,0.03303858221514286,0.08500975
+71662-1,calcium in serum,basophil leukocyte pure number fraction cerebral spinal fluid manual count,0.03303858221514286,0.062412255
+804-5,calcium in serum,leukocyte volume blood manual count,0.03303858221514286,0.081575155
+12225-9,calcium in serum,leukocyte area sputum microscopy high power field,0.03303858221514286,0.0689467
+30403-0,calcium in serum,leukocyte volume pericardial fluid,0.03303858221514286,0.07524685
+17790-7,calcium in serum,leukocyte left shift presence blood automated count,0.03303858221514286,0.05630282
+30404-8,calcium in serum,leukocyte volume stool,0.03303858221514286,0.07411524
+48705-8,calcium in serum,leukocyte platelet morphology blood,0.03303858221514286,0.058270633
+30411-3,calcium in serum,leukocyte left shift presence blood,0.03303858221514286,0.051551674
+71651-4,calcium in serum,macrophage leukocyte pure number fraction cerebral spinal fluid manual count,0.03303858221514286,0.067646556
+26469-7,calcium in serum,leukocyte volume synovial fluid,0.03303858221514286,0.07177247
+51487-7,calcium in serum,leukocyte volume urine automated count,0.022879429508984486,0.08237764
+33666-9,calcium in serum,erythrocyte dysmorphic volume urine light microscopy,0.022879429508984486,0.083294675
+53272-1,calcium in serum,transitional cell presence urine computer assisted method,0.022879429508984486,0.051671356
+57747-8,calcium in serum,erythrocyte volume urine automated test strip,0.022879429508984486,0.08664183
+33228-8,calcium in serum,wbc cast area urine computer assisted method,0.022879429508984486,0.0680189
+104646-5,calcium in serum,leukocyte area urine computer assisted method,0.022879429508984486,0.06858273
+24122-4,calcium in serum,leukocyte volume urine manual count,0.022879429508984486,0.08740722
+27297-1,calcium in serum,leukocyte esterase unit volume urine,0.022879429508984486,0.08215356
+53275-4,calcium in serum,transitional cell volume urine computer assisted method,0.022879429508984486,0.077797644
+53285-3,calcium in serum,rbc cast volume urine computer assisted method,0.022879429508984486,0.07911968
+51487-7,calcium in serum,leukocyte volume urine automated count,0.022879429508984486,0.08237764
+30391-7,calcium in serum,erythrocyte volume urine,0.022879429508984486,0.087682344
+53318-2,calcium in serum,epithelial cell squamous presence urine automated,0.022879429508984486,0.044021428
+53276-2,calcium in serum,urinalysis type non squamous epithelial cell panel area urine computer assisted method,0.022879429508984486,0.057686035
+30383-4,calcium in serum,epithelial cell volume urine,0.022879429508984486,0.07943944
+53286-1,calcium in serum,wbc cast volume urine computer assisted method,0.022879429508984486,0.076702505
+21372-8,calcium in serum,abnormal lymphocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.06841933
+70040-1,calcium in serum,granulocyte leukocyte synovial fluid automated count,0.015964718290327022,0.065120816
+95843-9,calcium in serum,neutrophil leukocyte sputum manual count,0.015964718290327022,0.052444767
+12278-8,calcium in serum,band form neutrophil leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.057652455
+33409-4,calcium in serum,variant lymphocyte leukocyte pericardial fluid,0.015964718290327022,0.060794607
+26452-3,calcium in serum,eosinophil leukocyte body fluid,0.015964718290327022,0.05969799
+21114-4,calcium in serum,deprecated blast 100 leukocyte blood automated count,0.015964718290327022,0.06432439
+17835-0,calcium in serum,monocyte leukocyte synovial fluid,0.015964718290327022,0.05809541
+51385-3,calcium in serum,plasma cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.06732201
+33833-5,calcium in serum,lymphocyte immunoblastic leukocyte blood manual count,0.015964718290327022,0.0679059
+13526-9,calcium in serum,nonhematic cell leukocyte body fluid manual count,0.015964718290327022,0.07258595
+21394-2,calcium in serum,monocyte macrophage leukocyte body fluid manual count,0.015964718290327022,0.05744076
+40491-3,calcium in serum,neutrophil leukocyte synovial fluid manual count,0.015964718290327022,0.0469407
+30373-5,calcium in serum,basophil leukocyte bronchial specimen,0.015964718290327022,0.047824778
+30430-3,calcium in serum,mesothelial cell leukocyte pericardial fluid,0.015964718290327022,0.07051929
+34911-8,calcium in serum,immature basophil leukocyte blood,0.015964718290327022,0.062172193
+40526-6,calcium in serum,plasma cell leukocyte pericardial fluid manual count,0.015964718290327022,0.06570197
+74463-1,calcium in serum,normoblasts leukocyte blood fetus,0.015964718290327022,0.05657231
+32155-4,calcium in serum,basophil eosinophil monocyte leukocyte blood automated count,0.015964718290327022,0.05297713
+14326-3,calcium in serum,eosinophil leukocyte stool manual count,0.015964718290327022,0.0547976
+14819-7,calcium in serum,lymphocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.063019246
+47413-0,calcium in serum,plasma cell leukocyte cerebral spinal fluid,0.015964718290327022,0.07280475
+10328-3,calcium in serum,lymphocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.06741543
+66132-2,calcium in serum,mononuclear mesothelial cell leukocyte body fluid manual count,0.015964718290327022,0.06640991
+13522-8,calcium in serum,blast leukocyte body fluid manual count,0.015964718290327022,0.05624537
+30180-4,calcium in serum,basophil leukocyte blood,0.015964718290327022,0.0647805
+30419-6,calcium in serum,lymphocyte clefted leukocyte blood,0.015964718290327022,0.068561964
+40537-3,calcium in serum,monocyte leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.051889453
+66147-0,calcium in serum,granulocyte leukocyte pleural fluid fetus manual count,0.015964718290327022,0.06809035
+53127-7,calcium in serum,monocyte macrophage leukocyte tissue,0.015964718290327022,0.054505087
+750-0,calcium in serum,deprecated myelocyte 100 leukocyte blood automated count,0.015964718290327022,0.074642956
+31996-2,calcium in serum,basophil leukocyte peritoneal fluid manual count,0.015964718290327022,0.053464156
+30366-9,calcium in serum,metamyelocytes leukocyte cerebral spinal fluid,0.015964718290327022,0.06681872
+31160-5,calcium in serum,granulocyte leukocyte blood manual count,0.015964718290327022,0.08108088
+49935-0,calcium in serum,calcium ionized calcium total corrected albumin serum plasma,0.015964718290327022,0.5613283
+95220-0,calcium in serum,lymphocyte leukocyte stem cell product manual count,0.015964718290327022,0.054766696
+75375-6,calcium in serum,cell leukocyte sputum manual count,0.015964718290327022,0.0631554
+53520-3,calcium in serum,neutrophil leukocyte dialysis fluid,0.015964718290327022,0.051938735
+764-1,calcium in serum,band form neutrophil leukocyte blood manual count,0.015964718290327022,0.06220908
+17802-0,calcium in serum,prolymphocytes leukocyte body fluid,0.015964718290327022,0.0773461
+70067-4,calcium in serum,granulocyte leukocyte pleural fluid automated count,0.015964718290327022,0.06629833
+34984-5,calcium in serum,unidentified cell leukocyte synovial fluid,0.015964718290327022,0.056742042
+744-3,calcium in serum,monocyte leukocyte blood manual count,0.015964718290327022,0.06697973
+71697-7,calcium in serum,mononuclear cell leukocyte body fluid automated count,0.015964718290327022,0.059733823
+14912-0,calcium in serum,smudge cell leukocyte blood manual count,0.015964718290327022,0.07575218
+17788-1,calcium in serum,large unstained cell leukocyte blood automated count,0.015964718290327022,0.06753201
+30396-6,calcium in serum,granulocyte leukocyte bronchial specimen,0.015964718290327022,0.06377752
+30431-1,calcium in serum,mesothelial cell leukocyte pleural fluid,0.015964718290327022,0.06528809
+75350-9,calcium in serum,cell leukocyte peritoneal fluid manual count,0.015964718290327022,0.06477938
+13354-6,calcium in serum,band form neutrophil leukocyte body fluid manual count,0.015964718290327022,0.056134634
+35021-5,calcium in serum,monocyte macrophage leukocyte pleural fluid,0.015964718290327022,0.05107486
+74407-8,calcium in serum,basophil leukocyte cord blood,0.015964718290327022,0.049908545
+33842-6,calcium in serum,immature monocyte leukocyte blood manual count,0.015964718290327022,0.06720458
+13597-0,calcium in serum,neutrophil leukocyte nose,0.015964718290327022,0.053562436
+32805-4,calcium in serum,variant lymphocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.04455534
+30415-4,calcium in serum,abnormal lymphocyte leukocyte synovial fluid,0.015964718290327022,0.054932415
+54414-8,calcium in serum,leukocyte poor plateletpheresis unit given,0.015964718290327022,0.0597736
+74458-1,calcium in serum,large unstained cell leukocyte blood fetus automated count,0.015964718290327022,0.05792476
+33373-2,calcium in serum,blast leukocyte pleural fluid,0.015964718290327022,0.046198264
+34983-7,calcium in serum,unidentified cell leukocyte pleural fluid,0.015964718290327022,0.058608763
+13599-6,calcium in serum,promonocytes leukocyte blood manual count,0.015964718290327022,0.08013689
+26496-0,calcium in serum,mononuclear cell leukocyte semen,0.015964718290327022,0.060345456
+75658-5,calcium in serum,plasma cell leukocyte bronchial specimen,0.015964718290327022,0.064134024
+26482-0,calcium in serum,lymphocyte leukocyte peritoneal fluid,0.015964718290327022,0.07049246
+35070-2,calcium in serum,basophil leukocyte pleural fluid,0.015964718290327022,0.05359848
+34921-7,calcium in serum,lymphocyte plasmacytoid leukocyte blood,0.015964718290327022,0.07097343
+14344-6,calcium in serum,eosinophil leukocyte pleural fluid manual count,0.015964718290327022,0.054409977
+69017-2,calcium in serum,immature granulocyte leukocyte synovial fluid,0.015964718290327022,0.066832945
+5905-5,calcium in serum,monocyte leukocyte blood automated count,0.015964718290327022,0.06602714
+55437-8,calcium in serum,neoplastic cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.06090387
+74461-5,calcium in serum,lymphocyte leukocyte blood fetus,0.015964718290327022,0.06537574
+57836-9,calcium in serum,basophil leukocyte synovial fluid manual count,0.015964718290327022,0.051378492
+17836-8,calcium in serum,neutrophil leukocyte synovial fluid,0.015964718290327022,0.057179086
+13528-5,calcium in serum,unidentified cell leukocyte body fluid manual count,0.015964718290327022,0.069345795
+30380-0,calcium in serum,eosinophil leukocyte peritoneal fluid,0.015964718290327022,0.05456359
+13835-4,calcium in serum,monocyte leukocyte peritoneal fluid manual count,0.015964718290327022,0.0658829
+30467-5,calcium in serum,promyelocytes leukocyte cerebral spinal fluid,0.015964718290327022,0.06880794
+74814-5,calcium in serum,plasma cell centroblasts leukocyte blood manual count,0.015964718290327022,0.067904
+33385-6,calcium in serum,segmented neutrophil leukocyte pleural fluid,0.015964718290327022,0.0468546
+74428-4,calcium in serum,metamyelocytes neutrophilic leukocyte blood manual count,0.015964718290327022,0.06733243
+82736-0,calcium in serum,calcium calmodulin dependent protein kinase ii activity actual normal serum,0.015964718290327022,0.63302547
+32350-1,calcium in serum,basophil eosinophil monocyte leukocyte blood,0.015964718290327022,0.053823687
+53519-5,calcium in serum,monocyte leukocyte dialysis fluid,0.015964718290327022,0.053514775
+14380-0,calcium in serum,mononuclear cell leukocyte pleural fluid manual count,0.015964718290327022,0.05717824
+14857-7,calcium in serum,leukocyte leukocyte pericardial fluid manual count,0.015964718290327022,0.0668221
+32029-1,calcium in serum,monocyte macrophage leukocyte peritoneal fluid manual count,0.015964718290327022,0.052232724
+56772-7,calcium in serum,macrophage leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.057317983
+706-2,calcium in serum,basophil leukocyte blood automated count,0.015964718290327022,0.06329965
+95213-5,calcium in serum,basophil leukocyte stem cell product manual count,0.015964718290327022,0.04755902
+95214-3,calcium in serum,blast leukocyte stem cell product manual count,0.015964718290327022,0.040402878
+14847-8,calcium in serum,neutrophil leukocyte pericardial fluid manual count,0.015964718290327022,0.061468758
+17801-2,calcium in serum,metamyelocytes leukocyte body fluid,0.015964718290327022,0.070810884
+71695-1,calcium in serum,immature granulocyte leukocyte blood automated count,0.015964718290327022,0.07904907
+35332-6,calcium in serum,band form neutrophil leukocyte blood automated count,0.015964718290327022,0.06448595
+74451-6,calcium in serum,cell leukocyte blood fetus,0.015964718290327022,0.06443745
+40517-5,calcium in serum,macrophage leukocyte peritoneal fluid manual count,0.015964718290327022,0.061218627
+40535-7,calcium in serum,leukocyte leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.05347232
+58409-4,calcium in serum,cell leukocyte blood automated count,0.015964718290327022,0.06789816
+26487-9,calcium in serum,monocyte leukocyte body fluid,0.015964718290327022,0.06653853
+13046-8,calcium in serum,variant lymphocyte leukocyte blood,0.015964718290327022,0.06512385
+14822-1,calcium in serum,lymphocyte leukocyte synovial fluid manual count,0.015964718290327022,0.060844805
+55599-5,calcium in serum,leukocyte disintegrated leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.07100603
+34985-2,calcium in serum,unidentified cell leukocyte body fluid,0.015964718290327022,0.06605235
+713-8,calcium in serum,eosinophil leukocyte blood automated count,0.015964718290327022,0.062810436
+30423-8,calcium in serum,lymphoma cell leukocyte blood,0.015964718290327022,0.063955985
+31995-4,calcium in serum,basophil leukocyte pleural fluid manual count,0.015964718290327022,0.04796523
+26497-8,calcium in serum,mononuclear cell leukocyte synovial fluid,0.015964718290327022,0.056555625
+14378-4,calcium in serum,granulocyte leukocyte urine manual count,0.005805565584168643,0.08240397
+30462-6,calcium in serum,granulocyte leukocyte urine,0.005805565584168643,0.08103301
+99598-5,calcium in serum,erythrocyte dysmorphic erythrocyte urine automated count,0.005805565584168643,0.07269359
+30405-5,cells in urine,leukocyte volume urine,1.0000000000000002,0.9452904
+50226-0,cells in urine,erythrocyte clump presence urine computer assisted method,1.0000000000000002,0.28319743
+50225-2,cells in urine,epithelial cell non squamous presence urine automated,1.0000000000000002,0.29516074
+53278-8,cells in urine,rbc cast presence urine computer assisted method,1.0000000000000002,0.26614982
+51485-1,cells in urine,epithelial cell non squamous volume urine automated count,1.0000000000000002,0.29807115
+51485-1,cells in urine,epithelial cell non squamous volume urine automated count,1.0000000000000002,0.9585289
+105089-7,cells in urine,epithelial cell non squamous presence urine,1.0000000000000002,0.28896275
+33221-3,cells in urine,epithelial cell renal area urine computer assisted method,1.0000000000000002,0.98444796
+51486-9,cells in urine,epithelial cell squamous volume urine automated count,1.0000000000000002,0.29550788
+24123-2,cells in urine,epithelial cell volume urine manual count,1.0000000000000002,0.9862269
+53316-6,cells in urine,leukocyte presence urine automated,1.0000000000000002,0.915392
+57747-8,cells in urine,erythrocyte volume urine automated test strip,1.0000000000000002,0.95174515
+33229-6,cells in urine,rbc cast area urine computer assisted method,1.0000000000000002,0.28102642
+53318-2,cells in urine,epithelial cell squamous presence urine automated,1.0000000000000002,0.9262534
+58805-3,cells in urine,leukocyte volume urine automated test strip,1.0000000000000002,0.9446739
+53317-4,cells in urine,leukocyte clump presence urine automated,1.0000000000000002,0.9159154
+33228-8,cells in urine,wbc cast area urine computer assisted method,1.0000000000000002,0.90147847
+27297-1,cells in urine,leukocyte esterase unit volume urine,1.0000000000000002,0.93457973
+799-7,cells in urine,erythrocyte volume urine manual count,1.0000000000000002,0.2928029
+105103-6,cells in urine,leukocyte esterase presence urine,1.0000000000000002,0.2733247
+53964-3,cells in urine,leukocyte presence urine visual,1.0000000000000002,0.90545195
+24123-2,cells in urine,epithelial cell volume urine manual count,1.0000000000000002,0.30543166
+32782-5,cells in urine,leukocyte esterase nitrite presence urine test strip,1.0000000000000002,0.8830966
+104646-5,cells in urine,leukocyte area urine computer assisted method,1.0000000000000002,0.29848975
+53274-7,cells in urine,epithelial cell renal volume urine computer assisted method,1.0000000000000002,0.30295268
+87926-2,cells in urine,epithelial cell volume urine automated,1.0000000000000002,0.99241775
+53285-3,cells in urine,rbc cast volume urine computer assisted method,1.0000000000000002,0.27932924
+99598-5,cells in urine,erythrocyte dysmorphic erythrocyte urine automated count,0.9386078011773147,0.26951683
+32014-3,cells in urine,eosinophil leukocyte urine manual count,0.9386078011773147,0.86699456
+30462-6,cells in urine,granulocyte leukocyte urine,0.9386078011773147,0.2951117
+30442-8,cells in urine,monocyte leukocyte urine,0.9386078011773147,0.91688055
+17287-4,cells in urine,monocyte leukocyte urine manual count,0.9386078011773147,0.28663716
+30462-6,cells in urine,granulocyte leukocyte urine,0.9386078011773147,0.9473922
+63555-7,cells in urine,leukocyte volume microscopy high power field urine sediment collected unspecified duration,0.11748590228390393,0.6719458
+88970-9,cells in urine,rbc cast area urine sediment,0.11748590228390393,0.18772352
+13653-1,cells in urine,epithelial cell renal volume urine sediment,0.11748590228390393,0.69788736
+5821-4,cells in urine,leukocyte area urine sediment microscopy high power field,0.11748590228390393,0.22668636
+99872-4,cells in urine,superficial transitional cell presence urine sediment computer assisted method,0.11748590228390393,0.575817
+11276-3,cells in urine,tubular cell presence urine sediment light microscopy,0.11748590228390393,0.22629206
+6291-9,cells in urine,complement ic3b receptor presence leukocyte,0.11748590228390393,0.06019635
+8249-5,cells in urine,transitional cell presence urine sediment light microscopy,0.11748590228390393,0.2196363
+9840-0,cells in urine,cd11 cd20 cell volume leukocyte,0.11748590228390393,0.101673245
+5820-6,cells in urine,wbc cast area urine sediment microscopy low power field,0.11748590228390393,0.20584907
+45391-0,cells in urine,epithelial cell renal area urine sediment microscopy low power field,0.11748590228390393,0.69007915
+11276-3,cells in urine,tubular cell presence urine sediment light microscopy,0.11748590228390393,0.68842024
+46136-8,cells in urine,transitional cell area urine sediment microscopy low power field,0.11748590228390393,0.21989651
+99868-2,cells in urine,acanthocyte volume urine sediment computer assisted method,0.11748590228390393,0.5457021
+5787-7,cells in urine,epithelial cell area urine sediment microscopy high power field,0.11748590228390393,0.7112536
+4523-7,cells in urine,complement ic3b receptor entitic number leukocyte,0.11748590228390393,0.06299453
+105107-7,cells in urine,erythrocyte area urine sediment,0.11748590228390393,0.61536056
+53968-4,cells in urine,erythrocyte non dysmorphic presence urine sediment light microscopy,0.11748590228390393,0.62034684
+63555-7,cells in urine,leukocyte volume microscopy high power field urine sediment collected unspecified duration,0.11748590228390393,0.6719458
+51790-4,cells in urine,rbc cast area urine sediment microscopy high power field,0.11748590228390393,0.6407983
+88976-6,cells in urine,wbc cast area urine sediment,0.11748590228390393,0.19107786
+32776-7,cells in urine,erythrocyte presence urine sediment light microscopy,0.11748590228390393,0.64459455
+99861-7,cells in urine,erythrocyte non dysmorphic volume urine sediment computer assisted method,0.11748590228390393,0.56787103
+105104-4,cells in urine,leukocyte area urine sediment,0.11748590228390393,0.6147131
+46702-7,cells in urine,leukocyte area urine sediment automated count,0.11748590228390393,0.20683664
+105269-5,cells in urine,fractional excretion calcium ratio urine serum plasma collected unspecified duration,0.11748590228390393,0.1643488
+99877-3,cells in urine,deep transitional cell volume urine sediment computer assisted method,0.11748590228390393,0.6168099
+68902-6,cells in urine,erythrocyte volume light microscopy urine sediment collected unspecified duration,0.11748590228390393,0.22403045
+105090-5,cells in urine,erythrocyte presence urine sediment,0.11748590228390393,0.1912542
+99877-3,cells in urine,deep transitional cell volume urine sediment computer assisted method,0.11748590228390393,0.2072622
+11277-1,cells in urine,epithelial cell squamous area urine sediment microscopy high power field,0.11748590228390393,0.22709602
+4659-9,cells in urine,leukocyte phosphatase enzymatic activity volume leukocyte,0.11748590228390393,0.11594428
+99871-6,cells in urine,erythrocyte ghost cell volume urine sediment computer assisted method,0.11748590228390393,0.20869154
+45391-0,cells in urine,epithelial cell renal area urine sediment microscopy low power field,0.11748590228390393,0.2267329
+11278-9,cells in urine,bladder cell area urine sediment microscopy high power field,0.11748590228390393,0.7622991
+105120-0,cells in urine,epithelial cell squamous presence urine sediment,0.11748590228390393,0.56660604
+30089-7,cells in urine,transitional cell area urine sediment microscopy high power field,0.11748590228390393,0.23083988
+68902-6,cells in urine,erythrocyte volume light microscopy urine sediment collected unspecified duration,0.11748590228390393,0.67990977
+20455-2,cells in urine,leukocyte presence urine sediment light microscopy,0.11748590228390393,0.21709558
+99875-7,cells in urine,deep transitional cell presence urine sediment computer assisted method,0.11748590228390393,0.19447042
+30120-0,cells in urine,igd lymphocyte volume leukocyte,0.11748590228390393,0.09718273
+20453-7,cells in urine,epithelial cell presence urine sediment light microscopy,0.11748590228390393,0.68646276
+90044-9,cells in urine,epithelial cell renal presence urine sediment,0.11748590228390393,0.6192085
+9771-7,cells in urine,cd5 cd20 cell volume leukocyte,0.11748590228390393,0.09698906
+32776-7,cells in urine,erythrocyte presence urine sediment light microscopy,0.11748590228390393,0.21464574
+44092-5,cells in urine,leukocyte area vaginal fluid wet preparation,0.11748590228390393,0.1019892
+9840-0,cells in urine,cd11 cd20 cell volume leukocyte,0.11748590228390393,0.21947293
+99869-0,cells in urine,erythrocyte ghost cell presence urine sediment computer assisted method,0.11748590228390393,0.19656292
+53132-7,cells in urine,epithelial cell non squamous area urine sediment microscopy low power field,0.11748590228390393,0.6603487
+34634-6,cells in urine,cd11 cd18 cell volume leukocyte,0.11748590228390393,0.20659286
+99876-5,cells in urine,deep transitional cell area urine sediment computer assisted method,0.11748590228390393,0.2095331
+58438-3,cells in urine,cell type urine sediment light microscopy,0.11748590228390393,0.6900866
+16517-5,cells in urine,calcium ionized mole volume serum plasma 7th specimen post xxx challenge,0.11417944403253602,0.15874358
+104878-4,cells in urine,hematocrit volume fraction blood 2 hour post dose glucose,0.11417944403253602,0.12051957
+13454-4,cells in urine,calcium phosphorus product mole volume 2 serum plasma,0.11417944403253602,0.067893095
+57567-0,cells in urine,25 hydroxyvitamin d3 mole volume serum plasma 2 hour post dose calcium,0.11417944403253602,0.0710466
+40227-1,cells in urine,calcium mole volume serum plasma 30 minute post xxx challenge,0.11417944403253602,0.11461401
+53553-4,cells in urine,glucose mean value mole volume blood estimated glycated hemoglobin,0.11417944403253602,0.08034471
+1383-9,cells in urine,calcium mole volume serum plasma pre 2 4 mg kg calcium short iv,0.11417944403253602,0.08859638
+40230-5,cells in urine,calcium mole volume serum plasma 1 5 hour post xxx challenge,0.11417944403253602,0.070540264
+16513-4,cells in urine,calcium ionized mole volume serum plasma 3rd specimen post xxx challenge,0.11417944403253602,0.15279774
+47995-6,cells in urine,glucose mole volume cord blood,0.11417944403253602,0.07722684
+40240-4,cells in urine,calcium mole volume serum plasma 13 hour post xxx challenge,0.11417944403253602,0.10463798
+94348-0,cells in urine,voltage gated calcium channel n type binding igg igm ab mole volume serum immunoassay,0.11417944403253602,0.080567494
+40223-0,cells in urine,calcium mole volume serum plasma pre xxx challenge,0.11417944403253602,0.07135177
+13454-4,cells in urine,calcium phosphorus product mole volume 2 serum plasma,0.11417944403253602,0.09235636
+57569-6,cells in urine,25 hydroxyvitamin d3 mole volume serum plasma 1 hour post dose calcium,0.11417944403253602,0.07662207
+31024-3,cells in urine,voltage gated calcium channel ab mole volume serum,0.11417944403253602,0.10228365
+40245-3,cells in urine,calcium mole volume serum plasma 36 hour post xxx challenge,0.11417944403253602,0.07283516
+104876-8,cells in urine,hematocrit volume fraction blood 1 hour post dose glucose,0.11417944403253602,0.12552175
+77137-8,cells in urine,bilirubin total mole volume serum plasma blood,0.11417944403253602,0.07588321
+40241-2,cells in urine,calcium mole volume serum plasma 14 hour post xxx challenge,0.11417944403253602,0.07016961
+16513-4,cells in urine,calcium ionized mole volume serum plasma 3rd specimen post xxx challenge,0.11417944403253602,0.08395488
+29760-6,cells in urine,bilirubin conjugated mole volume serum plasma,0.11417944403253602,0.07119174
+59148-7,cells in urine,calcium mole volume serum plasma post dialysis,0.11417944403253602,0.080013126
+94705-1,cells in urine,voltage gated calcium channel p q type binding ab mole volume serum immunoassay,0.11417944403253602,0.07651107
+88335-5,cells in urine,predominant leukocyte identified type ear light microscopy,0.11417944403253602,0.08718004
+59148-7,cells in urine,calcium mole volume serum plasma post dialysis,0.11417944403253602,0.13796471
+1995-0,cells in urine,calcium ionized mole volume serum plasma,0.11417944403253602,0.12179886
+14630-8,cells in urine,bilirubin indirect mole volume serum plasma,0.11417944403253602,0.09491971
+104875-0,cells in urine,hematocrit volume fraction blood 30 minute post dose glucose,0.11417944403253602,0.13452236
+100746-7,cells in urine,glucose mole volume mixed venous blood,0.11417944403253602,0.07305537
+16270-1,cells in urine,calcium mass volume serum plasma 1 hour post xxx challenge,0.10801897786463807,0.06239015
+71593-8,cells in urine,glucose 6 phosphate dehydrogenase enzymatic activity substance red blood cell,0.10801897786463807,0.13211982
+2339-0,cells in urine,glucose mass volume blood,0.10801897786463807,0.14349858
+1375-5,cells in urine,calcitonin mass volume serum plasma 4 hour post 15 mg kg calcium gluconate iv,0.10801897786463807,0.11248486
+27353-2,cells in urine,glucose mean value mass volume blood estimated glycated hemoglobin,0.10801897786463807,0.07000269
+40065-5,cells in urine,calcium mass volume serum plasma 45 minute pre xxx challenge,0.10801897786463807,0.0569317
+46099-8,cells in urine,calcium mass volume corrected albumin serum plasma,0.10801897786463807,0.061826378
+27913-3,cells in urine,calcium mass volume serum plasma 7th specimen post xxx challenge,0.10801897786463807,0.09123788
+12724-1,cells in urine,voltage gated calcium channel igg ab unit volume serum,0.10801897786463807,0.107901245
+47718-2,cells in urine,parathyrin mass volume serum plasma 4 hour post dose calcium,0.10801897786463807,0.06171635
+49266-0,cells in urine,glucose 6 phosphate dehydrogenase phenotype interpretation red blood cell narrative,0.10801897786463807,0.09458459
+35258-3,cells in urine,calcium mass mole volume corrected total protein serum plasma,0.10801897786463807,0.056161948
+40080-4,cells in urine,calcium mass volume serum plasma 14 hour post xxx challenge,0.10801897786463807,0.05680984
+104655-6,cells in urine,glucose mass volume mixed venous blood,0.10801897786463807,0.09857744
+2339-0,cells in urine,glucose mass volume blood,0.10801897786463807,0.08148371
+2340-8,cells in urine,glucose mass volume blood automated test strip,0.10801897786463807,0.08221805
+27909-1,cells in urine,calcium mass volume serum plasma 1st specimen post xxx challenge,0.10801897786463807,0.07846113
+27933-1,cells in urine,calcium mass volume serum plasma 5th specimen post xxx challenge,0.10801897786463807,0.080840625
+17864-0,cells in urine,calcium ionized mass volume serum plasma ion selective membrane electrode ise,0.10801897786463807,0.066963606
+41604-0,cells in urine,fasting glucose mass volume capillary blood glucometer,0.10801897786463807,0.072892286
+40082-0,cells in urine,calcium mass volume serum plasma 20 hour post xxx challenge,0.10801897786463807,0.05897604
+50180-9,cells in urine,calcitonin mass volume serum plasma 10 minute post 2 mg kg calcium 0 5 ug kg pentagastrin iv,0.10801897786463807,0.07207216
+32546-4,cells in urine,glucose 6 phosphate dehydrogenase enzymatic activity mass red blood cell,0.10801897786463807,0.07257461
+104598-8,cells in urine,glucose mass volume arterial blood glucometer,0.10801897786463807,0.068252765
+18264-2,cells in urine,deprecated direct bilirubin mass volume serum plasma,0.10801897786463807,0.07391513
+27935-6,cells in urine,calcium mass volume serum plasma 4th specimen post xxx challenge,0.10801897786463807,0.07800812
+40084-6,cells in urine,calcium mass volume serum plasma 36 hour post xxx challenge,0.10801897786463807,0.056762993
+15153-0,cells in urine,deprecated indirect bilirubin mass volume serum plasma,0.10801897786463807,0.060682673
+57470-7,cells in urine,calcitriol mass volume serum plasma 2 hour post dose calcium,0.10801897786463807,0.062185146
+12724-1,cells in urine,voltage gated calcium channel igg ab unit volume serum,0.10801897786463807,0.07202401
+35191-6,cells in urine,bilirubin direct mass mole volume serum plasma,0.10801897786463807,0.059504952
+42319-4,cells in urine,glucose 6 phosphate dehydrogenase phenotype interpretation red blood cell,0.10801897786463807,0.06459716
+16272-7,cells in urine,calcium mass volume serum plasma 2 hour post xxx challenge,0.10801897786463807,0.06773644
+88365-2,cells in urine,glucose mass volume blood pre meal,0.10801897786463807,0.05789234
+17861-6,cells in urine,calcium mass volume serum plasma,0.10801897786463807,0.10089574
+2341-6,cells in urine,glucose mass volume blood test strip manual,0.10801897786463807,0.081876464
+40074-7,cells in urine,calcium mass volume serum plasma 6 hour post xxx challenge,0.10801897786463807,0.06021508
+40065-5,cells in urine,calcium mass volume serum plasma 45 minute pre xxx challenge,0.10801897786463807,0.051108047
+41651-1,cells in urine,glucose mass volume arterial blood,0.10801897786463807,0.06651596
+34907-6,cells in urine,calcium mass volume corrected total protein serum plasma,0.10801897786463807,0.058052536
+40081-2,cells in urine,calcium mass volume serum plasma 16 hour post xxx challenge,0.10801897786463807,0.056610957
+32546-4,cells in urine,glucose 6 phosphate dehydrogenase enzymatic activity mass red blood cell,0.10801897786463807,0.10997317
+40071-3,cells in urine,calcium mass volume serum plasma 3 hour post xxx challenge,0.10801897786463807,0.051588874
+86915-6,cells in urine,calcium goal mass volume serum plasma,0.10801897786463807,0.048309714
+1377-1,cells in urine,calcitonin mass volume serum plasma 5 minute post 2 4 mg kg calcium short iv,0.10801897786463807,0.06756362
+57467-3,cells in urine,calcitriol mass volume serum plasma pre dose calcium,0.10801897786463807,0.06872724
+1375-5,cells in urine,calcitonin mass volume serum plasma 4 hour post 15 mg kg calcium gluconate iv,0.10801897786463807,0.07324207
+40064-8,cells in urine,calcium mass volume serum plasma pre xxx challenge,0.10801897786463807,0.053219445
+101976-9,cells in urine,voltage gated calcium channel p q type binding ab mass volume serum immunoassay,0.10801897786463807,0.061194267
+83114-9,cells in urine,s100 calcium binding protein b mass volume serum immunoassay,0.10801897786463807,0.057807896
+71647-2,cells in urine,basophil leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.11103417
+53518-7,cells in urine,leukocyte volume dialysis fluid,0.0773569171130125,0.20823139
+71663-9,cells in urine,plasma cell leukocyte pure number fraction blood,0.0773569171130125,0.08832376
+30404-8,cells in urine,leukocyte volume stool,0.0773569171130125,0.10394343
+71619-1,cells in urine,mononuclear cell leukocyte pure number fraction synovial fluid manual count,0.0773569171130125,0.12878767
+48973-2,cells in urine,leukocyte presence stool methylene blue stain 2nd specimen,0.0773569171130125,0.19917144
+53518-7,cells in urine,leukocyte volume dialysis fluid,0.0773569171130125,0.098685905
+71608-4,cells in urine,granulocyte leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.07845659
+100849-9,cells in urine,leukocyte volume amniotic fluid manual count,0.0773569171130125,0.14961979
+71618-3,cells in urine,macrophage leukocyte pure number fraction synovial fluid manual count,0.0773569171130125,0.07014912
+71627-4,cells in urine,granulocyte leukocyte pure number fraction peritoneal fluid manual count,0.0773569171130125,0.08007628
+35051-2,cells in urine,leukocyte volume body fluid,0.0773569171130125,0.20385891
+33256-9,cells in urine,leukocyte volume corrected nucleated erythrocyte blood automated count,0.0773569171130125,0.17346826
+71651-4,cells in urine,macrophage leukocyte pure number fraction cerebral spinal fluid manual count,0.0773569171130125,0.077798836
+99929-2,cells in urine,leukocyte area body fluid automated count,0.0773569171130125,0.09125309
+71668-8,cells in urine,metamyelocytes leukocyte pure number fraction blood manual count,0.0773569171130125,0.14836752
+71611-8,cells in urine,leukocyte leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.07254807
+17790-7,cells in urine,leukocyte left shift presence blood automated count,0.0773569171130125,0.11515232
+99933-4,cells in urine,leukocyte clump presence body fluid automated,0.0773569171130125,0.08578746
+6690-2,cells in urine,leukocyte volume blood automated count,0.0773569171130125,0.09465382
+96718-2,cells in urine,leukocyte area prostatic fluid light microscopy,0.0773569171130125,0.32783088
+5914-7,cells in urine,glucose presence blood test strip,0.0773569171130125,0.12043453
+71596-1,cells in urine,eosinophil leukocyte pure number fraction bronchial specimen manual count,0.0773569171130125,0.06727963
+41282-5,cells in urine,nucleated erythrocyte leukocyte ratio body fluid manual count,0.0773569171130125,0.09017365
+71672-0,cells in urine,monocyte leukocyte pure number fraction blood manual count,0.0773569171130125,0.12976125
+71614-2,cells in urine,monocyte leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.10115536
+74347-6,cells in urine,leukocyte aggregate presence blood light microscopy,0.0773569171130125,0.10288546
+71664-7,cells in urine,smudge cell leukocyte pure number fraction blood manual count,0.0773569171130125,0.20037471
+805-2,cells in urine,leukocyte volume cerebral spinal fluid automated count,0.0773569171130125,0.13955845
+13444-5,cells in urine,calcium albumin mass ratio serum plasma,0.0773569171130125,0.05015328
+14328-9,cells in urine,leukocyte presence sputum light microscopy,0.0773569171130125,0.109167024
+40631-4,cells in urine,nucleated erythrocyte leukocyte ratio cerebral spinal fluid manual count,0.0773569171130125,0.15059787
+71605-0,cells in urine,lymphocyte leukocyte pure number fraction pericardial fluid manual count,0.0773569171130125,0.07504628
+26467-1,cells in urine,leukocyte volume pleural fluid,0.0773569171130125,0.087368004
+11156-7,cells in urine,leukocyte morphology finding identifier blood,0.0773569171130125,0.09108807
+71637-3,cells in urine,unspecified cell leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.1963037
+19048-8,cells in urine,nucleated erythrocyte leukocyte ratio blood,0.0773569171130125,0.10109034
+71670-4,cells in urine,band form neutrophil leukocyte pure number fraction blood manual count,0.0773569171130125,0.07214932
+71647-2,cells in urine,basophil leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.07285656
+34445-7,cells in urine,leukocyte presence body fluid,0.0773569171130125,0.082743585
+16525-8,cells in urine,calcium phosphate mass ratio serum plasma,0.0773569171130125,0.065089375
+51770-6,cells in urine,leukocyte area stool microscopy high power field,0.0773569171130125,0.119676314
+30411-3,cells in urine,leukocyte left shift presence blood,0.0773569171130125,0.10142293
+71625-8,cells in urine,neutrophil leukocyte pure number fraction synovial fluid manual count,0.0773569171130125,0.06764127
+18309-5,cells in urine,nucleated erythrocyte leukocyte ratio blood manual count,0.0773569171130125,0.08194194
+71596-1,cells in urine,eosinophil leukocyte pure number fraction bronchial specimen manual count,0.0773569171130125,0.090047866
+71610-0,cells in urine,mononuclear cell leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.07486049
+13349-6,cells in urine,leukocyte volume stool manual count,0.0773569171130125,0.10628634
+33256-9,cells in urine,leukocyte volume corrected nucleated erythrocyte blood automated count,0.0773569171130125,0.0894479
+71668-8,cells in urine,metamyelocytes leukocyte pure number fraction blood manual count,0.0773569171130125,0.08277758
+804-5,cells in urine,leukocyte volume blood manual count,0.0773569171130125,0.20052014
+43820-0,cells in urine,bilirubin direct presence serum plasma,0.0773569171130125,0.045609016
+16526-6,cells in urine,calcium protein mass ratio serum plasma,0.0773569171130125,0.058461122
+68430-8,cells in urine,leukocyte volume pleural fluid manual count,0.0773569171130125,0.08475864
+71677-9,cells in urine,monocyte leukocyte pure number fraction blood automated count,0.0773569171130125,0.12187515
+814-4,cells in urine,leukocyte volume synovial fluid manual count,0.0773569171130125,0.16580895
+71625-8,cells in urine,neutrophil leukocyte pure number fraction synovial fluid manual count,0.0773569171130125,0.09140875
+105921-1,cells in urine,leukocyte volume urethra wet preparation,0.0773569171130125,0.27369404
+71600-1,cells in urine,macrophage leukocyte pure number fraction pericardial fluid manual count,0.0773569171130125,0.10640975
+57845-0,cells in urine,leukocyte volume body fluid automated count,0.0773569171130125,0.093419924
+71655-5,cells in urine,metamyelocytes leukocyte pure number fraction cerebral spinal fluid manual count,0.0773569171130125,0.10338677
+71629-0,cells in urine,mononuclear cell leukocyte pure number fraction peritoneal fluid manual count,0.0773569171130125,0.12180151
+40533-2,cells in urine,leukocyte volume peritoneal dialysis fluid manual count,0.0773569171130125,0.08733013
+46090-7,cells in urine,leukocyte volume cerebral spinal fluid 4th tube,0.0773569171130125,0.14247864
+71616-7,cells in urine,neutrophil leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.06511814
+62440-3,cells in urine,nucleated erythrocyte leukocyte ratio body fluid automated count,0.0773569171130125,0.08034288
+66145-4,cells in urine,leukocyte volume blood fetus manual count,0.0773569171130125,0.186289
+71604-3,cells in urine,monocyte leukocyte pure number fraction pericardial fluid manual count,0.0773569171130125,0.113902174
+71659-7,cells in urine,monocyte leukocyte pure number fraction cerebral spinal fluid manual count,0.0773569171130125,0.081717774
+68428-2,cells in urine,leukocyte volume pericardial fluid manual count,0.0773569171130125,0.17302638
+92635-2,cells in urine,leukocyte volume buffy coat,0.0773569171130125,0.09183227
+50672-5,cells in urine,leukocyte toxic vacuole presence blood light microscopy,0.0773569171130125,0.24908312
+71606-8,cells in urine,neutrophil leukocyte pure number fraction pericardial fluid manual count,0.0773569171130125,0.0931641
+811-0,cells in urine,leukocyte volume semen automated count,0.0773569171130125,0.0956699
+99051-5,cells in urine,leukocyte volume bronchoalveolar lavage manual count,0.0773569171130125,0.083189495
+34445-7,cells in urine,leukocyte presence body fluid,0.0773569171130125,0.14823957
+14105-1,cells in urine,leukocyte presence nose light microscopy,0.0773569171130125,0.09710353
+62442-9,cells in urine,nucleated erythrocyte leukocyte ratio synovial fluid automated count,0.0773569171130125,0.075035855
+47281-1,cells in urine,leukocyte volume cord blood,0.0773569171130125,0.17153119
+46089-9,cells in urine,leukocyte volume cerebral spinal fluid 3rd tube,0.0773569171130125,0.1444123
+52999-0,cells in urine,leukocyte disintegrated volume blood,0.0773569171130125,0.20549372
+71636-5,cells in urine,plasma cell leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.16181636
+43820-0,cells in urine,bilirubin direct presence serum plasma,0.0773569171130125,0.00850017
+33287-4,cells in urine,glucose 6 phosphate dehydrogenase presence db,0.0773569171130125,0.030753575
+49229-8,cells in urine,nucleated erythrocyte leukocyte ratio body fluid,0.0773569171130125,0.21563293
+71643-1,cells in urine,metamyelocytes leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.083839424
+806-0,cells in urine,leukocyte volume cerebral spinal fluid manual count,0.0773569171130125,0.08070002
+77563-5,cells in urine,leukocyte esterase presence body fluid automated test strip,0.0773569171130125,0.12457653
+813-6,cells in urine,leukocyte volume synovial fluid automated count,0.0773569171130125,0.16958721
+71657-1,cells in urine,band form neutrophil leukocyte pure number fraction cerebral spinal fluid manual count,0.0773569171130125,0.06236628
+95218-4,cells in urine,leukocyte volume stem cell product,0.0773569171130125,0.22789893
+48973-2,cells in urine,leukocyte presence stool methylene blue stain 2nd specimen,0.0773569171130125,0.0962783
+71610-0,cells in urine,mononuclear cell leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.11857507
+805-2,cells in urine,leukocyte volume cerebral spinal fluid automated count,0.0773569171130125,0.08043665
+71660-5,cells in urine,lymphocyte leukocyte pure number fraction cerebral spinal fluid manual count,0.0773569171130125,0.0773347
+71607-6,cells in urine,mesothelial cell leukocyte pure number fraction pleural fluid manual count,0.0773569171130125,0.12864302
+46089-9,cells in urine,leukocyte volume cerebral spinal fluid 3rd tube,0.0773569171130125,0.081726514
+13448-6,cells in urine,calcium osmolality ratio serum plasma,0.0773569171130125,0.00960488
+71666-2,cells in urine,promyelocytes leukocyte pure number fraction blood manual count,0.0773569171130125,0.09495915
+55784-3,cells in urine,leukocyte volume corrected nucleated erythrocyte bone marrow,0.0773569171130125,0.1407278
+71601-9,cells in urine,leukocyte leukocyte pure number fraction pericardial fluid manual count,0.0773569171130125,0.076439135
+71642-3,cells in urine,promyelocytes leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.09395511
+71644-9,cells in urine,blast leukocyte pure number fraction body fluid manual count,0.0773569171130125,0.08117078
+71621-7,cells in urine,basophil leukocyte pure number fraction synovial fluid manual count,0.0773569171130125,0.09212694
+68406-8,cells in urine,abnormal lymphocyte leukocyte vitreous fluid manual count,0.05609370346121845,0.10136995
+18407-7,cells in urine,leukocyte 12 hour urine sediment light microscopy,0.05609370346121845,0.2172592
+68406-8,cells in urine,abnormal lymphocyte leukocyte vitreous fluid manual count,0.05609370346121845,0.070288375
+68403-5,cells in urine,eosinophil leukocyte vitreous fluid manual count,0.05609370346121845,0.10604443
+60433-0,cells in urine,leukocyte light microscopy urine sediment collected unspecified duration,0.05609370346121845,0.21506019
+63554-0,cells in urine,leukocyte 24 hour urine sediment microscopy,0.05609370346121845,0.65675086
+68903-4,cells in urine,erythrocyte light microscopy urine sediment collected unspecified duration,0.05609370346121845,0.21275762
+12210-1,cells in urine,eosinophil leukocyte urine sediment manual count,0.05609370346121845,0.5348161
+68396-1,cells in urine,basophil leukocyte vitreous fluid manual count,0.05609370346121845,0.06669672
+23903-8,cells in urine,monocyte macrophage leukocyte specimen manual count,0.05609370346121845,0.063038886
+4529-4,cells in urine,deprecated complement receptor 3,0.05609370346121845,0.051447693
+68418-3,cells in urine,mesothelial cell leukocyte vitreous fluid manual count,0.05609370346121845,0.12705298
+1969-5,cells in urine,bilirubin total renal clearance 24 hour urine serum plasma,0.05609370346121845,0.17392536
+30439-4,cells in urine,monocyte macrophage leukocyte specimen,0.05609370346121845,0.085435376
+59829-2,cells in urine,leukocyte 3 hour urine sediment light microscopy,0.05609370346121845,0.22831224
+99866-6,cells in urine,acanthocyte erythrocyte urine sediment computer assisted method,0.05609370346121845,0.5376716
+58090-2,cells in urine,glucose 6 phosphate dehydrogenase newborn screening comment discussion,0.05278724520985054,0.07593328
+97062-4,cells in urine,history high blood glucose,0.04662677904195259,0.04814348
+94231-8,cells in urine,g6pd gene full mutation analysis blood tissue sequencing,0.04662677904195259,0.06111141
+58089-4,cells in urine,glucose 6 phosphate dehydrogenase newborn screen interpretation,0.04662677904195259,0.06530463
+49862-6,cells in urine,g6pc gene targeted mutation analysis blood tissue molecular genetics method,0.04662677904195259,0.060927384
+97062-4,cells in urine,history high blood glucose,0.04662677904195259,0.018037496
+70219-1,cells in urine,basic metabolic 2008 panel ionized calcium serum plasma,0.04662677904195259,0.04118394
+13453-6,cells in urine,deprecated glucose mean value,0.04662677904195259,0.06980121
+58091-0,cells in urine,glucose 6 phosphate dehydrogenase newborn screen panel,0.04662677904195259,0.04697744
+58089-4,cells in urine,glucose 6 phosphate dehydrogenase newborn screen interpretation,0.04662677904195259,0.082615845
+54230-8,cells in urine,cell count diff panel gluc prot cerebral spinal fluid,0.04662677904195259,0.063651994
+52041-1,cells in urine,blood glucose monitor attachment,0.04662677904195259,0.034557007
+33412-8,cells in urine,blast leukocyte pericardial fluid,0.015964718290327022,0.0744866
+15197-7,cells in urine,lymphocyte clefted leukocyte blood manual count,0.015964718290327022,0.06961261
+30420-4,cells in urine,large granular lymphocyte leukocyte blood,0.015964718290327022,0.1547094
+17286-6,cells in urine,monocyte leukocyte synovial fluid manual count,0.015964718290327022,0.07289683
+95223-4,cells in urine,mononuclear cell leukocyte stem cell product manual count,0.015964718290327022,0.079828046
+35021-5,cells in urine,monocyte macrophage leukocyte pleural fluid,0.015964718290327022,0.06462633
+34984-5,cells in urine,unidentified cell leukocyte synovial fluid,0.015964718290327022,0.08246768
+32155-4,cells in urine,basophil eosinophil monocyte leukocyte blood automated count,0.015964718290327022,0.06849487
+35077-7,cells in urine,abnormal lymphocyte leukocyte body fluid,0.015964718290327022,0.0760185
+40541-5,cells in urine,plasma cell leukocyte cerebral spinal fluid microscopy,0.015964718290327022,0.089433394
+14830-4,cells in urine,mesothelial cell leukocyte peritoneal fluid manual count,0.015964718290327022,0.11603847
+13353-8,cells in urine,deprecated eosinophil 100 leukocyte body fluid manual count,0.015964718290327022,0.073883764
+13517-8,cells in urine,variant lymphocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.05698647
+26471-3,cells in urine,leukocyte leukocyte blood,0.015964718290327022,0.14982986
+30463-4,cells in urine,deprecated promyelocytes 100 leukocyte blood,0.015964718290327022,0.091322154
+54413-0,cells in urine,transfuse leukocyte poor plateletpheresis unit,0.015964718290327022,0.055566367
+66147-0,cells in urine,granulocyte leukocyte pleural fluid fetus manual count,0.015964718290327022,0.07705422
+12209-3,cells in urine,eosinophil leukocyte body fluid manual count,0.015964718290327022,0.07530274
+55433-7,cells in urine,immature cell leukocyte blood,0.015964718290327022,0.09414307
+31160-5,cells in urine,granulocyte leukocyte blood manual count,0.015964718290327022,0.08593227
+17803-8,cells in urine,plasma cell leukocyte body fluid,0.015964718290327022,0.18437523
+714-6,cells in urine,eosinophil leukocyte blood manual count,0.015964718290327022,0.07730879
+74461-5,cells in urine,lymphocyte leukocyte blood fetus,0.015964718290327022,0.077952944
+9727-9,cells in urine,eosinophil leukocyte nose manual count,0.015964718290327022,0.062901184
+74820-2,cells in urine,plasma cell centrocytes leukocyte blood manual count,0.015964718290327022,0.15601332
+12238-2,cells in urine,neutrophil leukocyte body fluid manual count,0.015964718290327022,0.10511589
+26493-7,cells in urine,mononuclear cell leukocyte body fluid,0.015964718290327022,0.080245234
+11123-7,cells in urine,deprecated promyelocytes 100 cell bone marrow microscopy,0.015964718290327022,0.10167283
+70028-6,cells in urine,megakaryocytic nucleus leukocyte blood manual count,0.015964718290327022,0.083512135
+74427-6,cells in urine,myelocyte eosinophilic leukocyte blood manual count,0.015964718290327022,0.13311034
+13047-6,cells in urine,plasma cell leukocyte blood,0.015964718290327022,0.092155896
+55377-6,cells in urine,mononuclear cell immature leukocyte blood manual count,0.015964718290327022,0.14899114
+26494-5,cells in urine,mononuclear cell leukocyte pleural fluid,0.015964718290327022,0.07106855
+95225-9,cells in urine,band form neutrophil leukocyte stem cell product manual count,0.015964718290327022,0.11957911
+74457-3,cells in urine,neutrophil leukocyte cord blood,0.015964718290327022,0.058663115
+30377-6,cells in urine,eosinophil leukocyte bronchial specimen,0.015964718290327022,0.06391543
+13599-6,cells in urine,promonocytes leukocyte blood manual count,0.015964718290327022,0.080645666
+40537-3,cells in urine,monocyte leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.10077123
+95841-3,cells in urine,monocyte macrophage leukocyte sputum manual count,0.015964718290327022,0.06880118
+11275-5,cells in urine,large granular lymphocyte leukocyte blood manual count,0.015964718290327022,0.08394503
+23761-0,cells in urine,neutrophil leukocyte blood manual count,0.015964718290327022,0.09968056
+32805-4,cells in urine,variant lymphocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.057151366
+10329-1,cells in urine,monocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.0624521
+21395-9,cells in urine,monocyte macrophage leukocyte synovial fluid manual count,0.015964718290327022,0.06401772
+95221-8,cells in urine,metamyelocytes leukocyte stem cell product manual count,0.015964718290327022,0.08312585
+33803-8,cells in urine,immature eosinophil leukocyte blood manual count,0.015964718290327022,0.12352454
+26446-5,cells in urine,blast leukocyte blood,0.015964718290327022,0.08352009
+26452-3,cells in urine,eosinophil leukocyte body fluid,0.015964718290327022,0.077374965
+58802-0,cells in urine,mononuclear cell leukocyte peritoneal dialysis fluid,0.015964718290327022,0.1345968
+12233-3,cells in urine,mesothelial cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.09298422
+12234-1,cells in urine,mesothelial cell leukocyte body fluid manual count,0.015964718290327022,0.1439357
+53519-5,cells in urine,monocyte leukocyte dialysis fluid,0.015964718290327022,0.077687964
+35070-2,cells in urine,basophil leukocyte pleural fluid,0.015964718290327022,0.08063082
+74460-7,cells in urine,blast leukocyte blood fetus,0.015964718290327022,0.07868348
+32806-2,cells in urine,monocyte macrophage leukocyte bronchial specimen manual count,0.015964718290327022,0.06823422
+40521-7,cells in urine,monocyte leukocyte pleural fluid manual count,0.015964718290327022,0.07701441
+33386-4,cells in urine,segmented neutrophil leukocyte synovial fluid,0.015964718290327022,0.0621334
+26513-2,cells in urine,neutrophil leukocyte body fluid,0.015964718290327022,0.11595953
+30395-8,cells in urine,granulocyte leukocyte blood,0.015964718290327022,0.08593135
+33376-5,cells in urine,macrophage leukocyte synovial fluid,0.015964718290327022,0.0872792
+13599-6,cells in urine,promonocytes leukocyte blood manual count,0.015964718290327022,0.14034499
+50658-4,cells in urine,basophil band form leukocyte bone marrow,0.015964718290327022,0.05916971
+69913-2,cells in urine,basophil mast cell leukocyte cerebral spinal fluid,0.015964718290327022,0.0532814
+13941-0,cells in urine,lymphocyte leukocyte body fluid manual count,0.015964718290327022,0.13075866
+33385-6,cells in urine,segmented neutrophil leukocyte pleural fluid,0.015964718290327022,0.06103805
+59816-9,cells in urine,neutrophil immature leukocyte body fluid,0.015964718290327022,0.107215635
+33374-0,cells in urine,blast leukocyte synovial fluid,0.015964718290327022,0.108098604
+14330-5,cells in urine,granulocyte leukocyte stool manual count,0.015964718290327022,0.16179357
+95216-8,cells in urine,eosinophil leukocyte stem cell product manual count,0.015964718290327022,0.08087391
+26514-0,cells in urine,neutrophil leukocyte peritoneal fluid,0.015964718290327022,0.06627129
+26448-1,cells in urine,blast leukocyte body fluid,0.015964718290327022,0.08226261
+26517-3,cells in urine,deprecated polymorphonuclear cell 100 leukocyte cerebral spinal fluid,0.015964718290327022,0.070510626
+14107-7,cells in urine,segmented neutrophil leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.058886703
+33990-3,cells in urine,normoblasts leukocyte blood,0.015964718290327022,0.09945967
+30375-0,cells in urine,basophil leukocyte sputum,0.015964718290327022,0.070619114
+74457-3,cells in urine,neutrophil leukocyte cord blood,0.015964718290327022,0.05762345
+24104-2,cells in urine,lymphoma cell leukocyte blood manual count,0.015964718290327022,0.12429201
+13527-7,cells in urine,unidentified cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.07858098
+53127-7,cells in urine,monocyte macrophage leukocyte tissue,0.015964718290327022,0.096946605
+32200-8,cells in urine,segmented neutrophil leukocyte blood automated count,0.015964718290327022,0.09050299
+13595-4,cells in urine,basophil leukocyte nose,0.015964718290327022,0.056060694
+74455-7,cells in urine,blast leukocyte cord blood,0.015964718290327022,0.09778798
+13352-0,cells in urine,deprecated neutrophil 100 leukocyte body fluid manual count,0.015964718290327022,0.06896986
+56772-7,cells in urine,macrophage leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.08517132
+14039-2,cells in urine,neutrophil leukocyte cerebral spinal fluid microscopy,0.015964718290327022,0.14576098
+30441-0,cells in urine,monocyte abnormal leukocyte blood,0.015964718290327022,0.10359658
+40535-7,cells in urine,leukocyte leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.1068927
+40520-9,cells in urine,macrophage leukocyte pleural fluid manual count,0.015964718290327022,0.06103608
+44096-6,cells in urine,unidentified cell leukocyte blood automated count,0.015964718290327022,0.09174082
+13941-0,cells in urine,lymphocyte leukocyte body fluid manual count,0.015964718290327022,0.07809818
+68378-9,cells in urine,leukocyte disintegrated leukocyte blood,0.015964718290327022,0.08223135
+26473-9,cells in urine,leukocyte leukocyte body fluid,0.015964718290327022,0.13897537
+51384-6,cells in urine,mononuclear cell leukocyte blood manual count,0.015964718290327022,0.07869946
+714-6,cells in urine,eosinophil leukocyte blood manual count,0.015964718290327022,0.12778813
+19252-6,cells in urine,megakaryocyte leukocyte blood,0.015964718290327022,0.09109568
+13835-4,cells in urine,monocyte leukocyte peritoneal fluid manual count,0.015964718290327022,0.09191236
+75352-5,cells in urine,cell leukocyte pericardial fluid manual count,0.015964718290327022,0.08626695
+82736-0,cells in urine,calcium calmodulin dependent protein kinase ii activity actual normal serum,0.015964718290327022,0.025245659
+34921-7,cells in urine,lymphocyte plasmacytoid leukocyte blood,0.015964718290327022,0.13027069
+30407-1,cells in urine,leukocyte leukocyte pericardial fluid,0.015964718290327022,0.07544636
+32350-1,cells in urine,basophil eosinophil monocyte leukocyte blood,0.015964718290327022,0.070823625
+33362-5,cells in urine,monocyte leukocyte pleural fluid,0.015964718290327022,0.087309934
+17803-8,cells in urine,plasma cell leukocyte body fluid,0.015964718290327022,0.092346326
+14374-3,cells in urine,granulocyte leukocyte pleural fluid manual count,0.015964718290327022,0.074381985
+17834-3,cells in urine,eosinophil leukocyte synovial fluid,0.015964718290327022,0.12583119
+13353-8,cells in urine,deprecated eosinophil 100 leukocyte body fluid manual count,0.015964718290327022,0.11489959
+40653-8,cells in urine,myelocyte leukocyte body fluid manual count,0.015964718290327022,0.07751041
+13516-0,cells in urine,neutrophil leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.048204277
+42250-1,cells in urine,variant lymphocyte leukocyte blood automated count,0.015964718290327022,0.06955692
+32200-8,cells in urine,segmented neutrophil leukocyte blood automated count,0.015964718290327022,0.067400575
+13598-8,cells in urine,deprecated promyelocytes 100 leukocyte blood manual count,0.015964718290327022,0.17624567
+69913-2,cells in urine,basophil mast cell leukocyte cerebral spinal fluid,0.015964718290327022,0.037371766
+77356-4,cells in urine,non hematopoietic stem cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.06706037
+56769-3,cells in urine,lymphocyte leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.08769551
+51927-2,cells in urine,cell leukocyte bronchial specimen manual count,0.015964718290327022,0.08162085
+21395-9,cells in urine,monocyte macrophage leukocyte synovial fluid manual count,0.015964718290327022,0.07777314
+95220-0,cells in urine,lymphocyte leukocyte stem cell product manual count,0.015964718290327022,0.0804672
+32013-5,cells in urine,eosinophil leukocyte pericardial fluid manual count,0.015964718290327022,0.07198818
+95224-2,cells in urine,myelocyte leukocyte stem cell product manual count,0.015964718290327022,0.14881973
+26478-8,cells in urine,lymphocyte leukocyte blood,0.015964718290327022,0.13897696
+44095-8,cells in urine,unidentified cell leukocyte blood manual count,0.015964718290327022,0.1869595
+26510-8,cells in urine,band form neutrophil leukocyte body fluid,0.015964718290327022,0.10268792
+57836-9,cells in urine,basophil leukocyte synovial fluid manual count,0.015964718290327022,0.063744575
+13519-4,cells in urine,basophil leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.05750363
+33803-8,cells in urine,immature eosinophil leukocyte blood manual count,0.015964718290327022,0.07617577
+33786-5,cells in urine,immature basophil leukocyte blood manual count,0.015964718290327022,0.06902667
+30445-1,cells in urine,myeloblast leukocyte blood,0.015964718290327022,0.081053846
+13526-9,cells in urine,nonhematic cell leukocyte body fluid manual count,0.015964718290327022,0.1881315
+30431-1,cells in urine,mesothelial cell leukocyte pleural fluid,0.015964718290327022,0.07491977
+70042-7,cells in urine,mononuclear cell leukocyte synovial fluid automated count,0.015964718290327022,0.11808471
+713-8,cells in urine,eosinophil leukocyte blood automated count,0.015964718290327022,0.12217345
+750-0,cells in urine,deprecated myelocyte 100 leukocyte blood automated count,0.015964718290327022,0.075859115
+26509-0,cells in urine,band form neutrophil leukocyte cerebral spinal fluid,0.015964718290327022,0.055849303
+26473-9,cells in urine,leukocyte leukocyte body fluid,0.015964718290327022,0.0802817
+74428-4,cells in urine,metamyelocytes neutrophilic leukocyte blood manual count,0.015964718290327022,0.075709514
+74402-9,cells in urine,lymphocyte leukocyte cord blood,0.015964718290327022,0.09301548
+44095-8,cells in urine,unidentified cell leukocyte blood manual count,0.015964718290327022,0.093033075
+10330-9,cells in urine,monocyte leukocyte body fluid manual count,0.015964718290327022,0.07564946
+74354-2,cells in urine,epithelial cell leukocyte sputum,0.015964718290327022,0.09209261
+30461-8,cells in urine,granulocyte leukocyte stool,0.015964718290327022,0.08736688
+13522-8,cells in urine,blast leukocyte body fluid manual count,0.015964718290327022,0.1364952
+35070-2,cells in urine,basophil leukocyte pleural fluid,0.015964718290327022,0.06477713
+30466-7,cells in urine,promonocytes leukocyte blood,0.015964718290327022,0.08273401
+30414-7,cells in urine,abnormal lymphocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.060100965
+93952-0,cells in urine,metamyelocytes neutrophilic leukocyte bone marrow manual count,0.015964718290327022,0.063175105
+40517-5,cells in urine,macrophage leukocyte peritoneal fluid manual count,0.015964718290327022,0.06389136
+33388-0,cells in urine,band form neutrophil leukocyte pericardial fluid,0.015964718290327022,0.062985025
+29259-9,cells in urine,monocyte abnormal leukocyte blood manual count,0.015964718290327022,0.09726398
+74425-0,cells in urine,myelocyte neutrophilic leukocyte blood manual count,0.015964718290327022,0.113579236
+53797-7,cells in urine,neutrophil immature leukocyte blood,0.015964718290327022,0.11938015
+66132-2,cells in urine,mononuclear mesothelial cell leukocyte body fluid manual count,0.015964718290327022,0.070860095
+51648-4,cells in urine,monocytoid cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.08084301
+75355-8,cells in urine,cell leukocyte synovial fluid manual count,0.015964718290327022,0.08271599
+30419-6,cells in urine,lymphocyte clefted leukocyte blood,0.015964718290327022,0.07357309
+53516-1,cells in urine,basophil leukocyte dialysis fluid manual count,0.015964718290327022,0.07048444
+34921-7,cells in urine,lymphocyte plasmacytoid leukocyte blood,0.015964718290327022,0.0779685
+33384-9,cells in urine,segmented neutrophil leukocyte peritoneal fluid,0.015964718290327022,0.06636867
+66148-8,cells in urine,mononuclear cell leukocyte pleural fluid fetus manual count,0.015964718290327022,0.072612695
+26508-2,cells in urine,band form neutrophil leukocyte blood,0.015964718290327022,0.07151249
+30230-7,cells in urine,segmented neutrophil leukocyte body fluid manual count,0.015964718290327022,0.07024156
+14326-3,cells in urine,eosinophil leukocyte stool manual count,0.015964718290327022,0.07923718
+13352-0,cells in urine,deprecated neutrophil 100 leukocyte body fluid manual count,0.015964718290327022,0.09640829
+17834-3,cells in urine,eosinophil leukocyte synovial fluid,0.015964718290327022,0.076788746
+14860-1,cells in urine,leukocyte leukocyte synovial fluid manual count,0.015964718290327022,0.073998444
+12209-3,cells in urine,eosinophil leukocyte body fluid manual count,0.015964718290327022,0.12023929
+30456-8,cells in urine,nonhematic cell leukocyte cerebral spinal fluid,0.015964718290327022,0.12899324
+30230-7,cells in urine,segmented neutrophil leukocyte body fluid manual count,0.015964718290327022,0.10119378
+29261-5,cells in urine,abnormal lymphocyte leukocyte blood manual count,0.015964718290327022,0.118576124
+56771-9,cells in urine,eosinophil leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.1576749
+706-2,cells in urine,basophil leukocyte blood automated count,0.015964718290327022,0.0711198
+769-0,cells in urine,segmented neutrophil leukocyte blood manual count,0.015964718290327022,0.07018334
+34982-9,cells in urine,unidentified cell leukocyte peritoneal fluid,0.015964718290327022,0.15866782
+51648-4,cells in urine,monocytoid cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.064833514
+14377-6,cells in urine,granulocyte leukocyte semen manual count,0.015964718290327022,0.091552146
+14330-5,cells in urine,granulocyte leukocyte stool manual count,0.015964718290327022,0.08634545
+14374-3,cells in urine,granulocyte leukocyte pleural fluid manual count,0.015964718290327022,0.11677442
+55598-7,cells in urine,leukocyte disintegrated leukocyte body fluid manual count,0.015964718290327022,0.082035996
+21373-6,cells in urine,abnormal lymphocyte leukocyte synovial fluid manual count,0.015964718290327022,0.06669468
+74451-6,cells in urine,cell leukocyte blood fetus,0.015964718290327022,0.18594989
+26481-2,cells in urine,lymphocyte leukocyte pleural fluid,0.015964718290327022,0.10530451
+26505-8,cells in urine,segmented neutrophil leukocyte blood,0.015964718290327022,0.10403317
+51621-1,cells in urine,macrophage leukocyte dialysis fluid manual count,0.015964718290327022,0.11061374
+32029-1,cells in urine,monocyte macrophage leukocyte peritoneal fluid manual count,0.015964718290327022,0.06517517
+74236-1,cells in urine,unidentified cell leukocyte pericardial fluid manual count,0.015964718290327022,0.15568854
+55376-8,cells in urine,megaloblast leukocyte blood manual count,0.015964718290327022,0.13185543
+40540-7,cells in urine,basophil leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.079403445
+40524-1,cells in urine,macrophage leukocyte pericardial fluid manual count,0.015964718290327022,0.08386838
+33412-8,cells in urine,blast leukocyte pericardial fluid,0.015964718290327022,0.117168084
+14381-8,cells in urine,mononuclear cell leukocyte peritoneal fluid manual count,0.015964718290327022,0.11674792
+14859-3,cells in urine,leukocyte leukocyte peritoneal fluid manual count,0.015964718290327022,0.07025163
+55437-8,cells in urine,neoplastic cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.06781115
+744-3,cells in urine,monocyte leukocyte blood manual count,0.015964718290327022,0.075313166
+28543-7,cells in urine,basophil leukocyte body fluid,0.015964718290327022,0.07241121
+30447-7,cells in urine,myelocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.06620399
+9727-9,cells in urine,eosinophil leukocyte nose manual count,0.015964718290327022,0.07357153
+14829-6,cells in urine,mesothelial cell leukocyte pleural fluid manual count,0.015964718290327022,0.11127524
+53974-2,glucose in blood,erythrocyte morphology interpretation urine sediment light microscopy narrative,0.08037879700144339,0.066403925
+105269-5,glucose in blood,fractional excretion calcium ratio urine serum plasma collected unspecified duration,0.08037879700144339,0.08097204
+4525-2,glucose in blood,complement membrane c3b c4b cofactor protein entitic number leukocyte,0.08037879700144339,0.042634342
+5820-6,glucose in blood,wbc cast area urine sediment microscopy low power field,0.08037879700144339,0.054751627
+33219-7,glucose in blood,epithelial cell squamous area urine sediment automated count,0.08037879700144339,0.024929984
+105120-0,glucose in blood,epithelial cell squamous presence urine sediment,0.08037879700144339,0.021661812
+12258-0,glucose in blood,epithelial cell squamous presence urine sediment light microscopy,0.08037879700144339,0.03209232
+55804-9,glucose in blood,leukocyte phosphatase presence leukocyte,0.08037879700144339,0.050037023
+11278-9,glucose in blood,bladder cell area urine sediment microscopy high power field,0.08037879700144339,0.05142284
+9771-7,glucose in blood,cd5 cd20 cell volume leukocyte,0.08037879700144339,0.050657526
+68434-0,glucose in blood,leukocyte volume vitreous fluid automated count,0.08037879700144339,0.069870554
+53225-9,glucose in blood,leukocyte area specimen wet preparation,0.08037879700144339,0.058471978
+5787-7,glucose in blood,epithelial cell area urine sediment microscopy high power field,0.08037879700144339,0.046056338
+30119-2,glucose in blood,igm lymphocyte volume leukocyte,0.08037879700144339,0.054261293
+91135-4,glucose in blood,acanthocyte presence urine sediment light microscopy,0.08037879700144339,0.042433914
+4659-9,glucose in blood,leukocyte phosphatase enzymatic activity volume leukocyte,0.08037879700144339,0.09353278
+99859-1,glucose in blood,erythrocyte non dysmorphic presence urine sediment computer assisted method,0.08037879700144339,0.031004362
+63555-7,glucose in blood,leukocyte volume microscopy high power field urine sediment collected unspecified duration,0.08037879700144339,0.07822652
+53132-7,glucose in blood,epithelial cell non squamous area urine sediment microscopy low power field,0.08037879700144339,0.039796315
+99865-8,glucose in blood,acanthocyte presence urine sediment computer assisted method,0.08037879700144339,0.02477933
+49103-5,glucose in blood,wbc cast area urine sediment microscopy high power field,0.08037879700144339,0.055096164
+14290-1,glucose in blood,deprecated erythrocyte unit volume urine sediment manual count,0.08037879700144339,0.06339124
+40240-4,glucose in blood,calcium mole volume serum plasma 13 hour post xxx challenge,0.07707233875007549,0.07126532
+41201-5,glucose in blood,voltage gated calcium channel igg ab mole volume serum,0.07707233875007549,0.07108396
+22665-4,glucose in blood,bilirubin delta mole volume serum plasma,0.07707233875007549,0.0711562
+40238-8,glucose in blood,calcium mole volume serum plasma 8 hour post xxx challenge,0.07707233875007549,0.06669911
+40232-1,glucose in blood,calcium mole volume serum plasma 2 5 hour post xxx challenge,0.07707233875007549,0.06648664
+57469-9,glucose in blood,calcitriol mole volume serum plasma 2 hour post dose calcium,0.07707233875007549,0.065049574
+15074-8,glucose in blood,glucose mole volume blood,0.07707233875007549,0.98313683
+104708-3,glucose in blood,deprecated estimated average glucose mole volume blood,0.07707233875007549,0.6423088
+13454-4,glucose in blood,calcium phosphorus product mole volume 2 serum plasma,0.07707233875007549,0.07494208
+104878-4,glucose in blood,hematocrit volume fraction blood 2 hour post dose glucose,0.07707233875007549,0.62212867
+40234-7,glucose in blood,calcium mole volume serum plasma 4 hour post xxx challenge,0.07707233875007549,0.06711039
+14631-6,glucose in blood,bilirubin total mole volume serum plasma,0.07707233875007549,0.078392096
+40241-2,glucose in blood,calcium mole volume serum plasma 14 hour post xxx challenge,0.07707233875007549,0.069308765
+57568-8,glucose in blood,25 hydroxyvitamin d3 mole volume serum plasma 3 hour post dose calcium,0.07707233875007549,0.05626994
+40227-1,glucose in blood,calcium mole volume serum plasma 30 minute post xxx challenge,0.07707233875007549,0.06628974
+40230-5,glucose in blood,calcium mole volume serum plasma 1 5 hour post xxx challenge,0.07707233875007549,0.06727139
+77145-1,glucose in blood,fasting glucose mole volume serum plasma blood,0.07707233875007549,0.55079776
+40246-1,glucose in blood,calcium mole volume serum plasma 2 day post xxx challenge,0.07707233875007549,0.06727801
+94348-0,glucose in blood,voltage gated calcium channel n type binding igg igm ab mole volume serum immunoassay,0.07707233875007549,0.05370619
+40243-8,glucose in blood,calcium mole volume serum plasma 20 hour post xxx challenge,0.07707233875007549,0.06811274
+40244-6,glucose in blood,calcium mole volume serum plasma 1 day post xxx challenge,0.07707233875007549,0.06718177
+16519-1,glucose in blood,calcium mole volume serum plasma 10 minute post xxx challenge,0.07707233875007549,0.07465549
+50675-8,glucose in blood,calcium phosphorus product mass volume 2 serum plasma,0.07091187258217753,0.07617993
+17864-0,glucose in blood,calcium ionized mass volume serum plasma ion selective membrane electrode ise,0.07091187258217753,0.09054212
+17863-2,glucose in blood,calcium ionized mass volume serum plasma,0.07091187258217753,0.09756176
+1970-3,glucose in blood,bilirubin delta mass volume serum plasma,0.07091187258217753,0.090734035
+86915-6,glucose in blood,calcium goal mass volume serum plasma,0.07091187258217753,0.08268135
+15153-0,glucose in blood,deprecated indirect bilirubin mass volume serum plasma,0.07091187258217753,0.10780817
+35192-4,glucose in blood,bilirubin indirect mass mole volume serum plasma,0.07091187258217753,0.09913829
+40065-5,glucose in blood,calcium mass volume serum plasma 45 minute pre xxx challenge,0.07091187258217753,0.07504811
+42319-4,glucose in blood,glucose 6 phosphate dehydrogenase phenotype interpretation red blood cell,0.07091187258217753,0.41530704
+1975-2,glucose in blood,bilirubin total mass volume serum plasma,0.07091187258217753,0.09684206
+42567-8,glucose in blood,calcium ionized mass mole volume serum plasma,0.07091187258217753,0.0793061
+40086-1,glucose in blood,calcium mass volume serum plasma 3 day post xxx challenge,0.07091187258217753,0.074329816
+104655-6,glucose in blood,glucose mass volume mixed venous blood,0.07091187258217753,0.8044456
+41653-7,glucose in blood,glucose mass volume capillary blood glucometer,0.07091187258217753,0.81756777
+1971-1,glucose in blood,bilirubin indirect mass volume serum plasma,0.07091187258217753,0.103179105
+15152-2,glucose in blood,bilirubin conjugated mass volume serum plasma,0.07091187258217753,0.10518789
+40071-3,glucose in blood,calcium mass volume serum plasma 3 hour post xxx challenge,0.07091187258217753,0.07650588
+2340-8,glucose in blood,glucose mass volume blood automated test strip,0.07091187258217753,0.982718
+11047-8,glucose in blood,glucose phosphate isomerase enzymatic activity volume red blood cell,0.07091187258217753,0.45526788
+74774-1,glucose in blood,glucose mass volume serum plasma blood,0.07091187258217753,0.9066092
+50184-1,glucose in blood,calcitonin mass volume serum plasma pre 2 mg kg calcium 0 5 ug kg pentagastrin iv,0.07091187258217753,0.08541188
+27919-0,glucose in blood,calcium mass volume serum plasma 3rd specimen post xxx challenge,0.07091187258217753,0.07598386
+2339-0,glucose in blood,glucose mass volume blood,0.07091187258217753,1.0
+41651-1,glucose in blood,glucose mass volume arterial blood,0.07091187258217753,0.80487716
+79469-3,glucose in blood,uridine diphosphate glucose 4 epimerase enzymatic activity mass red blood cell,0.07091187258217753,0.43599486
+49134-0,glucose in blood,glucose mass volume blood 2 hour post dose glucose,0.07091187258217753,0.6424792
+40069-7,glucose in blood,calcium mass volume serum plasma 1 5 hour post xxx challenge,0.07091187258217753,0.07730083
+74542-2,glucose in blood,pyruvate kinase glucose 6 phosphate dehydrogenase enzymatic activity ratio red blood cell,0.07091187258217753,0.43190035
+50182-5,glucose in blood,calcitonin mass volume serum plasma 2 minute post 2 mg kg calcium 0 5 ug kg pentagastrin iv,0.07091187258217753,0.08527565
+17861-6,glucose in blood,calcium mass volume serum plasma,0.07091187258217753,0.10135828
+40067-1,glucose in blood,calcium mass volume serum plasma baseline,0.07091187258217753,0.085876025
+18407-7,glucose in blood,leukocyte 12 hour urine sediment light microscopy,0.05609370346121845,0.07451835
+32593-6,glucose in blood,eosinophil leukocyte specimen,0.05609370346121845,0.04275515
+13453-6,glucose in blood,deprecated glucose mean value,0.04662677904195259,0.64497215
+4660-7,glucose in blood,deprecated leukocyte detection ab,0.04662677904195259,0.07648701
+58407-8,glucose in blood,leukocyte morphology panel blood,0.04662677904195259,0.24513055
+50179-1,glucose in blood,calcitonin calcium pentagastrin challenge panel serum plasma,0.04662677904195259,0.050239988
+58091-0,glucose in blood,glucose 6 phosphate dehydrogenase newborn screen panel,0.04662677904195259,0.49858955
+813-6,glucose in blood,leukocyte volume synovial fluid automated count,0.04024981183055197,0.06079679
+30404-8,glucose in blood,leukocyte volume stool,0.04024981183055197,0.063600466
+62239-9,glucose in blood,leukocyte volume blood fetus automated count,0.04024981183055197,0.17145066
+5914-7,glucose in blood,glucose presence blood test strip,0.04024981183055197,0.9542845
+71658-9,glucose in blood,neutrophil leukocyte pure number fraction cerebral spinal fluid manual count,0.04024981183055197,0.048056956
+71621-7,glucose in blood,basophil leukocyte pure number fraction synovial fluid manual count,0.04024981183055197,0.049329646
+98020-1,glucose in blood,leukocyte volume lower respiratory specimen manual count,0.04024981183055197,0.060511883
+71595-3,glucose in blood,basophil leukocyte pure number fraction bronchial specimen manual count,0.04024981183055197,0.048008524
+71600-1,glucose in blood,macrophage leukocyte pure number fraction pericardial fluid manual count,0.04024981183055197,0.04634005
+18309-5,glucose in blood,nucleated erythrocyte leukocyte ratio blood manual count,0.04024981183055197,0.24930336
+71655-5,glucose in blood,metamyelocytes leukocyte pure number fraction cerebral spinal fluid manual count,0.04024981183055197,0.052786067
+53227-5,glucose in blood,leukocyte area cervix wet preparation,0.04024981183055197,0.045629714
+71643-1,glucose in blood,metamyelocytes leukocyte pure number fraction body fluid manual count,0.04024981183055197,0.06500761
+71657-1,glucose in blood,band form neutrophil leukocyte pure number fraction cerebral spinal fluid manual count,0.04024981183055197,0.048251472
+71652-2,glucose in blood,plasma cell leukocyte pure number fraction cerebral spinal fluid manual count,0.04024981183055197,0.057514187
+98989-7,glucose in blood,band form neutrophil leukocyte pure number fraction blood automated count,0.04024981183055197,0.24169996
+26466-3,glucose in blood,leukocyte volume body fluid,0.04024981183055197,0.07845645
+71642-3,glucose in blood,promyelocytes leukocyte pure number fraction body fluid manual count,0.04024981183055197,0.069612466
+71624-1,glucose in blood,lymphocyte leukocyte pure number fraction synovial fluid manual count,0.04024981183055197,0.046524566
+14105-1,glucose in blood,leukocyte presence nose light microscopy,0.04024981183055197,0.051677056
+42327-7,glucose in blood,leukocyte presence stool methylene blue stain,0.04024981183055197,0.04292826
+48973-2,glucose in blood,leukocyte presence stool methylene blue stain 2nd specimen,0.04024981183055197,0.04072742
+11157-5,glucose in blood,leukocyte morphology bone marrow,0.04024981183055197,0.0495645
+71606-8,glucose in blood,neutrophil leukocyte pure number fraction pericardial fluid manual count,0.04024981183055197,0.048491467
+71612-6,glucose in blood,basophil leukocyte pure number fraction pleural fluid manual count,0.04024981183055197,0.05650339
+17790-7,glucose in blood,leukocyte left shift presence blood automated count,0.04024981183055197,0.22658893
+99776-7,glucose in blood,leukocyte volume bronchoalveolar lavage automated count,0.04024981183055197,0.06837934
+10579-1,glucose in blood,leukocyte volume semen,0.04024981183055197,0.06981254
+71631-6,glucose in blood,basophil leukocyte pure number fraction peritoneal fluid manual count,0.04024981183055197,0.05653042
+12225-9,glucose in blood,leukocyte area sputum microscopy high power field,0.04024981183055197,0.06452537
+71669-6,glucose in blood,blast leukocyte pure number fraction blood manual count,0.04024981183055197,0.238237
+71617-5,glucose in blood,granulocyte leukocyte pure number fraction synovial fluid manual count,0.04024981183055197,0.053717032
+71671-2,glucose in blood,neutrophil leukocyte pure number fraction blood manual count,0.04024981183055197,0.24081096
+62245-6,glucose in blood,nucleated erythrocyte leukocyte ratio blood fetus automated count,0.04024981183055197,0.17313997
+12227-5,glucose in blood,leukocyte volume corrected nucleated erythrocyte blood,0.04024981183055197,0.2514188
+14328-9,glucose in blood,leukocyte presence sputum light microscopy,0.04024981183055197,0.055874716
+806-0,glucose in blood,leukocyte volume cerebral spinal fluid manual count,0.04024981183055197,0.06548387
+71622-5,glucose in blood,eosinophil leukocyte pure number fraction synovial fluid manual count,0.04024981183055197,0.040715244
+57847-6,glucose in blood,leukocyte volume dialysis fluid manual count,0.04024981183055197,0.06457634
+71646-4,glucose in blood,eosinophil leukocyte pure number fraction body fluid manual count,0.04024981183055197,0.051989563
+71594-6,glucose in blood,macrophage leukocyte pure number fraction bronchial specimen manual count,0.04024981183055197,0.04406754
+68430-8,glucose in blood,leukocyte volume pleural fluid manual count,0.04024981183055197,0.06557109
+30405-5,glucose in blood,leukocyte volume urine,0.030085779663640157,0.066647016
+53317-4,glucose in blood,leukocyte clump presence urine automated,0.030085779663640157,0.04092398
+51487-7,glucose in blood,leukocyte volume urine automated count,0.030085779663640157,0.06619223
+105089-7,glucose in blood,epithelial cell non squamous presence urine,0.030085779663640157,0.028523684
+87830-6,glucose in blood,epithelial cell presence urine,0.030085779663640157,0.034674656
+105102-8,glucose in blood,leukocyte clump volume urine,0.030085779663640157,0.06661885
+53274-7,glucose in blood,epithelial cell renal volume urine computer assisted method,0.030085779663640157,0.04312721
+33220-5,glucose in blood,transitional cell area urine computer assisted method,0.030085779663640157,0.036115106
+57747-8,glucose in blood,erythrocyte volume urine automated test strip,0.030085779663640157,0.061769646
+33221-3,glucose in blood,epithelial cell renal area urine computer assisted method,0.030085779663640157,0.03511867
+58805-3,glucose in blood,leukocyte volume urine automated test strip,0.030085779663640157,0.059573103
+53272-1,glucose in blood,transitional cell presence urine computer assisted method,0.030085779663640157,0.025653765
+53360-4,glucose in blood,erythrocyte clump volume urine computer assisted method,0.030085779663640157,0.05944258
+799-7,glucose in blood,erythrocyte volume urine manual count,0.030085779663640157,0.07311106
+105103-6,glucose in blood,leukocyte esterase presence urine,0.030085779663640157,0.0515314
+20409-9,glucose in blood,erythrocyte volume urine test strip,0.030085779663640157,0.07454581
+104646-5,glucose in blood,leukocyte area urine computer assisted method,0.030085779663640157,0.059087273
+30405-5,glucose in blood,leukocyte volume urine,0.030085779663640157,0.066647016
+53292-9,glucose in blood,erythrocyte presence urine automated,0.030085779663640157,0.04739478
+26510-8,glucose in blood,band form neutrophil leukocyte body fluid,0.015964718290327022,0.0644982
+56769-3,glucose in blood,lymphocyte leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.052284677
+17834-3,glucose in blood,eosinophil leukocyte synovial fluid,0.015964718290327022,0.045303904
+40543-1,glucose in blood,leukocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.0456112
+69916-5,glucose in blood,basophil mast cell leukocyte synovial fluid,0.015964718290327022,0.04075157
+30419-6,glucose in blood,lymphocyte clefted leukocyte blood,0.015964718290327022,0.23886596
+95214-3,glucose in blood,blast leukocyte stem cell product manual count,0.015964718290327022,0.04415371
+17804-6,glucose in blood,promonocytes leukocyte body fluid,0.015964718290327022,0.07153234
+13595-4,glucose in blood,basophil leukocyte nose,0.015964718290327022,0.048207052
+32029-1,glucose in blood,monocyte macrophage leukocyte peritoneal fluid manual count,0.015964718290327022,0.046320334
+56772-7,glucose in blood,macrophage leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.047605343
+21114-4,glucose in blood,deprecated blast 100 leukocyte blood automated count,0.015964718290327022,0.23473538
+33361-7,glucose in blood,band form neutrophil leukocyte synovial fluid,0.015964718290327022,0.04318719
+59463-0,glucose in blood,lymphocyte leukocyte dialysis fluid,0.015964718290327022,0.05376258
+32350-1,glucose in blood,basophil eosinophil monocyte leukocyte blood,0.015964718290327022,0.23534174
+26511-6,glucose in blood,neutrophil leukocyte blood,0.015964718290327022,0.25090945
+35077-7,glucose in blood,abnormal lymphocyte leukocyte body fluid,0.015964718290327022,0.0637911
+783-1,glucose in blood,promyelocytes leukocyte blood manual count,0.015964718290327022,0.25471562
+32200-8,glucose in blood,segmented neutrophil leukocyte blood automated count,0.015964718290327022,0.2326638
+26517-3,glucose in blood,deprecated polymorphonuclear cell 100 leukocyte cerebral spinal fluid,0.015964718290327022,0.04434168
+69003-2,glucose in blood,mononuclear cell atypical leukocyte blood manual count,0.015964718290327022,0.24469562
+30373-5,glucose in blood,basophil leukocyte bronchial specimen,0.015964718290327022,0.04181883
+737-7,glucose in blood,lymphocyte leukocyte blood manual count,0.015964718290327022,0.24365962
+71697-7,glucose in blood,mononuclear cell leukocyte body fluid automated count,0.015964718290327022,0.057892587
+33362-5,glucose in blood,monocyte leukocyte pleural fluid,0.015964718290327022,0.05049089
+764-1,glucose in blood,band form neutrophil leukocyte blood manual count,0.015964718290327022,0.2446688
+40490-5,glucose in blood,macrophage leukocyte synovial fluid manual count,0.015964718290327022,0.038923144
+33385-6,glucose in blood,segmented neutrophil leukocyte pleural fluid,0.015964718290327022,0.044822156
+55436-0,glucose in blood,myeloblast leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.050223302
+103744-9,glucose in blood,cell leukocyte bronchoalveolar lavage manual count,0.015964718290327022,0.057797477
+40522-5,glucose in blood,plasma cell leukocyte pleural fluid manual count,0.015964718290327022,0.061096836
+50658-4,glucose in blood,basophil band form leukocyte bone marrow,0.015964718290327022,0.0519381
+30447-7,glucose in blood,myelocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.050611626
+57840-1,glucose in blood,eosinophil leukocyte dialysis fluid manual count,0.015964718290327022,0.042095855
+74459-9,glucose in blood,immature granulocyte leukocyte blood fetus,0.015964718290327022,0.16033468
+33786-5,glucose in blood,immature basophil leukocyte blood manual count,0.015964718290327022,0.23828678
+30468-3,glucose in blood,unidentified cell leukocyte cerebral spinal fluid,0.015964718290327022,0.044983514
+14830-4,glucose in blood,mesothelial cell leukocyte peritoneal fluid manual count,0.015964718290327022,0.059211034
+14377-6,glucose in blood,granulocyte leukocyte semen manual count,0.015964718290327022,0.060679715
+706-2,glucose in blood,basophil leukocyte blood automated count,0.015964718290327022,0.24591467
+59816-9,glucose in blood,neutrophil immature leukocyte body fluid,0.015964718290327022,0.05336778
+30417-0,glucose in blood,variant lymphocyte leukocyte body fluid,0.015964718290327022,0.05259845
+34983-7,glucose in blood,unidentified cell leukocyte pleural fluid,0.015964718290327022,0.053433955
+34999-3,glucose in blood,deprecated polymorphonuclear cell 100 leukocyte blood,0.015964718290327022,0.23922007
+40653-8,glucose in blood,myelocyte leukocyte body fluid manual count,0.015964718290327022,0.06720648
+13521-0,glucose in blood,blast leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.039240506
+74143-9,glucose in blood,granulocyte leukocyte body fluid,0.015964718290327022,0.07132382
+30430-3,glucose in blood,mesothelial cell leukocyte pericardial fluid,0.015964718290327022,0.05011608
+74236-1,glucose in blood,unidentified cell leukocyte pericardial fluid manual count,0.015964718290327022,0.04921771
+30180-4,glucose in blood,basophil leukocyte blood,0.015964718290327022,0.24244733
+10329-1,glucose in blood,monocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.046329346
+51384-6,glucose in blood,mononuclear cell leukocyte blood manual count,0.015964718290327022,0.2436953
+26452-3,glucose in blood,eosinophil leukocyte body fluid,0.015964718290327022,0.054882433
+95225-9,glucose in blood,band form neutrophil leukocyte stem cell product manual count,0.015964718290327022,0.055633176
+66147-0,glucose in blood,granulocyte leukocyte pleural fluid fetus manual count,0.015964718290327022,0.059010115
+69017-2,glucose in blood,immature granulocyte leukocyte synovial fluid,0.015964718290327022,0.04867
+26471-3,glucose in blood,leukocyte leukocyte blood,0.015964718290327022,0.25620157
+33386-4,glucose in blood,segmented neutrophil leukocyte synovial fluid,0.015964718290327022,0.037917763
+14343-8,glucose in blood,eosinophil leukocyte peritoneal fluid manual count,0.015964718290327022,0.043303914
+26495-2,glucose in blood,mononuclear cell leukocyte peritoneal fluid,0.015964718290327022,0.059106633
+53516-1,glucose in blood,basophil leukocyte dialysis fluid manual count,0.015964718290327022,0.05240091
+34984-5,glucose in blood,unidentified cell leukocyte synovial fluid,0.015964718290327022,0.04620875
+26519-9,glucose in blood,granulocyte leukocyte pleural fluid,0.015964718290327022,0.06448722
+30408-9,glucose in blood,leukocyte leukocyte pleural fluid,0.015964718290327022,0.054153513
+13597-0,glucose in blood,neutrophil leukocyte nose,0.015964718290327022,0.04890408
+30413-9,glucose in blood,abnormal lymphocyte leukocyte blood,0.015964718290327022,0.2428715
+27932-3,glucose in blood,neutrophil leukocyte sputum,0.015964718290327022,0.053043097
+13599-6,glucose in blood,promonocytes leukocyte blood manual count,0.015964718290327022,0.24969351
+29259-9,glucose in blood,monocyte abnormal leukocyte blood manual count,0.015964718290327022,0.23783797
+17800-4,glucose in blood,myelocyte leukocyte body fluid,0.015964718290327022,0.07427139
+55437-8,glucose in blood,neoplastic cell leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.0384383
+14773-6,glucose in blood,granulocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.049657498
+34985-2,glucose in blood,unidentified cell leukocyte body fluid,0.015964718290327022,0.063469306
+55376-8,glucose in blood,megaloblast leukocyte blood manual count,0.015964718290327022,0.24727029
+30410-5,glucose in blood,leukocyte leukocyte synovial fluid,0.015964718290327022,0.04438561
+14381-8,glucose in blood,mononuclear cell leukocyte peritoneal fluid manual count,0.015964718290327022,0.052563038
+14847-8,glucose in blood,neutrophil leukocyte pericardial fluid manual count,0.015964718290327022,0.048822768
+21372-8,glucose in blood,abnormal lymphocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.04655688
+26479-6,glucose in blood,lymphocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.05292813
+34925-8,glucose in blood,immature monocyte leukocyte blood,0.015964718290327022,0.24343364
+50724-4,glucose in blood,lymphoblast leukocyte bone marrow manual count,0.015964718290327022,0.051760904
+30416-2,glucose in blood,variant lymphocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.037900727
+26493-7,glucose in blood,mononuclear cell leukocyte body fluid,0.015964718290327022,0.067034215
+13355-3,glucose in blood,unspecified cell leukocyte body fluid manual count,0.015964718290327022,0.06295328
+12230-9,glucose in blood,macrophage leukocyte body fluid manual count,0.015964718290327022,0.056145616
+75355-8,glucose in blood,cell leukocyte synovial fluid manual count,0.015964718290327022,0.04800803
+35021-5,glucose in blood,monocyte macrophage leukocyte pleural fluid,0.015964718290327022,0.050039135
+26508-2,glucose in blood,band form neutrophil leukocyte blood,0.015964718290327022,0.24721031
+33365-8,glucose in blood,mesothelial cell leukocyte synovial fluid,0.015964718290327022,0.046158627
+74457-3,glucose in blood,neutrophil leukocyte cord blood,0.015964718290327022,0.05864291
+28544-5,glucose in blood,mesothelial cell leukocyte body fluid,0.015964718290327022,0.06857724
+30467-5,glucose in blood,promyelocytes leukocyte cerebral spinal fluid,0.015964718290327022,0.05130366
+35020-7,glucose in blood,monocyte macrophage leukocyte peritoneal fluid,0.015964718290327022,0.053836644
+13523-6,glucose in blood,leukocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.048579253
+70034-4,glucose in blood,lipophages leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.04914196
+782-3,glucose in blood,deprecated promyelocytes 100 leukocyte blood automated count,0.015964718290327022,0.25102437
+26509-0,glucose in blood,band form neutrophil leukocyte cerebral spinal fluid,0.015964718290327022,0.052641604
+79426-3,glucose in blood,plasma cell leukocyte blood manual count,0.015964718290327022,0.25400937
+33840-0,glucose in blood,monoblast leukocyte blood manual count,0.015964718290327022,0.23939994
+26520-7,glucose in blood,granulocyte leukocyte peritoneal fluid,0.015964718290327022,0.06619111
+27936-4,glucose in blood,lymphocyte leukocyte sputum,0.015964718290327022,0.05527829
+11123-7,glucose in blood,deprecated promyelocytes 100 cell bone marrow microscopy,0.015964718290327022,0.061841454
+95217-6,glucose in blood,nucleated erythrocyte leukocyte stem cell product manual count,0.015964718290327022,0.0549441
+17801-2,glucose in blood,metamyelocytes leukocyte body fluid,0.015964718290327022,0.069724195
+14912-0,glucose in blood,smudge cell leukocyte blood manual count,0.015964718290327022,0.24673279
+17835-0,glucose in blood,monocyte leukocyte synovial fluid,0.015964718290327022,0.055989537
+26505-8,glucose in blood,segmented neutrophil leukocyte blood,0.015964718290327022,0.24457897
+32832-8,glucose in blood,variant lymphocyte leukocyte bronchial specimen,0.015964718290327022,0.03537422
+82736-0,glucose in blood,calcium calmodulin dependent protein kinase ii activity actual normal serum,0.015964718290327022,0.048764545
+14378-4,glucose in blood,granulocyte leukocyte urine manual count,0.005800686123415222,0.06904131
+32014-3,glucose in blood,eosinophil leukocyte urine manual count,0.005800686123415222,0.04690395
+30442-8,glucose in blood,monocyte leukocyte urine,0.005800686123415222,0.06518164
+17287-4,glucose in blood,monocyte leukocyte urine manual count,0.005800686123415222,0.07149904
+26445-7,white blood cells count,basophil leukocyte specimen,0.05609370346121845,0.071864136
+32593-6,white blood cells count,eosinophil leukocyte specimen,0.05609370346121845,0.057696313
+68912-5,white blood cells count,erythrocyte 24 hour urine sediment light microscopy,0.05609370346121845,0.072718576
+53966-8,white blood cells count,erythrocyte dysmorphic g1 erythrocyte urine sediment light microscopy,0.05609370346121845,0.046179395
+32177-8,white blood cells count,granulocyte leukocyte vaginal fluid,0.05609370346121845,0.07095746
+105112-7,white blood cells count,eosinophil leukocyte urine sediment,0.05609370346121845,0.036489353
+68432-4,white blood cells count,leukocyte leukocyte vitreous fluid manual count,0.05609370346121845,0.09678384
+1993-5,white blood cells count,calcium renal clearance 24 hour urine serum plasma,0.05609370346121845,0.04569427
+72364-3,white blood cells count,lymphocyte leukocyte vitreous fluid manual count,0.05609370346121845,0.09690542
+68418-3,white blood cells count,mesothelial cell leukocyte vitreous fluid manual count,0.05609370346121845,0.08594368
+1766-5,white blood cells count,aldosterone receptor leukocyte,0.05609370346121845,0.038746372
+99861-7,white blood cells count,erythrocyte non dysmorphic volume urine sediment computer assisted method,0.050293017337803225,0.04927424
+6294-3,white blood cells count,deprecated complement c3d c3d gg ic3b receptor entitic number leukocyte,0.050293017337803225,0.072579466
+13653-1,white blood cells count,epithelial cell renal volume urine sediment,0.050293017337803225,0.056388143
+11278-9,white blood cells count,bladder cell area urine sediment microscopy high power field,0.050293017337803225,0.0400965
+53974-2,white blood cells count,erythrocyte morphology interpretation urine sediment light microscopy narrative,0.050293017337803225,0.06042001
+107174-5,white blood cells count,wbc cast volume urine sediment computer assisted method,0.050293017337803225,0.07149904
+50233-6,white blood cells count,leukocyte clump area urine sediment automated count,0.050293017337803225,0.08373348
+53978-3,white blood cells count,epithelial cell non squamous presence urine sediment light microscopy,0.050293017337803225,0.027458042
+58456-5,white blood cells count,bladder cell presence urine sediment light microscopy,0.050293017337803225,0.02877846
+58449-0,white blood cells count,erythrocyte clump area urine sediment microscopy high power field,0.050293017337803225,0.060926326
+20455-2,white blood cells count,leukocyte presence urine sediment light microscopy,0.050293017337803225,0.067120805
+46702-7,white blood cells count,leukocyte area urine sediment automated count,0.050293017337803225,0.085316345
+2360-6,white blood cells count,glucose 6 phosphate dehydrogenase enzymatic activity volume leukocyte,0.050293017337803225,0.08900353
+53132-7,white blood cells count,epithelial cell non squamous area urine sediment microscopy low power field,0.050293017337803225,0.025470091
+99877-3,white blood cells count,deep transitional cell volume urine sediment computer assisted method,0.050293017337803225,0.04559423
+34634-6,white blood cells count,cd11 cd18 cell volume leukocyte,0.050293017337803225,0.0920177
+99867-4,white blood cells count,acanthocyte area urine sediment computer assisted method,0.050293017337803225,0.007443584
+99876-5,white blood cells count,deep transitional cell area urine sediment computer assisted method,0.050293017337803225,0.026661608
+107170-3,white blood cells count,tubular cell volume urine sediment,0.050293017337803225,0.05512151
+49103-5,white blood cells count,wbc cast area urine sediment microscopy high power field,0.050293017337803225,0.066245034
+99872-4,white blood cells count,superficial transitional cell presence urine sediment computer assisted method,0.050293017337803225,0.024464853
+33804-6,white blood cells count,rbc cast presence urine sediment light microscopy,0.050293017337803225,0.03996675
+49505-1,white blood cells count,erythrocyte clump area urine sediment automated count,0.050293017337803225,0.077428535
+99868-2,white blood cells count,acanthocyte volume urine sediment computer assisted method,0.050293017337803225,0.025654187
+53972-6,white blood cells count,burr cell presence urine sediment light microscopy,0.050293017337803225,0.034251764
+30113-5,white blood cells count,igg lymphocyte volume leukocyte,0.050293017337803225,0.1045355
+6291-9,white blood cells count,complement ic3b receptor presence leukocyte,0.050293017337803225,0.06281431
+15112-6,white blood cells count,leukocyte phosphatase unit volume leukocyte,0.050293017337803225,0.12680732
+105108-5,white blood cells count,erythrocyte volume urine sediment,0.050293017337803225,0.06418098
+40246-1,white blood cells count,calcium mole volume serum plasma 2 day post xxx challenge,0.04698655908643533,0.047096916
+100746-7,white blood cells count,glucose mole volume mixed venous blood,0.04698655908643533,0.062335026
+14770-2,white blood cells count,fasting glucose mole volume capillary blood glucometer,0.04698655908643533,0.06257776
+13959-2,white blood cells count,calcium ionized mole volume serum plasma calculation,0.04698655908643533,0.057566423
+40245-3,white blood cells count,calcium mole volume serum plasma 36 hour post xxx challenge,0.04698655908643533,0.04622269
+33899-6,white blood cells count,bilirubin conjugated indirect mole volume serum plasma,0.04698655908643533,0.060494635
+1995-0,white blood cells count,calcium ionized mole volume serum plasma,0.04698655908643533,0.04896251
+1382-1,white blood cells count,calcium mole volume serum plasma 5 minute post 2 4 mg kg calcium short iv,0.04698655908643533,0.054571263
+16519-1,white blood cells count,calcium mole volume serum plasma 10 minute post xxx challenge,0.04698655908643533,0.055228166
+14629-0,white blood cells count,bilirubin direct mole volume serum plasma,0.04698655908643533,0.06791548
+47995-6,white blood cells count,glucose mole volume cord blood,0.04698655908643533,0.04751143
+40232-1,white blood cells count,calcium mole volume serum plasma 2 5 hour post xxx challenge,0.04698655908643533,0.045959324
+40235-4,white blood cells count,calcium mole volume serum plasma 5 hour post xxx challenge,0.04698655908643533,0.0440303
+40243-8,white blood cells count,calcium mole volume serum plasma 20 hour post xxx challenge,0.04698655908643533,0.047208287
+57566-2,white blood cells count,25 hydroxyvitamin d3 mole volume serum plasma pre dose calcium,0.04698655908643533,0.02636093
+16523-3,white blood cells count,calcium mole volume serum plasma 5 minute post xxx challenge,0.04698655908643533,0.056634966
+104873-5,white blood cells count,glucose dumping syndrome panel serum plasma blood,0.04662677904195259,0.13892263
+52041-1,white blood cells count,blood glucose monitor attachment,0.04662677904195259,0.027886214
+13453-6,white blood cells count,deprecated glucose mean value,0.04662677904195259,0.24338083
+54230-8,white blood cells count,cell count diff panel gluc prot cerebral spinal fluid,0.04662677904195259,0.048177905
+50179-1,white blood cells count,calcitonin calcium pentagastrin challenge panel serum plasma,0.04662677904195259,0.016585985
+83114-9,white blood cells count,s100 calcium binding protein b mass volume serum immunoassay,0.04082609291853737,0.04878574
+35192-4,white blood cells count,bilirubin indirect mass mole volume serum plasma,0.04082609291853737,0.05990053
+44050-3,white blood cells count,glucose phosphate isomerase enzymatic activity mass red blood cell,0.04082609291853737,0.039953094
+27919-0,white blood cells count,calcium mass volume serum plasma 3rd specimen post xxx challenge,0.04082609291853737,0.05797552
+35194-0,white blood cells count,bilirubin total mass mole volume serum plasma,0.04082609291853737,0.049764577
+74542-2,white blood cells count,pyruvate kinase glucose 6 phosphate dehydrogenase enzymatic activity ratio red blood cell,0.04082609291853737,0.04965574
+35258-3,white blood cells count,calcium mass mole volume corrected total protein serum plasma,0.04082609291853737,0.034255847
+17863-2,white blood cells count,calcium ionized mass volume serum plasma,0.04082609291853737,0.055819947
+50180-9,white blood cells count,calcitonin mass volume serum plasma 10 minute post 2 mg kg calcium 0 5 ug kg pentagastrin iv,0.04082609291853737,0.055811007
+71593-8,white blood cells count,glucose 6 phosphate dehydrogenase enzymatic activity substance red blood cell,0.04082609291853737,0.05153471
+40084-6,white blood cells count,calcium mass volume serum plasma 36 hour post xxx challenge,0.04082609291853737,0.052391335
+57467-3,white blood cells count,calcitriol mass volume serum plasma pre dose calcium,0.04082609291853737,0.043132067
+104598-8,white blood cells count,glucose mass volume arterial blood glucometer,0.04082609291853737,0.061114155
+47275-3,white blood cells count,s100 calcium binding protein b mass volume serum,0.04082609291853737,0.047715027
+1968-7,white blood cells count,bilirubin direct mass volume serum plasma,0.04082609291853737,0.08162183
+32016-8,white blood cells count,glucose mass volume capillary blood,0.04082609291853737,0.062598534
+40067-1,white blood cells count,calcium mass volume serum plasma baseline,0.04082609291853737,0.056447066
+34543-9,white blood cells count,bilirubin direct total panel mass volume serum plasma,0.04082609291853737,0.058927253
+27909-1,white blood cells count,calcium mass volume serum plasma 1st specimen post xxx challenge,0.04082609291853737,0.058022685
+40074-7,white blood cells count,calcium mass volume serum plasma 6 hour post xxx challenge,0.04082609291853737,0.052881036
+47413-0,white blood cells count,plasma cell leukocyte cerebral spinal fluid,0.015964718290327022,0.07474912
+68378-9,white blood cells count,leukocyte disintegrated leukocyte blood,0.015964718290327022,0.2524515
+50724-4,white blood cells count,lymphoblast leukocyte bone marrow manual count,0.015964718290327022,0.094153
+33372-4,white blood cells count,blast leukocyte peritoneal fluid,0.015964718290327022,0.06191946
+57391-5,white blood cells count,eosinophil leukocyte synovial fluid manual count,0.015964718290327022,0.08055823
+55377-6,white blood cells count,mononuclear cell immature leukocyte blood manual count,0.015964718290327022,0.27608874
+34992-8,white blood cells count,smudge cell leukocyte blood,0.015964718290327022,0.25585195
+74143-9,white blood cells count,granulocyte leukocyte body fluid,0.015964718290327022,0.07887265
+33370-8,white blood cells count,variant lymphocyte leukocyte pleural fluid,0.015964718290327022,0.06422343
+14859-3,white blood cells count,leukocyte leukocyte peritoneal fluid manual count,0.015964718290327022,0.09831792
+30419-6,white blood cells count,lymphocyte clefted leukocyte blood,0.015964718290327022,0.24442063
+13597-0,white blood cells count,neutrophil leukocyte nose,0.015964718290327022,0.05896548
+32832-8,white blood cells count,variant lymphocyte leukocyte bronchial specimen,0.015964718290327022,0.05497198
+30415-4,white blood cells count,abnormal lymphocyte leukocyte synovial fluid,0.015964718290327022,0.06429834
+6746-2,white blood cells count,prolymphocytes leukocyte blood manual count,0.015964718290327022,0.2778816
+21681-2,white blood cells count,g6pd gene mutation tested blood tissue molecular genetics method nominal,0.015964718290327022,0.12152431
+30413-9,white blood cells count,abnormal lymphocyte leukocyte blood,0.015964718290327022,0.25318155
+33835-0,white blood cells count,lymphocyte plasmacytoid leukocyte blood manual count,0.015964718290327022,0.27782845
+40660-3,white blood cells count,promyelocytes leukocyte body fluid manual count,0.015964718290327022,0.09330426
+55433-7,white blood cells count,immature cell leukocyte blood,0.015964718290327022,0.25289747
+12229-1,white blood cells count,macrophage leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.08993098
+69913-2,white blood cells count,basophil mast cell leukocyte cerebral spinal fluid,0.015964718290327022,0.06903575
+30467-5,white blood cells count,promyelocytes leukocyte cerebral spinal fluid,0.015964718290327022,0.062676676
+74396-3,white blood cells count,large unstained cell leukocyte cord blood automated count,0.015964718290327022,0.112046525
+40544-9,white blood cells count,monocyte leukocyte bronchial specimen manual count,0.015964718290327022,0.08148927
+70042-7,white blood cells count,mononuclear cell leukocyte synovial fluid automated count,0.015964718290327022,0.10354701
+29261-5,white blood cells count,abnormal lymphocyte leukocyte blood manual count,0.015964718290327022,0.2736828
+14828-8,white blood cells count,mesothelial cell leukocyte pericardial fluid manual count,0.015964718290327022,0.0906611
+42250-1,white blood cells count,variant lymphocyte leukocyte blood automated count,0.015964718290327022,0.27494207
+53519-5,white blood cells count,monocyte leukocyte dialysis fluid,0.015964718290327022,0.06762599
+95843-9,white blood cells count,neutrophil leukocyte sputum manual count,0.015964718290327022,0.091378264
+74402-9,white blood cells count,lymphocyte leukocyte cord blood,0.015964718290327022,0.084742025
+9305-4,white blood cells count,mononuclear cell leukocyte body fluid manual count,0.015964718290327022,0.10176075
+40538-1,white blood cells count,lymphocyte leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.08394066
+26480-4,white blood cells count,lymphocyte leukocyte pericardial fluid,0.015964718290327022,0.06734552
+40521-7,white blood cells count,monocyte leukocyte pleural fluid manual count,0.015964718290327022,0.09126224
+9306-2,white blood cells count,granulocyte leukocyte body fluid manual count,0.015964718290327022,0.099322386
+14625-8,white blood cells count,basophil leukocyte bronchial specimen manual count,0.015964718290327022,0.09052621
+32806-2,white blood cells count,monocyte macrophage leukocyte bronchial specimen manual count,0.015964718290327022,0.08124625
+26472-1,white blood cells count,leukocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.07265684
+55598-7,white blood cells count,leukocyte disintegrated leukocyte body fluid manual count,0.015964718290327022,0.09346449
+71696-9,white blood cells count,granulocyte leukocyte body fluid automated count,0.015964718290327022,0.103103705
+54415-5,white blood cells count,transfuse leukocyte poor platelet unit,0.015964718290327022,0.06462985
+56960-8,white blood cells count,segmented neutrophil leukocyte bone marrow manual count,0.015964718290327022,0.09033965
+13354-6,white blood cells count,band form neutrophil leukocyte body fluid manual count,0.015964718290327022,0.09487389
+57836-9,white blood cells count,basophil leukocyte synovial fluid manual count,0.015964718290327022,0.09415068
+14847-8,white blood cells count,neutrophil leukocyte pericardial fluid manual count,0.015964718290327022,0.092025235
+40537-3,white blood cells count,monocyte leukocyte peritoneal dialysis fluid manual count,0.015964718290327022,0.0831878
+14383-4,white blood cells count,mononuclear cell leukocyte semen manual count,0.015964718290327022,0.09990354
+56772-7,white blood cells count,macrophage leukocyte bronchial specimen flow cytometry fc,0.015964718290327022,0.07098927
+70038-5,white blood cells count,mononuclear cell leukocyte peritoneal fluid automated count,0.015964718290327022,0.09865345
+12209-3,white blood cells count,eosinophil leukocyte body fluid manual count,0.015964718290327022,0.08628223
+14385-9,white blood cells count,mononuclear cell leukocyte gastric fluid manual count,0.015964718290327022,0.09290319
+100708-7,white blood cells count,plasma cell leukocyte synovial fluid,0.015964718290327022,0.07292218
+30430-3,white blood cells count,mesothelial cell leukocyte pericardial fluid,0.015964718290327022,0.056838844
+736-9,white blood cells count,lymphocyte leukocyte blood automated count,0.015964718290327022,0.2844746
+12230-9,white blood cells count,macrophage leukocyte body fluid manual count,0.015964718290327022,0.09653554
+70066-6,white blood cells count,mononuclear cell leukocyte pleural fluid automated count,0.015964718290327022,0.101560324
+33262-7,white blood cells count,metamyelocytes leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.089261405
+30379-2,white blood cells count,eosinophil leukocyte pleural fluid,0.015964718290327022,0.05740204
+74407-8,white blood cells count,basophil leukocyte cord blood,0.015964718290327022,0.084161855
+782-3,white blood cells count,deprecated promyelocytes 100 leukocyte blood automated count,0.015964718290327022,0.28150228
+95214-3,white blood cells count,blast leukocyte stem cell product manual count,0.015964718290327022,0.0994501
+33412-8,white blood cells count,blast leukocyte pericardial fluid,0.015964718290327022,0.056072753
+10328-3,white blood cells count,lymphocyte leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.08976293
+40670-2,white blood cells count,smudge cell leukocyte body fluid manual count,0.015964718290327022,0.09725742
+26488-7,white blood cells count,monocyte leukocyte peritoneal fluid,0.015964718290327022,0.066207156
+70028-6,white blood cells count,megakaryocytic nucleus leukocyte blood manual count,0.015964718290327022,0.28079778
+33374-0,white blood cells count,blast leukocyte synovial fluid,0.015964718290327022,0.06429939
+95223-4,white blood cells count,mononuclear cell leukocyte stem cell product manual count,0.015964718290327022,0.101170175
+706-2,white blood cells count,basophil leukocyte blood automated count,0.015964718290327022,0.2867001
+26481-2,white blood cells count,lymphocyte leukocyte pleural fluid,0.015964718290327022,0.07031605
+30431-1,white blood cells count,mesothelial cell leukocyte pleural fluid,0.015964718290327022,0.06500965
+35021-5,white blood cells count,monocyte macrophage leukocyte pleural fluid,0.015964718290327022,0.068170324
+30374-3,white blood cells count,basophil leukocyte cerebral spinal fluid,0.015964718290327022,0.06351873
+14326-3,white blood cells count,eosinophil leukocyte stool manual count,0.015964718290327022,0.07761383
+55436-0,white blood cells count,myeloblast leukocyte cerebral spinal fluid manual count,0.015964718290327022,0.09556212
+14848-6,white blood cells count,neutrophil leukocyte pleural fluid manual count,0.015964718290327022,0.101103574
+33963-0,white blood cells count,granulocyte leukocyte cerebral spinal fluid,0.015964718290327022,0.06935241
+30407-1,white blood cells count,leukocyte leukocyte pericardial fluid,0.015964718290327022,0.065709926
+74403-7,white blood cells count,normoblasts leukocyte cord blood,0.015964718290327022,0.08142098
+26509-0,white blood cells count,band form neutrophil leukocyte cerebral spinal fluid,0.015964718290327022,0.071070656
+14380-0,white blood cells count,mononuclear cell leukocyte pleural fluid manual count,0.015964718290327022,0.09993698
+26452-3,white blood cells count,eosinophil leukocyte body fluid,0.015964718290327022,0.067557916
+30395-8,white blood cells count,granulocyte leukocyte blood,0.015964718290327022,0.2525167
+54414-8,white blood cells count,leukocyte poor plateletpheresis unit given,0.015964718290327022,0.06999066
+70040-1,white blood cells count,granulocyte leukocyte synovial fluid automated count,0.015964718290327022,0.10423172
+51622-9,white blood cells count,mesothelial cell leukocyte dialysis fluid manual count,0.015964718290327022,0.08553712
+4662-3,white blood cells count,lymphocyte monocyte leukocyte blood,0.015964718290327022,0.25794226
+34917-5,white blood cells count,plasma cell precursor leukocyte blood,0.015964718290327022,0.2534387
+34920-9,white blood cells count,lymphocyte immunoblastic leukocyte blood,0.015964718290327022,0.24654362
+71609-2,white blood cells count,macrophage leukocyte pure number fraction pleural fluid manual count,0.010164032166911807,0.10597742
+71666-2,white blood cells count,promyelocytes leukocyte pure number fraction blood manual count,0.010164032166911807,0.2882546
+729-4,white blood cells count,leukocyte volume blood manual count,0.010164032166911807,0.31755093
+71671-2,white blood cells count,neutrophil leukocyte pure number fraction blood manual count,0.010164032166911807,0.2902377
+35054-6,white blood cells count,leukocyte volume peritoneal fluid,0.010164032166911807,0.09632709
+57847-6,white blood cells count,leukocyte volume dialysis fluid manual count,0.010164032166911807,0.11720894
+14105-1,white blood cells count,leukocyte presence nose light microscopy,0.010164032166911807,0.07065171
+71646-4,white blood cells count,eosinophil leukocyte pure number fraction body fluid manual count,0.010164032166911807,0.09904931
+71676-1,white blood cells count,neutrophil leukocyte pure number fraction blood automated count,0.010164032166911807,0.2916069
+30411-3,white blood cells count,leukocyte left shift presence blood,0.010164032166911807,0.24053295
+804-5,white blood cells count,leukocyte volume blood manual count,0.010164032166911807,0.3153909
+71618-3,white blood cells count,macrophage leukocyte pure number fraction synovial fluid manual count,0.010164032166911807,0.102562256
+71655-5,white blood cells count,metamyelocytes leukocyte pure number fraction cerebral spinal fluid manual count,0.010164032166911807,0.105298
+33765-9,white blood cells count,leukocyte volume blood product unit platelet pheresis automated count,0.010164032166911807,0.12621075
+14811-4,white blood cells count,leukocyte volume pericardial fluid manual count,0.010164032166911807,0.11885327
+12225-9,white blood cells count,leukocyte area sputum microscopy high power field,0.010164032166911807,0.08473597
+71598-7,white blood cells count,neutrophil leukocyte pure number fraction bronchial specimen manual count,0.010164032166911807,0.0955717
+33256-9,white blood cells count,leukocyte volume corrected nucleated erythrocyte blood automated count,0.010164032166911807,0.30229563
+88114-4,white blood cells count,leukocyte presence cerebral spinal fluid gram stain,0.010164032166911807,0.07745635
+71660-5,white blood cells count,lymphocyte leukocyte pure number fraction cerebral spinal fluid manual count,0.010164032166911807,0.10267222
+71673-8,white blood cells count,lymphocyte leukocyte pure number fraction blood manual count,0.010164032166911807,0.28828993
+72348-6,white blood cells count,leukocyte volume prostatic fluid manual count,0.010164032166911807,0.112852246
+32142-2,white blood cells count,leukocyte presence synovial fluid light microscopy,0.010164032166911807,0.07830318
+16526-6,white blood cells count,calcium protein mass ratio serum plasma,0.010164032166911807,0.0402342
+71674-6,white blood cells count,eosinophil leukocyte pure number fraction blood manual count,0.010164032166911807,0.2826699
+71600-1,white blood cells count,macrophage leukocyte pure number fraction pericardial fluid manual count,0.010164032166911807,0.10072067
+71594-6,white blood cells count,macrophage leukocyte pure number fraction bronchial specimen manual count,0.010164032166911807,0.09576184
+68368-0,white blood cells count,leukocyte volume dialysis fluid automated count,0.010164032166911807,0.12190256
+12227-5,white blood cells count,leukocyte volume corrected nucleated erythrocyte blood,0.010164032166911807,0.28379047
+71619-1,white blood cells count,mononuclear cell leukocyte pure number fraction synovial fluid manual count,0.010164032166911807,0.10652098
+35477-9,white blood cells count,ciliated columnar lining cell leukocyte ratio body fluid,0.010164032166911807,0.12796138
+49928-5,white blood cells count,leukocyte volume peritoneal dialysis fluid,0.010164032166911807,0.09183917
+808-6,white blood cells count,leukocyte volume pleural fluid manual count,0.010164032166911807,0.1259849
+68430-8,white blood cells count,leukocyte volume pleural fluid manual count,0.010164032166911807,0.12013905
+71608-4,white blood cells count,granulocyte leukocyte pure number fraction pleural fluid manual count,0.010164032166911807,0.10689495
+30073-1,white blood cells count,voltage gated calcium channel ab presence serum,0.010164032166911807,0.0
+30442-8,white blood cells count,monocyte leukocyte urine,0.005800686123415222,0.06293589
+30462-6,white blood cells count,granulocyte leukocyte urine,0.005800686123415222,0.06385601
+53318-2,white blood cells count,epithelial cell squamous presence urine automated,0.0,0.007475053
+104646-5,white blood cells count,leukocyte area urine computer assisted method,0.0,0.05936303
+33768-3,white blood cells count,leukocyte clump volume urine automated count,0.0,0.0979001
+53272-1,white blood cells count,transitional cell presence urine computer assisted method,0.0,0.015743159
+24122-4,white blood cells count,leukocyte volume urine manual count,0.0,0.094280705
+58805-3,white blood cells count,leukocyte volume urine automated test strip,0.0,0.08198087
