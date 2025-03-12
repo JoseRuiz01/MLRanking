@@ -89,8 +89,14 @@ To cover more search variations, we add **user-generated queries**.
 ### **2. Expanding Dataset**
 
 ## **3. Evaluating the Model**  
-Mean Squared Error (MSE): 0.0299
-R-squared (R²): -0.0713
-Spearman's Rank Correlation: 0.2322
-NDCG Score: 0.7427
+Mean Squared Error (MSE): 0.0254
+R-squared (R²): 0.1281
+Spearman's Rank Correlation: 0.5134
+NDCG Mean Score: 0.8446
+- NDCG for 'bilirubin in plasma': 0.9044
+- NDCG for 'calcium in serum': 0.9342
+- NDCG for 'cells in urine': 0.8639
+- NDCG for 'glucose in blood': 0.6709
+- NDCG for 'white blood cells count': 0.8494
+
 
