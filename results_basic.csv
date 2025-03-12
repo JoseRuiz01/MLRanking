@@ -1,0 +1,42 @@
+LOINC Code,Query,Name,Predicted Score,Actual Score
+14764-5,bilirubin in plasma,glucose serum plasma 3 hour post 100 g glucose po,0.9790818258795853,0.19008575
+35192-4,bilirubin in plasma,bilirubin indirect serum plasma,0.9542341491847797,0.6797341
+1759-0,bilirubin in plasma,albumin globulin serum plasma,0.93848595542671,0.1899663
+1975-2,bilirubin in plasma,bilirubin total serum plasma,0.9378855913658244,0.9810998
+1751-7,bilirubin in plasma,albumin serum plasma,0.9061895887229184,0.15938437
+17861-6,bilirubin in plasma,calcium serum plasma,0.7435603255807941,0.19553699
+29265-6,bilirubin in plasma,calcium corrected albumin serum plasma,0.6906095039591776,0.19387111
+2143-6,bilirubin in plasma,cortisol serum plasma,0.6370271340957274,0.15851092
+31100-1,bilirubin in plasma,hematocrit blood impedance,0.6086795476198318,0.12974492
+2093-3,bilirubin in plasma,cholesterol serum plasma,0.5877393830003546,0.21411736
+14578-9,bilirubin in plasma,abo blood group group blood blood product unit,0.5315169232380135,0.1510829
+933-2,bilirubin in plasma,blood product type,0.5273598697799411,0.13722572
+13317-3,bilirubin in plasma,methicillin resistant staphylococcus aureus unspecified specimen organism specific culture,0.4703863521229242,0.022709345
+23658-8,bilirubin in plasma,antibiotic,0.1564489614108267,0.05846977
+18928-2,bilirubin in plasma,gentamicin,0.1390210194837999,0.054840673
+20442-0,glucose in blood,hepatitis b virus dna viral load serum probe signal amplification,1.0,0.08876837
+74774-1,glucose in blood,glucose serum plasma blood,0.940412565187797,1.0
+26484-6,glucose in blood,monocyte blood,0.7445436209211562,0.27100116
+3082-5,glucose in blood,tyrosine aminotransferase plasma,0.6453071430237283,0.104806565
+925-8,glucose in blood,blood product disposition,0.5568941101650824,0.12263631
+14423-8,glucose in blood,bilirubin total synovial fluid,0.552629005279929,0.04449808
+883-9,glucose in blood,abo blood group group blood,0.5461487574002916,0.30990782
+2111-3,glucose in blood,choriogonadotropin beta subunit serum plasma,0.4515969917271265,0.10454348
+1995-0,glucose in blood,calcium ionized serum plasma,0.45014525641026204,0.11299258
+2075-0,glucose in blood,chloride serum plasma,0.4383567293581626,0.10819675
+934-0,glucose in blood,blood product unit id,0.2767303888426216,0.09279879
+2085-9,glucose in blood,cholesterol hdl serum plasma,0.2715048608156897,0.10480441
+18955-5,glucose in blood,nitrofurantoin,0.14582103895640802,0.04324177
+18878-9,glucose in blood,cefazolin,0.08447293621312896,0.011995816
+26474-7,white blood cells count,lymphocyte blood,0.6238024664844546,0.3307902
+925-8,white blood cells count,blood product disposition,0.6100702423530205,0.11020939
+26484-6,white blood cells count,monocyte blood,0.5997159231133158,0.2765917
+882-1,white blood cells count,abo blood group rh group blood,0.5993248895882297,0.295412
+19000-9,white blood cells count,vancomycin,0.1770967422720527,0.010564414
+14423-8,white blood cells count,bilirubin total synovial fluid,0.14889784089736774,0.060584612
+18906-8,white blood cells count,ciprofloxacin,0.12651694881748682,0.032585148
+17861-6,white blood cells count,calcium serum plasma,0.08401293301239171,0.06398736
+30522-7,white blood cells count,component reactive protein serum plasma high sensitivity method,0.03564364618818566,0.08092596
+2093-3,white blood cells count,cholesterol serum plasma,0.01096492170784702,0.09172386
+6768-6,white blood cells count,alkaline phosphatase serum plasma,0.0,0.10335112
+1920-8,white blood cells count,aspartate aminotransferase serum plasma,0.0,0.10026406
