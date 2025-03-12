@@ -73,12 +73,12 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
 
 ### **3. Train the Model**  
    We use *eXtreme NDCG* for listwise ranking with a custom objective function.
-      - **Objective:** `rank_xendcg` (listwise ranking).
-      - **Parameters:**
-         - `num_leaves`, `max_depth` control model complexity.
-         - `lambda_l1`, `lambda_l2` for regularization.
-         - `label_gain` defines the reward for higher ranks.
-      Training uses *early stopping* and *learning rate decay*.
+   - **Objective:** `rank_xendcg` (listwise ranking).
+   - **Parameters:**
+      - `num_leaves`, `max_depth` control model complexity.
+      - `lambda_l1`, `lambda_l2` for regularization.
+      - `label_gain` defines the reward for higher ranks.
+   Training uses *early stopping* and *learning rate decay*.
 
 
 ### **5. Prediction**
@@ -96,14 +96,14 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
 ### **2. Expanding Dataset**
    To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
    We included documents from the queries:
-      - bilirubin in plasma
-      - bilirubin 
-      - calcium in serum
-      - calcium
-      - glucose in blood
-      - glucose
-      - leukocytes
-      - white blood cells count
+   - bilirubin in plasma
+   - bilirubin 
+   - calcium in serum
+   - calcium
+   - glucose in blood
+   - glucose
+   - leukocytes
+   - white blood cells count
 
 
 ## **3. Evaluating the Model**  
