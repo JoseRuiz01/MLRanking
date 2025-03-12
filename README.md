@@ -4,13 +4,13 @@ Listwise Learning to Rank (LTR) optimizes the **entire ranking order** for a giv
 ---
 
 ## **Step 1: Define the Listwise LTR Model**  
-Listwise LTR models learn a **ranking function** that orders a list of items to maximize evaluation metrics like **NDCG (Normalized Discounted Cumulative Gain)**.
+Listwise LTR models learn a *ranking function* that orders a list of items to maximize evaluation metrics like *NDCG (Normalized Discounted Cumulative Gain)*.
 
 ### **How It Works**  
 1. **Input**: A list of lab test results (documents) for a query.  
-2. **Scoring Function**: A machine learning model predicts a **relevance score** for each test result.  
+2. **Scoring Function**: A machine learning model predicts a *relevance score* for each test result.  
 3. **Loss Function**: The model optimizes the ranking order using a loss function such as:
-   - **eXtreme NDCG** (variant of the Normalized Discounted Cumulative Gain (NDCG) metric, designed to optimize ranking models directly)  
+   - **eXtreme NDCG** (variant of the *Normalized Discounted Cumulative Gain (NDCG)* metric, designed to optimize ranking models directly)  
    - **LambdaRank** (optimizes for NDCG directly)  
 4. **Output**: A ranked list of test results for the query.  
 
@@ -18,7 +18,7 @@ Listwise LTR models learn a **ranking function** that orders a list of items to 
 
 ## **Step 2: Data Preparation**  
 
-We implement a method for calculating relevance scores for lab tests based on a given query. The query consists of two main features: the **component** (e.g., "Glucose") and the **system** (e.g., "Blood"). 
+We implement a method for calculating relevance scores for lab tests based on a given query. The query consists of two main features: the *component* (e.g., "Glucose") and the *system* (e.g., "Blood"). 
 
 ### **1. Define Key Query Features**
    The query is parsed into two primary elements:
@@ -60,7 +60,7 @@ Save into a new csv file the data with the calculated scores following this form
 
 ## **Step 3: Implementing the Listwise LTR Model**  
 
-We use **LightGBM**, which is fast, supports listwise ranking, and is easy to implement.
+We use *LightGBM*, which is fast, supports listwise ranking, and is easy to implement.
 
 ### **1. Prepare the Dataset**  
 Before training, we need to format our dataset appropriately for LightGBM:
@@ -69,9 +69,23 @@ Query groups: LTR requires grouping rows by queries.
 Features & Labels: Extract relevant numerical features and labels (e.g., Score).
 
 ### **2. Train the Model**  
-We use eXtreme NDCG for listwise ranking with a custom objective function.
+We use *eXtreme NDCG* for listwise ranking with a custom objective function.
 
-### **3. Evaluating the Model**
+
+---
+
+## **Step 4: Enhancing the Dataset**  
+
+To improve the model *NDCG* metric, we enhance the dataset with more *features*, *data* and *expanded queries*.
+
+### **1. Expanding Queries**  
+
+### **2. Expanding Dataset**
+To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
+
+## **3. Evaluating the Model**  
+
+**Basic Dataset**
 Mean Squared Error (MSE): 0.1550
 R-squared (R²): -2.3101
 Spearman's Rank Correlation: 0.7134
@@ -79,20 +93,6 @@ NDCG Mean Score: 0.8219
 - NDCG for 'bilirubin in plasma': 0.7764
 - NDCG for 'glucose in blood': 0.7507
 - NDCG for 'white blood cells count': 0.9388
-
----
-
-## **Step 4: Enhancing the Dataset**  
-
-To improve model NDCG, we enhance the dataset with more **features** and **expanded queries**.
-
-### **1. Expanding Queries**  
-To cover more search variations, we add **user-generated queries**.
-
-### **2. Expanding Dataset**
-
-## **3. Evaluating the Model**  
-
 
 **First Enhanced Dataset**
 Mean Squared Error (MSE): 0.0285
@@ -104,5 +104,15 @@ NDCG Mean Score: 0.8845
 - NDCG for 'cells in urine': 0.8793
 - NDCG for 'glucose in blood': 0.9091
 - NDCG for 'white blood cells count': 0.8577
+
+**Second Enhanced Dataset**
+Mean Squared Error (MSE): 0.0398
+R-squared (R²): -0.6662
+Spearman's Rank Correlation: 0.5480
+NDCG Mean Score: 0.9082
+- NDCG for 'bilirubin in plasma': 0.9117
+- NDCG for 'calcium in serum': 0.9333
+- NDCG for 'glucose in blood': 0.9252
+- NDCG for 'white blood cells count': 0.8628
 
 
