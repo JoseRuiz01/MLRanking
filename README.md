@@ -78,7 +78,7 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
          - `num_leaves`, `max_depth` control model complexity.
          - `lambda_l1`, `lambda_l2` for regularization.
          - `label_gain` defines the reward for higher ranks.
-      - Training uses *early stopping* and *learning rate decay*.
+      Training uses *early stopping* and *learning rate decay*.
 
 
 ### **5. Prediction**
