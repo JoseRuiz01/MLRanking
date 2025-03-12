@@ -72,10 +72,13 @@ Features & Labels: Extract relevant numerical features and labels (e.g., Score).
 We use eXtreme NDCG for listwise ranking with a custom objective function.
 
 ### **3. Evaluating the Model**
-Mean Squared Error (MSE): 0.0125
-R-squared (R²): 0.7362
-Spearman's Rank Correlation: 0.7907
-NDCG Score: 0.9616
+Mean Squared Error (MSE): 0.1550
+R-squared (R²): -2.3101
+Spearman's Rank Correlation: 0.7134
+NDCG Mean Score: 0.8219
+- NDCG for 'bilirubin in plasma': 0.7764
+- NDCG for 'glucose in blood': 0.7507
+- NDCG for 'white blood cells count': 0.9388
 
 ---
 
@@ -89,14 +92,17 @@ To cover more search variations, we add **user-generated queries**.
 ### **2. Expanding Dataset**
 
 ## **3. Evaluating the Model**  
-Mean Squared Error (MSE): 0.0254
-R-squared (R²): 0.1281
-Spearman's Rank Correlation: 0.5134
-NDCG Mean Score: 0.8446
-- NDCG for 'bilirubin in plasma': 0.9044
-- NDCG for 'calcium in serum': 0.9342
-- NDCG for 'cells in urine': 0.8639
-- NDCG for 'glucose in blood': 0.6709
-- NDCG for 'white blood cells count': 0.8494
+
+
+**First Enhanced Dataset**
+Mean Squared Error (MSE): 0.0285
+R-squared (R²): -0.0209
+Spearman's Rank Correlation: 0.6285
+NDCG Mean Score: 0.8845
+- NDCG for 'bilirubin in plasma': 0.8615
+- NDCG for 'calcium in serum': 0.9149
+- NDCG for 'cells in urine': 0.8793
+- NDCG for 'glucose in blood': 0.9091
+- NDCG for 'white blood cells count': 0.8577
 
 
