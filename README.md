@@ -95,7 +95,7 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
 
 ### **2. Expanding Dataset**
    To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
-   We included documents from the queries:
+   We did several experiments, but for the final version we included documents results for the following queries:
    - bilirubin in plasma
    - bilirubin 
    - calcium in serum
@@ -104,6 +104,8 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
    - glucose
    - leukocytes
    - white blood cells count
+   - blood
+   - serum or plasma
 
 
 ## **3. Evaluating the Model**  
@@ -129,6 +131,7 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
    
    **3.3. Second Enhanced Dataset**
    
+
 
    **3.3. Third Enhanced Dataset**
    - Mean Squared Error (MSE): 0.0252
