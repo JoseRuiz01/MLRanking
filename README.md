@@ -133,7 +133,7 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
    
 
 
-   **3.3. Third Enhanced Dataset**
+   **3.4. Third Enhanced Dataset**
    - Mean Squared Error (MSE): 0.0252
    - R-squared (R²): -0.4765
    - Spearman's Rank Correlation: 0.4983
