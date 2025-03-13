@@ -124,24 +124,19 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
 
 
    **3.2. First Enhanced Dataset**
-   - Mean Squared Error (MSE): 0.0186
-   - R-squared (R²): 0.3112
-   - Spearman's Rank Correlation: 0.5761
-   - NDCG Mean Score: 0.9054
-      - NDCG for 'bilirubin in plasma': 0.8663
-      - NDCG for 'calcium in serum': 0.9489
-      - NDCG for 'cells in urine': 0.8889
-      - NDCG for 'glucose in blood': 0.9292
-      - NDCG for 'white blood cells count': 0.8935
+   
 
    
    **3.3. Second Enhanced Dataset**
-   - Mean Squared Error (MSE): 0.0477
-   - R-squared (R²): -0.9641
-   - Spearman's Rank Correlation: 0.5937
-   - NDCG Mean Score: 0.9422
-      - NDCG for 'bilirubin in plasma': 0.9328
-      - NDCG for 'calcium in serum': 0.9332
-      - NDCG for 'glucose in blood': 0.9407
-      - NDCG for 'white blood cells count': 0.9623
+   
+
+   **3.3. Third Enhanced Dataset**
+   - Mean Squared Error (MSE): 0.0252
+   - R-squared (R²): -0.4765
+   - Spearman's Rank Correlation: 0.4983
+   - NDCG Mean Score: 0.9398
+      - NDCG for 'bilirubin in plasma': 0.9326
+      - NDCG for 'calcium in serum': 0.9494
+      - NDCG for 'glucose in blood': 0.9381
+      - NDCG for 'white blood cells count': 0.9391
 
