@@ -16,16 +16,16 @@ glucose in blood,1798-8,amylase serum plasma,amylase,serum plasma,cell concentra
 glucose in blood,26474-7,lymphocyte blood,lymphocyte,blood,number concentration,volume,0.31068662
 glucose in blood,1920-8,aspartate aminotransferase serum plasma,aspartate aminotransferase,serum plasma,cell concentration,enzymatic activity volume,0.1575637
 glucose in blood,13317-3,methicillin resistant staphylococcus aureus unspecified specimen organism specific culture,staphylococcus aureus methicillin resistant isolate,xxx,amount concentration,presence,0.020268863
-glucose in blood,925-8,blood product disposition,blood product disposition,bpu,type,type,0.12263631
+glucose in blood,925-8,blood product disposition,blood product disposition,blood product unit,type,type,0.24196787
 glucose in blood,14749-6,glucose serum plasma,glucose,serum plasma,substance concentration,mole volume,0.9158812
-glucose in blood,14747-0,glucose pleural fluid,glucose,plr field,substance concentration,mole volume,0.8573391
+glucose in blood,14747-0,glucose pleural fluid,glucose,plr fluid,substance concentration,mole volume,0.86384654
 glucose in blood,2093-3,cholesterol serum plasma,cholesterol,serum plasma,mass concentration,mass volume,0.1306195
 glucose in blood,1968-7,bilirubin direct serum plasma,bilirubin glucuronidated bilirubin albumin bound,serum plasma,mass concentration,mass volume,0.12743936
 glucose in blood,26464-8,leukocyte blood,leukocyte,blood,number concentration,volume,0.30913356
 glucose in blood,74774-1,glucose serum plasma blood,glucose,serum plasma blood,mass concentration,mass volume,1.0
 glucose in blood,8310-5,body temperature,body temperature,patient,temp,,0.08583496
 glucose in blood,934-0,blood product unit id,blood product unit id,dose,num,,0.09279879
-glucose in blood,14423-8,bilirubin total synovial fluid,bilirubin,synv field,mass concentration,mass volume,0.04449808
+glucose in blood,14423-8,bilirubin total synovial fluid,bilirubin,synv fluid,mass concentration,mass volume,0.049584966
 glucose in blood,1742-6,alanine aminotransferase serum plasma,alanine aminotransferase,serum plasma,cell concentration,enzymatic activity volume,0.13281758
 glucose in blood,14764-5,glucose serum plasma 3 hour post 100 g glucose po,glucose 3h post 100 g glucose po,serum plasma,substance concentration,mole volume,0.5555009
 glucose in blood,1994-3,calcium ionized blood,calcium ionized,blood,substance concentration,mole volume,0.2676111
@@ -46,10 +46,10 @@ glucose in blood,30522-7,component reactive protein serum plasma high sensitivit
 glucose in blood,33870-7,bilirubin total unspecified specimen,bilirubin,xxx,prthr,presence,0.04440444
 glucose in blood,20442-0,hepatitis b virus dna viral load serum probe signal amplification,hepatitis b virus dna,serum,number concentration,volume,0.08876837
 glucose in blood,2111-3,choriogonadotropin beta subunit serum plasma,choriogonadotropin beta subunit,serum plasma,substance concentration,mole volume,0.10454348
-glucose in blood,14578-9,abo blood group group blood blood product unit,abo blood group group,blood bpu,type,type,0.21886738
+glucose in blood,14578-9,abo blood group group blood blood product unit,abo blood group group,blood blood product unit,type,type,0.23124133
 glucose in blood,18955-5,nitrofurantoin,nitrofurantoin,isolate,susceptibility,susceptibility,0.04324177
 glucose in blood,2039-6,carcinoembryonic ag serum plasma,carcinoembryonic ag,serum plasma,mass concentration,mass volume,0.1268004
-glucose in blood,933-2,blood product type,blood product type,bpu,type,,0.120751314
+glucose in blood,933-2,blood product type,blood product type,blood product unit,type,,0.24008293
 glucose in blood,19000-9,vancomycin,vancomycin,isolate,susceptibility,susceptibility,0.0069472427
 glucose in blood,26478-8,lymphocyte 100 leukocyte blood,lymphocyte 100 leukocyte,blood,nfr,,0.2862386
 glucose in blood,19080-1,choriogonadotropin serum plasma,choriogonadotropin,serum plasma,amount concentration,unit volume,0.08510362
@@ -88,7 +88,7 @@ bilirubin in plasma,18955-5,nitrofurantoin,nitrofurantoin,isolate,susceptibility
 bilirubin in plasma,19000-9,vancomycin,vancomycin,isolate,susceptibility,susceptibility,0.04730334
 bilirubin in plasma,18864-9,ampicillin,ampicillin,isolate,susceptibility,susceptibility,0.12424148
 bilirubin in plasma,890-4,blood group antibody screen serum plasma,blood group antibody screen,serum plasma,amount concentration,presence,0.2487514
-bilirubin in plasma,14578-9,abo blood group group blood blood product unit,abo blood group group,blood bpu,type,type,0.1510829
+bilirubin in plasma,14578-9,abo blood group group blood blood product unit,abo blood group group,blood blood product unit,type,type,0.15518266
 bilirubin in plasma,17861-6,calcium serum plasma,calcium,serum plasma,mass concentration,mass volume,0.19553699
 bilirubin in plasma,1759-0,albumin globulin serum plasma,albumin globulin,serum plasma,mcrto,mass ratio,0.1899663
 bilirubin in plasma,2028-9,carbon dioxide total serum plasma,carbon dioxide,serum plasma,substance concentration,mole volume,0.1855971
@@ -97,25 +97,25 @@ bilirubin in plasma,23658-8,antibiotic,antibiotic xxx,isolate,susceptibility,sus
 bilirubin in plasma,1971-1,bilirubin indirect serum plasma,bilirubin non glucuronidated,serum plasma,mass concentration,mass volume,0.67955154
 bilirubin in plasma,20442-0,hepatitis b virus dna viral load serum probe signal amplification,hepatitis b virus dna,serum,number concentration,volume,0.106113434
 bilirubin in plasma,74774-1,glucose serum plasma blood,glucose,serum plasma blood,mass concentration,mass volume,0.20901728
-bilirubin in plasma,14747-0,glucose pleural fluid,glucose,plr field,substance concentration,mole volume,0.06042576
+bilirubin in plasma,14747-0,glucose pleural fluid,glucose,plr fluid,substance concentration,mole volume,0.07209743
 bilirubin in plasma,35192-4,bilirubin indirect serum plasma,bilirubin non glucuronidated,serum plasma,mass substance concentration,mass mole volume,0.6797341
 bilirubin in plasma,2143-6,cortisol serum plasma,cortisol,serum plasma,mass concentration,mass volume,0.15851092
 bilirubin in plasma,2039-6,carcinoembryonic ag serum plasma,carcinoembryonic ag,serum plasma,mass concentration,mass volume,0.17034392
 bilirubin in plasma,26474-7,lymphocyte blood,lymphocyte,blood,number concentration,volume,0.098784946
 bilirubin in plasma,3082-5,tyrosine aminotransferase plasma,tyrosine aminotransferase,plasma,mass concentration,mass volume,0.28840357
-bilirubin in plasma,14423-8,bilirubin total synovial fluid,bilirubin,synv field,mass concentration,mass volume,0.83933145
+bilirubin in plasma,14423-8,bilirubin total synovial fluid,bilirubin,synv fluid,mass concentration,mass volume,0.84659714
 bilirubin in plasma,18928-2,gentamicin,gentamicin,isolate,susceptibility,susceptibility,0.054840673
 bilirubin in plasma,26478-8,lymphocyte 100 leukocyte blood,lymphocyte 100 leukocyte,blood,nfr,,0.08794416
 bilirubin in plasma,1003-3,indirect antiglobulin test complement specific reagent serum plasma,indirect antiglobulin test complement specific reagent,serum plasma,amount concentration,presence,0.24551722
 bilirubin in plasma,14749-6,glucose serum plasma,glucose,serum plasma,substance concentration,mole volume,0.2076521
-bilirubin in plasma,933-2,blood product type,blood product type,bpu,type,,0.13722572
+bilirubin in plasma,933-2,blood product type,blood product type,blood product unit,type,,0.16678087
 bilirubin in plasma,26484-6,monocyte blood,monocyte,blood,number concentration,volume,0.10095118
 bilirubin in plasma,1751-7,albumin serum plasma,albumin,serum plasma,mass concentration,mass volume,0.15938437
 bilirubin in plasma,2132-9,cobalamin vitamin b12 serum,cobalamin,serum,mass concentration,mass volume,0.15563956
 bilirubin in plasma,14764-5,glucose serum plasma 3 hour post 100 g glucose po,glucose 3h post 100 g glucose po,serum plasma,substance concentration,mole volume,0.19008575
 bilirubin in plasma,15076-3,glucose urine,glucose,urine,substance concentration,mole volume,0.06709694
 bilirubin in plasma,19080-1,choriogonadotropin serum plasma,choriogonadotropin,serum plasma,amount concentration,unit volume,0.22505045
-bilirubin in plasma,925-8,blood product disposition,blood product disposition,bpu,type,type,0.14350498
+bilirubin in plasma,925-8,blood product disposition,blood product disposition,blood product unit,type,type,0.17306012
 bilirubin in plasma,20629-2,levofloxacin,levofloxacin,isolate,susceptibility,susceptibility,0.07129358
 bilirubin in plasma,2111-3,choriogonadotropin beta subunit serum plasma,choriogonadotropin beta subunit,serum plasma,substance concentration,mole volume,0.23175062
 bilirubin in plasma,29265-6,calcium corrected albumin serum plasma,calcium corrected albumin,serum plasma,substance concentration,mole volume,0.19387111
@@ -135,7 +135,7 @@ bilirubin in plasma,33870-7,bilirubin total unspecified specimen,bilirubin,xxx,p
 bilirubin in plasma,1988-5,component reactive protein serum plasma,component reactive protein,serum plasma,mass concentration,mass volume,0.24136259
 white blood cells count,33870-7,bilirubin total unspecified specimen,bilirubin,xxx,prthr,presence,0.034842033
 white blood cells count,29265-6,calcium corrected albumin serum plasma,calcium corrected albumin,serum plasma,substance concentration,mole volume,0.06425209
-white blood cells count,14423-8,bilirubin total synovial fluid,bilirubin,synv field,mass concentration,mass volume,0.060584612
+white blood cells count,14423-8,bilirubin total synovial fluid,bilirubin,synv fluid,mass concentration,mass volume,0.06135414
 white blood cells count,23658-8,antibiotic,antibiotic xxx,isolate,susceptibility,susceptibility,0.029058823
 white blood cells count,19000-9,vancomycin,vancomycin,isolate,susceptibility,susceptibility,0.010564414
 white blood cells count,14749-6,glucose serum plasma,glucose,serum plasma,substance concentration,mole volume,0.10423827
@@ -148,24 +148,24 @@ white blood cells count,15076-3,glucose urine,glucose,urine,substance concentrat
 white blood cells count,35184-1,fasting glucose serum plasma,glucose post cfst,serum plasma,mass substance concentration,mass mole volume,0.09053645
 white blood cells count,2085-9,cholesterol hdl serum plasma,cholesterol hdl,serum plasma,mass concentration,mass volume,0.09649977
 white blood cells count,26464-8,leukocyte blood,leukocyte,blood,number concentration,volume,0.36510882
-white blood cells count,925-8,blood product disposition,blood product disposition,bpu,type,type,0.11020939
+white blood cells count,925-8,blood product disposition,blood product disposition,blood product unit,type,type,0.22316508
 white blood cells count,1994-3,calcium ionized blood,calcium ionized,blood,substance concentration,mole volume,0.2138202
 white blood cells count,1798-8,amylase serum plasma,amylase,serum plasma,cell concentration,enzymatic activity volume,0.03439148
 white blood cells count,1959-6,bicarbonate blood,bicarbonate,blood,substance concentration,mole volume,0.22304891
 white blood cells count,1975-2,bilirubin total serum plasma,bilirubin,serum plasma,mass concentration,mass volume,0.093669005
 white blood cells count,18928-2,gentamicin,gentamicin,isolate,susceptibility,susceptibility,0.017392421
-white blood cells count,14578-9,abo blood group group blood blood product unit,abo blood group group,blood bpu,type,type,0.22434735
+white blood cells count,14578-9,abo blood group group blood blood product unit,abo blood group group,blood blood product unit,type,type,0.23890308
 white blood cells count,934-0,blood product unit id,blood product unit id,dose,num,,0.12169042
 white blood cells count,4671-4,protein component plasma,protein component,plasma,mass concentration,mass volume,0.052415162
 white blood cells count,2069-3,chloride blood,chloride,blood,substance concentration,mole volume,0.2539165
 white blood cells count,2111-3,choriogonadotropin beta subunit serum plasma,choriogonadotropin beta subunit,serum plasma,substance concentration,mole volume,0.03606186
 white blood cells count,17861-6,calcium serum plasma,calcium,serum plasma,mass concentration,mass volume,0.06398736
 white blood cells count,2075-0,chloride serum plasma,chloride,serum plasma,substance concentration,mole volume,0.09071675
-white blood cells count,933-2,blood product type,blood product type,bpu,type,,0.11202213
+white blood cells count,933-2,blood product type,blood product type,blood product unit,type,,0.22497782
 white blood cells count,2132-9,cobalamin vitamin b12 serum,cobalamin,serum,mass concentration,mass volume,0.10255958
 white blood cells count,19080-1,choriogonadotropin serum plasma,choriogonadotropin,serum plasma,amount concentration,unit volume,0.027442303
 white blood cells count,26478-8,lymphocyte 100 leukocyte blood,lymphocyte 100 leukocyte,blood,nfr,,0.3578652
-white blood cells count,14747-0,glucose pleural fluid,glucose,plr field,substance concentration,mole volume,0.06874106
+white blood cells count,14747-0,glucose pleural fluid,glucose,plr fluid,substance concentration,mole volume,0.06842614
 white blood cells count,20565-8,carbon dioxide total blood,carbon dioxide,blood,substance concentration,mole volume,0.22554745
 white blood cells count,2028-9,carbon dioxide total serum plasma,carbon dioxide,serum plasma,substance concentration,mole volume,0.061292607
 white blood cells count,18955-5,nitrofurantoin,nitrofurantoin,isolate,susceptibility,susceptibility,0.0
