@@ -114,16 +114,14 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
    - **NDCG** (Normalized Discounted Cumulative Gain): *Higher* values are better [0, 1], reflecting how well the model ranks items compared to an ideal ranking
 
    **3.1. Basic Dataset**
-   - Mean Squared Error (MSE): 0.1271
-   - R-squared (R²): -1.7125
-   - Spearman's Rank Correlation: 0.5479
-   - NDCG Mean Score: 0.9050
-      - NDCG for 'bilirubin in plasma': 0.8030
-      - NDCG for 'glucose in blood': 0.9380
-      - NDCG for 'white blood cells count': 0.9740
+   - Mean Squared Error (MSE): 0.1642
+   - R-squared (R²): -2.5187
+   - Spearman's Rank Correlation: 0.7265
+   - NDCG Mean Score: 0.9086
+      - NDCG for 'bilirubin in plasma': 0.8360
+      - NDCG for 'glucose in blood': 0.9584
+      - NDCG for 'white blood cells count': 0.9313
 
-    
-   For these new larger datasets, we increased the test size to 25%, as we obtained a better performance with this approach.
 
    **3.2. First Enhanced Dataset**
    - Mean Squared Error (MSE): 0.0186
