@@ -1,0 +1,1001 @@
+LOINC_NUM,COMPONENT,PROPERTY,TIME_ASPCT,SYSTEM,SCALE_TYP,METHOD_TYP,CLASS,VersionLastChanged,STATUS,CLASSTYPE,ORDER_OBS,EXTERNAL_COPYRIGHT_NOTICE,EXAMPLE_UNITS,LONG_COMMON_NAME,EXAMPLE_UCUM_UNITS,VersionFirstReleased,LHCForms,FormalName
+100857-2,Cells.CD3+CD8+/Cells,NFr,Pt,"Bld MC",Qn,,MICRO,2.79,TRIAL,1,Both,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Blood mononuclear cells",%,2.73,false,"Cells.CD3+CD8+/Cells:NFr:Pt:Bld MC:Qn:"
+80703-2,Cells.CD27+CD45RA-/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27+CD45RA- cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.56,false,Cells.CD27+CD45RA-/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+80705-7,Cells.CD27+CD45RA+/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27+CD45RA+ cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.56,false,Cells.CD27+CD45RA+/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+80701-6,Cells.CD27-/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27- cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.56,false,Cells.CD27-/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+80708-1,Cells.CD27-CD45RA-/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27-CD45RA- cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.56,false,Cells.CD27-CD45RA-/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+80709-9,Cells.CD27-CD45RA+/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27-CD45RA+ cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.56,false,Cells.CD27-CD45RA+/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+40624-9,Cells.CD3+CD8+/Cells,NFr,Pt,Bronchial,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Bronchial specimen",%,2.15,false,Cells.CD3+CD8+/Cells:NFr:Pt:Bronchial:Qn:
+100856-4,Cells.CD3+CD4+/Cells,NFr,Pt,"Bld MC",Qn,,MICRO,2.79,TRIAL,1,Both,,%,"CD3+CD4+ (T4 helper) cells/cells in Blood mononuclear cells",%,2.73,false,"Cells.CD3+CD4+/Cells:NFr:Pt:Bld MC:Qn:"
+60456-1,Cells.CD3+CD8+CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+CD57+ cells/cells in Blood",%,2.34,false,Cells.CD3+CD8+CD57+/Cells:NFr:Pt:Bld:Qn:
+80702-4,Cells.CD27+CD45RA-/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27+CD45RA- cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.56,false,Cells.CD27+CD45RA-/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+80704-0,Cells.CD27+CD45RA+/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27+CD45RA+ cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.56,false,Cells.CD27+CD45RA+/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+34929-0,Cells.CD3+CD4+CD45RO+CD45RA-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+CD45RO+CD45RA- cells/cells in Blood",%,2.11,false,Cells.CD3+CD4+CD45RO+CD45RA-/Cells:NFr:Pt:Bld:Qn:
+34930-8,Cells.CD3+CD4+CD45RO+CD45RA+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+CD45RO+CD45RA+ cells/cells in Blood",%,2.11,false,Cells.CD3+CD4+CD45RO+CD45RA+/Cells:NFr:Pt:Bld:Qn:
+34933-2,Cells.CD3+CD8+CD45RO+CD45RA-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+CD45RO+CD45RA- cells/cells in Blood",%,2.11,false,Cells.CD3+CD8+CD45RO+CD45RA-/Cells:NFr:Pt:Bld:Qn:
+34934-0,Cells.CD3+CD8+CD45RO+CD45RA+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+CD45RO+CD45RA+ cells/cells in Blood",%,2.11,false,Cells.CD3+CD8+CD45RO+CD45RA+/Cells:NFr:Pt:Bld:Qn:
+34935-7,Cells.CD3+CD8+CD45RO-CD45RA-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+CD45RO-CD45RA- cells/cells in Blood",%,2.11,false,Cells.CD3+CD8+CD45RO-CD45RA-/Cells:NFr:Pt:Bld:Qn:
+34936-5,Cells.CD3+CD8+CD45RO-CD45RA+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+CD45RO-CD45RA+ cells/cells in Blood",%,2.11,false,Cells.CD3+CD8+CD45RO-CD45RA+/Cells:NFr:Pt:Bld:Qn:
+61121-0,Cells.CD8-CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8-CD57+ cells/cells in Blood",%,2.34,false,Cells.CD8-CD57+/Cells:NFr:Pt:Bld:Qn:
+54218-3,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,ratio,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Blood",%,2.27,false,Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:Bld:Qn:
+32756-9,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,Bronchial,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Bronchial specimen",%,2.09,false,Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:Bronchial:Qn:
+40900-3,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Tissue",,2.15,false,Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:Tiss:Qn:
+34931-6,Cells.CD3+CD4+CD45RO-CD45RA-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+CD45RO-CD45RA- cells/cells in Blood",%,2.11,false,Cells.CD3+CD4+CD45RO-CD45RA-/Cells:NFr:Pt:Bld:Qn:
+34932-4,Cells.CD3+CD4+CD45RO-CD45RA+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+CD45RO-CD45RA+ cells/cells in Blood",%,2.11,false,Cells.CD3+CD4+CD45RO-CD45RA+/Cells:NFr:Pt:Bld:Qn:
+89339-6,Cells.CD27+CD62L+/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+CD62L+ cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.64,false,Cells.CD27+CD62L+/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+89336-2,Cells.CD45RO/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD45RO cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.64,false,Cells.CD45RO/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+8123-2,Cells.CD3+CD4+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/cells in Blood",%,1.0h(2),false,Cells.CD3+CD4+/Cells:NFr:Pt:Bld:Qn:
+40623-1,Cells.CD3+CD4+/Cells,NFr,Pt,Bronchial,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/cells in Bronchial specimen",%,2.15,false,Cells.CD3+CD4+/Cells:NFr:Pt:Bronchial:Qn:
+51300-2,Cells.CD3+CD4+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/cells in Tissue",%,2.22,false,Cells.CD3+CD4+/Cells:NFr:Pt:Tiss:Qn:
+8101-8,Cells.CD3+CD8+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Blood",%,1.0h(2),false,Cells.CD3+CD8+/Cells:NFr:Pt:Bld:Qn:
+51312-7,Cells.CD4+CD7-CD49d-/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD49D- cells/cells in Tissue",%,2.22,false,Cells.CD4+CD7-CD49d-/Cells:NFr:Pt:Tiss:Qn:
+51306-9,Cells.CD4+CD7-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7- cells/cells in Blood",%,2.22,false,Cells.CD4+CD7-/Cells:NFr:Pt:Bld:Qn:
+51302-8,Cells.CD4+CD7-/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7- cells/cells in Tissue",%,2.22,false,Cells.CD4+CD7-/Cells:NFr:Pt:Tiss:Qn:
+42737-7,Cells.CD4+CD7+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7+ cells/cells in Blood",%,2.16,false,Cells.CD4+CD7+/Cells:NFr:Pt:Bld:Qn:
+17146-2,Cells.CD4+CD8+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD8+ cells/cells in Blood",%,1.0l,false,Cells.CD4+CD8+/Cells:NFr:Pt:Bld:Qn:
+13338-9,Cells.CD8+CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD57+ cells/cells in Blood",%,1.0j-a,false,Cells.CD8+CD57+/Cells:NFr:Pt:Bld:Qn:
+51256-6,Cells.CD16+CD57+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57+ cells/cells in Tissue",%,2.22,false,Cells.CD16+CD57+/Cells:NFr:Pt:Tiss:Qn:
+8114-1,Cells.CD16-CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16-CD57+ cells/cells in Blood",%,1.0h(2),false,Cells.CD16-CD57+/Cells:NFr:Pt:Bld:Qn:
+89352-9,Cells.CD27+IgD+IgM+/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+IgD+IgM+ cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD27+IgD+IgM+/Cells.CD19:NFr:Pt:Bld:Qn:
+89350-3,Cells.CD27+IgD-IgM-/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+IgD-IgM- cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD27+IgD-IgM-/Cells.CD19:NFr:Pt:Bld:Qn:
+89348-7,Cells.CD27+IgD-IgM+/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+IgD-IgM+ cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD27+IgD-IgM+/Cells.CD19:NFr:Pt:Bld:Qn:
+80710-7,Cells.CD27-IgD+/Cells.CD19+CD20+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27-IgD+ cells/Cells.CD19+CD20+ in Blood",%,2.56,false,Cells.CD27-IgD+/Cells.CD19+CD20+:NFr:Pt:Bld:Qn:
+97599-5,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,"Respiratory system specimen.lower",Qn,"Flow cytometry",CELLMARK,2.77,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Lower respiratory specimen by Flow cytometry (FC)",%,2.70,false,"Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:Respiratory system specimen.lower:Qn:Flow cytometry"
+17128-0,Cells.CD27/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27 cells/cells in Blood",%,1.0l,false,Cells.CD27/Cells:NFr:Pt:Bld:Qn:
+18266-7,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Body fluid",,1.0l,false,"Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:Body fld:Qn:"
+32537-3,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Bone marrow",%,2.08,false,"Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:Bone mar:Qn:"
+20607-8,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Specimen",,1.0m,false,Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:XXX:Qn:
+89334-7,Cells.CD27-CD45RO+CD62L-CCR7-/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27-CD45RO+CD62L-CCR7- cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.64,false,Cells.CD27-CD45RO+CD62L-CCR7-/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+80706-5,Cells.CD27+IgD-/Cells.CD19+CD20+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27+IgD- cells/Cells.CD19+CD20+ in Blood",%,2.56,false,Cells.CD27+IgD-/Cells.CD19+CD20+:NFr:Pt:Bld:Qn:
+80707-3,Cells.CD27+IgD+/Cells.CD19+CD20+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27+IgD+ cells/Cells.CD19+CD20+ in Blood",%,2.56,false,Cells.CD27+IgD+/Cells.CD19+CD20+:NFr:Pt:Bld:Qn:
+89332-1,"Cells.CD28+HLA DR+/Cells.CD3+CD8+",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD28+HLA DR+ cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.64,false,"Cells.CD28+HLA DR+/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:"
+51755-7,Cells.CD3+CD4-CD8-CD45+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4-CD8-CD45+ cells/cells in Blood",%,2.24,false,Cells.CD3+CD4-CD8-CD45+/Cells:NFr:Pt:Bld:Qn:
+8113-3,Cells.CD16+CD57-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57- cells/cells in Blood",%,1.0h(2),false,Cells.CD16+CD57-/Cells:NFr:Pt:Bld:Qn:
+9680-0,Cells.CD16+CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57+ cells/cells in Blood",%,1.0i,false,Cells.CD16+CD57+/Cells:NFr:Pt:Bld:Qn:
+17135-5,Cells.CD3+CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD56+ cells/cells in Blood",%,1.0l,false,Cells.CD3+CD56+/Cells:NFr:Pt:Bld:Qn:
+51278-0,Cells.CD3+CD56+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD56+ cells/cells in Tissue",%,2.22,false,Cells.CD3+CD56+/Cells:NFr:Pt:Tiss:Qn:
+55090-5,Cells.CD3-CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD56+ cells/cells in Blood",%,2.27,false,Cells.CD3-CD56+/Cells:NFr:Pt:Bld:Qn:
+40880-7,Cells.CD3-CD56+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD56+ cells/cells in Tissue",%,2.15,false,Cells.CD3-CD56+/Cells:NFr:Pt:Tiss:Qn:
+38238-2,Cells.CD4+CD28+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD28+ cells/cells in Blood",%,2.13,false,Cells.CD4+CD28+/Cells:NFr:Pt:Bld:Qn:
+13336-3,Cells.CD4+CD45RA+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD45RA+ cells/cells in Blood",%,1.0j-a,false,Cells.CD4+CD45RA+/Cells:NFr:Pt:Bld:Qn:
+43965-3,Cells.CD4+CD45RA+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RA+ cells/cells in Tissue",%,2.17,false,Cells.CD4+CD45RA+/Cells:NFr:Pt:Tiss:Qn:
+41994-5,Cells.CD4+CD45RO+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD45RO+ cells/cells in Blood",%,2.16,false,Cells.CD4+CD45RO+/Cells:NFr:Pt:Bld:Qn:
+77655-9,Cells.diploid/Cells,NFr,Pt,Cells.XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Observation,,%,"Diploid cells/cells in Cells.XXX by Flow cytometry (FC)",%,2.52,false,"Cells.diploid/Cells:NFr:Pt:Cells.XXX:Qn:Flow cytometry"
+56908-7,Cells.CD3+CD8+CD45+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,DISCOURAGED,1,Observation,,%,"CD3+CD8+CD45+ cells/cells in Blood",%,2.29,false,Cells.CD3+CD8+CD45+/Cells:NFr:Pt:Bld:Qn:
+51010-7,Cells.CD3-CD16+CD56+CD244+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+CD244+ cells/cells in Blood",%,2.22,false,Cells.CD3-CD16+CD56+CD244+/Cells:NFr:Pt:Bld:Qn:
+17140-5,Cells.CD34+DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD34+DR+ cells/cells in Blood",%,1.0l,false,Cells.CD34+DR+/Cells:NFr:Pt:Bld:Qn:
+15194-4,Cells.CD3-CD16+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+ cells/cells in Blood",%,1.0k,false,Cells.CD3-CD16+/Cells:NFr:Pt:Bld:Qn:
+40893-0,Cells.CD3-CD16+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+ cells/cells in Tissue",%,2.15,false,Cells.CD3-CD16+/Cells:NFr:Pt:Tiss:Qn:
+42882-1,Cells.CD3-CD57+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3-CD57+ cells/cells in Tissue",%,2.16,false,Cells.CD3-CD57+/Cells:NFr:Pt:Tiss:Qn:
+17191-8,Cells.CD3-CD7+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD7+cells/cells in Blood",%,1.0l,false,Cells.CD3-CD7+/Cells:NFr:Pt:Bld:Qn:
+63452-7,Cells.CD3-CD7+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD7+cells/cells in Tissue",%,2.36,false,Cells.CD3-CD7+/Cells:NFr:Pt:Tiss:Qn:
+58350-0,"Plasma cells.immature/Cells",NFr,Pt,Bld,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Plasma cells immature/cells in Blood",%,2.30,false,"Plasma cells.immature/Cells:NFr:Pt:Bld:Qn:"
+89335-4,Cells.CD27+CD45RO+CD62L+CCR7+/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+CD45RO+CD62L+CCR7+ cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.64,false,Cells.CD27+CD45RO+CD62L+CCR7+/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+42189-1,Cells.CD3+CD16+CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD16+CD56+ cells/cells in Blood",%,2.16,false,Cells.CD3+CD16+CD56+/Cells:NFr:Pt:Bld:Qn:
+32533-2,Cells.CD3+CD4+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/cells in Bone marrow",%,2.08,false,"Cells.CD3+CD4+/Cells:NFr:Pt:Bone mar:Qn:"
+32516-7,Cells.CD3+CD4+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/cells in Specimen",%,2.08,false,Cells.CD3+CD4+/Cells:NFr:Pt:XXX:Qn:
+17824-4,Cells.CD3+CD8+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Body fluid",%,1.0l,false,"Cells.CD3+CD8+/Cells:NFr:Pt:Body fld:Qn:"
+32535-7,Cells.CD3+CD8+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Bone marrow",%,2.08,false,"Cells.CD3+CD8+/Cells:NFr:Pt:Bone mar:Qn:"
+43971-1,Cells.CD3+CD8+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD3+CD8+/Cells:NFr:Pt:CSF:Qn:
+32518-3,Cells.CD3+CD8+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+ (T8 suppressor) cells/cells in Specimen",%,2.08,false,Cells.CD3+CD8+/Cells:NFr:Pt:XXX:Qn:
+8112-5,Cells.CD3-CD16+CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+ (Natural killer) cells/cells in Blood",%,1.0h(2),false,Cells.CD3-CD16+CD56+/Cells:NFr:Pt:Bld:Qn:
+32509-2,Cells.CD3-CD16+CD56+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+ (Natural killer) cells/cells in Tissue",%,2.08,false,Cells.CD3-CD16+CD56+/Cells:NFr:Pt:Tiss:Qn:
+58920-0,Cells.CD4+CD45RO+/Cells.CD3+CD4+,NRto,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD45RO+ cells/CD3+CD4+ (T4 helper) cells [# Ratio] in Blood",%,2.32,false,Cells.CD4+CD45RO+/Cells.CD3+CD4+:NRto:Pt:Bld:Qn:
+51311-9,Cells.CD4+CD7-CD26-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD26- cells/cells in Blood",%,2.22,false,Cells.CD4+CD7-CD26-/Cells:NFr:Pt:Bld:Qn:
+51307-7,Cells.CD4+CD7-CD26-/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD26- cells/cells in Tissue",%,2.22,false,Cells.CD4+CD7-CD26-/Cells:NFr:Pt:Tiss:Qn:
+51316-8,Cells.CD4+CD7-CD49d-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD49D- cells/cells in Blood",%,2.22,false,Cells.CD4+CD7-CD49d-/Cells:NFr:Pt:Bld:Qn:
+100855-6,Cells.CD3/Cells,NFr,Pt,"Bld MC",Qn,,MICRO,2.79,TRIAL,1,Both,,%,"CD3 cells/cells in Blood mononuclear cells",%,2.73,false,"Cells.CD3/Cells:NFr:Pt:Bld MC:Qn:"
+74839-2,Cells.CD3-CD4+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD4+ cells/cells in Specimen",%,2.48,false,Cells.CD3-CD4+/Cells:NFr:Pt:XXX:Qn:
+17153-8,Cells.CD4+CD45RA+/Cells.CD8,NRto,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,,"CD4+CD45RA+ cells/CD8 Cells [# Ratio] in Blood",,1.0l,false,Cells.CD4+CD45RA+/Cells.CD8:NRto:Pt:Bld:Qn:
+51304-4,Cells.CD4+CD7-/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7- cells/cells in Bone marrow",%,2.22,false,"Cells.CD4+CD7-/Cells:NFr:Pt:Bone mar:Qn:"
+57406-1,Cells.CD8+CD57+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD57+ cells/cells in Body fluid",%,2.29,false,"Cells.CD8+CD57+/Cells:NFr:Pt:Body fld:Qn:"
+74841-8,Cells.CD8+CD57+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD57+ cells/cells in Specimen",%,2.48,false,Cells.CD8+CD57+/Cells:NFr:Pt:XXX:Qn:
+106910-3,Cells.CD3+CD4+/Cells.CD3+CD8+,NRto,Pt,BAL,Qn,"Flow cytometry",HEM/BC,2.79,ACTIVE,1,Both,,ratio,"CD3+CD4+ (T4 helper) cells/CD3+CD8+ (T8 suppressor cells) cells [# Ratio] in Bronchoalveolar lavage by Flow cytometry (FC)",{ratio},2.79,false,"Cells.CD3+CD4+/Cells.CD3+CD8+:NRto:Pt:BAL:Qn:Flow cytometry"
+20591-4,Cells.CD16+CD57-/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57- cells/cells in Specimen",%,1.0m,false,Cells.CD16+CD57-/Cells:NFr:Pt:XXX:Qn:
+51258-2,Cells.CD16+CD57+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD16+CD57+/Cells:NFr:Pt:Bone mar:Qn:"
+51257-4,Cells.CD16+CD57+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD16+CD57+/Cells:NFr:Pt:CSF:Qn:
+8129-9,Cells.CD4/Cells.CD8,NRto,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,,"Deprecated CD4 cells/CD8 Cells [# Ratio] in Blood",,1.0h(2),false,Cells.CD4/Cells.CD8:NRto:Pt:Bld:Qn:
+13332-2,Cells.CD4+CD25+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD25+ cells/cells in Blood",%,1.0j-a,false,Cells.CD4+CD25+/Cells:NFr:Pt:Bld:Qn:
+26573-6,Cells.CD4+CD45+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD45+ cells/cells in Blood",%,2.00,false,Cells.CD4+CD45+/Cells:NFr:Pt:Bld:Qn:
+43947-1,Cells.CD4+CD45+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45+ cells/cells in Tissue",%,2.17,false,Cells.CD4+CD45+/Cells:NFr:Pt:Tiss:Qn:
+26922-5,"Cells.CD4+CD45RA+/100 cells",NFr,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD4+CD45RA+ cells/100 cells in Blood",%,2.00,false,"Cells.CD4+CD45RA+/100 cells:NFr:Pt:Bld:Qn:"
+43966-1,Cells.CD4+CD45RA+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RA+ cells/cells in Specimen",%,2.17,false,Cells.CD4+CD45RA+/Cells:NFr:Pt:XXX:Qn:
+43948-9,Cells.CD4+CD45RO+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RO+ cells/cells in Specimen",%,2.17,false,Cells.CD4+CD45RO+/Cells:NFr:Pt:XXX:Qn:
+38240-8,Cells.CD4+CD95+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD95+ cells/cells in Blood",%,2.13,false,Cells.CD4+CD95+/Cells:NFr:Pt:Bld:Qn:
+13343-9,Cells.CD4+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+HLA-DR+ cells/cells in Blood",%,1.0j-a,false,Cells.CD4+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+61183-0,Cells.myeloperoxidase/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Myeloperoxidase cells/cells in Blood",%,2.34,false,Cells.myeloperoxidase/Cells:NFr:Pt:Bld:Qn:
+17119-9,Cells.CD16-CD34+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16-CD34+ cells/cells in Blood",%,1.0l,false,Cells.CD16-CD34+/Cells:NFr:Pt:Bld:Qn:
+17133-0,Cells.CD3+CD16+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD16+ cells/cells in Blood",%,1.0l,false,Cells.CD3+CD16+/Cells:NFr:Pt:Bld:Qn:
+51274-9,Cells.CD3+CD16+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD16+ cells/cells in Tissue",%,2.22,false,Cells.CD3+CD16+/Cells:NFr:Pt:Tiss:Qn:
+51286-3,Cells.CD3+CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD57+ cells/cells in Blood",%,2.22,false,Cells.CD3+CD57+/Cells:NFr:Pt:Bld:Qn:
+51282-2,Cells.CD3+CD57+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD57+ cells/cells in Tissue",%,2.22,false,Cells.CD3+CD57+/Cells:NFr:Pt:Tiss:Qn:
+32564-7,Cells.CD3+CD7+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD7+ cells/cells in Blood",%,2.08,false,Cells.CD3+CD7+/Cells:NFr:Pt:Bld:Qn:
+8128-1,"Cells.CD4/100 cells",NFr,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,%,"Deprecated CD4 cells/100 cells in Blood",%,1.0h(2),false,"Cells.CD4/100 cells:NFr:Pt:Bld:Qn:"
+32753-6,"Cells.CD4/100 cells",NFr,Pt,Bronchial,Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,%,"Deprecated CD4 cells/100 cells in Bronchial specimen",%,2.09,false,"Cells.CD4/100 cells:NFr:Pt:Bronchial:Qn:"
+89362-8,Cells.CD45RO/Cells.CD4,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD45RO cells/CD4 cells in Blood",%,2.64,false,Cells.CD45RO/Cells.CD4:NFr:Pt:Bld:Qn:
+17198-3,Cells.CD8+CD28+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD28+ cells/cells in Blood",%,1.0l,false,Cells.CD8+CD28+/Cells:NFr:Pt:Bld:Qn:
+89337-0,Cells.CD27-CD45RO+CD62L-CCR7-/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27-CD45RO+CD62L-CCR7- cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.64,false,Cells.CD27-CD45RO+CD62L-CCR7-/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+80712-3,Cells.CD38+HLA-DR+/Cells.CD3+CD8+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38+HLA-DR+ cells/CD3+CD8+ (T8 suppressor cells) cells in Blood",%,2.56,false,Cells.CD38+HLA-DR+/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:
+89340-4,Cells.CD27+CD62L+/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+CD62L+ cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.64,false,Cells.CD27+CD62L+/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+51009-9,Cells.CD3-CD16+CD56+CD244+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+CD244+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD3-CD16+CD56+CD244+/Cells:NFr:Pt:Bone mar:Qn:"
+51011-5,Cells.CD3-CD16+CD56+CD244+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+CD244+ cells/cells in Specimen",%,2.22,false,Cells.CD3-CD16+CD56+CD244+/Cells:NFr:Pt:XXX:Qn:
+77657-5,"Cells.diploid.G1 phase/Cells",NFr,Pt,Cells.XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Observation,,%,"Diploid cells in G1 phase/cells in Cells.XXX by Flow cytometry (FC)",%,2.52,false,"Cells.diploid.G1 phase/Cells:NFr:Pt:Cells.XXX:Qn:Flow cytometry"
+77654-2,"Cells.diploid.G2 phase/Cells",NFr,Pt,Cells.XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Observation,,%,"Diploid cells in G2 phase/cells in Cells.XXX by Flow cytometry (FC)",%,2.52,false,"Cells.diploid.G2 phase/Cells:NFr:Pt:Cells.XXX:Qn:Flow cytometry"
+77656-7,"Cells.diploid.S phase/Cells",NFr,Pt,Cells.XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Observation,,%,"Diploid cells in S phase/cells in Cells.XXX by Flow cytometry (FC)",%,2.52,false,"Cells.diploid.S phase/Cells:NFr:Pt:Cells.XXX:Qn:Flow cytometry"
+55365-1,Cells.CD138+Kappa+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD138+Kappa+ Cells/cells in Blood",%,2.27,false,Cells.CD138+Kappa+/Cells:NFr:Pt:Bld:Qn:
+55366-9,Cells.CD138+Lambda+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD138+Lambda+ Cells/cells in Blood",%,2.27,false,Cells.CD138+Lambda+/Cells:NFr:Pt:Bld:Qn:
+45193-0,Cells.CD20+CD52+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+CD52+ cells/cells in Blood",%,2.17,false,Cells.CD20+CD52+/Cells:NFr:Pt:Bld:Qn:
+44073-5,Cells.CD20+CD52+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+CD52+ cells/cells in Tissue",%,2.17,false,Cells.CD20+CD52+/Cells:NFr:Pt:Tiss:Qn:
+17136-3,Cells.CD3+DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+DR+ cells/cells in Blood",%,1.0l,false,Cells.CD3+DR+/Cells:NFr:Pt:Bld:Qn:
+17132-2,Cells.CD3+IL2R1+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+IL2R1+ cells/cells in Blood",%,1.0l,false,Cells.CD3+IL2R1+/Cells:NFr:Pt:Bld:Qn:
+33029-0,Cells.CD3+TCR/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+TCR cells/cells in Blood",%,2.09,false,Cells.CD3+TCR/Cells:NFr:Pt:Bld:Qn:
+91673-4,Cells.CD3+CD16+CD56+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD16+CD56+ cells/cells in Bone marrow",%,2.66,false,"Cells.CD3+CD16+CD56+/Cells:NFr:Pt:Bone mar:Qn:"
+17822-8,Cells.CD3+CD4+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD4+ (T4 helper) cells/cells in Body fluid",%,1.0l,false,"Cells.CD3+CD4+/Cells:NFr:Pt:Body fld:Qn:"
+43970-3,Cells.CD3+CD4+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD4+ (T4 helper) cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD3+CD4+/Cells:NFr:Pt:CSF:Qn:
+32508-4,Cells.CD3-CD16+CD56+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+ (Natural killer) cells/cells in Bone marrow",%,2.08,false,"Cells.CD3-CD16+CD56+/Cells:NFr:Pt:Bone mar:Qn:"
+32519-1,Cells.CD3-CD16+CD56+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+CD56+ (Natural killer) cells/cells in Specimen",%,2.08,false,Cells.CD3-CD16+CD56+/Cells:NFr:Pt:XXX:Qn:
+51315-0,Cells.CD4+CD7-CD49d-/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD49D- cells/cells in Body fluid",%,2.22,false,"Cells.CD4+CD7-CD49d-/Cells:NFr:Pt:Body fld:Qn:"
+51314-3,Cells.CD4+CD7-CD49d-/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD49D- cells/cells in Bone marrow",%,2.22,false,"Cells.CD4+CD7-CD49d-/Cells:NFr:Pt:Bone mar:Qn:"
+51313-5,Cells.CD4+CD7-CD49d-/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD49D- cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD4+CD7-CD49d-/Cells:NFr:Pt:CSF:Qn:
+8125-7,Cells.CD34/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD34 cells/cells in Blood",%,1.0h(2),false,Cells.CD34/Cells:NFr:Pt:Bld:Qn:
+32823-7,"Columnar cells/Cells",NFr,Pt,Bronchial,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Columnar cells/cells in Bronchial specimen",%,2.09,false,"Columnar cells/Cells:NFr:Pt:Bronchial:Qn:"
+94689-7,Cells.CD20/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20 cells/Cells.CD19 in Blood",%,2.68,false,Cells.CD20/Cells.CD19:NFr:Pt:Bld:Qn:
+89358-6,Cells.CD27/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27 cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD27/Cells.CD19:NFr:Pt:Bld:Qn:
+89318-0,Cells.CD25-CD127+/Cells.CD4,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD25-CD127+ cells/CD4 cells in Blood",%,2.64,false,Cells.CD25-CD127+/Cells.CD4:NFr:Pt:Bld:Qn:
+79186-3,Cells.CD3+CD4+CD8+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"Cells.CD3+CD4+CD8+ (Double positive)/cells in Blood",%,2.54,false,Cells.CD3+CD4+CD8+/Cells:NFr:Pt:Bld:Qn:
+51305-1,Cells.CD4+CD7-/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7- cells/cells in Body fluid",%,2.22,false,"Cells.CD4+CD7-/Cells:NFr:Pt:Body fld:Qn:"
+51303-6,Cells.CD4+CD7-/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7- cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD4+CD7-/Cells:NFr:Pt:CSF:Qn:
+57401-2,Cells.CD4+CD8+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD8+ cells/cells in Body fluid",%,2.29,false,"Cells.CD4+CD8+/Cells:NFr:Pt:Body fld:Qn:"
+17122-3,Cells.CD19+Kappa+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+Kappa+ cells/cells in Blood",%,1.0l,false,Cells.CD19+Kappa+/Cells:NFr:Pt:Bld:Qn:
+17123-1,Cells.CD19+Lambda+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+Lambda+ cells/cells in Blood",%,1.0l,false,Cells.CD19+Lambda+/Cells:NFr:Pt:Bld:Qn:
+56907-9,Cells.CD3+CD45+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD45+ cells/cells in Blood",%,2.29,false,Cells.CD3+CD45+/Cells:NFr:Pt:Bld:Qn:
+38514-6,Cells.CD33+CD34+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33+CD34+ cells/cells in Blood",%,2.14,false,Cells.CD33+CD34+/Cells:NFr:Pt:Bld:Qn:
+89311-5,Cells.CD3-CD45+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD45+ cells/cells in Blood",%,2.64,false,Cells.CD3-CD45+/Cells:NFr:Pt:Bld:Qn:
+43268-2,"Cells.CD3-CD57+/100 cells",NFr,Pt,Tiss,Qn,,CELLMARK,2.36,DEPRECATED,1,,,,"Deprecated CD3-CD57+ cells/100 cells in Tissue",,2.17,false,"Cells.CD3-CD57+/100 cells:NFr:Pt:Tiss:Qn:"
+89360-2,Cells.CD45RA/Cells.CD4,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD45RA cells/CD4 cells in Blood",%,2.64,false,Cells.CD45RA/Cells.CD4:NFr:Pt:Bld:Qn:
+8105-9,Cells.CD5+CD8+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD8+ cells/cells in Blood",%,1.0h(2),false,Cells.CD5+CD8+/Cells:NFr:Pt:Bld:Qn:
+42738-5,Cells.CD7+CD8+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7+CD8+ cells/cells in Blood",%,2.16,false,Cells.CD7+CD8+/Cells:NFr:Pt:Bld:Qn:
+13339-7,Cells.CD8+CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD56+ cells/cells in Blood",%,1.0j-a,false,Cells.CD8+CD56+/Cells:NFr:Pt:Bld:Qn:
+38242-4,Cells.CD8+CD95+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD95+ cells/cells in Blood",%,2.13,false,Cells.CD8+CD95+/Cells:NFr:Pt:Bld:Qn:
+13337-1,Cells.CD8+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+HLA-DR+ cells/cells in Blood",%,1.0j-a,false,Cells.CD8+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+51370-5,Cells.CD8+HLA-DR+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+HLA-DR+ cells/cells in Tissue",%,2.22,false,Cells.CD8+HLA-DR+/Cells:NFr:Pt:Tiss:Qn:
+18285-7,Cells.CDA/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CDA cells/cells in Blood",%,1.0l,false,Cells.CDA/Cells:NFr:Pt:Bld:Qn:
+95204-4,"Cells.CD8.PMA+ionomycin stimulated gamma interferon producing/Cells.CD3+CD8+",NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"PMA+ionomycin stimulated gamma interferon producing CD8 Cells/CD3+CD8+ (T8 suppressor cells) cells in Blood by Flow cytometry (FC)",%,2.68,false,"Cells.CD8.PMA+ionomycin stimulated gamma interferon producing/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:Flow cytometry"
+17098-5,Cells.CD100/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD100 cells/cells in Blood",%,1.0l,false,Cells.CD100/Cells:NFr:Pt:Bld:Qn:
+17102-5,Cells.CD105/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD105 cells/cells in Blood",%,1.0l,false,Cells.CD105/Cells:NFr:Pt:Bld:Qn:
+51222-8,Cells.CD105/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD105 cells/cells in Tissue",%,2.22,false,Cells.CD105/Cells:NFr:Pt:Tiss:Qn:
+18283-2,Cells.CD11/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11 cells/cells in Blood",%,1.0l,false,Cells.CD11/Cells:NFr:Pt:Bld:Qn:
+17111-6,Cells.CD12/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD12 cells/cells in Blood",%,1.0l,false,Cells.CD12/Cells:NFr:Pt:Bld:Qn:
+17116-5,Cells.CD128/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD128 cells/cells in Blood",%,1.0l,false,Cells.CD128/Cells:NFr:Pt:Bld:Qn:
+17120-7,Cells.CD17/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD17 cells/cells in Blood",%,1.0l,false,Cells.CD17/Cells:NFr:Pt:Bld:Qn:
+18284-0,Cells.CD198/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD198 cells/cells in Blood",%,1.0l,false,Cells.CD198/Cells:NFr:Pt:Bld:Qn:
+56773-5,Cells.CD1a/Cells,NFr,Pt,Bronchial,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Bronchial specimen",%,2.29,false,Cells.CD1a/Cells:NFr:Pt:Bronchial:Qn:
+52876-0,Cells.CD1a/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Tissue",%,2.24,false,Cells.CD1a/Cells:NFr:Pt:Tiss:Qn:
+33209-8,Cells.CD235a/Cells,NFr,Pt,Asp,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Aspirate",%,2.09,false,Cells.CD235a/Cells:NFr:Pt:Asp:Qn:
+17142-1,Cells.CD37/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD37 cells/cells in Blood",%,1.0l,false,Cells.CD37/Cells:NFr:Pt:Bld:Qn:
+17143-9,Cells.CD39/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD39 cells/cells in Blood",%,1.0l,false,Cells.CD39/Cells:NFr:Pt:Bld:Qn:
+17147-0,Cells.CD40/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD40 cells/cells in Blood",%,1.0l,false,Cells.CD40/Cells:NFr:Pt:Bld:Qn:
+17825-1,Cells.CD41a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD41a cells/cells in Blood",%,1.0l,false,Cells.CD41a/Cells:NFr:Pt:Bld:Qn:
+19122-1,Cells.CD42/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD42 cells/cells in Blood",%,1.0l,false,Cells.CD42/Cells:NFr:Pt:Bld:Qn:
+51321-8,Cells.CD42/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42 cells/cells in Tissue",%,2.22,false,Cells.CD42/Cells:NFr:Pt:Tiss:Qn:
+17149-6,Cells.CD42a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42a cells/cells in Blood",%,1.0l,false,Cells.CD42a/Cells:NFr:Pt:Bld:Qn:
+17152-0,Cells.CD42d/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42d cells/cells in Blood",%,1.0l,false,Cells.CD42d/Cells:NFr:Pt:Bld:Qn:
+17158-7,Cells.CD45RB/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45RB cells/cells in Blood",%,1.0l,false,Cells.CD45RB/Cells:NFr:Pt:Bld:Qn:
+17159-5,Cells.CD45RO/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45RO cells/cells in Blood",%,1.0l,false,Cells.CD45RO/Cells:NFr:Pt:Bld:Qn:
+17172-8,Cells.CD52/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD52 cells/cells in Blood",%,1.0l,false,Cells.CD52/Cells:NFr:Pt:Bld:Qn:
+42883-9,Cells.CD52/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD52 cells/cells in Tissue",%,2.16,false,Cells.CD52/Cells:NFr:Pt:Tiss:Qn:
+17173-6,Cells.CD53/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD53 cells/cells in Blood",%,1.0l,false,Cells.CD53/Cells:NFr:Pt:Bld:Qn:
+17177-7,Cells.CD59/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD59 cells/cells in Blood",%,1.0l,false,Cells.CD59/Cells:NFr:Pt:Bld:Qn:
+43937-2,Cells.CD59/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD59 cells/cells in Tissue",%,2.17,false,Cells.CD59/Cells:NFr:Pt:Tiss:Qn:
+17178-5,Cells.CD6/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD6 cells/cells in Blood",%,1.0l,false,Cells.CD6/Cells:NFr:Pt:Bld:Qn:
+51400-0,Cells.CD65w/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD65w cells/cells in Blood",%,2.22,false,Cells.CD65w/Cells:NFr:Pt:Bld:Qn:
+51396-0,Cells.CD65w/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD65w cells/cells in Tissue",%,2.22,false,Cells.CD65w/Cells:NFr:Pt:Tiss:Qn:
+17187-6,Cells.CD66d/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD66d cells/cells in Blood",%,1.0l,false,Cells.CD66d/Cells:NFr:Pt:Bld:Qn:
+62252-2,Cells.CD79/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79 cells/cells in Blood",%,2.34,false,Cells.CD79/Cells:NFr:Pt:Bld:Qn:
+51405-9,Cells.CD81/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD81 cells/cells in Blood",%,2.22,false,Cells.CD81/Cells:NFr:Pt:Bld:Qn:
+51401-8,Cells.CD81/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD81 cells/cells in Tissue",%,2.22,false,Cells.CD81/Cells:NFr:Pt:Tiss:Qn:
+17201-5,Cells.CD83/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD83 cells/cells in Blood",%,1.0l,false,Cells.CD83/Cells:NFr:Pt:Bld:Qn:
+17208-0,Cells.CD93/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD93 cells/cells in Blood",%,1.0l,false,Cells.CD93/Cells:NFr:Pt:Bld:Qn:
+17209-8,Cells.CD94/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD94 cells/cells in Blood",%,1.0l,false,Cells.CD94/Cells:NFr:Pt:Bld:Qn:
+17220-5,Cells.FMC7/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"FMC7 cells/cells in Blood",%,1.0l,false,Cells.FMC7/Cells:NFr:Pt:Bld:Qn:
+51259-0,Cells.CD16+CD57+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD57+ cells/cells in Body fluid",%,2.22,false,"Cells.CD16+CD57+/Cells:NFr:Pt:Body fld:Qn:"
+49841-0,Cells.CD19+IgM+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19+IgM+ cells/cells in Specimen",%,2.22,false,Cells.CD19+IgM+/Cells:NFr:Pt:XXX:Qn:
+51281-4,Cells.CD3+CD56+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD56+ cells/cells in Body fluid",%,2.22,false,"Cells.CD3+CD56+/Cells:NFr:Pt:Body fld:Qn:"
+51280-6,Cells.CD3+CD56+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD56+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD3+CD56+/Cells:NFr:Pt:Bone mar:Qn:"
+51279-8,Cells.CD3+CD56+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD56+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD3+CD56+/Cells:NFr:Pt:CSF:Qn:
+56029-2,Cells.CD3-CD56+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD56+ cells/cells in Body fluid",%,2.29,false,"Cells.CD3-CD56+/Cells:NFr:Pt:Body fld:Qn:"
+56028-4,Cells.CD3-CD56+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD56+ cells/cells in Bone marrow",%,2.29,false,"Cells.CD3-CD56+/Cells:NFr:Pt:Bone mar:Qn:"
+56897-2,Cells.CD3-CD56+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD56+ cells/cells in Cerebral spinal fluid",%,2.29,false,Cells.CD3-CD56+/Cells:NFr:Pt:CSF:Qn:
+34622-1,Cells.CD4+CD25+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD25+ cells/cells in Specimen",%,2.11,false,Cells.CD4+CD25+/Cells:NFr:Pt:XXX:Qn:
+13335-5,Cells.CD4+CD29+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD29+ cells/cells in Blood",%,1.0j-a,false,Cells.CD4+CD29+/Cells:NFr:Pt:Bld:Qn:
+43964-6,Cells.CD4+CD45RA+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RA+ cells/cells in Body fluid",%,2.17,false,"Cells.CD4+CD45RA+/Cells:NFr:Pt:Body fld:Qn:"
+43962-0,Cells.CD4+CD45RA+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RA+ cells/cells in Bone marrow",%,2.17,false,"Cells.CD4+CD45RA+/Cells:NFr:Pt:Bone mar:Qn:"
+43963-8,Cells.CD4+CD45RA+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RA+ cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD4+CD45RA+/Cells:NFr:Pt:CSF:Qn:
+43945-5,Cells.CD4+CD45RO+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RO+ cells/cells in Body fluid",%,2.17,false,"Cells.CD4+CD45RO+/Cells:NFr:Pt:Body fld:Qn:"
+43946-3,Cells.CD4+CD45RO+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45RO+ cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD4+CD45RO+/Cells:NFr:Pt:CSF:Qn:
+17144-7,Cells.CD4+CD69+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD69+ cells/cells in Blood",%,1.0l,false,Cells.CD4+CD69+/Cells:NFr:Pt:Bld:Qn:
+44064-4,Cells.CD20+FMC7+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+FMC7+ cells/cells in Tissue",%,2.17,false,Cells.CD20+FMC7+/Cells:NFr:Pt:Tiss:Qn:
+8120-8,Cells.CD21/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD21 cells/cells in Blood",%,1.0h(2),false,Cells.CD21/Cells:NFr:Pt:Bld:Qn:
+15196-9,Cells.CD3-CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD19+ cells/cells in Blood",%,1.0k,false,Cells.CD3-CD19+/Cells:NFr:Pt:Bld:Qn:
+56898-0,Cells.CD5+FMC7+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+FMC7+ cells/cells in Tissue",%,2.29,false,Cells.CD5+FMC7+/Cells:NFr:Pt:Tiss:Qn:
+8138-0,"Cells.CD8/100 cells",NFr,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,Both,,%,"Deprecated CD8 cells/100 cells in Blood",%,1.0h(2),false,"Cells.CD8/100 cells:NFr:Pt:Bld:Qn:"
+32754-4,"Cells.CD8/100 cells",NFr,Pt,Bronchial,Qn,,CELLMARK,2.70,DEPRECATED,1,Both,,%,"Deprecated CD8 cells/100 cells in Bronchial specimen",%,2.09,false,"Cells.CD8/100 cells:NFr:Pt:Bronchial:Qn:"
+8108-3,Cells.CD11c+CD20+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD20+ cells/cells in Blood",%,1.0h(2),false,Cells.CD11c+CD20+/Cells:NFr:Pt:Bld:Qn:
+59141-2,Cells.CD11c-CD103+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c-CD103+ cells/cells in Blood",%,2.32,false,Cells.CD11c-CD103+/Cells:NFr:Pt:Bld:Qn:
+31128-2,Cells.CD11c-CD20+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c-CD20+ cells/cells in Blood",%,2.07,false,Cells.CD11c-CD20+/Cells:NFr:Pt:Bld:Qn:
+59142-0,Cells.CD11c-CD25+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c-CD25+ cells/cells in Blood",%,2.32,false,Cells.CD11c-CD25+/Cells:NFr:Pt:Bld:Qn:
+40885-6,Cells.CD19+CD103+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD103+ cells/cells in Blood",%,2.15,false,Cells.CD19+CD103+/Cells:NFr:Pt:Bld:Qn:
+40884-9,Cells.CD19+CD103+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD103+ cells/cells in Tissue",%,2.15,false,Cells.CD19+CD103+/Cells:NFr:Pt:Tiss:Qn:
+38511-2,Cells.CD19+CD33+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD33+ cells/cells in Blood",%,2.14,false,Cells.CD19+CD33+/Cells:NFr:Pt:Bld:Qn:
+59143-8,Cells.CD19+CD38+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD38+ cells/cells in Blood",%,2.32,false,Cells.CD19+CD38+/Cells:NFr:Pt:Bld:Qn:
+51337-4,Cells.CD19+CD43+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD43+ cells/cells in Blood",%,2.22,false,Cells.CD19+CD43+/Cells:NFr:Pt:Bld:Qn:
+51333-3,Cells.CD19+CD43+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD43+ cells/cells in Tissue",%,2.22,false,Cells.CD19+CD43+/Cells:NFr:Pt:Tiss:Qn:
+51356-4,Cells.CD19+CD58+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD58+ cells/cells in Blood",%,2.22,false,Cells.CD19+CD58+/Cells:NFr:Pt:Bld:Qn:
+51352-3,Cells.CD19+CD58+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD58+ cells/cells in Tissue",%,2.22,false,Cells.CD19+CD58+/Cells:NFr:Pt:Tiss:Qn:
+26565-2,Cells.CD19+Kappa+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+Kappa+ cells/cells in Specimen",%,2.00,false,Cells.CD19+Kappa+/Cells:NFr:Pt:XXX:Qn:
+26566-0,Cells.CD19+Lambda+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+Lambda+ cells/cells in Specimen",%,2.00,false,Cells.CD19+Lambda+/Cells:NFr:Pt:XXX:Qn:
+31126-6,Cells.CD20+CD25-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20+CD25- cells/cells in Blood",%,2.07,false,Cells.CD20+CD25-/Cells:NFr:Pt:Bld:Qn:
+31124-1,Cells.CD20+CD25+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20+CD25+ cells/cells in Blood",%,2.07,false,Cells.CD20+CD25+/Cells:NFr:Pt:Bld:Qn:
+89431-1,Cells.CD25/Cells.CD4,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD25 cells/CD4 cells in Blood",%,2.64,false,Cells.CD25/Cells.CD4:NFr:Pt:Bld:Qn:
+43275-7,Cells.CD3/Cells.CD4,NRto,Pt,XXX,Qn,,CELLMARK,2.69,ACTIVE,1,Both,,,"CD3 cells/CD4 cells [# Ratio] in Specimen",,2.17,false,Cells.CD3/Cells.CD4:NRto:Pt:XXX:Qn:
+51277-2,Cells.CD3+CD16+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD16+ cells/cells in Body fluid",%,2.22,false,"Cells.CD3+CD16+/Cells:NFr:Pt:Body fld:Qn:"
+51276-4,Cells.CD3+CD16+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD16+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD3+CD16+/Cells:NFr:Pt:Bone mar:Qn:"
+51275-6,Cells.CD3+CD16+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD16+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD3+CD16+/Cells:NFr:Pt:CSF:Qn:
+63446-9,Cells.CD3+CD5-/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD5- cells/cells in Cerebral spinal fluid",%,2.36,false,Cells.CD3+CD5-/Cells:NFr:Pt:CSF:Qn:
+63448-5,Cells.CD3+CD5+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD5+ cells/cells in Cerebral spinal fluid",%,2.36,false,Cells.CD3+CD5+/Cells:NFr:Pt:CSF:Qn:
+51285-5,Cells.CD3+CD57+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD57+ cells/cells in Body fluid",%,2.22,false,"Cells.CD3+CD57+/Cells:NFr:Pt:Body fld:Qn:"
+51284-8,Cells.CD3+CD57+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD57+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD3+CD57+/Cells:NFr:Pt:Bone mar:Qn:"
+51283-0,Cells.CD3+CD57+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD57+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD3+CD57+/Cells:NFr:Pt:CSF:Qn:
+18408-5,Cells.CD3+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+HLA-DR+ cells/cells in Blood",%,1.0l,false,Cells.CD3+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+34962-1,"Cells.CD3+TCR alpha beta+/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+TCR alpha beta+ cells/cells in Blood",%,2.11,false,"Cells.CD3+TCR alpha beta+/Cells:NFr:Pt:Bld:Qn:"
+40894-8,Cells.CD3-CD16+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+ cells/cells in Body fluid",%,2.15,false,"Cells.CD3-CD16+/Cells:NFr:Pt:Body fld:Qn:"
+40892-2,Cells.CD3-CD16+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD16+ cells/cells in Bone marrow",%,2.15,false,"Cells.CD3-CD16+/Cells:NFr:Pt:Bone mar:Qn:"
+40882-3,Cells.CD3-CD57+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD57+ cells/cells in Body fluid",%,2.15,false,"Cells.CD3-CD57+/Cells:NFr:Pt:Body fld:Qn:"
+40881-5,Cells.CD3-CD57+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD57+ cells/cells in Bone marrow",%,2.15,false,"Cells.CD3-CD57+/Cells:NFr:Pt:Bone mar:Qn:"
+51301-0,"Cells.CD4/100 cells",NFr,Pt,"Bone mar",Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,%,"Deprecated CD4 cells/100 cells in Bone marrow",%,2.22,false,"Cells.CD4/100 cells:NFr:Pt:Bone mar:Qn:"
+42194-1,"Cells.CD4/100 cells",NFr,Pt,CSF,Qn,,CELLMARK,2.36,DEPRECATED,1,Observation,,%,"Deprecated CD4 cells/100 cells in Cerebral spinal fluid",%,2.16,false,"Cells.CD4/100 cells:NFr:Pt:CSF:Qn:"
+20606-0,"Cells.CD4/100 cells",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,%,"Deprecated CD4 cells/100 cells in Unspecified specimen",%,1.0m,false,"Cells.CD4/100 cells:NFr:Pt:XXX:Qn:"
+13345-4,Cells.CD8+CD11b+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD11b+ cells/cells in Blood",%,1.0j-a,false,Cells.CD8+CD11b+/Cells:NFr:Pt:Bld:Qn:
+13334-8,Cells.CD8+CD25+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD25+ cells/cells in Blood",%,1.0j-a,false,Cells.CD8+CD25+/Cells:NFr:Pt:Bld:Qn:
+77942-1,Cells.CD8+CD3-/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD8+CD3- cells/cells in Specimen",%,2.52,false,Cells.CD8+CD3-/Cells:NFr:Pt:XXX:Qn:
+13344-7,Cells.CD8+CD38+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD38+ cells/cells in Blood",%,1.0j-a,false,Cells.CD8+CD38+/Cells:NFr:Pt:Bld:Qn:
+57407-9,Cells.CD8+CD45RA+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD45RA+ cells/cells in Body fluid",%,2.29,false,"Cells.CD8+CD45RA+/Cells:NFr:Pt:Body fld:Qn:"
+57408-7,Cells.CD8+CD45RO+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD45RO+ cells/cells in Body fluid",%,2.29,false,"Cells.CD8+CD45RO+/Cells:NFr:Pt:Body fld:Qn:"
+89333-9,"Cells.CD28+HLA DR+/Cells.CD3+CD4+",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD28+HLA DR+ cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.64,false,"Cells.CD28+HLA DR+/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:"
+51310-1,Cells.CD4+CD7-CD26-/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD26- cells/cells in Body fluid",%,2.22,false,"Cells.CD4+CD7-CD26-/Cells:NFr:Pt:Body fld:Qn:"
+51309-3,Cells.CD4+CD7-CD26-/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD26- cells/cells in Bone marrow",%,2.22,false,"Cells.CD4+CD7-CD26-/Cells:NFr:Pt:Bone mar:Qn:"
+51308-5,Cells.CD4+CD7-CD26-/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4+CD7-CD26- cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD4+CD7-CD26-/Cells:NFr:Pt:CSF:Qn:
+89338-8,Cells.CD27+CD45RO+CD62L+CCR7+/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD27+CD45RO+CD62L+CCR7+ cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.64,false,Cells.CD27+CD45RO+CD62L+CCR7+/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+95203-6,"Cells.CD8.PMA+ionomycin stimulated CD107a+b expressing/Cells.CD3+CD8+",NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"PMA+ionomycin stimulated CD107a+b expressing CD8 cells/CD3+CD8+ (T8 suppressor cells) cells in Blood by Flow cytometry (FC)",%,2.68,false,"Cells.CD8.PMA+ionomycin stimulated CD107a+b expressing/Cells.CD3+CD8+:NFr:Pt:Bld:Qn:Flow cytometry"
+51012-3,Cells.BCLXL/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"BCLXL cells/cells in Specimen",%,2.22,false,Cells.BCLXL/Cells:NFr:Pt:XXX:Qn:
+8119-0,Cells.CD20/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20 cells/cells in Blood",%,1.0h(2),false,Cells.CD20/Cells:NFr:Pt:Bld:Qn:
+31121-7,"Cells.CD235a/100 cells",NFr,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,%,"Deprecated CD235a cells/100 cells in Blood",%,2.07,false,"Cells.CD235a/100 cells:NFr:Pt:Bld:Qn:"
+17219-7,"Cells.cytoplasmic Ig/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic Ig cells/cells in Blood",%,1.0l,false,"Cells.cytoplasmic Ig/Cells:NFr:Pt:Bld:Qn:"
+31113-4,Cells.HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"HLA-DR+ cells/cells in Blood",%,2.07,false,Cells.HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+51378-8,Cells.HLA-DR+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"HLA-DR+ cells/cells in Tissue",%,2.22,false,Cells.HLA-DR+/Cells:NFr:Pt:Tiss:Qn:
+32759-3,Cells.myeloperoxidase/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Myeloperoxidase cells/cells in Specimen",%,2.09,false,Cells.myeloperoxidase/Cells:NFr:Pt:XXX:Qn:
+21172-2,Cells.XXX/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"XXX cells/cells in Specimen",%,1.0m,false,Cells.XXX/Cells:NFr:Pt:XXX:Qn:
+17145-4,"Cells.CD4+2H4/100 cells",NFr,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,Observation,,%,"Deprecated CD4+2H4 cells/100 cells in Blood",%,1.0l,false,"Cells.CD4+2H4/100 cells:NFr:Pt:Bld:Qn:"
+43273-2,Cells.CD19+CD27+IgD+/Cells,NFr,Pt,Bld/Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19+CD27+IgD+ cells/cells in Blood or Tissue",%,2.17,false,Cells.CD19+CD27+IgD+/Cells:NFr:Pt:Bld/Tiss:Qn:
+50641-0,Cells.CD3+CD8+CD57+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD3+CD8+CD57+ cells [#/volume] in Blood",/uL,2.22,false,Cells.CD3+CD8+CD57+:NCnc:Pt:Bld:Qn:
+89356-0,Cells.CD21/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD21 cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD21/Cells.CD19:NFr:Pt:Bld:Qn:
+89355-2,Cells.CD21-/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD21- cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD21-/Cells.CD19:NFr:Pt:Bld:Qn:
+85791-2,Cells.CD3+CD4+CD45RO+/Cells.CD3,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD4+CD45RO+ cells/Cells.CD3 in Blood",%,2.61,false,Cells.CD3+CD4+CD45RO+/Cells.CD3:NFr:Pt:Bld:Qn:
+85789-6,Cells.CD3+CD8+CD45RO+/Cells.CD3,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD8+CD45RO+ cells/Cells.CD3 in Blood",%,2.61,false,Cells.CD3+CD8+CD45RO+/Cells.CD3:NFr:Pt:Bld:Qn:
+77945-4,"Cells.CD4+CD3-/100 cells",NFr,Pt,XXX,Qn,,CELLMARK,2.69,DEPRECATED,1,Both,,%,"Deprecated Cells.CD4+CD3-/100 cells in Unspecified specimen",%,2.52,false,"Cells.CD4+CD3-/100 cells:NFr:Pt:XXX:Qn:"
+98240-5,Cells.CD154,PrThr,Pt,"T cells",Ord,,CELLMARK,2.71,ACTIVE,1,Observation,,,"CD154 cells [Presence] in T cells",,2.71,false,"Cells.CD154:PrThr:Pt:T cells:Ord:"
+51253-3,Cells.CD16+CD56+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD56+ cells/cells in Tissue",%,2.22,false,Cells.CD16+CD56+/Cells:NFr:Pt:Tiss:Qn:
+42735-1,Cells.CD20+CD117+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20+CD117+ cells/cells in Blood",%,2.16,false,Cells.CD20+CD117+/Cells:NFr:Pt:Bld:Qn:
+94754-9,Cells.CD21lowCD38-/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD21lowCD38- cells/Cells.CD19 in Blood",%,2.68,false,Cells.CD21lowCD38-/Cells.CD19:NFr:Pt:Bld:Qn:
+59031-5,Cells.CD25+C69+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25+C69+ cells/cells in Blood",%,2.32,false,Cells.CD25+C69+/Cells:NFr:Pt:Bld:Qn:
+57420-2,Cells.CD27/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD27 cells/cells in Body fluid",%,2.29,false,"Cells.CD27/Cells:NFr:Pt:Body fld:Qn:"
+13340-5,Cells.CD3+CD38+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD38+ cells/cells in Blood",%,1.0j-a,false,Cells.CD3+CD38+/Cells:NFr:Pt:Bld:Qn:
+38234-1,Cells.CD3+CD62L+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD62L+ cells/cells in Blood",%,2.13,false,Cells.CD3+CD62L+/Cells:NFr:Pt:Bld:Qn:
+42817-7,Cells.CD38+Kappa+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD38+Kappa+ cells/cells in Blood",%,2.16,false,Cells.CD38+Kappa+/Cells:NFr:Pt:Bld:Qn:
+42818-5,Cells.CD38+Lambda+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38+ Lambda+ cells/cells in Blood",%,2.16,false,Cells.CD38+Lambda+/Cells:NFr:Pt:Bld:Qn:
+8131-5,Cells.CD5+CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+ cells/cells in Blood",%,1.0h(2),false,Cells.CD5+CD19+/Cells:NFr:Pt:Bld:Qn:
+32511-8,Cells.CD5+CD19+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+ cells/cells in Tissue",%,2.08,false,Cells.CD5+CD19+/Cells:NFr:Pt:Tiss:Qn:
+8104-2,Cells.CD5+CD20+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD20+ cells/cells in Blood",%,1.0h(2),false,Cells.CD5+CD20+/Cells:NFr:Pt:Bld:Qn:
+51349-9,Cells.CD56+CD57+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56+CD57+ cells/cells in Blood",%,2.22,false,Cells.CD56+CD57+/Cells:NFr:Pt:Bld:Qn:
+51345-7,Cells.CD56+CD57+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56+CD57+ cells/cells in Tissue",%,2.22,false,Cells.CD56+CD57+/Cells:NFr:Pt:Tiss:Qn:
+42628-8,Cells.CD9+CD41+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD9+CD41+ cells/cells in Blood",%,2.16,false,Cells.CD9+CD41+/Cells:NFr:Pt:Bld:Qn:
+47399-1,Cells.ZAP70+CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"ZAP70+CD19+ cells/cells in Blood",%,2.19,false,Cells.ZAP70+CD19+/Cells:NFr:Pt:Bld:Qn:
+8106-7,Cells.CD1/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1 cells/cells in Blood",%,1.0h(2),false,Cells.CD1/Cells:NFr:Pt:Bld:Qn:
+17099-3,Cells.CD102/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD102 cells/cells in Blood",%,1.0l,false,Cells.CD102/Cells:NFr:Pt:Bld:Qn:
+17108-2,Cells.CD118/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD118 cells/cells in Blood",%,1.0l,false,Cells.CD118/Cells:NFr:Pt:Bld:Qn:
+17109-0,Cells.CD11a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11a cells/cells in Blood",%,1.0l,false,Cells.CD11a/Cells:NFr:Pt:Bld:Qn:
+17112-4,Cells.CD120a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD120A cells/cells in Blood",%,1.0l,false,Cells.CD120a/Cells:NFr:Pt:Bld:Qn:
+17113-2,Cells.CD120b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD120B cells/cells in Blood",%,1.0l,false,Cells.CD120b/Cells:NFr:Pt:Bld:Qn:
+17115-7,Cells.CD126/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD126 cells/cells in Blood",%,1.0l,false,Cells.CD126/Cells:NFr:Pt:Bld:Qn:
+42869-8,Cells.CD138/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD138 cells/cells in Blood",%,2.16,false,Cells.CD138/Cells:NFr:Pt:Bld:Qn:
+42872-2,Cells.CD138/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD138 cells/cells in Tissue",%,2.16,false,Cells.CD138/Cells:NFr:Pt:Tiss:Qn:
+17118-1,Cells.CD16b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16B cells/cells in Blood",%,1.0l,false,Cells.CD16b/Cells:NFr:Pt:Bld:Qn:
+51260-8,Cells.CD16b/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16B cells/cells in Tissue",%,2.22,false,Cells.CD16b/Cells:NFr:Pt:Tiss:Qn:
+20476-8,Cells.CD1a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Blood",%,1.0m,false,Cells.CD1a/Cells:NFr:Pt:Bld:Qn:
+17221-3,Cells.CD235a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Blood",%,1.0l,false,Cells.CD235a/Cells:NFr:Pt:Bld:Qn:
+33207-2,Cells.CD235a/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Tissue",%,2.09,false,Cells.CD235a/Cells:NFr:Pt:Tiss:Qn:
+17126-4,Cells.CD24/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD24 cells/cells in Blood",%,1.0l,false,Cells.CD24/Cells:NFr:Pt:Bld:Qn:
+17129-8,Cells.CD28/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD28 cells/cells in Blood",%,1.0l,false,Cells.CD28/Cells:NFr:Pt:Bld:Qn:
+8124-0,Cells.CD3/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Blood",%,1.0h(2),false,Cells.CD3/Cells:NFr:Pt:Bld:Qn:
+32752-8,Cells.CD3/Cells,NFr,Pt,Bronchial,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Bronchial specimen",%,2.09,false,Cells.CD3/Cells:NFr:Pt:Bronchial:Qn:
+51273-1,Cells.CD3/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Tissue",%,2.22,false,Cells.CD3/Cells:NFr:Pt:Tiss:Qn:
+17139-7,Cells.CD32/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD32 cells/cells in Blood",%,1.0l,false,Cells.CD32/Cells:NFr:Pt:Bld:Qn:
+17150-4,Cells.CD42b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42b cells/cells in Blood",%,1.0l,false,Cells.CD42b/Cells:NFr:Pt:Bld:Qn:
+51325-9,Cells.CD42b/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42b cells/cells in Tissue",%,2.22,false,Cells.CD42b/Cells:NFr:Pt:Tiss:Qn:
+17151-2,Cells.CD42c/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42c cells/cells in Blood",%,1.0l,false,Cells.CD42c/Cells:NFr:Pt:Bld:Qn:
+17156-1,Cells.CD44R/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD44R cells/cells in Blood",%,1.0l,false,Cells.CD44R/Cells:NFr:Pt:Bld:Qn:
+17157-9,Cells.CD45RA/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45RA cells/cells in Blood",%,1.0l,false,Cells.CD45RA/Cells:NFr:Pt:Bld:Qn:
+17160-3,Cells.CD46/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD46 cells/cells in Blood",%,1.0l,false,Cells.CD46/Cells:NFr:Pt:Bld:Qn:
+17170-2,Cells.CD50/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD50 cells/cells in Blood",%,1.0l,false,Cells.CD50/Cells:NFr:Pt:Bld:Qn:
+17174-4,Cells.CD54/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD54 cells/cells in Blood",%,1.0l,false,Cells.CD54/Cells:NFr:Pt:Bld:Qn:
+17175-1,Cells.CD55/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD55 cells/cells in Blood",%,1.0l,false,Cells.CD55/Cells:NFr:Pt:Bld:Qn:
+43936-4,Cells.CD55/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD55 cells/cells in Tissue",%,2.17,false,Cells.CD55/Cells:NFr:Pt:Tiss:Qn:
+8134-9,Cells.CD57/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD57 cells/cells in Blood",%,1.0h(2),false,Cells.CD57/Cells:NFr:Pt:Bld:Qn:
+32496-2,Cells.CD57/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD57 cells/cells in Tissue",%,2.08,false,Cells.CD57/Cells:NFr:Pt:Tiss:Qn:
+17179-3,Cells.CD62E/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD62E cells/cells in Blood",%,1.0l,false,Cells.CD62E/Cells:NFr:Pt:Bld:Qn:
+17184-3,Cells.CD66a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD66a cells/cells in Blood",%,1.0l,false,Cells.CD66a/Cells:NFr:Pt:Bld:Qn:
+17185-0,Cells.CD66b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD66b cells/cells in Blood",%,1.0l,false,Cells.CD66b/Cells:NFr:Pt:Bld:Qn:
+17186-8,Cells.CD66c/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD66c cells/cells in Blood",%,1.0l,false,Cells.CD66c/Cells:NFr:Pt:Bld:Qn:
+17188-4,Cells.CD66e/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD66e cells/cells in Blood",%,1.0l,false,Cells.CD66e/Cells:NFr:Pt:Bld:Qn:
+17189-2,Cells.CD68/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD68 cells/cells in Blood",%,1.0l,false,Cells.CD68/Cells:NFr:Pt:Bld:Qn:
+8136-4,Cells.CD71/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD71 cells/cells in Blood",%,1.0h(2),false,Cells.CD71/Cells:NFr:Pt:Bld:Qn:
+17192-6,Cells.CD72/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD72 cells/cells in Blood",%,1.0l,false,Cells.CD72/Cells:NFr:Pt:Bld:Qn:
+17193-4,Cells.CD73/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD73 cells/cells in Blood",%,1.0l,false,Cells.CD73/Cells:NFr:Pt:Bld:Qn:
+17196-7,Cells.CD79a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79a cells/cells in Blood",%,1.0l,false,Cells.CD79a/Cells:NFr:Pt:Bld:Qn:
+17197-5,Cells.CD79b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79b cells/cells in Blood",%,1.0l,false,Cells.CD79b/Cells:NFr:Pt:Bld:Qn:
+42887-0,Cells.CD79b/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD79b cells/cells in Tissue",%,2.16,false,Cells.CD79b/Cells:NFr:Pt:Tiss:Qn:
+17199-1,Cells.CD80/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD80 cells/cells in Blood",%,1.0l,false,Cells.CD80/Cells:NFr:Pt:Bld:Qn:
+17200-7,Cells.CD82/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD82 cells/cells in Blood",%,1.0l,false,Cells.CD82/Cells:NFr:Pt:Bld:Qn:
+17202-3,Cells.CD85/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD85 cells/cells in Blood",%,1.0l,false,Cells.CD85/Cells:NFr:Pt:Bld:Qn:
+17203-1,Cells.CD86/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD86 cells/cells in Blood",%,1.0l,false,Cells.CD86/Cells:NFr:Pt:Bld:Qn:
+17204-9,Cells.CD87/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD87 cells/cells in Blood",%,1.0l,false,Cells.CD87/Cells:NFr:Pt:Bld:Qn:
+17205-6,Cells.CD88/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD88 cells/cells in Blood",%,1.0l,false,Cells.CD88/Cells:NFr:Pt:Bld:Qn:
+17206-4,Cells.CD9/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD9 cells/cells in Blood",%,1.0l,false,Cells.CD9/Cells:NFr:Pt:Bld:Qn:
+51374-7,Cells.CD9/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD9 cells/cells in Tissue",%,2.22,false,Cells.CD9/Cells:NFr:Pt:Tiss:Qn:
+17212-2,Cells.CD97/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD97 cells/cells in Blood",%,1.0l,false,Cells.CD97/Cells:NFr:Pt:Bld:Qn:
+17213-0,Cells.CD98/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD98 cells/cells in Blood",%,1.0l,false,Cells.CD98/Cells:NFr:Pt:Bld:Qn:
+17214-8,Cells.CD99/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD99 cells/cells in Blood",%,1.0l,false,Cells.CD99/Cells:NFr:Pt:Bld:Qn:
+46235-8,Cells.ZAP70/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"ZAP70 cells/cells in Blood",%,2.19,false,Cells.ZAP70/Cells:NFr:Pt:Bld:Qn:
+46231-7,Cells.ZAP70/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"ZAP70 cells/cells in Tissue",%,2.19,false,Cells.ZAP70/Cells:NFr:Pt:Tiss:Qn:
+50788-9,"Cytokeratin cells/Cells",NFr,Pt,Bld,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Cytokeratin cells/cells in Blood",%,2.22,false,"Cytokeratin cells/Cells:NFr:Pt:Bld:Qn:"
+44904-1,"Malignant cells/Cells",NFr,Pt,"Pericard fld",Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Pericardial fluid",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Pericard fld:Qn:"
+42926-6,"Myeloid cells/Cells",NFr,Pt,Bld,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Myeloid cells/cells in Blood",%,2.16,false,"Myeloid cells/Cells:NFr:Pt:Bld:Qn:"
+43283-1,"Myeloid cells/Cells",NFr,Pt,Tiss,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Myeloid cells/cells in Tissue",%,2.17,false,"Myeloid cells/Cells:NFr:Pt:Tiss:Qn:"
+33193-4,"Viable cells/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Viable cells/cells in Blood",%,2.09,false,"Viable cells/Cells:NFr:Pt:Bld:Qn:"
+8117-4,Cells.CD19/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19 cells/cells in Blood",%,1.0h(2),false,Cells.CD19/Cells:NFr:Pt:Bld:Qn:
+32755-1,Cells.CD19/Cells,NFr,Pt,Bronchial,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19 cells/cells in Bronchial specimen",%,2.09,false,Cells.CD19/Cells:NFr:Pt:Bronchial:Qn:
+51264-0,Cells.CD19/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19 cells/cells in Tissue",%,2.22,false,Cells.CD19/Cells:NFr:Pt:Tiss:Qn:
+20602-9,Cells.CD34/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD34 cells/cells in Specimen",%,1.0m,false,Cells.CD34/Cells:NFr:Pt:XXX:Qn:
+17226-2,Cells.SmIg-CD79/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"SmIg-Cd79 cells/cells in Blood",%,1.0l,false,Cells.SmIg-CD79/Cells:NFr:Pt:Bld:Qn:
+51909-0,"Ependymal cells/Cells",NFr,Pt,CSF,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Ependymal cells/cells in Cerebral spinal fluid",%,2.24,false,"Ependymal cells/Cells:NFr:Pt:CSF:Qn:"
+74849-1,"Plasma cells/Cells",NFr,Pt,"Lymph node",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Plasma cells/cells in Lymph node by Manual count",%,2.48,false,"Plasma cells/Cells:NFr:Pt:Lymph node:Qn:Manual count"
+43415-9,"Unidentified cells/Cells",NFr,Pt,"Bone mar",Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Unidentified cells/cells in Bone marrow",%,2.17,false,"Unidentified cells/Cells:NFr:Pt:Bone mar:Qn:"
+80700-8,Cells.CD25+CD127-/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25+CD127- (regulatory T) cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.56,false,Cells.CD25+CD127-/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+57397-2,Cells.CD19+CD20+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD20+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+CD20+/Cells:NFr:Pt:Body fld:Qn:"
+57394-9,Cells.CD19+CD34+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD34+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+CD34+/Cells:NFr:Pt:Body fld:Qn:"
+59139-6,Cells.CD19+CD34+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD34+ cells/cells in Bone marrow",%,2.32,false,"Cells.CD19+CD34+/Cells:NFr:Pt:Bone mar:Qn:"
+49025-0,Cells.CD25+CD127Low/Cells.CD4,NRto,Pt,XXX,Qn,,CELLMARK,2.69,ACTIVE,1,Both,,%,"CD25+CD127Low cells/CD4 cells [# Ratio] in Specimen",%,2.21,false,Cells.CD25+CD127Low/Cells.CD4:NRto:Pt:XXX:Qn:
+89344-6,Cells.CD38+IgM-/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD38+IgM- cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD38+IgM-/Cells.CD19:NFr:Pt:Bld:Qn:
+89341-2,Cells.CD38+IgM+/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD38+IgM+ cells/Cells.CD19 in Blood",%,2.64,false,Cells.CD38+IgM+/Cells.CD19:NFr:Pt:Bld:Qn:
+43944-8,Cells.CD4+CD45+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+CD45+ cells/cells in Bone marrow",%,2.17,false,"Cells.CD4+CD45+/Cells:NFr:Pt:Bone mar:Qn:"
+80698-4,"Viable CD34 cells/Cells.CD34",NFr,Pt,"Hematopoietic progenitor cells^BPU",Qn,,BLDBK,2.79,ACTIVE,1,Observation,,%,"Viable CD34 cells/CD34 cells in Hematopoietic progenitor cells from Blood product unit",%,2.56,false,"Viable CD34 cells/Cells.CD34:NFr:Pt:Hematopoietic progenitor cells^BPU:Qn:"
+16274-3,Cells.CD4/Cells.C4,MCrto,Pt,Plas,Qn,,CELLMARK,2.36,DEPRECATED,1,,,,"Deprecated Cells.CD4/Cells.C4",,1.0l,false,Cells.CD4/Cells.C4:MCrto:Pt:Plas:Qn:
+77948-8,Cells.FLAER/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"FLAER cells/cells in Specimen",%,2.52,false,Cells.FLAER/Cells:NFr:Pt:XXX:Qn:
+36909-0,"Cells.G0+G1 phase/Cells",NFr,Pt,Bld,Qn,,MOLPATH,2.79,ACTIVE,1,Observation,,%,"G0+G1 phase cells/cells in Blood",%,2.13,false,"Cells.G0+G1 phase/Cells:NFr:Pt:Bld:Qn:"
+36910-8,"Cells.S phase/Cells",NFr,Pt,Bld,Qn,,MOLPATH,2.79,ACTIVE,1,Observation,,%,"S-phase cells/cells in Blood",%,2.13,false,"Cells.S phase/Cells:NFr:Pt:Bld:Qn:"
+33777-4,Cells.SmIg/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"SmIg cells/cells in Specimen",%,2.09,false,Cells.SmIg/Cells:NFr:Pt:XXX:Qn:
+59042-2,"Cells.TCR gamma delta/Cells",NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"TCR gamma delta cells/cells in Tissue",%,2.32,false,"Cells.TCR gamma delta/Cells:NFr:Pt:Tiss:Qn:"
+80711-5,Cells.CD38+HLA-DR+/Cells.CD3+CD4+,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38+HLA-DR+ cells/CD3+CD4+ (T4 helper) cells in Blood",%,2.56,false,Cells.CD38+HLA-DR+/Cells.CD3+CD4+:NFr:Pt:Bld:Qn:
+40887-2,Cells.CD11c+CD19+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD19+ cells/cells in Tissue",%,2.15,false,Cells.CD11c+CD19+/Cells:NFr:Pt:Tiss:Qn:
+38232-5,Cells.CD13+CD16+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD16+ cells/cells in Blood",%,2.13,false,Cells.CD13+CD16+/Cells:NFr:Pt:Bld:Qn:
+32503-5,Cells.CD13+CD33+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+ cells/cells in Blood",%,2.08,false,Cells.CD13+CD33+/Cells:NFr:Pt:Bld:Qn:
+32505-0,Cells.CD13+CD33+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+ cells/cells in Tissue",%,2.08,false,Cells.CD13+CD33+/Cells:NFr:Pt:Tiss:Qn:
+56890-7,Cells.CD13+HLA-DR+/Cells,NFr,Pt,Asp,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Aspirate",%,2.29,false,Cells.CD13+HLA-DR+/Cells:NFr:Pt:Asp:Qn:
+56892-3,Cells.CD13+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Blood",%,2.29,false,Cells.CD13+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+56889-9,Cells.CD13+HLA-DR+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Tissue",%,2.29,false,Cells.CD13+HLA-DR+/Cells:NFr:Pt:Tiss:Qn:
+18267-5,Cells.CD16+CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD16+CD56+ cells/cells in Blood",%,1.0l,false,Cells.CD16+CD56+/Cells:NFr:Pt:Bld:Qn:
+42736-9,Cells.CD20+CD23+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20+CD23+ cells/cells in Blood",%,2.16,false,Cells.CD20+CD23+/Cells:NFr:Pt:Bld:Qn:
+44070-1,Cells.CD20+CD52+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+CD52+ cells/cells in Bone marrow",%,2.17,false,"Cells.CD20+CD52+/Cells:NFr:Pt:Bone mar:Qn:"
+44071-9,Cells.CD20+CD52+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+CD52+ cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD20+CD52+/Cells:NFr:Pt:CSF:Qn:
+38419-8,Cells.CD21/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD21 cells/cells in Specimen",%,2.14,false,Cells.CD21/Cells:NFr:Pt:XXX:Qn:
+17125-6,Cells.CD22+CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD22+CD19+ cells/cells in Blood",%,1.0l,false,Cells.CD22+CD19+/Cells:NFr:Pt:Bld:Qn:
+40889-8,Cells.CD25+CD19+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25+CD19+ cells/cells in Tissue",%,2.15,false,Cells.CD25+CD19+/Cells:NFr:Pt:Tiss:Qn:
+13333-0,Cells.CD3+CD25+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD25+ cells/cells in Blood",%,1.0j-a,false,Cells.CD3+CD25+/Cells:NFr:Pt:Bld:Qn:
+13341-3,Cells.CD3+CD25+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD25+ cells/cells in Tissue",%,1.0j-a,false,Cells.CD3+CD25+/Cells:NFr:Pt:Tiss:Qn:
+13342-1,Cells.CD3+CD26+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD26+ cells/cells in Blood",%,1.0j-a,false,Cells.CD3+CD26+/Cells:NFr:Pt:Bld:Qn:
+27879-6,Cells.CD33+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33+HLA-DR+ cells/cells in Blood",%,2.00,false,Cells.CD33+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+50974-5,Cells.CD38+CD138+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD38+CD138+ cells/cells in Blood",%,2.22,false,Cells.CD38+CD138+/Cells:NFr:Pt:Bld:Qn:
+38171-5,Cells.CD3-CD19+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3-CD19+ cells/cells in Specimen",%,2.13,false,Cells.CD3-CD19+/Cells:NFr:Pt:XXX:Qn:
+59144-6,Cells.CD5+CD23+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD23+ cells/cells in Blood",%,2.32,false,Cells.CD5+CD23+/Cells:NFr:Pt:Bld:Qn:
+20614-4,"Cells.CD8/100 cells",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,Both,,%,"Deprecated CD8 cells/100 cells in Unspecified specimen",%,1.0m,false,"Cells.CD8/100 cells:NFr:Pt:XXX:Qn:"
+82744-4,Cells.CD8+CD45RA+/Cells.CD8,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD8+CD45RA+ cells/CD8 Cells in Blood",%,2.61,false,Cells.CD8+CD45RA+/Cells.CD8:NFr:Pt:Bld:Qn:
+17218-9,"Cells.cytoplasmic Ig mu/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic Ig mu cells/cells in Blood",%,1.0l,false,"Cells.cytoplasmic Ig mu/Cells:NFr:Pt:Bld:Qn:"
+89351-1,Cells.CD19+CD27+IgD+IgM+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD19+CD27+IgD+IgM+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+CD27+IgD+IgM+:NCnc:Pt:Bld:Qn:
+89349-5,Cells.CD19+CD27+IgD-IgM-,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD19+CD27+IgD-IgM- cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+CD27+IgD-IgM-:NCnc:Pt:Bld:Qn:
+89347-9,Cells.CD19+CD27+IgD-IgM+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD19+CD27+IgD-IgM+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+CD27+IgD-IgM+:NCnc:Pt:Bld:Qn:
+51245-9,Cells.CD13+CD33+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+HLA-DR+ cells/cells in Blood",%,2.22,false,Cells.CD13+CD33+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+51241-8,Cells.CD13+CD33+HLA-DR+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+HLA-DR+ cells/cells in Tissue",%,2.22,false,Cells.CD13+CD33+HLA-DR+/Cells:NFr:Pt:Tiss:Qn:
+59140-4,Cells.CD13+CD34+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD34+ cells/cells in Bone marrow",%,2.32,false,"Cells.CD13+CD34+/Cells:NFr:Pt:Bone mar:Qn:"
+27893-7,Cells.CD19+CD23+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD23+ cells/cells in Blood",%,2.00,false,Cells.CD19+CD23+/Cells:NFr:Pt:Bld:Qn:
+26562-9,Cells.CD19+CD38+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD38+ cells/cells in Specimen",%,2.00,false,Cells.CD19+CD38+/Cells:NFr:Pt:XXX:Qn:
+51335-8,Cells.CD19+CD43+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD43+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD19+CD43+/Cells:NFr:Pt:Bone mar:Qn:"
+51334-1,Cells.CD19+CD43+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD43+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD19+CD43+/Cells:NFr:Pt:CSF:Qn:
+51354-9,Cells.CD19+CD58+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD58+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD19+CD58+/Cells:NFr:Pt:Bone mar:Qn:"
+51353-1,Cells.CD19+CD58+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD58+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD19+CD58+/Cells:NFr:Pt:CSF:Qn:
+49842-8,Cells.CD19+IgA+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19+IgA+ cells/cells in Specimen",%,2.22,false,Cells.CD19+IgA+/Cells:NFr:Pt:XXX:Qn:
+49835-2,Cells.CD19+IgD+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19+IgD+ cells/cells in Specimen",%,2.22,false,Cells.CD19+IgD+/Cells:NFr:Pt:XXX:Qn:
+49840-2,Cells.CD19+IgG+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19+IgG+ cells/cells in Specimen",%,2.22,false,Cells.CD19+IgG+/Cells:NFr:Pt:XXX:Qn:
+57432-7,Cells.CD19+Kappa+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+Kappa+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+Kappa+/Cells:NFr:Pt:Body fld:Qn:"
+57433-5,Cells.CD19+Lambda+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+Lambda+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+Lambda+/Cells:NFr:Pt:Body fld:Qn:"
+57740-3,Cells.CD3+HLA-DR+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+HLA-DR+ cells/cells in Body fluid",%,2.29,false,"Cells.CD3+HLA-DR+/Cells:NFr:Pt:Body fld:Qn:"
+43968-7,Cells.CD3+HLA-DR+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+HLA-DR+ cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD3+HLA-DR+/Cells:NFr:Pt:CSF:Qn:
+57429-3,"Cells.CD3+TCR gamma delta+/Cells",NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+TCR gamma delta+ cells/cells in Body fluid",%,2.29,false,"Cells.CD3+TCR gamma delta+/Cells:NFr:Pt:Body fld:Qn:"
+38236-6,"Cells.CD3+TCR gamma delta+/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+TCR gamma delta+ cells/cells in Specimen",%,2.13,false,"Cells.CD3+TCR gamma delta+/Cells:NFr:Pt:XXX:Qn:"
+56896-4,Cells.CD33+CD34+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33+CD34+ cells/cells in Bone marrow",%,2.29,false,"Cells.CD33+CD34+/Cells:NFr:Pt:Bone mar:Qn:"
+55364-4,Cells.CD5+CD19+CD38+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+CD38+ cells/cells in Blood",%,2.27,false,Cells.CD5+CD19+CD38+/Cells:NFr:Pt:Bld:Qn:
+57437-6,Cells.CD56+CD138+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56+CD138+ cells/cells in Body fluid",%,2.29,false,"Cells.CD56+CD138+/Cells:NFr:Pt:Body fld:Qn:"
+57438-4,Cells.CD56-CD138+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56-CD138+ cells/cells in Body fluid",%,2.29,false,"Cells.CD56-CD138+/Cells:NFr:Pt:Body fld:Qn:"
+59138-8,Cells.CD7+CD34+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7+CD34+ cells/cells in Bone marrow",%,2.32,false,"Cells.CD7+CD34+/Cells:NFr:Pt:Bone mar:Qn:"
+57405-3,Cells.CD8+CD56+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+CD56+ cells/cells in Body fluid",%,2.29,false,"Cells.CD8+CD56+/Cells:NFr:Pt:Body fld:Qn:"
+51373-9,Cells.CD8+HLA-DR+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+HLA-DR+ cells/cells in Body fluid",%,2.22,false,"Cells.CD8+HLA-DR+/Cells:NFr:Pt:Body fld:Qn:"
+51372-1,Cells.CD8+HLA-DR+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+HLA-DR+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD8+HLA-DR+/Cells:NFr:Pt:Bone mar:Qn:"
+51371-3,Cells.CD8+HLA-DR+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD8+HLA-DR+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD8+HLA-DR+/Cells:NFr:Pt:CSF:Qn:
+11117-9,"Plasma cells.immature/Cells",NFr,Pt,"Bone mar",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Plasma cells immature/cells in Bone marrow by Manual count",%,1.0j-a,false,"Plasma cells.immature/Cells:NFr:Pt:Bone mar:Qn:Manual count"
+40861-7,Cells.CD103/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD103 cells/cells in Tissue",%,2.15,false,Cells.CD103/Cells:NFr:Pt:Tiss:Qn:
+17103-3,Cells.CD106/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD106 cells/cells in Blood",%,1.0l,false,Cells.CD106/Cells:NFr:Pt:Bld:Qn:
+17104-1,Cells.CD107a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD107a cells/cells in Blood",%,1.0l,false,Cells.CD107a/Cells:NFr:Pt:Bld:Qn:
+17105-8,Cells.CD107b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD107b cells/cells in Blood",%,1.0l,false,Cells.CD107b/Cells:NFr:Pt:Bld:Qn:
+17107-4,Cells.CD117/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD117 cells/cells in Blood",%,1.0l,false,Cells.CD117/Cells:NFr:Pt:Bld:Qn:
+42865-6,Cells.CD117/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD117 cells/cells in Tissue",%,2.16,false,Cells.CD117/Cells:NFr:Pt:Tiss:Qn:
+17114-0,Cells.CD122/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD122 cells/cells in Blood",%,1.0l,false,Cells.CD122/Cells:NFr:Pt:Bld:Qn:
+8110-9,Cells.CD13/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13 cells/cells in Blood",%,1.0h(2),false,Cells.CD13/Cells:NFr:Pt:Bld:Qn:
+51235-0,Cells.CD13/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13 cells/cells in Tissue",%,2.22,false,Cells.CD13/Cells:NFr:Pt:Tiss:Qn:
+8115-8,Cells.CD16/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16 cells/cells in Blood",%,1.0h(2),false,Cells.CD16/Cells:NFr:Pt:Bld:Qn:
+14017-8,Cells.CD22/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD22 cells/cells in Blood",%,1.0k,false,Cells.CD22/Cells:NFr:Pt:Bld:Qn:
+33205-6,Cells.CD235a/Cells,NFr,Pt,"Periton fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Peritoneal fluid",%,2.09,false,"Cells.CD235a/Cells:NFr:Pt:Periton fld:Qn:"
+33206-4,Cells.CD235a/Cells,NFr,Pt,"Plr fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Pleural fluid",%,2.09,false,"Cells.CD235a/Cells:NFr:Pt:Plr fld:Qn:"
+51287-1,Cells.CD30/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD30 cells/cells in Tissue",%,2.22,false,Cells.CD30/Cells:NFr:Pt:Tiss:Qn:
+17138-9,Cells.CD31/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD31 cells/cells in Blood",%,1.0l,false,Cells.CD31/Cells:NFr:Pt:Bld:Qn:
+8102-6,Cells.CD33/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33 cells/cells in Blood",%,1.0h(2),false,Cells.CD33/Cells:NFr:Pt:Bld:Qn:
+51291-3,Cells.CD33/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33 cells/cells in Tissue",%,2.22,false,Cells.CD33/Cells:NFr:Pt:Tiss:Qn:
+17141-3,Cells.CD36/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD36 cells/cells in Blood",%,1.0l,false,Cells.CD36/Cells:NFr:Pt:Bld:Qn:
+49680-2,Cells.CD36/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD36 cells/cells in Tissue",%,2.22,false,Cells.CD36/Cells:NFr:Pt:Tiss:Qn:
+51296-2,Cells.CD38/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38 cells/cells in Tissue",%,2.22,false,Cells.CD38/Cells:NFr:Pt:Tiss:Qn:
+42932-4,Cells.CD40/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD40 cells/cells in Specimen",%,2.16,false,Cells.CD40/Cells:NFr:Pt:XXX:Qn:
+17148-8,Cells.CD41/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD41 cells/cells in Blood",%,1.0l,false,Cells.CD41/Cells:NFr:Pt:Bld:Qn:
+51317-6,Cells.CD41/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD41 cells/cells in Tissue",%,2.22,false,Cells.CD41/Cells:NFr:Pt:Tiss:Qn:
+33775-8,Cells.CD41a/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD41a cells/cells in Specimen",%,2.09,false,Cells.CD41a/Cells:NFr:Pt:XXX:Qn:
+20609-4,Cells.CD42/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD42 cells/cells in Specimen",%,1.0m,false,Cells.CD42/Cells:NFr:Pt:XXX:Qn:
+17154-6,Cells.CD43/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD43 cells/cells in Blood",%,1.0l,false,Cells.CD43/Cells:NFr:Pt:Bld:Qn:
+51329-1,Cells.CD43/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD43 cells/cells in Tissue",%,2.22,false,Cells.CD43/Cells:NFr:Pt:Tiss:Qn:
+17162-9,Cells.CD48/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD48 cells/cells in Blood",%,1.0l,false,Cells.CD48/Cells:NFr:Pt:Bld:Qn:
+17164-5,Cells.CD49b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD49b cells/cells in Blood",%,1.0l,false,Cells.CD49b/Cells:NFr:Pt:Bld:Qn:
+17165-2,Cells.CD49c/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD49c cells/cells in Blood",%,1.0l,false,Cells.CD49c/Cells:NFr:Pt:Bld:Qn:
+17166-0,Cells.CD49d/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD49d cells/cells in Blood",%,1.0l,false,Cells.CD49d/Cells:NFr:Pt:Bld:Qn:
+17168-6,Cells.CD49f/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD49f cells/cells in Blood",%,1.0l,false,Cells.CD49f/Cells:NFr:Pt:Bld:Qn:
+8132-3,Cells.CD5/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5 cells/cells in Blood",%,1.0h(2),false,Cells.CD5/Cells:NFr:Pt:Bld:Qn:
+17171-0,Cells.CD51/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD51 cells/cells in Blood",%,1.0l,false,Cells.CD51/Cells:NFr:Pt:Bld:Qn:
+42884-7,Cells.CD52/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD52 cells/cells in Specimen",%,2.16,false,Cells.CD52/Cells:NFr:Pt:XXX:Qn:
+8133-1,Cells.CD56/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD56 cells/cells in Blood",%,1.0h(2),false,Cells.CD56/Cells:NFr:Pt:Bld:Qn:
+17176-9,Cells.CD58/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD58 cells/cells in Blood",%,1.0l,false,Cells.CD58/Cells:NFr:Pt:Bld:Qn:
+32601-7,Cells.CD59/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD59 cells/cells in Specimen",%,2.08,false,Cells.CD59/Cells:NFr:Pt:XXX:Qn:
+32855-9,Cells.CD62/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD62 cells/cells in Specimen",%,2.09,false,Cells.CD62/Cells:NFr:Pt:XXX:Qn:
+8135-6,Cells.CD7/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7 cells/cells in Blood",%,1.0h(2),false,Cells.CD7/Cells:NFr:Pt:Bld:Qn:
+61178-0,Cells.CD79/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79 cells/cells in Specimen",%,2.34,false,Cells.CD79/Cells:NFr:Pt:XXX:Qn:
+42934-0,Cells.CD83/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD83 cells/cells in Specimen",%,2.16,false,Cells.CD83/Cells:NFr:Pt:XXX:Qn:
+32748-6,Cells.CD90/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD90 cells/cells in Specimen",%,2.09,false,Cells.CD90/Cells:NFr:Pt:XXX:Qn:
+17210-6,Cells.CD95/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD95 cells/cells in Blood",%,1.0l,false,Cells.CD95/Cells:NFr:Pt:Bld:Qn:
+17211-4,Cells.CD96/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD96 cells/cells in Blood",%,1.0l,false,Cells.CD96/Cells:NFr:Pt:Bld:Qn:
+17216-3,"Cells.cytoplasmic CD3/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD3 cells/cells in Blood",%,1.0l,false,"Cells.cytoplasmic CD3/Cells:NFr:Pt:Bld:Qn:"
+52885-1,"Cells.cytoplasmic CD3/Cells",NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD3 cells/cells in Tissue",%,2.24,false,"Cells.cytoplasmic CD3/Cells:NFr:Pt:Tiss:Qn:"
+17217-1,"Cells.cytoplasmic CD79/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD79 cells/cells in Blood",%,1.0l,false,"Cells.cytoplasmic CD79/Cells:NFr:Pt:Bld:Qn:"
+52991-7,"Cells.cytoplasmic CD79a/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD79a cells/cells in Blood",%,2.24,false,"Cells.cytoplasmic CD79a/Cells:NFr:Pt:Bld:Qn:"
+52995-8,"Cells.cytoplasmic CD79a/Cells",NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD79a cells/cells in Tissue",%,2.24,false,"Cells.cytoplasmic CD79a/Cells:NFr:Pt:Tiss:Qn:"
+21171-4,Cells.FMC7/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"FMC7 cells/cells in Specimen",%,1.0m,false,Cells.FMC7/Cells:NFr:Pt:XXX:Qn:
+44905-8,"Malignant cells/Cells",NFr,Pt,"Periton fld",Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Peritoneal fluid",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Periton fld:Qn:"
+44902-5,"Malignant cells/Cells",NFr,Pt,"Plr fld",Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Pleural fluid",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Plr fld:Qn:"
+57400-4,Cells.CD34/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD34 cells/cells in Bone marrow",%,2.29,false,"Cells.CD34/Cells:NFr:Pt:Bone mar:Qn:"
+35652-7,"Epithelial cells/Cells",NFr,Pt,"Body fld",Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Epithelial cells/cells in Body fluid",%,2.13,false,"Epithelial cells/Cells:NFr:Pt:Body fld:Qn:"
+73900-3,Cells.CD3-CD8-CD57+/Leukocytes,NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3- CD8- CD57+ Cells/Leukocytes in Blood by Flow cytometry (FC)",%,2.44,false,"Cells.CD3-CD8-CD57+/Leukocytes:NFr:Pt:Bld:Qn:Flow cytometry"
+17223-9,"Cells.CD14/100 cells",NFr,Pt,Bld,Qn,,CELLMARK,2.46,DEPRECATED,1,,,%,"Deprecated CD14 cells/100 cells in Blood",%,1.0l,false,"Cells.CD14/100 cells:NFr:Pt:Bld:Qn:"
+14109-3,Cells.CD16c+CD56+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16C+CD56+ cells/cells in Blood",%,1.0k,false,Cells.CD16c+CD56+/Cells:NFr:Pt:Bld:Qn:
+20595-5,Cells.CD20/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20 cells/cells in Specimen",%,1.0m,false,Cells.CD20/Cells:NFr:Pt:XXX:Qn:
+32751-0,Cells.HLA-DR+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"HLA-DR+ cells/cells in Specimen",%,2.09,false,Cells.HLA-DR+/Cells:NFr:Pt:XXX:Qn:
+32858-3,Cells.IgG/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"IgG cells/cells in Specimen",%,2.09,false,Cells.IgG/Cells:NFr:Pt:XXX:Qn:
+42890-4,Cells.myeloperoxidase/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"Myeloperoxidase cells/cells in Body fluid",%,2.16,false,"Cells.myeloperoxidase/Cells:NFr:Pt:Body fld:Qn:"
+52996-6,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Blood by Flow cytometry (FC)",%,2.24,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:Bld:Qn:Flow cytometry"
+52998-2,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,Tiss,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Tissue by Flow cytometry (FC)",%,2.24,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:Tiss:Qn:Flow cytometry"
+38435-4,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Specimen",%,2.14,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:XXX:Qn:"
+32502-7,Cells.CD10+CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD19+ cells/cells in Blood",%,2.08,false,Cells.CD10+CD19+/Cells:NFr:Pt:Bld:Qn:
+32501-9,Cells.CD10+CD19+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD19+ cells/cells in Tissue",%,2.08,false,Cells.CD10+CD19+/Cells:NFr:Pt:Tiss:Qn:
+17097-7,Cells.CD10+CD20+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD20+ cells/cells in Blood",%,1.0l,false,Cells.CD10+CD20+/Cells:NFr:Pt:Bld:Qn:
+38231-7,Cells.CD11b+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b+HLA-DR+ cells/cells in Blood",%,2.13,false,Cells.CD11b+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+51234-3,Cells.CD11c+CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD19+ cells/cells in Blood",%,2.22,false,Cells.CD11c+CD19+/Cells:NFr:Pt:Bld:Qn:
+32522-5,Cells.CD13+CD33+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+ cells/cells in Specimen",%,2.08,false,Cells.CD13+CD33+/Cells:NFr:Pt:XXX:Qn:
+56891-5,Cells.CD13+HLA-DR+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Specimen",%,2.29,false,Cells.CD13+HLA-DR+/Cells:NFr:Pt:XXX:Qn:
+27876-2,Cells.CD14+CD11b+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14+CD11b+ cells/cells in Blood",%,2.00,false,Cells.CD14+CD11b+/Cells:NFr:Pt:Bld:Qn:
+27878-8,Cells.CD14+HLA-DR+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14+HLA-DR+ cells/cells in Blood",%,2.00,false,Cells.CD14+HLA-DR+/Cells:NFr:Pt:Bld:Qn:
+51255-8,Cells.CD16+CD56+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD56+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD16+CD56+/Cells:NFr:Pt:Bone mar:Qn:"
+51254-1,Cells.CD16+CD56+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16+CD56+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD16+CD56+/Cells:NFr:Pt:CSF:Qn:
+20620-1,Cells.CD16+CD56+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD16+CD56+ cells/cells in Specimen",%,1.0m,false,Cells.CD16+CD56+/Cells:NFr:Pt:XXX:Qn:
+17124-9,Cells.CD2+CD20+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2+CD20+ cells/cells in Blood",%,1.0l,false,Cells.CD2+CD20+/Cells:NFr:Pt:Bld:Qn:
+13331-4,Cells.CD2+CD26+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2+CD26+ cells/cells in Blood",%,1.0j-a,false,Cells.CD2+CD26+/Cells:NFr:Pt:Bld:Qn:
+38512-0,Cells.CD2+CD3+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2+CD3+ cells/cells in Specimen",%,2.14,false,Cells.CD2+CD3+/Cells:NFr:Pt:XXX:Qn:
+26572-8,Cells.CD2+CD7+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2+CD7+ cells/cells in Blood",%,2.00,false,Cells.CD2+CD7+/Cells:NFr:Pt:Bld:Qn:
+44072-7,Cells.CD20+CD52+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+CD52+ cells/cells in Body fluid",%,2.17,false,"Cells.CD20+CD52+/Cells:NFr:Pt:Body fld:Qn:"
+44063-6,Cells.CD20+FMC7+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+FMC7+ cells/cells in Body fluid",%,2.17,false,"Cells.CD20+FMC7+/Cells:NFr:Pt:Body fld:Qn:"
+44061-0,Cells.CD20+FMC7+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+FMC7+ cells/cells in Bone marrow",%,2.17,false,"Cells.CD20+FMC7+/Cells:NFr:Pt:Bone mar:Qn:"
+44062-8,Cells.CD20+FMC7+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD20+FMC7+ cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD20+FMC7+/Cells:NFr:Pt:CSF:Qn:
+57419-4,Cells.CD21/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD21 cells/cells in Body fluid",%,2.29,false,"Cells.CD21/Cells:NFr:Pt:Body fld:Qn:"
+20503-9,Cells.CD22+CD11c+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD22+CD11c+ cells/cells in Blood",%,1.0m,false,Cells.CD22+CD11c+/Cells:NFr:Pt:Bld:Qn:
+14112-7,Cells.CD25+CD19+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25+CD19+ cells/cells in Blood",%,1.0k,false,Cells.CD25+CD19+/Cells:NFr:Pt:Bld:Qn:
+32514-2,Cells.CD3+CD25+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD25+ cells/cells in Specimen",%,2.08,false,Cells.CD3+CD25+/Cells:NFr:Pt:XXX:Qn:
+17131-4,Cells.CD3+CD69+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD69+ cells/cells in Blood",%,1.0l,false,Cells.CD3+CD69+/Cells:NFr:Pt:Bld:Qn:
+27877-0,Cells.CD33+CD11b+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33+CD11b+ cells/cells in Blood",%,2.00,false,Cells.CD33+CD11b+/Cells:NFr:Pt:Bld:Qn:
+20477-6,Cells.CD33+CD44+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33+CD44+ cells/cells in Blood",%,1.0m,false,Cells.CD33+CD44+/Cells:NFr:Pt:Bld:Qn:
+59030-7,Cells.CD45+CD103+/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45+CD103+ Cells/cells in Tissue",%,2.32,false,Cells.CD45+CD103+/Cells:NFr:Pt:Tiss:Qn:
+8103-4,Cells.CD45+CD14+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45+CD14+ cells/cells in Blood",%,1.0h(2),false,Cells.CD45+CD14+/Cells:NFr:Pt:Bld:Qn:
+51342-4,Cells.CD5+CD19+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+ cells/cells in Body fluid",%,2.22,false,"Cells.CD5+CD19+/Cells:NFr:Pt:Body fld:Qn:"
+32510-0,Cells.CD5+CD19+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+ cells/cells in Bone marrow",%,2.08,false,"Cells.CD5+CD19+/Cells:NFr:Pt:Bone mar:Qn:"
+51341-6,Cells.CD5+CD19+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD5+CD19+/Cells:NFr:Pt:CSF:Qn:
+32523-3,Cells.CD5+CD19+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD19+ cells/cells in Specimen",%,2.08,false,Cells.CD5+CD19+/Cells:NFr:Pt:XXX:Qn:
+17169-4,Cells.CD5+CD2-/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD2- cells/cells in Blood",%,1.0l,false,Cells.CD5+CD2-/Cells:NFr:Pt:Bld:Qn:
+13851-1,Cells.CD5+CD25+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD25+ cells/cells in Blood",%,1.0k,false,Cells.CD5+CD25+/Cells:NFr:Pt:Bld:Qn:
+56899-8,Cells.CD5+FMC7+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD5+FMC7+ cells/cells in Bone marrow",%,2.29,false,"Cells.CD5+FMC7+/Cells:NFr:Pt:Bone mar:Qn:"
+51348-1,Cells.CD56+CD57+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56+CD57+ cells/cells in Body fluid",%,2.22,false,"Cells.CD56+CD57+/Cells:NFr:Pt:Body fld:Qn:"
+51347-3,Cells.CD56+CD57+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56+CD57+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD56+CD57+/Cells:NFr:Pt:Bone mar:Qn:"
+51346-5,Cells.CD56+CD57+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56+CD57+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD56+CD57+/Cells:NFr:Pt:CSF:Qn:
+33663-6,"Cells.CD59 deficient/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,"%; % deficient","CD59 deficient cells/cells in Blood",%,2.09,false,"Cells.CD59 deficient/Cells:NFr:Pt:Bld:Qn:"
+32499-6,Cells.CD7-CD13+CD33+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7-CD13+CD33+ cells/cells in Blood",%,2.08,false,Cells.CD7-CD13+CD33+/Cells:NFr:Pt:Bld:Qn:
+42195-8,"Cells.CD8/100 cells",NFr,Pt,CSF,Qn,,CELLMARK,2.36,DEPRECATED,1,Observation,,%,"Deprecated CD8 cells/100 cells in Cerebral spinal fluid",%,2.16,false,"Cells.CD8/100 cells:NFr:Pt:CSF:Qn:"
+104273-8,"Cells.clonal rearrangements/Cells counted",NFr,Pt,XXX,Qn,Molgen,MOLPATH.REARRANGE,2.77,ACTIVE,1,Observation,,%,"Clonal cells rearrangements/Cells counted in Specimen by Molecular genetics method",%,2.77,false,"Cells.clonal rearrangements/Cells counted:NFr:Pt:XXX:Qn:Molgen"
+69358-0,"Cells.HPV E6+E7 mRNA/cells",PrThr,Pt,Cvx,Ord,"Flow cytometry",MICRO,2.73,ACTIVE,1,Both,,,"HPV E6+E7 mRNA cells/cells [Presence] in Cervix by Flow cytometry (FC)",,2.38,false,"Cells.HPV E6+E7 mRNA/cells:PrThr:Pt:Cvx:Ord:Flow cytometry"
+89346-1,Cells.IgM/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"IgM cells/Cells.CD19 in Blood",%,2.64,false,Cells.IgM/Cells.CD19:NFr:Pt:Bld:Qn:
+90422-7,Cells.TACI/Cells.CD19,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"TACI cells/Cells.CD19 in Blood",%,2.65,false,Cells.TACI/Cells.CD19:NFr:Pt:Bld:Qn:
+96492-4,Cells.CD3+CD8+CD27+CD45RO+CD62L+,NCnc,Pt,Bld,Qn,,CELLMARK,2.69,ACTIVE,1,Both,,cells/uL,"CD3+CD8+CD27+CD45RO+CD62L+ cells [#/volume] in Blood",{cells}/uL,2.69,false,Cells.CD3+CD8+CD27+CD45RO+CD62L+:NCnc:Pt:Bld:Qn:
+20586-4,Cells.CD1/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1 cells/cells in Specimen",%,1.0m,false,Cells.CD1/Cells:NFr:Pt:XXX:Qn:
+17100-9,Cells.CD103/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD103 cells/cells in Blood",%,1.0l,false,Cells.CD103/Cells:NFr:Pt:Bld:Qn:
+51224-4,Cells.CD105/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD105 cells/cells in Bone marrow",%,2.22,false,"Cells.CD105/Cells:NFr:Pt:Bone mar:Qn:"
+51223-6,Cells.CD105/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD105 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD105/Cells:NFr:Pt:CSF:Qn:
+77944-7,Cells.CD11a/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD11a cells/cells in Specimen",%,2.52,false,Cells.CD11a/Cells:NFr:Pt:XXX:Qn:
+17110-8,Cells.CD11b/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b cells/cells in Blood",%,1.0l,false,Cells.CD11b/Cells:NFr:Pt:Bld:Qn:
+51227-7,Cells.CD11b/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b cells/cells in Tissue",%,2.22,false,Cells.CD11b/Cells:NFr:Pt:Tiss:Qn:
+8109-1,Cells.CD11c/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c cells/cells in Blood",%,1.0h(2),false,Cells.CD11c/Cells:NFr:Pt:Bld:Qn:
+33201-5,Cells.CD11c/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c cells/cells in Tissue",%,2.09,false,Cells.CD11c/Cells:NFr:Pt:Tiss:Qn:
+32743-7,Cells.CD138/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD138 cells/cells in Specimen",%,2.09,false,Cells.CD138/Cells:NFr:Pt:XXX:Qn:
+8111-7,Cells.CD14/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14 cells/cells in Blood",%,1.0h(2),false,Cells.CD14/Cells:NFr:Pt:Bld:Qn:
+32506-8,Cells.CD14/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14 cells/cells in Tissue",%,2.08,false,Cells.CD14/Cells:NFr:Pt:Tiss:Qn:
+52874-5,Cells.CD1a/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Bone marrow",%,2.24,false,"Cells.CD1a/Cells:NFr:Pt:Bone mar:Qn:"
+52875-2,Cells.CD1a/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Cerebral spinal fluid",%,2.24,false,Cells.CD1a/Cells:NFr:Pt:CSF:Qn:
+26563-7,Cells.CD1a/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Specimen",%,2.00,false,Cells.CD1a/Cells:NFr:Pt:XXX:Qn:
+8118-2,Cells.CD2/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2 cells/cells in Blood",%,1.0h(2),false,Cells.CD2/Cells:NFr:Pt:Bld:Qn:
+31119-1,Cells.CD227/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD227 cells/cells in Blood",%,2.07,false,Cells.CD227/Cells:NFr:Pt:Bld:Qn:
+14018-6,Cells.CD23/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD23 cells/cells in Blood",%,1.0k,false,Cells.CD23/Cells:NFr:Pt:Bld:Qn:
+51266-5,Cells.CD23/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD23 cells/cells in Tissue",%,2.22,false,Cells.CD23/Cells:NFr:Pt:Tiss:Qn:
+32750-2,Cells.CD235a/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Specimen",%,2.09,false,Cells.CD235a/Cells:NFr:Pt:XXX:Qn:
+20597-1,Cells.CD24/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD24 cells/cells in Specimen",%,1.0m,false,Cells.CD24/Cells:NFr:Pt:XXX:Qn:
+8121-6,Cells.CD25/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25 cells/cells in Blood",%,1.0h(2),false,Cells.CD25/Cells:NFr:Pt:Bld:Qn:
+32494-7,Cells.CD25/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25 cells/cells in Tissue",%,2.08,false,Cells.CD25/Cells:NFr:Pt:Tiss:Qn:
+17127-2,Cells.CD26/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD26 cells/cells in Blood",%,1.0l,false,Cells.CD26/Cells:NFr:Pt:Bld:Qn:
+42619-7,Cells.CD28/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD28 cells/cells in Bone marrow",%,2.16,false,"Cells.CD28/Cells:NFr:Pt:Bone mar:Qn:"
+20599-7,Cells.CD3/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Specimen",%,1.0m,false,Cells.CD3/Cells:NFr:Pt:XXX:Qn:
+17137-1,Cells.CD30/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD30 cells/cells in Blood",%,1.0l,false,Cells.CD30/Cells:NFr:Pt:Bld:Qn:
+13346-2,Cells.CD35/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD35 cells/cells in Blood",%,1.0j-a,false,Cells.CD35/Cells:NFr:Pt:Bld:Qn:
+8126-5,Cells.CD38/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD38 cells/cells in Blood",%,1.0h(2),false,Cells.CD38/Cells:NFr:Pt:Bld:Qn:
+51324-2,Cells.CD42/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42 cells/cells in Body fluid",%,2.22,false,"Cells.CD42/Cells:NFr:Pt:Body fld:Qn:"
+51323-4,Cells.CD42/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42 cells/cells in Bone marrow",%,2.22,false,"Cells.CD42/Cells:NFr:Pt:Bone mar:Qn:"
+51322-6,Cells.CD42/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD42/Cells:NFr:Pt:CSF:Qn:
+77946-2,Cells.CD42b/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD42b cells/cells in Specimen",%,2.52,false,Cells.CD42b/Cells:NFr:Pt:XXX:Qn:
+17155-3,Cells.CD44/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD44 cells/cells in Blood",%,1.0l,false,Cells.CD44/Cells:NFr:Pt:Bld:Qn:
+51338-2,Cells.CD45/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45 (Lymphs) cells/cells in Tissue",%,2.22,false,Cells.CD45/Cells:NFr:Pt:Tiss:Qn:
+17163-7,Cells.CD49a/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD49a cells/cells in Blood",%,1.0l,false,Cells.CD49a/Cells:NFr:Pt:Bld:Qn:
+17167-8,Cells.CD49e/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD49e cells/cells in Blood",%,1.0l,false,Cells.CD49e/Cells:NFr:Pt:Bld:Qn:
+42885-4,Cells.CD52/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD52 cells/cells in Body fluid",%,2.16,false,"Cells.CD52/Cells:NFr:Pt:Body fld:Qn:"
+42886-2,Cells.CD52/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD52 cells/cells in Bone marrow",%,2.16,false,"Cells.CD52/Cells:NFr:Pt:Bone mar:Qn:"
+32744-5,Cells.CD55/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD55 cells/cells in Specimen",%,2.09,false,Cells.CD55/Cells:NFr:Pt:XXX:Qn:
+32498-8,Cells.CD57/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD57 cells/cells in Specimen",%,2.08,false,Cells.CD57/Cells:NFr:Pt:XXX:Qn:
+43938-0,Cells.CD59/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD59 cells/cells in Body fluid",%,2.17,false,"Cells.CD59/Cells:NFr:Pt:Body fld:Qn:"
+51358-0,Cells.CD59/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD59 cells/cells in Bone marrow",%,2.22,false,"Cells.CD59/Cells:NFr:Pt:Bone mar:Qn:"
+51357-2,Cells.CD59/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD59 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD59/Cells:NFr:Pt:CSF:Qn:
+20478-4,Cells.CD61/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD61 cells/cells in Blood",%,1.0m,false,Cells.CD61/Cells:NFr:Pt:Bld:Qn:
+51359-8,Cells.CD61/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD61 cells/cells in Tissue",%,2.22,false,Cells.CD61/Cells:NFr:Pt:Tiss:Qn:
+32745-2,Cells.CD62E/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD62E cells/cells in Specimen",%,2.09,false,Cells.CD62E/Cells:NFr:Pt:XXX:Qn:
+17180-1,Cells.CD62L/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD62L cells/cells in Blood",%,1.0l,false,Cells.CD62L/Cells:NFr:Pt:Bld:Qn:
+17183-5,Cells.CD64/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD64 cells/cells in Blood",%,1.0l,false,Cells.CD64/Cells:NFr:Pt:Bld:Qn:
+51363-0,Cells.CD64/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD64 cells/cells in Tissue",%,2.22,false,Cells.CD64/Cells:NFr:Pt:Tiss:Qn:
+51399-4,Cells.CD65w/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD65w cells/cells in Body fluid",%,2.22,false,"Cells.CD65w/Cells:NFr:Pt:Body fld:Qn:"
+51398-6,Cells.CD65w/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD65w cells/cells in Bone marrow",%,2.22,false,"Cells.CD65w/Cells:NFr:Pt:Bone mar:Qn:"
+51397-8,Cells.CD65w/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD65w cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD65w/Cells:NFr:Pt:CSF:Qn:
+21169-8,Cells.CD71/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD71 cells/cells in Specimen",%,1.0m,false,Cells.CD71/Cells:NFr:Pt:XXX:Qn:
+17194-2,Cells.CD74/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD74 cells/cells in Blood",%,1.0l,false,Cells.CD74/Cells:NFr:Pt:Bld:Qn:
+17195-9,Cells.CD77/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD77 cells/cells in Blood",%,1.0l,false,Cells.CD77/Cells:NFr:Pt:Bld:Qn:
+42933-2,Cells.CD79a/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD79a cells/cells in Specimen",%,2.16,false,Cells.CD79a/Cells:NFr:Pt:XXX:Qn:
+33991-1,Cells.CD79b/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79b cells/cells in Specimen",%,2.09,false,Cells.CD79b/Cells:NFr:Pt:XXX:Qn:
+51403-4,Cells.CD81/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD81 cells/cells in Bone marrow",%,2.22,false,"Cells.CD81/Cells:NFr:Pt:Bone mar:Qn:"
+51402-6,Cells.CD81/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD81 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD81/Cells:NFr:Pt:CSF:Qn:
+77947-0,Cells.CD9/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD9 cells/cells in Specimen",%,2.52,false,Cells.CD9/Cells:NFr:Pt:XXX:Qn:
+17207-2,Cells.CD91/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD91 cells/cells in Blood",%,1.0l,false,Cells.CD91/Cells:NFr:Pt:Bld:Qn:
+32749-4,"Cells.cyclin D1/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"Cyclin D1 cells/cells in Specimen",%,2.09,false,"Cells.cyclin D1/Cells:NFr:Pt:XXX:Qn:"
+46232-5,Cells.ZAP70/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"ZAP70 cells/cells in Specimen",%,2.19,false,Cells.ZAP70/Cells:NFr:Pt:XXX:Qn:
+75271-7,"Other cells/Cells",NFr,Pt,"Lymph node",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Other cells/cells in Lymph node by Manual count",%,2.50,false,"Other cells/Cells:NFr:Pt:Lymph node:Qn:Manual count"
+44901-7,"Malignant cells/Cells",NFr,Pt,Liver,Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Liver by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Liver:Qn:Manual count"
+44899-3,"Malignant cells/Cells",NFr,Pt,Urine,Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Urine by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Urine:Qn:Manual count"
+42927-4,"Myeloid cells/Cells",NFr,Pt,XXX,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Myeloid cells/cells in Specimen",%,2.16,false,"Myeloid cells/Cells:NFr:Pt:XXX:Qn:"
+33195-9,"Viable cells/Cells",NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Viable cells/cells in Bone marrow",%,2.09,false,"Viable cells/Cells:NFr:Pt:Bone mar:Qn:"
+33194-2,"Viable cells/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Viable cells/cells in Specimen",%,2.09,false,"Viable cells/Cells:NFr:Pt:XXX:Qn:"
+20593-0,Cells.CD19/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19 cells/cells in Specimen",%,1.0m,false,Cells.CD19/Cells:NFr:Pt:XXX:Qn:
+33023-3,Cells.CD34/Cells,NFr,Pt,Bld^BPU,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD34 cells/cells in Blood from Blood product unit",%,2.09,false,Cells.CD34/Cells:NFr:Pt:Bld^BPU:Qn:
+57421-0,Cells.CD34/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD34 cells/cells in Body fluid",%,2.29,false,"Cells.CD34/Cells:NFr:Pt:Body fld:Qn:"
+11138-5,"Myeloid cells/Erythroid cells",NRto,Pt,"Bone mar",Qn,,HEM/BC,2.26,ACTIVE,1,Observation,,%,"Myeloid cells/Erythroid cells [# Ratio] in Bone marrow",%,1.0j-a,false,"Myeloid cells/Erythroid cells:NRto:Pt:Bone mar:Qn:"
+60345-6,"Viable CD34 cells/Cells",NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Viable CD34 cells/cells in Body fluid",%,2.34,false,"Viable CD34 cells/Cells:NFr:Pt:Body fld:Qn:"
+107153-9,"Viable CD45 cells/cells.CD45",NFr,Pt,"Hematopoietic progenitor cells^BPU",Qn,,BLDBK,2.79,ACTIVE,1,Both,,%,"Viable CD45 cells/Cells.CD45 in Hematopoietic progenitor cells from Blood product unit",%,2.79,false,"Viable CD45 cells/cells.CD45:NFr:Pt:Hematopoietic progenitor cells^BPU:Qn:"
+89330-5,Cells.CD3+CD8+CD27+CD62L+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD3+CD8+CD27+CD62L+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD3+CD8+CD27+CD62L+:NCnc:Pt:Bld:Qn:
+59136-2,Cells.CD11c+CD103+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD103+ cells/cells in Bone marrow",%,2.32,false,"Cells.CD11c+CD103+/Cells:NFr:Pt:Bone mar:Qn:"
+26558-7,Cells.CD11c+CD25+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD25+ cells/cells in Specimen",%,2.00,false,Cells.CD11c+CD25+/Cells:NFr:Pt:XXX:Qn:
+40886-4,Cells.CD19+CD103+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD103+ cells/cells in Body fluid",%,2.15,false,"Cells.CD19+CD103+/Cells:NFr:Pt:Body fld:Qn:"
+40883-1,Cells.CD19+CD103+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD103+ cells/cells in Bone marrow",%,2.15,false,"Cells.CD19+CD103+/Cells:NFr:Pt:Bone mar:Qn:"
+57399-8,Cells.CD19+CD23+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD23+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+CD23+/Cells:NFr:Pt:Body fld:Qn:"
+99400-4,Cells.CD19+CD23+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD23+ cells/cells in Bone marrow",%,2.72,false,"Cells.CD19+CD23+/Cells:NFr:Pt:Bone mar:Qn:"
+47023-7,Cells.CD19+CD23+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD23+ cells/cells in Specimen",%,2.19,false,Cells.CD19+CD23+/Cells:NFr:Pt:XXX:Qn:
+57395-6,Cells.CD19+CD38+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD38+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+CD38+/Cells:NFr:Pt:Body fld:Qn:"
+99404-6,Cells.CD19+CD38+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD38+ cells/cells in Bone marrow",%,2.72,false,"Cells.CD19+CD38+/Cells:NFr:Pt:Bone mar:Qn:"
+51336-6,Cells.CD19+CD43+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD43+ cells/cells in Body fluid",%,2.22,false,"Cells.CD19+CD43+/Cells:NFr:Pt:Body fld:Qn:"
+57396-4,Cells.CD19+CD56+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD56+ cells/cells in Body fluid",%,2.29,false,"Cells.CD19+CD56+/Cells:NFr:Pt:Body fld:Qn:"
+51355-6,Cells.CD19+CD58+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19+CD58+ cells/cells in Body fluid",%,2.22,false,"Cells.CD19+CD58+/Cells:NFr:Pt:Body fld:Qn:"
+24467-3,Cells.CD3+CD4+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,10*9/L,"CD3+CD4+ (T4 helper) cells [#/volume] in Blood",/uL,1.0o,false,Cells.CD3+CD4+:NCnc:Pt:Bld:Qn:
+40898-9,Cells.CD3+CD4+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.42,ACTIVE,1,Both,,/uL,"CD3+CD4+ (T4 helper) cells [#/volume] in Tissue",/uL,2.15,false,Cells.CD3+CD4+:NCnc:Pt:Tiss:Qn:
+14135-8,Cells.CD3+CD8+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,10*9/L,"CD3+CD8+ (T8 suppressor) cells [#/volume] in Blood",/uL,1.0k,false,Cells.CD3+CD8+:NCnc:Pt:Bld:Qn:
+40899-7,Cells.CD3+CD8+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.72,ACTIVE,1,Both,,/uL,"CD3+CD8+ (T8 suppressor) cells [#/volume] in Tissue",/uL,2.15,false,Cells.CD3+CD8+:NCnc:Pt:Tiss:Qn:
+57409-5,"Cells.CD3+TCR alpha beta+/Cells",NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+TCR alpha beta+ cells/cells in Body fluid",%,2.29,false,"Cells.CD3+TCR alpha beta+/Cells:NFr:Pt:Body fld:Qn:"
+103665-6,Cells.CD4+CD26-/Cells.CD4,NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Both,,%,"CD4+ CD26- Cells/CD4 cells in Blood by Flow cytometry (FC)",%,2.77,false,"Cells.CD4+CD26-/Cells.CD4:NFr:Pt:Bld:Qn:Flow cytometry"
+30915-3,Cells.aneuploid/Cells,NFr,Pt,XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Both,,%,"Aneuploid cells/cells in Specimen by Flow cytometry (FC)",%,2.04,false,"Cells.aneuploid/Cells:NFr:Pt:XXX:Qn:Flow cytometry"
+57418-6,Cells.CD20/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD20 cells/cells in Body fluid",%,2.29,false,"Cells.CD20/Cells:NFr:Pt:Body fld:Qn:"
+33776-6,"Cells.CD235a/100 cells",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD235a cells/100 cells in Unspecified specimen",%,2.09,false,"Cells.CD235a/100 cells:NFr:Pt:XXX:Qn:"
+31118-3,"Cells.G2+M phase/Cells",NFr,Pt,XXX,Qn,,MOLPATH,2.79,ACTIVE,1,Both,,%,"G2+M phase cells/cells in Specimen",%,2.07,false,"Cells.G2+M phase/Cells:NFr:Pt:XXX:Qn:"
+51380-4,Cells.HLA-DR+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"HLA-DR+ cells/cells in Bone marrow",%,2.22,false,"Cells.HLA-DR+/Cells:NFr:Pt:Bone mar:Qn:"
+51379-6,Cells.HLA-DR+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"HLA-DR+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.HLA-DR+/Cells:NFr:Pt:CSF:Qn:
+30914-6,Cells.hyperdiploid/Cells,NFr,Pt,XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Both,,%,"Hyperdiploid cells/cells in Specimen by Flow cytometry (FC)",%,2.04,false,"Cells.hyperdiploid/Cells:NFr:Pt:XXX:Qn:Flow cytometry"
+32861-7,"Cells.TCR gamma delta/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"TCR gamma delta cells/cells in Specimen",%,2.09,false,"Cells.TCR gamma delta/Cells:NFr:Pt:XXX:Qn:"
+42620-5,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Bone marrow",%,2.16,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:Bone mar:Qn:"
+17829-3,Cells.CD19/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19 cells/cells in Body fluid",%,1.0l,false,"Cells.CD19/Cells:NFr:Pt:Body fld:Qn:"
+32525-8,Cells.CD19/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD19 cells/cells in Bone marrow",%,2.08,false,"Cells.CD19/Cells:NFr:Pt:Bone mar:Qn:"
+51265-7,Cells.CD19/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD19 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD19/Cells:NFr:Pt:CSF:Qn:
+21164-9,"Cells.CD4/Gated cells.total",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD4 cells/gated cells in Unspecified specimen",%,1.0m,false,"Cells.CD4/Gated cells.total:NFr:Pt:XXX:Qn:"
+13492-4,Cells.CD4+HLA-DR+,NFr,Pt,Bld,Qn,,CELLMARK,2.46,DEPRECATED,1,,,%,"Deprecated CD4+HLA-DR+ cells/100 cells in Blood",%,1.0j-a,false,Cells.CD4+HLA-DR+:NFr:Pt:Bld:Qn:
+11118-7,"Plasma cells/Cells",NFr,Pt,"Bone mar",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Plasma cells/cells in Bone marrow by Manual count",%,1.0j-a,false,"Plasma cells/Cells:NFr:Pt:Bone mar:Qn:Manual count"
+72330-4,"Nucleated cells/Round cells",NFr,Pt,Semen,Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Nucleated cells/Round cells in Semen by Manual count",%,2.42,false,"Nucleated cells/Round cells:NFr:Pt:Semen:Qn:Manual count"
+107152-1,"Viable CD3 cells/cells.CD3",NFr,Pt,"Hematopoietic progenitor cells^BPU",Qn,,BLDBK,2.79,ACTIVE,1,Both,,%,"Viable CD3 cells/Cells.CD3 in Hematopoietic progenitor cells from Blood product unit",%,2.79,false,"Viable CD3 cells/cells.CD3:NFr:Pt:Hematopoietic progenitor cells^BPU:Qn:"
+89327-1,Cells.CD3+CD8+CD27-CD45RO+CD62L-,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD3+CD8+CD27-CD45RO+CD62L- cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD3+CD8+CD27-CD45RO+CD62L-:NCnc:Pt:Bld:Qn:
+32757-7,Cells.BCL2/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"BCL2 cells/cells in Specimen",%,2.09,false,Cells.BCL2/Cells:NFr:Pt:XXX:Qn:
+51214-5,Cells.CD10/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10 cells/cells in Tissue",%,2.22,false,Cells.CD10/Cells:NFr:Pt:Tiss:Qn:
+17101-7,Cells.CD104/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD104 cells/cells in Blood",%,1.0l,false,Cells.CD104/Cells:NFr:Pt:Bld:Qn:
+51225-1,Cells.CD105/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD105 cells/cells in Body fluid",%,2.22,false,"Cells.CD105/Cells:NFr:Pt:Body fld:Qn:"
+17106-6,Cells.CD115/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD115 cells/cells in Blood",%,1.0l,false,Cells.CD115/Cells:NFr:Pt:Bld:Qn:
+32742-9,Cells.CD117/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD117 cells/cells in Specimen",%,2.09,false,Cells.CD117/Cells:NFr:Pt:XXX:Qn:
+57393-1,Cells.CD11a/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11a cells/cells in Body fluid",%,2.29,false,"Cells.CD11a/Cells:NFr:Pt:Body fld:Qn:"
+20588-0,Cells.CD13/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13 cells/cells in Specimen",%,1.0m,false,Cells.CD13/Cells:NFr:Pt:XXX:Qn:
+42871-4,Cells.CD138/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD138 cells/cells in Body fluid",%,2.16,false,"Cells.CD138/Cells:NFr:Pt:Body fld:Qn:"
+42870-6,Cells.CD138/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD138 cells/cells in Bone marrow",%,2.16,false,"Cells.CD138/Cells:NFr:Pt:Bone mar:Qn:"
+51246-7,Cells.CD138/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD138 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD138/Cells:NFr:Pt:CSF:Qn:
+73975-5,Cells.CD158a/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD158a cells/cells in Specimen",%,2.44,false,Cells.CD158a/Cells:NFr:Pt:XXX:Qn:
+73976-3,Cells.CD158b/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD158b cells/cells in Specimen",%,2.44,false,Cells.CD158b/Cells:NFr:Pt:XXX:Qn:
+26560-3,Cells.CD16/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16 cells/cells in Specimen",%,2.00,false,Cells.CD16/Cells:NFr:Pt:XXX:Qn:
+51263-2,Cells.CD16b/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16B cells/cells in Body fluid",%,2.22,false,"Cells.CD16b/Cells:NFr:Pt:Body fld:Qn:"
+51262-4,Cells.CD16b/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16B cells/cells in Bone marrow",%,2.22,false,"Cells.CD16b/Cells:NFr:Pt:Bone mar:Qn:"
+51261-6,Cells.CD16b/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16B cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD16b/Cells:NFr:Pt:CSF:Qn:
+17121-5,Cells.CD18/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD18 cells/cells in Blood",%,1.0l,false,Cells.CD18/Cells:NFr:Pt:Bld:Qn:
+42873-0,Cells.CD18/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD18 cells/cells in Tissue",%,2.16,false,Cells.CD18/Cells:NFr:Pt:Tiss:Qn:
+52873-7,Cells.CD1a/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD1a cells/cells in Body fluid",%,2.24,false,"Cells.CD1a/Cells:NFr:Pt:Body fld:Qn:"
+20596-3,Cells.CD22/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD22 cells/cells in Specimen",%,1.0m,false,Cells.CD22/Cells:NFr:Pt:XXX:Qn:
+57430-1,Cells.CD235a/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Body fluid",%,2.29,false,"Cells.CD235a/Cells:NFr:Pt:Body fld:Qn:"
+33208-0,Cells.CD235a/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD235a cells/cells in Bone marrow",%,2.09,false,"Cells.CD235a/Cells:NFr:Pt:Bone mar:Qn:"
+17130-6,Cells.CD29/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD29 cells/cells in Blood",%,1.0l,false,Cells.CD29/Cells:NFr:Pt:Bld:Qn:
+17826-9,Cells.CD3/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Body fluid",%,1.0l,false,"Cells.CD3/Cells:NFr:Pt:Body fld:Qn:"
+32529-0,Cells.CD3/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Bone marrow",%,2.08,false,"Cells.CD3/Cells:NFr:Pt:Bone mar:Qn:"
+42193-3,Cells.CD3/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3 cells/cells in Cerebral spinal fluid",%,2.16,false,Cells.CD3/Cells:NFr:Pt:CSF:Qn:
+20601-1,Cells.CD33/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33 cells/cells in Specimen",%,1.0m,false,Cells.CD33/Cells:NFr:Pt:XXX:Qn:
+57422-8,Cells.CD40/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD40 cells/cells in Body fluid",%,2.29,false,"Cells.CD40/Cells:NFr:Pt:Body fld:Qn:"
+20608-6,Cells.CD41/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD41 cells/cells in Specimen",%,1.0m,false,Cells.CD41/Cells:NFr:Pt:XXX:Qn:
+57402-0,Cells.CD42a/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42a cells/cells in Body fluid",%,2.29,false,"Cells.CD42a/Cells:NFr:Pt:Body fld:Qn:"
+51328-3,Cells.CD42b/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42b cells/cells in Body fluid",%,2.22,false,"Cells.CD42b/Cells:NFr:Pt:Body fld:Qn:"
+51327-5,Cells.CD42b/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42b cells/cells in Bone marrow",%,2.22,false,"Cells.CD42b/Cells:NFr:Pt:Bone mar:Qn:"
+51326-7,Cells.CD42b/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD42b cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD42b/Cells:NFr:Pt:CSF:Qn:
+19079-3,Cells.CD43/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD43 cells/cells in Specimen",%,1.0l,false,Cells.CD43/Cells:NFr:Pt:XXX:Qn:
+8130-7,Cells.CD45/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45 (Lymphs) cells/cells in Blood",%,1.0h(2),false,Cells.CD45/Cells:NFr:Pt:Bld:Qn:
+57403-8,Cells.CD45RA/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45RA cells/cells in Body fluid",%,2.29,false,"Cells.CD45RA/Cells:NFr:Pt:Body fld:Qn:"
+57404-6,Cells.CD45RO/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45RO cells/cells in Body fluid",%,2.29,false,"Cells.CD45RO/Cells:NFr:Pt:Body fld:Qn:"
+17161-1,Cells.CD47/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD47 cells/cells in Blood",%,1.0l,false,Cells.CD47/Cells:NFr:Pt:Bld:Qn:
+35640-2,Cells.CD5/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5 cells/cells in Bone marrow",%,2.13,false,"Cells.CD5/Cells:NFr:Pt:Bone mar:Qn:"
+20611-0,Cells.CD5/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5 cells/cells in Specimen",%,1.0m,false,Cells.CD5/Cells:NFr:Pt:XXX:Qn:
+43935-6,Cells.CD55/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD55 cells/cells in Body fluid",%,2.17,false,"Cells.CD55/Cells:NFr:Pt:Body fld:Qn:"
+51344-0,Cells.CD55/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD55 cells/cells in Bone marrow",%,2.22,false,"Cells.CD55/Cells:NFr:Pt:Bone mar:Qn:"
+51343-2,Cells.CD55/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD55 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD55/Cells:NFr:Pt:CSF:Qn:
+21166-4,Cells.CD56/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56 cells/cells in Specimen",%,1.0m,false,Cells.CD56/Cells:NFr:Pt:XXX:Qn:
+51351-5,Cells.CD57/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD57 cells/cells in Body fluid",%,2.22,false,"Cells.CD57/Cells:NFr:Pt:Body fld:Qn:"
+32497-0,Cells.CD57/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD57 cells/cells in Bone marrow",%,2.08,false,"Cells.CD57/Cells:NFr:Pt:Bone mar:Qn:"
+51350-7,Cells.CD57/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD57 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD57/Cells:NFr:Pt:CSF:Qn:
+17181-9,Cells.CD62P/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD62P cells/cells in Blood",%,1.0l,false,Cells.CD62P/Cells:NFr:Pt:Bld:Qn:
+17190-0,Cells.CD69/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD69 cells/cells in Blood",%,1.0l,false,Cells.CD69/Cells:NFr:Pt:Bld:Qn:
+35641-0,Cells.CD7/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7 cells/cells in Bone marrow",%,2.13,false,"Cells.CD7/Cells:NFr:Pt:Bone mar:Qn:"
+20612-8,Cells.CD7/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7 cells/cells in Specimen",%,1.0m,false,Cells.CD7/Cells:NFr:Pt:XXX:Qn:
+57426-9,Cells.CD71/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD71 cells/cells in Body fluid",%,2.29,false,"Cells.CD71/Cells:NFr:Pt:Body fld:Qn:"
+51368-9,Cells.CD79a/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79a cells/cells in Body fluid",%,2.22,false,"Cells.CD79a/Cells:NFr:Pt:Body fld:Qn:"
+51367-1,Cells.CD79a/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79a cells/cells in Bone marrow",%,2.22,false,"Cells.CD79a/Cells:NFr:Pt:Bone mar:Qn:"
+42888-8,Cells.CD79b/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD79b cells/cells in Body fluid",%,2.16,false,"Cells.CD79b/Cells:NFr:Pt:Body fld:Qn:"
+42889-6,Cells.CD79b/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD79b cells/cells in Bone marrow",%,2.16,false,"Cells.CD79b/Cells:NFr:Pt:Bone mar:Qn:"
+51369-7,Cells.CD79b/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD79b cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD79b/Cells:NFr:Pt:CSF:Qn:
+51404-2,Cells.CD81/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD81 cells/cells in Body fluid",%,2.22,false,"Cells.CD81/Cells:NFr:Pt:Body fld:Qn:"
+51377-0,Cells.CD9/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD9 cells/cells in Body fluid",%,2.22,false,"Cells.CD9/Cells:NFr:Pt:Body fld:Qn:"
+51376-2,Cells.CD9/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD9 cells/cells in Bone marrow",%,2.22,false,"Cells.CD9/Cells:NFr:Pt:Bone mar:Qn:"
+51375-4,Cells.CD9/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD9 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD9/Cells:NFr:Pt:CSF:Qn:
+52877-8,"Cells.cytoplasmic CD22/Cells",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD22 cells/cells in Blood",%,2.24,false,"Cells.cytoplasmic CD22/Cells:NFr:Pt:Bld:Qn:"
+52881-0,"Cells.cytoplasmic CD22/Cells",NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD22 cells/cells in Tissue",%,2.24,false,"Cells.cytoplasmic CD22/Cells:NFr:Pt:Tiss:Qn:"
+32857-5,"Cells.cytoplasmic CD3/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD3 cells/cells in Specimen",%,2.09,false,"Cells.cytoplasmic CD3/Cells:NFr:Pt:XXX:Qn:"
+30916-1,Cells.euploid+Cells.aneuploid/Cells,NFr,Pt,XXX,Qn,,MOLPATH,2.79,ACTIVE,1,Both,,%,"Euploid+Aneuploid cells/cells in Specimen",%,2.04,false,Cells.euploid+Cells.aneuploid/Cells:NFr:Pt:XXX:Qn:
+57428-5,Cells.FMC7/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"FMC7 cells/cells in Body fluid",%,2.29,false,"Cells.FMC7/Cells:NFr:Pt:Body fld:Qn:"
+46234-1,Cells.ZAP70/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"ZAP70 cells/cells in Bone marrow",%,2.19,false,"Cells.ZAP70/Cells:NFr:Pt:Bone mar:Qn:"
+51581-7,"Other cells/Cells",NFr,Pt,"Bone mar",Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Other cells/cells in Bone marrow",%,2.24,false,"Other cells/Cells:NFr:Pt:Bone mar:Qn:"
+81284-2,"Malignant cells/Cells",NFr,Pt,BAL,Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Bronchoalveolar lavage by Manual count",%,2.56,false,"Malignant cells/Cells:NFr:Pt:BAL:Qn:Manual count"
+69005-7,"Malignant cells/Cells",NFr,Pt,"Body fld",Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Malignant cells/cells in Body fluid",%,2.38,false,"Malignant cells/Cells:NFr:Pt:Body fld:Qn:"
+44903-3,"Malignant cells/Cells",NFr,Pt,"Bone mar",Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Bone marrow",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Bone mar:Qn:"
+44892-8,"Malignant cells/Cells",NFr,Pt,CSF,Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Cerebral spinal fluid",%,2.17,false,"Malignant cells/Cells:NFr:Pt:CSF:Qn:"
+51624-5,"Malignant cells/Cells",NFr,Pt,"Dial fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Malignant cells/cells in Dialysis fluid by Manual count",%,2.24,false,"Malignant cells/Cells:NFr:Pt:Dial fld:Qn:Manual count"
+44897-7,"Malignant cells/Cells",NFr,Pt,"Pericard fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Pericardial fluid by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Pericard fld:Qn:Manual count"
+44895-1,"Malignant cells/Cells",NFr,Pt,"Plr fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Pleural fluid by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Plr fld:Qn:Manual count"
+42925-8,"Myeloid cells/Cells",NFr,Pt,"Body fld",Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Myeloid cells/cells in Body fluid",%,2.16,false,"Myeloid cells/Cells:NFr:Pt:Body fld:Qn:"
+73899-7,Cells.CD3-CD8-CD57+,NCnc,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD3- CD8- CD57+ Cells [#/volume] in Blood by Flow cytometry (FC)",10*3/uL,2.44,false,"Cells.CD3-CD8-CD57+:NCnc:Pt:Bld:Qn:Flow cytometry"
+73901-1,Cells.CD3-CD8-CD57+/Lymphocytes,NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3- CD8- CD57+ Cells/Lymphocytes in Blood by Flow cytometry (FC)",%,2.44,false,"Cells.CD3-CD8-CD57+/Lymphocytes:NFr:Pt:Bld:Qn:Flow cytometry"
+106866-7,"Mast cells/cells",NFr,Pt,BAL,Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Mast cells/cells in Bronchoalveolar lavage",%,2.79,false,"Mast cells/cells:NFr:Pt:BAL:Qn:"
+32521-7,Cells.CD10+CD19+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD19+ cells/cells in Specimen",%,2.08,false,Cells.CD10+CD19+/Cells:NFr:Pt:XXX:Qn:
+57427-7,Cells.CD10+FMC7+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+FMC7+ cells/cells in Body fluid",%,2.29,false,"Cells.CD10+FMC7+/Cells:NFr:Pt:Body fld:Qn:"
+38510-4,Cells.CD11b+CD11c+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b+CD11c+ cells/cells in Specimen",%,2.14,false,Cells.CD11b+CD11c+/Cells:NFr:Pt:XXX:Qn:
+26557-9,Cells.CD11b+CD56+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b+CD56+ cells/cells in Specimen",%,2.00,false,Cells.CD11b+CD56+/Cells:NFr:Pt:XXX:Qn:
+40888-0,Cells.CD11c+CD19+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD19+ cells/cells in Body fluid",%,2.15,false,"Cells.CD11c+CD19+/Cells:NFr:Pt:Body fld:Qn:"
+42868-0,Cells.CD11c+CD19+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD11c+CD19+ cells/cells in Bone marrow",%,2.16,false,"Cells.CD11c+CD19+/Cells:NFr:Pt:Bone mar:Qn:"
+51233-5,Cells.CD11c+CD19+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD19+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD11c+CD19+/Cells:NFr:Pt:CSF:Qn:
+47022-9,Cells.CD11c+CD19+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c+CD19+ cells/cells in Specimen",%,2.19,false,Cells.CD11c+CD19+/Cells:NFr:Pt:XXX:Qn:
+51240-0,Cells.CD13+CD33+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+ cells/cells in Body fluid",%,2.22,false,"Cells.CD13+CD33+/Cells:NFr:Pt:Body fld:Qn:"
+32504-3,Cells.CD13+CD33+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+ cells/cells in Bone marrow",%,2.08,false,"Cells.CD13+CD33+/Cells:NFr:Pt:Bone mar:Qn:"
+51239-2,Cells.CD13+CD33+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD13+CD33+/Cells:NFr:Pt:CSF:Qn:
+42622-1,Cells.CD13+CD56+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD13+CD56+ cells/cells in Bone marrow",%,2.16,false,"Cells.CD13+CD56+/Cells:NFr:Pt:Bone mar:Qn:"
+56893-1,Cells.CD13+HLA-DR+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Body fluid",%,2.29,false,"Cells.CD13+HLA-DR+/Cells:NFr:Pt:Body fld:Qn:"
+56895-6,Cells.CD13+HLA-DR+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Bone marrow",%,2.29,false,"Cells.CD13+HLA-DR+/Cells:NFr:Pt:Bone mar:Qn:"
+56894-9,Cells.CD13+HLA-DR+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+HLA-DR+ cells/cells in Cerebral spinal fluid",%,2.29,false,Cells.CD13+HLA-DR+/Cells:NFr:Pt:CSF:Qn:
+18268-3,Cells.CD16+CD56+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD16+CD56+ cells/cells in Body fluid",%,1.0l,false,"Cells.CD16+CD56+/Cells:NFr:Pt:Body fld:Qn:"
+57398-0,Cells.CD22+CD19+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD22+CD19+ cells/cells in Body fluid",%,2.29,false,"Cells.CD22+CD19+/Cells:NFr:Pt:Body fld:Qn:"
+40890-6,Cells.CD25+CD19+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25+CD19+ cells/cells in Body fluid",%,2.15,false,"Cells.CD25+CD19+/Cells:NFr:Pt:Body fld:Qn:"
+42876-3,Cells.CD25+CD19+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD25+CD19+ cells/cells in Bone marrow",%,2.16,false,"Cells.CD25+CD19+/Cells:NFr:Pt:Bone mar:Qn:"
+51272-3,Cells.CD25+CD19+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25+CD19+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD25+CD19+/Cells:NFr:Pt:CSF:Qn:
+43856-4,Cells.CD3+CD25+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD25+ cells/cells in Body fluid",%,2.17,false,"Cells.CD3+CD25+/Cells:NFr:Pt:Body fld:Qn:"
+32531-6,Cells.CD3+CD25+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD25+ cells/cells in Bone marrow",%,2.08,false,"Cells.CD3+CD25+/Cells:NFr:Pt:Bone mar:Qn:"
+43967-9,Cells.CD3+CD25+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3+CD25+ cells/cells in Cerebral spinal fluid",%,2.17,false,Cells.CD3+CD25+/Cells:NFr:Pt:CSF:Qn:
+26559-5,Cells.CD38+CD56+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38+CD56+ cells/cells in Specimen",%,2.00,false,Cells.CD38+CD56+/Cells:NFr:Pt:XXX:Qn:
+59137-0,Cells.CD5+CD23+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5+CD23+ cells/cells in Bone marrow",%,2.32,false,"Cells.CD5+CD23+/Cells:NFr:Pt:Bone mar:Qn:"
+32520-9,Cells.CD7-CD13+CD33+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7-CD13+CD33+ cells/cells in Specimen",%,2.08,false,Cells.CD7-CD13+CD33+/Cells:NFr:Pt:XXX:Qn:
+18350-9,Cells.CD8+CD57+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD8+CD57+ cells [#/volume] in Blood",/uL,1.0l,false,Cells.CD8+CD57+:NCnc:Pt:Bld:Qn:
+61122-8,Cells.CD8-CD57+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD8-CD57+ cells [#/volume] in Blood",/uL,2.34,false,Cells.CD8-CD57+:NCnc:Pt:Bld:Qn:
+43274-0,Cells.CD1c+CD22+/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD1c+CD22+ cells/cells in Specimen",%,2.17,false,Cells.CD1c+CD22+/Cells:NFr:Pt:XXX:Qn:
+24466-5,"Cells.CD56/100 cells",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD56 cells/100 cells in Unspecified specimen",%,1.0o,false,"Cells.CD56/100 cells:NFr:Pt:XXX:Qn:"
+33652-9,Cells.CD56/Cells.CD38,NRto,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,ratio,"CD56 cells/CD38 Cells [# Ratio] in Blood",{ratio},2.09,false,Cells.CD56/Cells.CD38:NRto:Pt:Bld:Qn:
+51381-2,Cells.HLA-DR+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"HLA-DR+ cells/cells in Body fluid",%,2.22,false,"Cells.HLA-DR+/Cells:NFr:Pt:Body fld:Qn:"
+32859-1,"Cells.multiple drug resistance/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Multiple drug resistance cells/cells in Specimen",%,2.09,false,"Cells.multiple drug resistance/Cells:NFr:Pt:XXX:Qn:"
+32860-9,"Cells.TCR alpha beta/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"TCR alpha beta cells/cells in Specimen",%,2.09,false,"Cells.TCR alpha beta/Cells:NFr:Pt:XXX:Qn:"
+89319-8,Cells.CD25+CD45RA+CD127Low+/Cells.CD4,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD25+CD45RA+CD127Low+ cells/CD4 cells in Blood",%,2.64,false,Cells.CD25+CD45RA+CD127Low+/Cells.CD4:NFr:Pt:Bld:Qn:
+89320-6,Cells.CD25+CD45RO+CD127Low+/Cells.CD4,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD25+CD45RO+CD127Low+ cells/CD4 cells in Blood",%,2.64,false,Cells.CD25+CD45RO+CD127Low+/Cells.CD4:NFr:Pt:Bld:Qn:
+89329-7,Cells.CD3+CD4+CD27+CD45RO+CD62L+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD3+CD4+CD27+CD45RO+CD62L+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD3+CD4+CD27+CD45RO+CD62L+:NCnc:Pt:Bld:Qn:
+89328-9,Cells.CD3+CD4+CD27-CD45RO+CD62L-,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD3+CD4+CD27-CD45RO+CD62L- cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD3+CD4+CD27-CD45RO+CD62L-:NCnc:Pt:Bld:Qn:
+51244-2,Cells.CD13+CD33+HLA-DR+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+HLA-DR+ cells/cells in Body fluid",%,2.22,false,"Cells.CD13+CD33+HLA-DR+/Cells:NFr:Pt:Body fld:Qn:"
+51243-4,Cells.CD13+CD33+HLA-DR+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+HLA-DR+ cells/cells in Bone marrow",%,2.22,false,"Cells.CD13+CD33+HLA-DR+/Cells:NFr:Pt:Bone mar:Qn:"
+51242-6,Cells.CD13+CD33+HLA-DR+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13+CD33+HLA-DR+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD13+CD33+HLA-DR+/Cells:NFr:Pt:CSF:Qn:
+42188-3,Cells.CD3+CD16+CD56+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,10*9/uL,"CD3+CD16+CD56+ cells [#/volume] in Blood",/uL,2.16,false,Cells.CD3+CD16+CD56+:NCnc:Pt:Bld:Qn:
+32532-4,Cells.CD3+CD4+,NCnc,Pt,"Bone mar",Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,cells/uL,"CD3+CD4+ (T4 helper) cells [#/volume] in Bone marrow",/uL,2.08,false,"Cells.CD3+CD4+:NCnc:Pt:Bone mar:Qn:"
+32515-9,Cells.CD3+CD4+,NCnc,Pt,XXX,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,cells/uL,"CD3+CD4+ (T4 helper) cells [#/volume] in Specimen",/uL,2.08,false,Cells.CD3+CD4+:NCnc:Pt:XXX:Qn:
+32534-0,Cells.CD3+CD8+,NCnc,Pt,"Bone mar",Qn,,CELLMARK,2.72,ACTIVE,1,Observation,,cells/uL,"CD3+CD8+ (T8 suppressor) cells [#/volume] in Bone marrow",/uL,2.08,false,"Cells.CD3+CD8+:NCnc:Pt:Bone mar:Qn:"
+63451-9,Cells.CD3+CD8+,NCnc,Pt,CSF,Qn,,CELLMARK,2.72,ACTIVE,1,Both,,/uL,"CD3+CD8+ (T8 suppressor) cells [#/volume] in Cerebral spinal fluid",/uL,2.36,false,Cells.CD3+CD8+:NCnc:Pt:CSF:Qn:
+32517-5,Cells.CD3+CD8+,NCnc,Pt,XXX,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,cells/uL,"CD3+CD8+ (T8 suppressor) cells [#/volume] in Specimen",/uL,2.08,false,Cells.CD3+CD8+:NCnc:Pt:XXX:Qn:
+106911-1,Cells.CD3+CD8+/lymphocytes,NFr,Pt,BAL,Qn,"Flow cytometry",HEM/BC,2.79,ACTIVE,1,Both,,%,"CD3+CD8+ (T8 suppressor) cells/lymphocytes in Bronchoalveolar lavage by Flow cytometry (FC)",%,2.79,false,"Cells.CD3+CD8+/lymphocytes:NFr:Pt:BAL:Qn:Flow cytometry"
+9728-7,Cells.CD3-CD16+CD56+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD3-CD16+CD56+ (Natural killer) cells [#/volume] in Blood",/uL,1.0i,false,Cells.CD3-CD16+CD56+:NCnc:Pt:Bld:Qn:
+56775-0,Cells.CD3-CD16+CD56+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.42,ACTIVE,1,Both,,/uL,"CD3-CD16+CD56+ (Natural killer) cells [#/volume] in Tissue",/uL,2.29,false,Cells.CD3-CD16+CD56+:NCnc:Pt:Tiss:Qn:
+8107-5,Cells.CD10/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10 cells/cells in Blood",%,1.0h(2),false,Cells.CD10/Cells:NFr:Pt:Bld:Qn:
+51221-0,Cells.CD103/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD103 cells/cells in Bone marrow",%,2.22,false,"Cells.CD103/Cells:NFr:Pt:Bone mar:Qn:"
+51220-2,Cells.CD103/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD103 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD103/Cells:NFr:Pt:CSF:Qn:
+26556-1,Cells.CD103/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD103 cells/cells in Specimen",%,2.00,false,Cells.CD103/Cells:NFr:Pt:XXX:Qn:
+42867-2,Cells.CD117/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD117 cells/cells in Body fluid",%,2.16,false,"Cells.CD117/Cells:NFr:Pt:Body fld:Qn:"
+42866-4,Cells.CD117/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD117 cells/cells in Bone marrow",%,2.16,false,"Cells.CD117/Cells:NFr:Pt:Bone mar:Qn:"
+51226-9,Cells.CD117/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD117 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD117/Cells:NFr:Pt:CSF:Qn:
+32758-5,Cells.CD11b/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b cells/cells in Specimen",%,2.09,false,Cells.CD11b/Cells:NFr:Pt:XXX:Qn:
+21154-0,Cells.CD11c/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c cells/cells in Specimen",%,1.0m,false,Cells.CD11c/Cells:NFr:Pt:XXX:Qn:
+51237-6,Cells.CD13/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13 cells/cells in Bone marrow",%,2.22,false,"Cells.CD13/Cells:NFr:Pt:Bone mar:Qn:"
+51236-8,Cells.CD13/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD13/Cells:NFr:Pt:CSF:Qn:
+20589-8,Cells.CD14/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14 cells/cells in Specimen",%,1.0m,false,Cells.CD14/Cells:NFr:Pt:XXX:Qn:
+17828-5,Cells.CD16/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD16 cells/cells in Body fluid",%,1.0l,false,"Cells.CD16/Cells:NFr:Pt:Body fld:Qn:"
+99406-1,Cells.CD19+CD79b+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cells.CD19+CD79b+/cells in Blood",%,2.72,false,Cells.CD19+CD79b+/Cells:NFr:Pt:Bld:Qn:
+99405-3,Cells.CD19+FMC7+/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cells.CD19+FMC7+/cells in Blood",%,2.72,false,Cells.CD19+FMC7+/Cells:NFr:Pt:Bld:Qn:
+20594-8,Cells.CD2/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2 cells/cells in Specimen",%,1.0m,false,Cells.CD2/Cells:NFr:Pt:XXX:Qn:
+19078-5,Cells.CD23/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD23 cells/cells in Specimen",%,1.0l,false,Cells.CD23/Cells:NFr:Pt:XXX:Qn:
+32495-4,Cells.CD25/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25 cells/cells in Specimen",%,2.08,false,Cells.CD25/Cells:NFr:Pt:XXX:Qn:
+51289-7,Cells.CD30/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD30 cells/cells in Bone marrow",%,2.22,false,"Cells.CD30/Cells:NFr:Pt:Bone mar:Qn:"
+51288-9,Cells.CD30/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD30 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD30/Cells:NFr:Pt:CSF:Qn:
+20600-3,Cells.CD30/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD30 cells/cells in Specimen",%,1.0m,false,Cells.CD30/Cells:NFr:Pt:XXX:Qn:
+51294-7,Cells.CD33/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33 cells/cells in Body fluid",%,2.22,false,"Cells.CD33/Cells:NFr:Pt:Body fld:Qn:"
+51293-9,Cells.CD33/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33 cells/cells in Bone marrow",%,2.22,false,"Cells.CD33/Cells:NFr:Pt:Bone mar:Qn:"
+51292-1,Cells.CD33/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD33 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD33/Cells:NFr:Pt:CSF:Qn:
+49681-0,Cells.CD36/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD36 cells/cells in Body fluid",%,2.22,false,"Cells.CD36/Cells:NFr:Pt:Body fld:Qn:"
+49679-4,Cells.CD36/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD36 cells/cells in Bone marrow",%,2.22,false,"Cells.CD36/Cells:NFr:Pt:Bone mar:Qn:"
+51295-4,Cells.CD36/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD36 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD36/Cells:NFr:Pt:CSF:Qn:
+51298-8,Cells.CD38/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38 cells/cells in Bone marrow",%,2.22,false,"Cells.CD38/Cells:NFr:Pt:Bone mar:Qn:"
+51297-0,Cells.CD38/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD38/Cells:NFr:Pt:CSF:Qn:
+20603-7,Cells.CD38/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD38 cells/cells in Specimen",%,1.0m,false,Cells.CD38/Cells:NFr:Pt:XXX:Qn:
+51320-0,Cells.CD41/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD41 cells/cells in Body fluid",%,2.22,false,"Cells.CD41/Cells:NFr:Pt:Body fld:Qn:"
+51319-2,Cells.CD41/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD41 cells/cells in Bone marrow",%,2.22,false,"Cells.CD41/Cells:NFr:Pt:Bone mar:Qn:"
+51318-4,Cells.CD41/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD41 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD41/Cells:NFr:Pt:CSF:Qn:
+51332-5,Cells.CD43/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD43 cells/cells in Body fluid",%,2.22,false,"Cells.CD43/Cells:NFr:Pt:Body fld:Qn:"
+51331-7,Cells.CD43/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD43 cells/cells in Bone marrow",%,2.22,false,"Cells.CD43/Cells:NFr:Pt:Bone mar:Qn:"
+51330-9,Cells.CD43/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD43 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD43/Cells:NFr:Pt:CSF:Qn:
+57423-6,Cells.CD5/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD5 cells/cells in Body fluid",%,2.29,false,"Cells.CD5/Cells:NFr:Pt:Body fld:Qn:"
+59035-6,Cells.CD54/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD54 cells/cells in Body fluid",%,2.32,false,"Cells.CD54/Cells:NFr:Pt:Body fld:Qn:"
+57424-4,Cells.CD56/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD56 cells/cells in Body fluid",%,2.29,false,"Cells.CD56/Cells:NFr:Pt:Body fld:Qn:"
+21167-2,Cells.CD61/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD61 cells/cells in Specimen",%,1.0m,false,Cells.CD61/Cells:NFr:Pt:XXX:Qn:
+17182-7,Cells.CD63/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD63 cells/cells in Blood",%,1.0l,false,Cells.CD63/Cells:NFr:Pt:Bld:Qn:
+32747-8,Cells.CD64/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD64 cells/cells in Specimen",%,2.09,false,Cells.CD64/Cells:NFr:Pt:XXX:Qn:
+57425-1,Cells.CD7/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD7 cells/cells in Body fluid",%,2.29,false,"Cells.CD7/Cells:NFr:Pt:Body fld:Qn:"
+52883-6,"Cells.cytoplasmic CD3/Cells",NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD3 cells/cells in Bone marrow",%,2.24,false,"Cells.cytoplasmic CD3/Cells:NFr:Pt:Bone mar:Qn:"
+52884-4,"Cells.cytoplasmic CD3/Cells",NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD3 cells/cells in Cerebral spinal fluid",%,2.24,false,"Cells.cytoplasmic CD3/Cells:NFr:Pt:CSF:Qn:"
+52993-3,"Cells.cytoplasmic CD79a/Cells",NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD79a cells/cells in Bone marrow",%,2.24,false,"Cells.cytoplasmic CD79a/Cells:NFr:Pt:Bone mar:Qn:"
+52994-1,"Cells.cytoplasmic CD79a/Cells",NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD79a cells/cells in Cerebral spinal fluid",%,2.24,false,"Cells.cytoplasmic CD79a/Cells:NFr:Pt:CSF:Qn:"
+46233-3,Cells.ZAP70/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"ZAP70 cells/cells in Body fluid",%,2.19,false,"Cells.ZAP70/Cells:NFr:Pt:Body fld:Qn:"
+44898-5,"Malignant cells/Cells",NFr,Pt,"Periton fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Peritoneal fluid by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Periton fld:Qn:Manual count"
+44893-6,"Malignant cells/Cells",NFr,Pt,"Synv fld",Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Synovial fluid",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Synv fld:Qn:"
+85289-7,"Signet ring cells/Cells",NFr,Pt,"Colorectal cancer specimen",Qn,Microscopy.light,PATH,2.79,ACTIVE,1,Observation,,%,"Signet ring cells/cells in Colorectal cancer specimen by Light microscopy",%,2.61,false,"Signet ring cells/Cells:NFr:Pt:Colorectal cancer specimen:Qn:Microscopy.light"
+80699-2,"Cells.CD4-CD8-/Cells.CD3+TCR alpha beta+",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD4-CD8-/Cells.CD3+TCR alpha beta+ in Blood",%,2.56,false,"Cells.CD4-CD8-/Cells.CD3+TCR alpha beta+:NFr:Pt:Bld:Qn:"
+67837-5,"Cells counted.total",Num,Pt,Bronchial,Qn,,HEM/BC,2.70,ACTIVE,1,Observation,,#,"Cells Counted Total [#] in Bronchial specimen",{#},2.38,false,"Cells counted.total:Num:Pt:Bronchial:Qn:"
+14966-6,"Abnormal blood cells.CD20/Abnormal blood cells.total",NFr,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,%,"CD20 Abnormal blood cells/Abnormal blood cells.total in Blood",%,1.0k,false,"Abnormal blood cells.CD20/Abnormal blood cells.total:NFr:Pt:Bld:Qn:"
+24473-1,"Cells.CD23/100 cells",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD23 cells/100 cells in Unspecified specimen",%,1.0o,false,"Cells.CD23/100 cells:NFr:Pt:XXX:Qn:"
+106920-2,Cells.CD3,NCnc,Pt,"Hematopoietic progenitor cells^BPU",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,cell/µL,"CD3 cells [#/volume] in Hematopoietic progenitor cells from Blood product unit",{cells}/uL,2.79,false,"Cells.CD3:NCnc:Pt:Hematopoietic progenitor cells^BPU:Qn:"
+40896-3,Cells.CD3+CD56+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.42,ACTIVE,1,Both,,/uL,"CD3+CD56+ cells [#/volume] in Tissue",/uL,2.15,false,Cells.CD3+CD56+:NCnc:Pt:Tiss:Qn:
+53936-1,Cells.CD3-CD56+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,10*9/L,"CD3-CD56+ cells [#/volume] in Blood",/uL,2.26,false,Cells.CD3-CD56+:NCnc:Pt:Bld:Qn:
+38237-4,Cells.CD4+CD28+,NCnc,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD28+ cells [#/volume] in Blood",/uL,2.13,false,Cells.CD4+CD28+:NCnc:Pt:Bld:Qn:
+26759-1,Cells.CD4+CD45RA+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD4+CD45RA+ cells [#/volume] in Blood",/uL,2.00,false,Cells.CD4+CD45RA+:NCnc:Pt:Bld:Qn:
+34475-4,Cells.CD4+CD45RO+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD4+CD45RO+ cells [#/volume] in Blood",/uL,2.10,false,Cells.CD4+CD45RO+:NCnc:Pt:Bld:Qn:
+43955-4,Cells.CD4+CD45RO+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD45RO+ cells [#/volume] in Tissue",/uL,2.17,false,Cells.CD4+CD45RO+:NCnc:Pt:Tiss:Qn:
+107156-2,Cells.CD45,Num,Pt,"Hematopoietic progenitor cells^BPU",Qn,,HEM/BC,2.79,ACTIVE,1,Both,,#,"CD45 (Lymphs) cells [#] in Hematopoietic progenitor cells from Blood product unit",{#},2.79,false,"Cells.CD45:Num:Pt:Hematopoietic progenitor cells^BPU:Qn:"
+35692-3,"Cells.G0+G1 phase/Cells",NFr,Pt,XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Observation,,%,"G0+G1 phase cells/cells in Specimen by Flow cytometry (FC)",%,2.13,false,"Cells.G0+G1 phase/Cells:NFr:Pt:XXX:Qn:Flow cytometry"
+30913-8,"Cells.S phase/Cells",NFr,Pt,XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Both,,%,"S-phase cells/cells in Specimen by Flow cytometry (FC)",%,2.04,false,"Cells.S phase/Cells:NFr:Pt:XXX:Qn:Flow cytometry"
+52997-4,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,"Body fld",Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Body fluid by Flow cytometry (FC)",%,2.24,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:Body fld:Qn:Flow cytometry"
+56900-4,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,CSF,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Cerebral spinal fluid by Flow cytometry (FC)",%,2.29,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:CSF:Qn:Flow cytometry"
+38516-1,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,XXX,Qn,IA,CELLMARK,2.79,ACTIVE,1,Observation,,"% Positive","Terminal deoxyribonucleotidyl transferase cells/cells in Specimen by Immunoassay",%,2.14,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:XXX:Qn:IA"
+30117-6,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,XXX,Qn,"Immunoperoxidase stain",CELLMARK,2.79,ACTIVE,1,Observation,,"% Positive","Terminal deoxyribonucleotidyl transferase cells/cells in Specimen by Immunoperoxidase stain",%,2.04,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:XXX:Qn:Immunoperoxidase stain"
+89331-3,Cells.CD3+CD4+CD27+CD62L+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD3+CD4+CD27+CD62L+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD3+CD4+CD27+CD62L+:NCnc:Pt:Bld:Qn:
+89326-3,"Cells.CD3+CD4+CD28+HLA DR+",NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD3+CD4+CD28+HLA DR+ cells [#/volume] in Blood",{cells}/uL,2.64,false,"Cells.CD3+CD4+CD28+HLA DR+:NCnc:Pt:Bld:Qn:"
+14964-1,"Abnormal blood cells.CD19/Abnormal blood cells.total",NFr,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,%,"CD19 Abnormal blood cells/Abnormal blood cells.total in Blood",%,1.0k,false,"Abnormal blood cells.CD19/Abnormal blood cells.total:NFr:Pt:Bld:Qn:"
+13491-6,Cells.CD4+CD25+,NFr,Pt,Bld,Qn,,CELLMARK,2.46,DEPRECATED,1,,,%,"Deprecated CD4+CD25+ cells/100 cells in Blood",%,1.0j-a,false,Cells.CD4+CD25+:NFr:Pt:Bld:Qn:
+104480-9,"Cells.recipient derived/Cells^post stem cell transplantation",NFr,Pt,"Bone marrow",Qn,Molgen,BLDBK,2.79,ACTIVE,1,Both,,%,"Cells.recipient derived/cells in Bone marrow by Molecular genetics method --post stem cell transplant",%,2.78,false,"Cells.recipient derived/Cells^post stem cell transplantation:NFr:Pt:Bone marrow:Qn:Molgen"
+90418-5,"BAFF-R Cells/Cells.CD19",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"BAFF-R cells/Cells.CD19 in Blood",%,2.65,false,"BAFF-R Cells/Cells.CD19:NFr:Pt:Bld:Qn:"
+72332-0,"Nucleated cells/Round cells",NFr,Pt,"Prostatic fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Nucleated cells/Round cells in Prostatic fluid by Manual count",%,2.42,false,"Nucleated cells/Round cells:NFr:Pt:Prostatic fld:Qn:Manual count"
+58434-2,"Cells panel",-,Pt,"Urine sed",-,,PANEL.UA,2.61,DISCOURAGED,1,Order,,,"Cells panel - Urine sediment",,2.30,true,"Cells panel:-:Pt:Urine sed:-:"
+51219-4,Cells.CD10+CD19+/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD19+ cells/cells in Body fluid",%,2.22,false,"Cells.CD10+CD19+/Cells:NFr:Pt:Body fld:Qn:"
+32500-1,Cells.CD10+CD19+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD19+ cells/cells in Bone marrow",%,2.08,false,"Cells.CD10+CD19+/Cells:NFr:Pt:Bone mar:Qn:"
+51218-6,Cells.CD10+CD19+/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10+CD19+ cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD10+CD19+/Cells:NFr:Pt:CSF:Qn:
+42608-0,Cells.CD10+CD20+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD10+CD20+ cells/cells in Bone marrow",%,2.16,false,"Cells.CD10+CD20+/Cells:NFr:Pt:Bone mar:Qn:"
+85792-0,Cells.CD3+CD4+CD45RO+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD3+CD4+CD45RO+ cells [#/volume] in Blood",{cells}/uL,2.61,false,Cells.CD3+CD4+CD45RO+:NCnc:Pt:Bld:Qn:
+85790-4,Cells.CD3+CD8+CD45RO+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD3+CD8+CD45RO+ cells [#/volume] in Blood",{cells}/uL,2.61,false,Cells.CD3+CD8+CD45RO+:NCnc:Pt:Bld:Qn:
+44059-4,Cells.CD4+CD45RA+CD45RB+CD45RC+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD45RA+CD45RB+CD45RC+ cells [#/volume] in Tissue",/uL,2.17,false,Cells.CD4+CD45RA+CD45RB+CD45RC+:NCnc:Pt:Tiss:Qn:
+73898-9,Cells.CD8-CD57+/Lymphocytes,NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Both,,%,"CD8-CD57+ cells/Lymphocytes in Blood by Flow cytometry (FC)",%,2.44,false,"Cells.CD8-CD57+/Lymphocytes:NFr:Pt:Bld:Qn:Flow cytometry"
+42864-9,Cells.CD103/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD103 cells/cells in Body fluid",%,2.16,false,"Cells.CD103/Cells:NFr:Pt:Body fld:Qn:"
+51230-1,Cells.CD11b/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b cells/cells in Body fluid",%,2.22,false,"Cells.CD11b/Cells:NFr:Pt:Body fld:Qn:"
+51229-3,Cells.CD11b/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b cells/cells in Bone marrow",%,2.22,false,"Cells.CD11b/Cells:NFr:Pt:Bone mar:Qn:"
+51228-5,Cells.CD11b/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11b cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD11b/Cells:NFr:Pt:CSF:Qn:
+51232-7,Cells.CD11c/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c cells/cells in Body fluid",%,2.22,false,"Cells.CD11c/Cells:NFr:Pt:Body fld:Qn:"
+33202-3,Cells.CD11c/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c cells/cells in Bone marrow",%,2.09,false,"Cells.CD11c/Cells:NFr:Pt:Bone mar:Qn:"
+51231-9,Cells.CD11c/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD11c cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD11c/Cells:NFr:Pt:CSF:Qn:
+51238-4,Cells.CD13/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD13 cells/cells in Body fluid",%,2.22,false,"Cells.CD13/Cells:NFr:Pt:Body fld:Qn:"
+51248-3,Cells.CD14/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14 cells/cells in Body fluid",%,2.22,false,"Cells.CD14/Cells:NFr:Pt:Body fld:Qn:"
+32507-6,Cells.CD14/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14 cells/cells in Bone marrow",%,2.08,false,"Cells.CD14/Cells:NFr:Pt:Bone mar:Qn:"
+51247-5,Cells.CD14/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD14 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD14/Cells:NFr:Pt:CSF:Qn:
+17117-3,Cells.CD15/Cells,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD15 cells/cells in Blood",%,1.0l,false,Cells.CD15/Cells:NFr:Pt:Bld:Qn:
+51249-1,Cells.CD15/Cells,NFr,Pt,Tiss,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD15 cells/cells in Tissue",%,2.22,false,Cells.CD15/Cells:NFr:Pt:Tiss:Qn:
+38170-7,Cells.CD18/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD18 cells/cells in Specimen",%,2.13,false,Cells.CD18/Cells:NFr:Pt:XXX:Qn:
+17827-7,Cells.CD2/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2 cells/cells in Body fluid",%,1.0l,false,"Cells.CD2/Cells:NFr:Pt:Body fld:Qn:"
+32527-4,Cells.CD2/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD2 cells/cells in Bone marrow",%,2.08,false,"Cells.CD2/Cells:NFr:Pt:Bone mar:Qn:"
+42875-5,Cells.CD22/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD22 cells/cells in Body fluid",%,2.16,false,"Cells.CD22/Cells:NFr:Pt:Body fld:Qn:"
+51269-9,Cells.CD23/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD23 cells/cells in Body fluid",%,2.22,false,"Cells.CD23/Cells:NFr:Pt:Body fld:Qn:"
+51268-1,Cells.CD23/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD23 cells/cells in Bone marrow",%,2.22,false,"Cells.CD23/Cells:NFr:Pt:Bone mar:Qn:"
+51267-3,Cells.CD23/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD23 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD23/Cells:NFr:Pt:CSF:Qn:
+51271-5,Cells.CD25/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25 cells/cells in Body fluid",%,2.22,false,"Cells.CD25/Cells:NFr:Pt:Body fld:Qn:"
+32493-9,Cells.CD25/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25 cells/cells in Bone marrow",%,2.08,false,"Cells.CD25/Cells:NFr:Pt:Bone mar:Qn:"
+51270-7,Cells.CD25/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD25 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD25/Cells:NFr:Pt:CSF:Qn:
+51290-5,Cells.CD30/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD30 cells/cells in Body fluid",%,2.22,false,"Cells.CD30/Cells:NFr:Pt:Body fld:Qn:"
+51299-6,Cells.CD38/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD38 cells/cells in Body fluid",%,2.22,false,"Cells.CD38/Cells:NFr:Pt:Body fld:Qn:"
+51340-8,Cells.CD45/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45 (Lymphs) cells/cells in Bone marrow",%,2.22,false,"Cells.CD45/Cells:NFr:Pt:Bone mar:Qn:"
+51339-0,Cells.CD45/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45 (Lymphs) cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD45/Cells:NFr:Pt:CSF:Qn:
+20610-2,Cells.CD45/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45 (Lymphs) cells/cells in Specimen",%,1.0m,false,Cells.CD45/Cells:NFr:Pt:XXX:Qn:
+51362-2,Cells.CD61/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD61 cells/cells in Body fluid",%,2.22,false,"Cells.CD61/Cells:NFr:Pt:Body fld:Qn:"
+51361-4,Cells.CD61/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD61 cells/cells in Bone marrow",%,2.22,false,"Cells.CD61/Cells:NFr:Pt:Bone mar:Qn:"
+51360-6,Cells.CD61/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD61 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD61/Cells:NFr:Pt:CSF:Qn:
+32746-0,Cells.CD62P/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD62P cells/cells in Specimen",%,2.09,false,Cells.CD62P/Cells:NFr:Pt:XXX:Qn:
+51366-3,Cells.CD64/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD64 cells/cells in Body fluid",%,2.22,false,"Cells.CD64/Cells:NFr:Pt:Body fld:Qn:"
+51365-5,Cells.CD64/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD64 cells/cells in Bone marrow",%,2.22,false,"Cells.CD64/Cells:NFr:Pt:Bone mar:Qn:"
+51364-8,Cells.CD64/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD64 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD64/Cells:NFr:Pt:CSF:Qn:
+21170-6,"Cells.CD8/Gated cells.total",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD8 cells/gated cells in Unspecified specimen",%,1.0m,false,"Cells.CD8/Gated cells.total:NFr:Pt:XXX:Qn:"
+32856-7,"Cells.cytoplasmic CD22/Cells",NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD22 cells/cells in Specimen",%,2.09,false,"Cells.cytoplasmic CD22/Cells:NFr:Pt:XXX:Qn:"
+52882-8,"Cells.cytoplasmic CD3/Cells",NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD3 cells/cells in Body fluid",%,2.24,false,"Cells.cytoplasmic CD3/Cells:NFr:Pt:Body fld:Qn:"
+52992-5,"Cells.cytoplasmic CD79a/Cells",NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD79a cells/cells in Body fluid",%,2.24,false,"Cells.cytoplasmic CD79a/Cells:NFr:Pt:Body fld:Qn:"
+67814-4,"Granulocytic cells/Cells",NFr,Pt,"Bone mar",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Granulocytic cells/cells in Bone marrow by Manual count",%,2.38,false,"Granulocytic cells/Cells:NFr:Pt:Bone mar:Qn:Manual count"
+51625-2,"Malignant cells/Cells",NFr,Pt,"Body fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Malignant cells/cells in Body fluid by Manual count",%,2.24,false,"Malignant cells/Cells:NFr:Pt:Body fld:Qn:Manual count"
+44900-9,"Malignant cells/Cells",NFr,Pt,"Bone mar",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Bone marrow by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Bone mar:Qn:Manual count"
+44894-4,"Malignant cells/Cells",NFr,Pt,CSF,Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Cerebral spinal fluid by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:CSF:Qn:Manual count"
+40689-2,"Erythroid cells/Cells",NFr,Pt,"Bone mar",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Erythroid cells/cells in Bone marrow by Manual count",%,2.15,false,"Erythroid cells/Cells:NFr:Pt:Bone mar:Qn:Manual count"
+40687-6,"Myeloid cells/Cells",NFr,Pt,"Bone mar",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Observation,,%,"Myeloid cells/cells in Bone marrow by Manual count",%,2.15,false,"Myeloid cells/Cells:NFr:Pt:Bone mar:Qn:Manual count"
+89343-8,Cells.CD19+CD38+IgM-,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD19+CD38+IgM- cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+CD38+IgM-:NCnc:Pt:Bld:Qn:
+89357-8,Cells.CD19+CD38+IgM+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD19+CD38+IgM+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+CD38+IgM+:NCnc:Pt:Bld:Qn:
+91674-2,Cells.CD3+CD16+CD56+,NCnc,Pt,"Bone mar",Qn,,CELLMARK,2.66,ACTIVE,1,Both,,/uL,"CD3+CD16+CD56+ cells [#/volume] in Bone marrow",/uL,2.66,false,"Cells.CD3+CD16+CD56+:NCnc:Pt:Bone mar:Qn:"
+92736-8,Cells.CD3+CD4+,NCnc,Pt,Bld,Qn,IA.rapid,CELLMARK,2.66,ACTIVE,1,Both,,/uL,"CD3+CD4+ (T4 helper) cells [#/volume] in Blood by Rapid immunoassay",/uL,2.66,false,Cells.CD3+CD4+:NCnc:Pt:Bld:Qn:IA.rapid
+63450-1,Cells.CD3+CD4+,NCnc,Pt,CSF,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD3+CD4+ (T4 helper) cells [#/volume] in Cerebral spinal fluid",/uL,2.36,false,Cells.CD3+CD4+:NCnc:Pt:CSF:Qn:
+106912-9,Cells.CD3+CD4+/lymphocytes,NFr,Pt,BAL,Qn,"Flow cytometry",HEM/BC,2.79,ACTIVE,1,Both,,%,"CD3+CD4+ (T4 helper) cells/lymphocytes in Bronchoalveolar lavage by Flow cytometry (FC)",%,2.79,false,"Cells.CD3+CD4+/lymphocytes:NFr:Pt:BAL:Qn:Flow cytometry"
+97596-1,Cells.CD3+CD8+/Lymphocytes,NFr,Pt,"Respiratory system specimen.lower",Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD3+CD8+ (T8 suppressor) cells/Lymphocytes in Lower respiratory specimen by Flow cytometry (FC)",%,2.70,false,"Cells.CD3+CD8+/Lymphocytes:NFr:Pt:Respiratory system specimen.lower:Qn:Flow cytometry"
+32536-5,Cells.CD3-CD16+CD56+,NCnc,Pt,"Bone mar",Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,cells/uL,"CD3-CD16+CD56+ (Natural killer) cells [#/volume] in Bone marrow",/uL,2.08,false,"Cells.CD3-CD16+CD56+:NCnc:Pt:Bone mar:Qn:"
+20604-5,Cells.CD3-CD16+CD56+,NCnc,Pt,XXX,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD3-CD16+CD56+ (Natural killer) cells [#/volume] in Specimen",/uL,1.0m,false,Cells.CD3-CD16+CD56+:NCnc:Pt:XXX:Qn:
+99053-1,"Cells counted.total",Num,Pt,BAL,Qn,,HEM/BC,2.72,ACTIVE,1,Observation,,#,"Cells Counted Total [#] in Bronchoalveolar lavage",{#},2.72,false,"Cells counted.total:Num:Pt:BAL:Qn:"
+11282-1,"Cells counted.total",Num,Pt,Bld,Qn,,HEM/BC,2.73,ACTIVE,1,Observation,,#,"Cells Counted Total [#] in Blood",{#},1.0j-a,false,"Cells counted.total:Num:Pt:Bld:Qn:"
+80714-9,"Cells.TCR gamma delta/Cells.CD3",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"TCR gamma delta cells/Cells.CD3 in Blood",%,2.56,false,"Cells.TCR gamma delta/Cells.CD3:NFr:Pt:Bld:Qn:"
+105089-7,"Epithelial cells.non-squamous",PrThr,Pt,Urine,Ord,,UA,2.78,ACTIVE,1,Observation,,,"Epithelial cells.non-squamous [Presence] in Urine",,2.78,false,"Epithelial cells.non-squamous:PrThr:Pt:Urine:Ord:"
+105116-8,"Epithelial cells.renal",Naric,Pt,"Urine sed",Qn,,UA,2.78,ACTIVE,1,Both,,/[HPF],"Epithelial cells.renal [#/area] in Urine sediment",/[HPF],2.78,false,"Epithelial cells.renal:Naric:Pt:Urine sed:Qn:"
+100859-8,"Cells.CD4.Interferon gamma-expressing/Cells.CD4^after stimulation with SARS-CoV-2 Spike peptide",NFr,Pt,Bld,Qn,,MICRO,2.73,TRIAL,1,Both,,%,"Cells.CD4.Interferon gamma-expressing/CD4 cells in Blood --after stimulation with SARS-CoV-2 Spike peptide",%,2.73,false,"Cells.CD4.Interferon gamma-expressing/Cells.CD4^after stimulation with SARS-CoV-2 Spike peptide:NFr:Pt:Bld:Qn:"
+14962-5,"Abnormal blood cells.CD13/Abnormal blood cells.total",NFr,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,%,"CD13 Abnormal blood cells/Abnormal blood cells.total in Blood",%,1.0k,false,"Abnormal blood cells.CD13/Abnormal blood cells.total:NFr:Pt:Bld:Qn:"
+14967-4,"Abnormal blood cells.CD33/Abnormal blood cells.total",NFr,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,%,"CD33 Abnormal blood cells/Abnormal blood cells.total in Blood",%,1.0k,false,"Abnormal blood cells.CD33/Abnormal blood cells.total:NFr:Pt:Bld:Qn:"
+14968-2,"Abnormal blood cells.CD5/Abnormal blood cells.total",NFr,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,%,"CD5 Abnormal blood cells/Abnormal blood cells.total in Blood",%,1.0k,false,"Abnormal blood cells.CD5/Abnormal blood cells.total:NFr:Pt:Bld:Qn:"
+14969-0,"Abnormal blood cells.CD7/Abnormal blood cells.total",NFr,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Observation,,%,"CD7 Abnormal blood cells/Abnormal blood cells.total in Blood",%,1.0k,false,"Abnormal blood cells.CD7/Abnormal blood cells.total:NFr:Pt:Bld:Qn:"
+51217-8,Cells.CD10/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10 cells/cells in Body fluid",%,2.22,false,"Cells.CD10/Cells:NFr:Pt:Body fld:Qn:"
+51216-0,Cells.CD10/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10 cells/cells in Bone marrow",%,2.22,false,"Cells.CD10/Cells:NFr:Pt:Bone mar:Qn:"
+51215-2,Cells.CD10/Cells,NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10 cells/cells in Cerebral spinal fluid",%,2.22,false,Cells.CD10/Cells:NFr:Pt:CSF:Qn:
+20587-2,Cells.CD10/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD10 cells/cells in Specimen",%,1.0m,false,Cells.CD10/Cells:NFr:Pt:XXX:Qn:
+20590-6,Cells.CD15/Cells,NFr,Pt,XXX,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD15 cells/cells in Specimen",%,1.0m,false,Cells.CD15/Cells:NFr:Pt:XXX:Qn:
+57736-1,Cells.CD154/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD154 cells/cells in Body fluid",%,2.29,false,"Cells.CD154/Cells:NFr:Pt:Body fld:Qn:"
+57417-8,Cells.CD18/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD18 cells/cells in Body fluid",%,2.29,false,"Cells.CD18/Cells:NFr:Pt:Body fld:Qn:"
+42874-8,Cells.CD18/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD18 cells/cells in Bone marrow",%,2.16,false,"Cells.CD18/Cells:NFr:Pt:Bone mar:Qn:"
+99402-0,Cells.CD19+CD79b+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cells.CD19+CD79b+/cells in Bone marrow",%,2.72,false,"Cells.CD19+CD79b+/Cells:NFr:Pt:Bone mar:Qn:"
+99401-2,Cells.CD19+FMC7+/Cells,NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cells.CD19+FMC7+/cells in Bone marrow",%,2.72,false,"Cells.CD19+FMC7+/Cells:NFr:Pt:Bone mar:Qn:"
+17823-6,Cells.CD45/Cells,NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"CD45 (Lymphs) cells/cells in Body fluid",%,1.0l,false,"Cells.CD45/Cells:NFr:Pt:Body fld:Qn:"
+13493-2,Cells.CD8+CD25+,NFr,Pt,Bld,Qn,,CELLMARK,2.46,DEPRECATED,1,,,%,"Deprecated CD8+CD25+ cells/100 cells in Blood",%,1.0j-a,false,Cells.CD8+CD25+:NFr:Pt:Bld:Qn:
+52878-6,"Cells.cytoplasmic CD22/Cells",NFr,Pt,"Body fld",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD22 cells/cells in Body fluid",%,2.24,false,"Cells.cytoplasmic CD22/Cells:NFr:Pt:Body fld:Qn:"
+52879-4,"Cells.cytoplasmic CD22/Cells",NFr,Pt,"Bone mar",Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD22 cells/cells in Bone marrow",%,2.24,false,"Cells.cytoplasmic CD22/Cells:NFr:Pt:Bone mar:Qn:"
+52880-2,"Cells.cytoplasmic CD22/Cells",NFr,Pt,CSF,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"Cytoplasmic CD22 cells/cells in Cerebral spinal fluid",%,2.24,false,"Cells.cytoplasmic CD22/Cells:NFr:Pt:CSF:Qn:"
+44896-9,"Malignant cells/Cells",NFr,Pt,"Synv fld",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Malignant cells/cells in Synovial fluid by Manual count",%,2.17,false,"Malignant cells/Cells:NFr:Pt:Synv fld:Qn:Manual count"
+87830-6,"Epithelial cells",PrThr,Pt,Urine,Ord,,UA,2.63,ACTIVE,1,Both,,,"Epithelial cells [Presence] in Urine",,2.63,false,"Epithelial cells:PrThr:Pt:Urine:Ord:"
+90736-0,Cells.CD14-FLAER-/Cells.CD33,NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Both,,%,"CD14-FLAER- cells/Cells.CD33 (Monocytes) in Blood",%,2.65,false,Cells.CD14-FLAER-/Cells.CD33:NFr:Pt:Bld:Qn:
+89353-7,Cells.CD19+CD27+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,cells/uL,"CD19+CD27+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+CD27+:NCnc:Pt:Bld:Qn:
+89345-3,Cells.CD19+IgM+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD19+IgM+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD19+IgM+:NCnc:Pt:Bld:Qn:
+26858-1,Cells.CD3+CD56+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Observation,,/uL,"CD3+CD56+ cells [#/volume] in Blood",/uL,2.00,false,Cells.CD3+CD56+:NCnc:Pt:Bld:Qn:
+73903-7,Cells.CD3-CD57+/Leukocytes,NFr,Pt,Bld,Qn,"Flow cytometry",CELLMARK,2.79,ACTIVE,1,Both,,%,"CD3-CD57+ cells/Leukocytes in Blood by Flow cytometry (FC)",%,2.44,false,"Cells.CD3-CD57+/Leukocytes:NFr:Pt:Bld:Qn:Flow cytometry"
+43956-2,Cells.CD4+CD45RO+,NCnc,Pt,XXX,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD45RO+ cells [#/volume] in Specimen",/uL,2.17,false,Cells.CD4+CD45RO+:NCnc:Pt:XXX:Qn:
+38239-0,Cells.CD4+CD95+,NCnc,Pt,Bld,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD95+ cells [#/volume] in Blood",/uL,2.13,false,Cells.CD4+CD95+:NCnc:Pt:Bld:Qn:
+26983-7,Cells.CD4+HLA-DR+,NCnc,Pt,Bld,Qn,,CELLMARK,2.42,ACTIVE,1,Observation,,/uL,"CD4+HLA-DR+ cells [#/volume] in Blood",/uL,2.00,false,Cells.CD4+HLA-DR+:NCnc:Pt:Bld:Qn:
+30116-8,"Cells.terminal deoxyribonucleotidyl transferase/Cells",NFr,Pt,CSF,Qn,"Immunoperoxidase stain",CELLMARK,2.79,ACTIVE,1,Observation,,%,"Terminal deoxyribonucleotidyl transferase cells/cells in Cerebral spinal fluid by Immunoperoxidase stain",%,2.04,false,"Cells.terminal deoxyribonucleotidyl transferase/Cells:NFr:Pt:CSF:Qn:Immunoperoxidase stain"
+93358-0,"Plasma cells.polyclonal/Cells counted",NFr,Pt,"Bone mar",Qn,"Flow cytometry",HEM/BC,2.67,ACTIVE,1,Observation,,%,"Polyclonal plasma cells/Cells counted in Bone marrow by Flow cytometry (FC)",%,2.67,false,"Plasma cells.polyclonal/Cells counted:NFr:Pt:Bone mar:Qn:Flow cytometry"
+98095-3,"Cells.FOXP3 Ag/Cells",NFr,Pt,Bld,Qn,,MICRO,2.79,ACTIVE,1,Both,,%,"Cells.FOXP3 Ag/cells in Blood",%,2.71,false,"Cells.FOXP3 Ag/Cells:NFr:Pt:Bld:Qn:"
+104479-1,"Cells.recipient derived/Cells^post stem cell transplantation",NFr,Pt,Bld/Tiss,Qn,Molgen,BLDBK,2.79,ACTIVE,1,Both,,%,"Cells.recipient derived/Cells in Blood or Tissue by Molecular genetics method --post stem cell transplant",%,2.78,false,"Cells.recipient derived/Cells^post stem cell transplantation:NFr:Pt:Bld/Tiss:Qn:Molgen"
+101968-6,"Circulating tumor cells",NCnc,Pt,Plas/Bld,Qn,Sequencing,CHEM,2.75,ACTIVE,1,Both,,mol/mL,"Circulating tumor cells [#/volume] in Plasma or Blood by Sequencing",mol/mL,2.75,false,"Circulating tumor cells:NCnc:Pt:Plas/Bld:Qn:Sequencing"
+77661-7,"Cells.aneuploid.S phase population 2/Cells",NFr,Pt,Cells.XXX,Qn,"Flow cytometry",MOLPATH,2.79,ACTIVE,1,Observation,,%,"Aneuploid cell population 2 in S phase/cells in Cells.XXX by Flow cytometry (FC)",%,2.52,false,"Cells.aneuploid.S phase population 2/Cells:NFr:Pt:Cells.XXX:Qn:Flow cytometry"
+79187-1,Cells.CD3+CD4+CD8+,NCnc,Pt,Bld,Qn,,CELLMARK,2.73,ACTIVE,1,Both,,/uL,"Cells.CD3+CD4+CD8+ (Double positive) [#/volume] in Blood",/uL,2.54,false,Cells.CD3+CD4+CD8+:NCnc:Pt:Bld:Qn:
+89316-4,Cells.CD4+CD25+CD45RO+CD127Low+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD4+CD25+CD45RO+CD127Low+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD4+CD25+CD45RO+CD127Low+:NCnc:Pt:Bld:Qn:
+89317-2,Cells.CD4+CD25-CD127+,NCnc,Pt,Bld,Qn,,CELLMARK,2.64,ACTIVE,1,Both,,cells/uL,"CD4+CD25-CD127+ cells [#/volume] in Blood",{cells}/uL,2.64,false,Cells.CD4+CD25-CD127+:NCnc:Pt:Bld:Qn:
+44056-0,Cells.CD4+CD45RA+CD45RB+CD45RC+,NCnc,Pt,"Bone mar",Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD45RA+CD45RB+CD45RC+ cells [#/volume] in Bone marrow",/uL,2.17,false,"Cells.CD4+CD45RA+CD45RB+CD45RC+:NCnc:Pt:Bone mar:Qn:"
+44060-2,Cells.CD4+CD45RA+CD45RB+CD45RC+,NCnc,Pt,XXX,Qn,,CELLMARK,2.70,ACTIVE,1,Both,,/uL,"CD4+CD45RA+CD45RB+CD45RC+ cells [#/volume] in Specimen",/uL,2.17,false,Cells.CD4+CD45RA+CD45RB+CD45RC+:NCnc:Pt:XXX:Qn:
+32165-3,"Cells counted.total",Num,Pt,"Pericard fld",Qn,,HEM/BC,2.69,ACTIVE,1,Observation,,,"Cells Counted Total [#] in Pericardial fluid",{#},2.07,false,"Cells counted.total:Num:Pt:Pericard fld:Qn:"
+38259-8,"Cells counted.total",Num,Pt,"Periton fld",Qn,,HEM/BC,2.73,ACTIVE,1,Observation,,,"Cells Counted Total [#] in Peritoneal fluid",{#},2.13,false,"Cells counted.total:Num:Pt:Periton fld:Qn:"
+38258-0,"Cells counted.total",Num,Pt,"Plr fld",Qn,,HEM/BC,2.73,ACTIVE,1,Observation,,,"Cells Counted Total [#] in Pleural fluid",{#},2.13,false,"Cells counted.total:Num:Pt:Plr fld:Qn:"
+74852-5,"Mesothelial cells/Cells",NFr,Pt,"Lymph node",Qn,"Manual count",HEM/BC,2.79,ACTIVE,1,Both,,%,"Mesothelial cells/cells in Lymph node by Manual count",%,2.48,false,"Mesothelial cells/Cells:NFr:Pt:Lymph node:Qn:Manual count"
+32807-0,"Mononuclear cells/Leukocytes",NFr,Pt,Bronchial,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Mononuclear cells/Leukocytes in Bronchial specimen",%,2.09,false,"Mononuclear cells/Leukocytes:NFr:Pt:Bronchial:Qn:"
+34919-1,"Sezary cells/Leukocytes",NFr,Pt,Bld,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Sezary cells/Leukocytes in Blood",%,2.11,false,"Sezary cells/Leukocytes:NFr:Pt:Bld:Qn:"
+34992-8,"Smudge cells/Leukocytes",NFr,Pt,Bld,Qn,,HEM/BC,2.79,ACTIVE,1,Observation,,%,"Smudge cells/Leukocytes in Blood",%,2.11,false,"Smudge cells/Leukocytes:NFr:Pt:Bld:Qn:"
+75658-5,"Plasma cells/Leukocytes",NFr,Pt,Bronchial,Qn,,HEM/BC,2.79,ACTIVE,1,Both,,%,"Plasma cells/Leukocytes in Bronchial specimen",%,2.50,false,"Plasma cells/Leukocytes:NFr:Pt:Bronchial:Qn:"
+9840-0,Cells.CD11+CD20+,NCnc,Pt,WBC,Qn,,CELLMARK,2.42,ACTIVE,1,Observation,,/uL,"CD11+CD20+ cells [#/volume] in Leukocytes",/uL,1.0i,false,Cells.CD11+CD20+:NCnc:Pt:WBC:Qn:
+21162-3,"Cells.CD34/Gated cells.total",NFr,Pt,XXX,Qn,,CELLMARK,2.70,DEPRECATED,1,,,%,"Deprecated CD34 cells/100 cells in Unspecified specimen",%,1.0m,false,"Cells.CD34/Gated cells.total:NFr:Pt:XXX:Qn:"
+42879-7,Cells.CD3-CD16+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.42,ACTIVE,1,Both,,/uL,"CD3-CD16+ cells [#/volume] in Tissue",/uL,2.16,false,Cells.CD3-CD16+:NCnc:Pt:Tiss:Qn:
+42881-3,Cells.CD3-CD57+,NCnc,Pt,Tiss,Qn,,CELLMARK,2.42,ACTIVE,1,Both,,/uL,"CD3-CD57+ cells [#/volume] in Tissue",/uL,2.16,false,Cells.CD3-CD57+:NCnc:Pt:Tiss:Qn:
+8127-3,Cells.CD4,NCnc,Pt,Bld,Qn,,CELLMARK,2.70,DEPRECATED,1,Both,,10*9/L,"Deprecated CD4 cells [#/volume] in Blood",/uL,1.0h(2),false,Cells.CD4:NCnc:Pt:Bld:Qn:
+80713-1,"Cells.TCR alpha beta/Cells.CD3",NFr,Pt,Bld,Qn,,CELLMARK,2.79,ACTIVE,1,Observation,,%,"TCR alpha beta cells/Cells.CD3 in Blood",%,2.56,false,"Cells.TCR alpha beta/Cells.CD3:NFr:Pt:Bld:Qn:"
+105115-0,"Epithelial cells.non-squamous",Naric,Pt,"Urine sed",Qn,,UA,2.78,ACTIVE,1,Both,,/[HPF],"Epithelial cells.non-squamous [#/area] in Urine sediment",/[HPF],2.78,false,"Epithelial cells.non-squamous:Naric:Pt:Urine sed:Qn:"
+105088-9,"Epithelial cells.non-squamous",PrThr,Pt,"Urine sed",Ord,,UA,2.78,ACTIVE,1,Observation,,,"Epithelial cells.non-squamous [Presence] in Urine sediment",,2.78,false,"Epithelial cells.non-squamous:PrThr:Pt:Urine sed:Ord:"
+90044-9,"Epithelial cells.renal",PrThr,Pt,"Urine sed",Ord,,UA,2.65,ACTIVE,1,Both,,,"Epithelial cells.renal [Presence] in Urine sediment",,2.65,false,"Epithelial cells.renal:PrThr:Pt:Urine sed:Ord:"
+
