@@ -92,6 +92,9 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
 To improve the model *NDCG* metric, we enhance the dataset with more *features*, *data* and *expanded queries*.
 
 ### **1. Expanding Queries**  
+We extended the dataset with two more queries appart from the first 3. 
+- Firstly, we introduced the query '`calcium in serum` and continue to do experiments with it and variations of the query.
+- Finally, we extended again including `cells in urine` and variation of the query to add variety to the dataset.
 
 ### **2. Expanding Dataset**
    To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
@@ -104,8 +107,8 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
    - glucose
    - leukocytes
    - white blood cells count
-   - blood
-   - serum or plasma
+   - cells in urine
+   - cells
 
 
 ## **3. Evaluating the Model**  
@@ -157,3 +160,13 @@ To improve the model *NDCG* metric, we enhance the dataset with more *features*,
       - NDCG for 'glucose in blood': 0.9381
       - NDCG for 'white blood cells count': 0.9391
 
+   **3.5. Fourth Enhanced Dataset**
+   - Mean Squared Error (MSE): 0.0468
+   - R-squared (R²): -1.5374
+   - Spearman's Rank Correlation: 0.4432
+   - NDCG Mean Score: 0.9303
+      - NDCG for 'bilirubin in plasma': 0.9343
+      - NDCG for 'calcium in serum': 0.9389
+      - NDCG for 'cells in urine': 0.8980
+      - NDCG for 'glucose in blood': 0.9053
+      - NDCG for 'white blood cells count': 0.9749
