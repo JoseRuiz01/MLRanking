@@ -72,13 +72,9 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
    - **Labels:** `Score_label` is the target for learning.
 
 ### **3. Train the Model**  
-   We use *eXtreme NDCG* for listwise ranking with a custom objective function.
+   Since `LightGBM` doesn’t directly support *AdaRank*, we simulate its boosting and reweighting mechanism.
    - **Objective:** `rank_xendcg` (listwise ranking).
-   - **Parameters:**
-      - `num_leaves`, `max_depth` control model complexity.
-      - `lambda_l1`, `lambda_l2` for regularization.
-      - `label_gain` defines the reward for higher ranks.
-   - **Training:**  `early_stopping` and `learning_rate_decay`.
+   - **Parameters:** We set and modified different parameters of the `LightGBM` base model to reach an optimal solution.\
 
 
 ### **5. Prediction**
@@ -92,23 +88,28 @@ We use *LightGBM*, which is fast, supports listwise ranking, and is easy to impl
 To improve the model *NDCG* metric, we enhance the dataset with more *features*, *data* and *expanded queries*.
 
 ### **1. Expanding Queries**  
-We extended the dataset with two more queries appart from the first 3. 
-- Firstly, we introduced the query '`calcium in serum` and continue to do experiments with it and variations of the query.
-- Finally, we extended again including `cells in urine` and variation of the query to add variety to the dataset.
+   We extended the dataset with two more queries appart from the first three included in the excel. 
+
+   - Firstly, we introduced the query '`calcium in serum` and continue to do experiments with it and variations of the query.
+   - Finally, we extended again including `cells in urine` and variation of the query to add more variety to the dataset.
 
 ### **2. Expanding Dataset**
-   To cover more search variations, we add *custom queries* into the *LOINC Search* tool and download *CSV* files with the documents retrieved.
-   We did several experiments, but for the final version we included documents results for the following queries:
+   To cover more search variations, we added *custom queries* into the *LOINC Search* tool and downloaded *CSV* files with the documents retrieved.
+   
+   We did several experiments, including documents results for the following queries:
    - bilirubin in plasma
    - bilirubin 
+   - plasma or serum
    - calcium in serum
    - calcium
    - glucose in blood
    - glucose
+   - blood
    - leukocytes
    - white blood cells count
    - cells in urine
    - cells
+   - urine
 
 
 ## **3. Evaluating the Model**  
@@ -118,7 +119,7 @@ We extended the dataset with two more queries appart from the first 3.
    - **Spearman's Correlation**: *Higher* values are better [-1, 1], indicate a strong monotonic relationship between predicted and actual rankings.
    - **NDCG** (Normalized Discounted Cumulative Gain): *Higher* values are better [0, 1], reflecting how well the model ranks items compared to an ideal ranking
 
-   **3.1. Basic Dataset**
+   **3.1. Basic Dataset:** Basic excel.
    - Mean Squared Error (MSE): 0.1642
    - R-squared (R²): -2.5187
    - Spearman's Rank Correlation: 0.7265
@@ -127,8 +128,7 @@ We extended the dataset with two more queries appart from the first 3.
       - NDCG for 'glucose in blood': 0.9584
       - NDCG for 'white blood cells count': 0.9313
 
-
-   **3.2. First Enhanced Dataset**
+   **3.2. First Enhanced Dataset:** 4 basic queries.
    - Mean Squared Error (MSE): 0.0479
    - R-squared (R²): -1.9010
    - Spearman's Rank Correlation: 0.4700
@@ -138,8 +138,7 @@ We extended the dataset with two more queries appart from the first 3.
       - NDCG for 'glucose in blood': 0.6946
       - NDCG for 'white blood cells count': 0.8838
 
-   
-   **3.3. Second Enhanced Dataset**
+   **3.3. Second Enhanced Dataset:** Included variations `bilirubin`, `calcium`, `glucose` and `leukocytes`.
    - Mean Squared Error (MSE): 0.0461
    - R-squared (R²): -0.8984
    - Spearman's Rank Correlation: 0.6024
@@ -149,8 +148,7 @@ We extended the dataset with two more queries appart from the first 3.
       - NDCG for 'glucose in blood': 0.9383
       - NDCG for 'white blood cells count': 0.9678
 
-
-   **3.4. Third Enhanced Dataset**
+   **3.4. Third Enhanced Dataset:** Included variations `blood` and `serum or plasma`.
    - Mean Squared Error (MSE): 0.0252
    - R-squared (R²): -0.4765
    - Spearman's Rank Correlation: 0.4983
@@ -160,7 +158,7 @@ We extended the dataset with two more queries appart from the first 3.
       - NDCG for 'glucose in blood': 0.9381
       - NDCG for 'white blood cells count': 0.9391
 
-   **3.5. Fourth Enhanced Dataset**
+   **3.5. Fourth Enhanced Dataset:** Included new query `cells in urine`.
    - Mean Squared Error (MSE): 0.0468
    - R-squared (R²): -1.5374
    - Spearman's Rank Correlation: 0.4432
@@ -170,3 +168,5 @@ We extended the dataset with two more queries appart from the first 3.
       - NDCG for 'cells in urine': 0.8980
       - NDCG for 'glucose in blood': 0.9053
       - NDCG for 'white blood cells count': 0.9749
+
+    **3.6. Fifth Enhanced Dataset:**Included variations `cells` and `urine`.
