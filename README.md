@@ -27,6 +27,7 @@ We calculate *relevance scores* for lab tests by computen two different scoring 
 
 
 ### 1. Traditional Scoring
+*Traditional scoring* is based on direct **keyword matching** between the query and dataset fields. This method prioritizes **exact and partial string matches** in key attributes such as the component and system.
 
 #### 🔍 1.1 Define Query Features
 - **Component**: Substance measured (e.g., *Glucose*)
@@ -47,12 +48,48 @@ Each lab test includes:
 - **Exact Match** (System) = weight(system) * weight(system)
 - **Partial Match** (System) = weight(system)/2 * weight(system) No Match = 0
 
-### ⚖️ 3. Normalize Scores
+
+### 2. Embedding-Based Semantic Scoring
+This method uses **sentence embeddings** to measure the **semantic similarity** between the query and each field in the dataset.
+
+#### 🧠 2.1 Embedding the Query
+- Encode the query string into a vector using a pre-trained embedding model.
+
+#### 📄 2.2 Embedding the Dataset
+- Each text field (e.g., *component*, *system*, etc.) is encoded into a vector representation.
+
+#### 📏 2.3 Cosine Similarity
+- Use **cosine similarity** to compare the query vector and each field’s embedding:
+  
+   ```python
+   similarity = cosine_similarity([query_embedding], [cell_embedding])[0][0]
+   ```
+
+- Normalize similarity score from [-1, 1] to [0, 1]:
+  
+  ```pyton
+  normalized_score = ((similarity + 1) / 2)
+  ```
+#### ⚖️ 2.4 Weighted Embedding Score
+- Final embedding score for a field:
+  
+  ```python
+  embedding_score = normalized_score * 5 * weight(field)
+   ```
+- Aggregate across all eligible text fields.
+  
+### ♻️ 3. Combined Scoring
+
+   ```python
+   total_score = traditional_score + embedding_score
+   ```
+
+### ⚖️ 4. Normalize Scores
 Normalize scores between 0 and 1 using:
 - **Normalized Score** = score / max_score
 
 
-### 💾 4. Export Data
+### 💾 5. Export Data
 Save the processed data and scores into a new **CSV** file for model training.
 
 ---
