@@ -23,33 +23,36 @@ Listwise LTR models learn a *ranking function* that optimizes evaluation metrics
 
 ## 🧹 **Step 2: Data Preparation**
 
-We calculate *relevance scores* for lab tests by analyzing the **component** (e.g., "Glucose") and **system** (e.g., "Blood") of a query.
+We calculate *relevance scores* for lab tests by computen two different scoring procedures.
 
-### 🔍 1. Define Query Features
+
+### 1. Traditional Scoring
+
+#### 🔍 1.1 Define Query Features
 - **Component**: Substance measured (e.g., *Glucose*)
 - **System**: Environment of measurement (e.g., *Blood*, *Serum/Plasma*)
 
-### 🧼 2. Preprocess Dataset
+#### 🧼 1.2. Preprocess Dataset
 Each lab test includes:
 - **Component**
 - **System**
 
-### 🎯 3. Match Criteria
+#### 🎯 1.3. Match Criteria
 - **Exact Match**: Full match with the query term.
 - **Partial Match**: Synonyms or semantically similar terms.
 
-### 🧮 4. Scoring Scheme
+#### 🧮 1.4. Scoring Scheme
 - **Exact Match** (Component) = weight(component) * weight(component)
 - **Partial Match** (Component) = weight(component)/2 * weight(component)
 - **Exact Match** (System) = weight(system) * weight(system)
 - **Partial Match** (System) = weight(system)/2 * weight(system) No Match = 0
 
-### ⚖️ 5. Normalize Scores
+### ⚖️ 3. Normalize Scores
 Normalize scores between 0 and 1 using:
 - **Normalized Score** = score / max_score
 
 
-### 💾 6. Export Data
+### 💾 4. Export Data
 Save the processed data and scores into a new **CSV** file for model training.
 
 ---
@@ -88,7 +91,7 @@ To improve **NDCG**, we introduced new **features**, expanded **queries**, and a
 Added queries beyond the original three:
 - `calcium in serum`
 - `cells in urine`  
-...including variations like `calcium`, `urine`, `cells`, etc.
+...including query variations like `calcium`, `urine`, `cells`, etc.
 
 ### 📦 2. Dataset Expansion
 We queried **LOINC Search** for additional documents:
